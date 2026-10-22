@@ -14,8 +14,8 @@ Deliver a defensible, reproducible M.E. thesis that evaluates how decision mecha
 
 ### Gate A — Pass 3 literature and novelty audit (must precede implementation or thesis/paper drafting)
 
-1. Read the full texts named in the finalized specification: Always-On Agents survey, StateFuse, TOKI, S-Bus, SCF, and CodeCRDT. Record the exact version, sections/pages actually read, relevant methods/results, limitations, and whether each meets the project's level-P verification standard.
-2. Complete an NLI/contradiction-detection literature review, including benchmark and calibration practices relevant to the four AVA classes.
+1. Read the full texts named in the finalized specification: Always-On Agents survey, StateFuse, TOKI, S-Bus, SCF, and CodeCRDT. Also complete source-wide checks of the closest added threats: MELD, TANGLE, Selective QA over Conflicting Multi-Source Personal Memory, LatticeMind, Memanto, and relevant NLI/selective-prediction work. Record exact versions, sections/pages actually read, methods/results, limitations, and whether each meets the project's level-P verification standard.
+2. Complete an NLI/contradiction-detection and selective-prediction review, including ANLI, REFNLI, temporal NLI, TANGLE and selective QA; compare benchmark labels, calibration, abstention and coverage to the four AVA classes without assuming they are equivalent.
 3. Actively try to falsify WH-1 and the other stated working hypotheses. Treat MELD and other near-overlaps as counterexamples to investigate, not as proof of novelty or proof that no gap remains.
 4. Reconcile the current specification's statement that no paper is level P with AEON notes saying that seven papers were read in full and some sources were verified. “Read in full” and “verified at level P” must not be treated as synonyms without applying the project's documented standard source by source.
 5. Produce a novelty matrix with level-P evidence, scope comparisons, and an explicit outcome: retain, narrow, reframe, or abandon each gap claim. No “first,” “novel,” “unaddressed,” or “nobody has done this” claim before this gate is complete.
@@ -38,7 +38,7 @@ The WhatsApp notice lists reviews on **24 and 26 October 2026**, asks for the fi
 
 ### Phase 1 — Literature and gap verification (Gate A)
 
-Complete source-by-source Pass 3; map prior work against AVA's exact task, four classes, three policy actions, deterministic Verify constraint, safety metrics, and decentralized evaluation. Include direct competitors and adjacent selective prediction, NLI, memory conflict, and distributed-systems work. Separate conceptual overlap from exact task overlap. Update the research questions only after the evidence is reconciled.
+Complete source-by-source Pass 3; map prior work against AVA's exact task, four classes, three policy actions, deterministic Verify constraint, safety metrics, and decentralized evaluation. Include direct competitors and adjacent selective prediction, NLI, memory conflict, and distributed-systems work, especially the newly identified TANGLE and Selective QA abstention results. Separate conceptual overlap from exact task overlap. Update the research questions only after the evidence is reconciled.
 Use `RESEARCH-AND-RESOURCES.md` and the dated Pass 3 evidence matrix to track exact versions, passages read, quantitative-claim corrections and remaining checks. The matrix is a partial checkpoint, not a Gate A pass; no row marked partial should be promoted to level P without source-wide review.
 
 ### Phase 2 — Design audit and preregistration (Gate B)
