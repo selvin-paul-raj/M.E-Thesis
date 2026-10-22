@@ -11,6 +11,7 @@ This repository is the working plan and source register for Selvin PaulRaj K's t
 - [Finalized thesis specification](docs/AVA%20Evaluation%20%E2%80%94%20Finalized%20Thesis%20Specification.md) — the authoritative scope, naming, research questions, arms, metrics, and current constraints.
 - [End-to-end plan](docs/END-TO-END-PLAN.md) — ordered phases, exit gates, and dependencies.
 - [Research and resources register](docs/RESEARCH-AND-RESOURCES.md) — primary-source queue, novelty checks, and resource requirements.
+- [Pass 3 evidence matrix](docs/PASS-3-EVIDENCE-MATRIX-2026-10-22.md) — selected primary-source findings, overlap assessment, and the remaining full-text gate.
 - [Provisional KEC review outline](docs/REVIEW-OUTLINE.md) — a practical first-two-module preparation aid; not an official college template.
 
 ## Current status (22 October 2026)

@@ -39,6 +39,7 @@ The WhatsApp notice lists reviews on **24 and 26 October 2026**, asks for the fi
 ### Phase 1 — Literature and gap verification (Gate A)
 
 Complete source-by-source Pass 3; map prior work against AVA's exact task, four classes, three policy actions, deterministic Verify constraint, safety metrics, and decentralized evaluation. Include direct competitors and adjacent selective prediction, NLI, memory conflict, and distributed-systems work. Separate conceptual overlap from exact task overlap. Update the research questions only after the evidence is reconciled.
+Use `RESEARCH-AND-RESOURCES.md` and the dated Pass 3 evidence matrix to track exact versions, passages read, quantitative-claim corrections and remaining checks. The matrix is a partial checkpoint, not a Gate A pass; no row marked partial should be promoted to level P without source-wide review.
 
 ### Phase 2 — Design audit and preregistration (Gate B)
 
