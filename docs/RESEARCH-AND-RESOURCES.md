@@ -1,7 +1,7 @@
 # AVA Evaluation — literature and resources register
 
 **Last updated:** 22 October 2026
-**Status:** Pass 3 is incomplete. Selected passages from primary full-text versions have been checked and an evidence matrix is available at [Pass 3 evidence matrix](PASS-3-EVIDENCE-MATRIX-2026-10-22.md). This is useful partial progress, not a completed level-P review. No novelty finding is admitted.
+**Status:** Pass 3 is incomplete. Selected passages from primary full-text versions have been checked; CodeCRDT’s full paper and appendices have now been read. The [Pass 3 evidence matrix](PASS-3-EVIDENCE-MATRIX-2026-10-22.md) records scope. No novelty finding is admitted.
 
 ## A. Mandatory Pass 3 sources
 
@@ -12,7 +12,7 @@
 | TOKI: A Bitemporal Operator Algebra for Contradiction Resolution in LLM-Agent Persistent Memory | Wang, [arXiv:2606.06240](https://arxiv.org/html/2606.06240v1) | Complete operator, temporal, concurrency and evaluation comparison; specifically assess await-confirmation and evidence-weighted operators against Verify. | Full text retrieved; abstract, §2.1, §3 and selected §4/§6/appendix passages inspected. Not complete; not P-complete. |
 | S-Bus: Automatic Read-Set Reconstruction for Multi-Agent LLM State Coordination | Khan, [arXiv:2605.17076](https://arxiv.org/html/2605.17076v2) | Complete formal guarantees, workload conditions, evaluation and limitation comparison; keep its structural race scope separate from semantic conflict. | Full text retrieved; selected abstract, §§1–3, experiment, limitations and Table 9 inspected. Not complete; not P-complete. |
 | Semantic Consensus: Process-Aware Conflict Detection and Resolution for Enterprise Multi-Agent LLM Systems (SCF) | Acharya, [arXiv:2604.16339](https://arxiv.org/html/2604.16339v1) | Verify all labels, detector/resolver path, data generation, controls, metric denominators, result tables and threats. | Full text retrieved; selected §§4–8 and Table 2/limitations checked. The 65.2% figure is recall; 27.9% is precision; F1 39.0. Not complete; not P-complete. |
-| CodeCRDT: Observation-Driven Coordination for Multi-Agent LLM Code Generation | Pugachev, [arXiv:2510.18893](https://arxiv.org/html/2510.18893v1) | Complete convergence method and manual semantic-conflict sampling; retain the authors' uncertainty. | Full text retrieved; selected §§4.3, 5, 6.4, 7.2 and conclusion checked. The ~5–10% is a preliminary manual estimate from 60/600 runs, not a validated persistent rate. Not complete; not P-complete. |
+| CodeCRDT: Observation-Driven Coordination for Multi-Agent LLM Code Generation | Pugachev, [arXiv:2510.18893](https://arxiv.org/html/2510.18893v1) | Complete convergence method and manual semantic-conflict sampling; retain the authors' uncertainty. | Full 11-page paper and appendices reviewed. The ~5–10% is a preliminary manual estimate from 60/600 runs; the authors call for reviewing all runs. Full source reading complete; not an independently reproduced general rate. |
 
 ## B. High-priority prior-art and NLI checks
 
