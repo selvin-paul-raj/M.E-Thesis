@@ -74,3 +74,13 @@ Pass 3 remains OPEN. The literature identifies substantial direct and partial ov
 ## Expanded primary-source check — 22 October 2026
 
 The latest targeted pass reviewed additional direct evidence on ECon, LatticeMind, KC-Bench, MemToC, TANGLE, Selective QA, Memanto, RefNLI, ANLI, and Varshney et al. (2022). These sources materially constrain broad conflict-detection, shared-memory, calibration and abstention claims, but do not by themselves establish the exact same-key replicated-state question. Read depth and findings are recorded in the [Pass 3 evidence matrix](PASS-3-EVIDENCE-MATRIX-2026-10-22.md); access to a full text is not a claim that every part of it was read. No final novelty conclusion is justified yet.
+
+
+## G. Formal-consistency and artifact-access check — 22 October 2026
+
+- **Khan, arXiv:2606.17182v1:** *Verified Detection and Prevention of Concurrency Anomalies in Multi-Agent Large Language Model Systems*. Relevant formal concurrency prior art, but the operational model assumes a single logical store; replicated-store split-view is treated only in a limited single-primary/lag analysis, not as AVA-style event-set convergence. The paper’s arXiv source archive includes TeX, figures and an appendix PDF, not runnable Verus/TLA+/Rust/Python artifacts. The exact `sajjadanwar0/mac-consistency` URL was not readable and `git ls-remote` could not retrieve it; this does not prove no separate artifact copy exists.
+- **Governed Shared Memory / ArgusFleet:** the paper describes committed traces for offline recomputation, but the exact `caura-ai/argusfleet` repository and PyPI route checked here were not accessible. The 90/90 conditional and 98/200 overall results have not been independently recomputed.
+- **LatticeMind and CoAgent:** their checked arXiv source archives include text/appendix and figures, not runnable code. This is limited to those archives; separate repositories may exist.
+- **Project verification standard:** current tracked Markdown in M.E-Thesis and AEON states that no source has passed level P, but no operational level-P rubric was located. Obtain the owner’s exact standard before grading any source; do not infer it from reading scope.
+
+See the [Pass 3 evidence matrix](PASS-3-EVIDENCE-MATRIX-2026-10-22.md) for the bounded source comparison and artifact-route details. No independent reproduction or novelty conclusion is recorded.
