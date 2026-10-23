@@ -1,7 +1,7 @@
 # AVA Evaluation — literature and resources register
 
-**Last updated:** 22 October 2026
-**Status:** Pass 3 is incomplete. Selected passages from primary full-text versions have been checked; CodeCRDT’s full paper and appendices have now been read. The [Pass 3 evidence matrix](PASS-3-EVIDENCE-MATRIX-2026-10-22.md) records scope. No novelty finding is admitted.
+**Last updated:** 23 October 2026
+**Status:** Pass 3 is incomplete. The six required sources have documented source-wide primary-text coverage under the owner specification’s A/P gloss; broader closest-threat/NLI review and active disconfirmation remain open. The [Pass 3 evidence matrix](PASS-3-EVIDENCE-MATRIX-2026-10-22.md) records scope, including the 23 October counterexample review. No novelty finding is admitted.
 
 ## A. Mandatory Pass 3 sources
 
@@ -39,7 +39,7 @@
 | Adversarial NLI (ANLI): A New Benchmark for Natural Language Understanding | Nie et al., [arXiv:1910.14599](https://arxiv.org/abs/1910.14599) | Full main text checked; no appendix was identified in the retrieved version. Adversarial NLI robustness is relevant, but it is not a memory-policy study. Do not infer AVA-specific metrics. |
 | Temporal Natural Language Inference: Evidence-based Evaluation of Temporal Text Validity | Hosokawa, Jatowt and Sugiyama, ECIR 2023, [paper PDF](https://ds-informatik.uibk.ac.at/lib/exe/fetch.php?media=wiki:ecir-tnli.pdf) | 10,659 temporal-validity sentence pairs and SUPPORTED/INVALIDATED/UNKNOWN labels; adjacent temporal/unknown precedent, not multi-agent state. Task/data excerpts read; not end-to-end. |
 
-See the [evidence matrix](PASS-3-EVIDENCE-MATRIX-2026-10-22.md) for exact task scopes, overlap, selected sections, claim corrections and limitations. No row is described as a complete level-P review in this checkpoint.
+See the [evidence matrix](PASS-3-EVIDENCE-MATRIX-2026-10-22.md) for exact task scopes, overlap, read depth and limitations. The six required sources now have source-wide full-text coverage recorded under the spec’s P gloss; other rows retain their partial or selected-section status.
 
 ## C. Active novelty attack
 
@@ -74,3 +74,24 @@ Pass 3 remains OPEN. The literature identifies substantial direct and partial ov
 ## Expanded primary-source check — 22 October 2026
 
 The latest targeted pass reviewed additional direct evidence on ECon, LatticeMind, KC-Bench, MemToC, TANGLE, Selective QA, Memanto, RefNLI, ANLI, and Varshney et al. (2022). These sources materially constrain broad conflict-detection, shared-memory, calibration and abstention claims, but do not by themselves establish the exact same-key replicated-state question. Read depth and findings are recorded in the [Pass 3 evidence matrix](PASS-3-EVIDENCE-MATRIX-2026-10-22.md); access to a full text is not a claim that every part of it was read. No final novelty conclusion is justified yet.
+
+
+## G. Formal-consistency and artifact-access check — 22 October 2026
+
+- **Khan, arXiv:2606.17182v1:** *Verified Detection and Prevention of Concurrency Anomalies in Multi-Agent Large Language Model Systems*. Relevant formal concurrency prior art, but the operational model assumes a single logical store; replicated-store split-view is treated only in a limited single-primary/lag analysis, not as AVA-style event-set convergence. The paper’s arXiv source archive includes TeX, figures and an appendix PDF, not runnable Verus/TLA+/Rust/Python artifacts. The exact `sajjadanwar0/mac-consistency` URL was not readable and `git ls-remote` could not retrieve it; this does not prove no separate artifact copy exists.
+- **Governed Shared Memory / ArgusFleet:** the paper describes committed traces for offline recomputation, but the cited `caura-ai/argusfleet` URL returns 404, the current public org listing has no exact ArgusFleet repo, and the checked PyPI JSON route is 404. Caura discussion [#1336](https://github.com/caura-ai/caura/discussions/1336) is open without an accepted answer; a commenter not listed by GitHub as affiliated says they cannot find a public copy and points to other demos. We checked `caura-longmemeval`, `caura-cross-fleet-gov` and `caura-long-run-fleet`; they cover LongMemEval QA or demo workflows, and none contains ArgusFleet paths or the paper’s `traces/` archive. The 90/90 conditional and 98/200 overall results have not been independently recomputed; no claim is made that a copy cannot exist elsewhere.
+- **LatticeMind and CoAgent:** their checked arXiv source archives include text/appendix and figures, not runnable code. This is limited to those archives; separate repositories may exist.
+- **Project verification standard:** the owner-provided specification defines A as abstracts/partial text and P as full text. The inspected tracked AVA/AEON documents contain no additional operational checklist. Record the precise source/version/read scope and access limits; P means full-text reading, not independent reproduction or artifact validation.
+
+See the [Pass 3 evidence matrix](PASS-3-EVIDENCE-MATRIX-2026-10-22.md) for the bounded source comparison and artifact-route details. No independent reproduction or novelty conclusion is recorded.
+
+## H. Bounded counterexample update — 23 October 2026
+
+| Work | Primary lead | Relevance and evidence boundary |
+|---|---|---|
+| FEB-30, *Beyond Downstream QA: Rethinking How We Evaluate Agent Memory* | [arXiv:2610.22209v1](https://arxiv.org/html/2610.22209v1) | 30 sequential fact-evolution trajectories; create/update/reinforce/supersede/none operations; 60.6% intrinsic accuracy and 20.1% operation-classification accuracy for a representative memory system. No async replica experiment; the out-of-order example is stale-update protection. |
+| RECON, *Benchmarking Agent Memory for Compositional Reasoning over Long Contexts* | [arXiv:2607.16716v1](https://arxiv.org/html/2607.16716v1) | 24 case files/1,604 questions; Source Conflict best LLM 27.8% accuracy vs Oracle 88.9%, and RAG abstention 47.7% on that family. It tests long-context evidence reasoning, not same-key pair labels or replica convergence. Keep overall Score (.287) separate from Accuracy (22.4%). |
+| MemTxn, *A Transaction Boundary for Source-Supported Updates and Complete-State Recovery in Agent Memory* | [arXiv:2607.27834](https://arxiv.org/abs/2607.27834) | Ordered PatchTest accepted 60/60 supported originals and rejected 179/179 constructed hard negatives under its source-support contract; separate multi-key persistent-fault recovery is not async convergence. This narrows evidence-gate novelty, not AVA's semantic Verify claim. |
+| *Before the Pull Request: Mining Multi-Agent Coordination* | [arXiv:2606.19616](https://arxiv.org/html/2606.19616) | Direct event-projection/convergence counterexample: paper reports random event-set delivery-order and redelivery tests with byte-identical projections. Checked public `neul-labs/grite` HEAD `33afee0…` had sorted projection rebuild and ordinary tests, but the inspected tree did not contain a matching randomized-order harness; artifact verification remains open, not disproven. It does not test AVA's semantic labels/actions. |
+
+These four primary sources narrow adjacent claims but do not establish or refute the full locked combination. The source-by-source details and grite artifact scope are in the dated matrix section. WH-1/2/3 wording remains unavailable in the supplied spec and the tracked project documents inspected here; the only owner-authored verification gloss located is A=abstract/partial and P=full text. Do not invent a finer rubric or hypothesis text.
