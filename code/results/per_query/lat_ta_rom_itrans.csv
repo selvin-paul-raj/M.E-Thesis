@@ -1,0 +1,2 @@
+corpus,query_set,bm25_ms,bm25char_ms,dense_search_ms
+ta,rom_itrans,0.684402557568254,5.208523556174089,0.09707714995470323

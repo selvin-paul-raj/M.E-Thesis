@@ -1,0 +1,416 @@
+[
+ {
+  "qid": "q01571",
+  "gold_doc_en_gloss": "A guerrilla attack on military personnel in the municipality of Aragita, in the Arawka region of Colombia, has killed 5 soldiers.",
+  "variants": [
+   {
+    "set": "en",
+    "query": "Colombia military soldiers killed in attack",
+    "dense_top3": [
+     {
+      "rank": 1,
+      "correct": true,
+      "doc_ta": "கொலம்பியா நாட்டின் அராவ்கா துறைக்கு உட்பட்ட அராகிட்டா நகராட்சி பகுதியி…"
+     },
+     {
+      "rank": 2,
+      "correct": false,
+      "doc_ta": "தென்மராட்சி, வெள்ளாம்போக்கடி பகுதியில் நேற்று இரவு 9.50 மணியளவில் இனம்…"
+     },
+     {
+      "rank": 3,
+      "correct": false,
+      "doc_ta": "ஆப்கனில் நடக்கும் உள்நாட்டு போர் காரணமாக அங்கு உணவு பற்றாக்குறை ஏற்படு…"
+     }
+    ],
+    "dense_rank_of_gold": 1
+   },
+   {
+    "set": "ta",
+    "query": "தாக்குதலில் கொலம்பியா ராணுவ வீரர்கள் உயிரிழப்பு",
+    "dense_top3": [
+     {
+      "rank": 1,
+      "correct": true,
+      "doc_ta": "கொலம்பியா நாட்டின் அராவ்கா துறைக்கு உட்பட்ட அராகிட்டா நகராட்சி பகுதியி…"
+     },
+     {
+      "rank": 2,
+      "correct": false,
+      "doc_ta": "இந்தியாவில் ஓடும் ரயிலில் செல்பி எடுக்க முயன்ற நான்கு இளைஞர்கள் பரிதாப…"
+     },
+     {
+      "rank": 3,
+      "correct": false,
+      "doc_ta": "ஆப்கன் மக்கள் ஜனநாயகக் கட்சி என்ற கட்சியை சோவியத் ஆட்சியாளர்கள் வளைத்த…"
+     }
+    ],
+    "dense_rank_of_gold": 1
+   },
+   {
+    "set": "rom",
+    "query": "thakkudhalil Colombia raanuva thiraigal uyirizhappu",
+    "dense_top3": [
+     {
+      "rank": 1,
+      "correct": false,
+      "doc_ta": "பஞ்சாலை தொழிலாளர்களின் வாழ்வியலையும், உடுமலை வட்டாரப் பகுதிகளில் முன்ப…"
+     },
+     {
+      "rank": 2,
+      "correct": false,
+      "doc_ta": "எதிர்வரும் காலங்களில் சர்வதேச கடற்பரப்பில் கடற்கொள்ளையர்களின் அச்சுறுத…"
+     },
+     {
+      "rank": 3,
+      "correct": false,
+      "doc_ta": "\"பின்னே என்ன சார்? ஒருத்தரை வெறுக்கிறோம்னா அதை வெளிப்படையா சொல்லலாமே? …"
+     }
+    ],
+    "dense_rank_of_gold": -1
+   },
+   {
+    "set": "rom_rules",
+    "query": "தக்குதலில் Colombia ரானுவ திரைகல் உயிரிழப்பு",
+    "dense_top3": [
+     {
+      "rank": 1,
+      "correct": true,
+      "doc_ta": "கொலம்பியா நாட்டின் அராவ்கா துறைக்கு உட்பட்ட அராகிட்டா நகராட்சி பகுதியி…"
+     },
+     {
+      "rank": 2,
+      "correct": false,
+      "doc_ta": "இந்தியாவில் ஓடும் ரயிலில் செல்பி எடுக்க முயன்ற நான்கு இளைஞர்கள் பரிதாப…"
+     },
+     {
+      "rank": 3,
+      "correct": false,
+      "doc_ta": "இந்த வாக்குவாதத்தின்போது சுந்தரபாண்டியன் அருகில் கிடந்த உருட்டுக்கட்டை…"
+     }
+    ],
+    "dense_rank_of_gold": 1
+   },
+   {
+    "set": "cm",
+    "query": "Colombia military soldiers killed in attack",
+    "dense_top3": [
+     {
+      "rank": 1,
+      "correct": true,
+      "doc_ta": "கொலம்பியா நாட்டின் அராவ்கா துறைக்கு உட்பட்ட அராகிட்டா நகராட்சி பகுதியி…"
+     },
+     {
+      "rank": 2,
+      "correct": false,
+      "doc_ta": "தென்மராட்சி, வெள்ளாம்போக்கடி பகுதியில் நேற்று இரவு 9.50 மணியளவில் இனம்…"
+     },
+     {
+      "rank": 3,
+      "correct": false,
+      "doc_ta": "ஆப்கனில் நடக்கும் உள்நாட்டு போர் காரணமாக அங்கு உணவு பற்றாக்குறை ஏற்படு…"
+     }
+    ],
+    "dense_rank_of_gold": 1
+   },
+   {
+    "set": "cm_rules",
+    "query": "Colombia military soldiers killed in attack",
+    "dense_top3": [
+     {
+      "rank": 1,
+      "correct": true,
+      "doc_ta": "கொலம்பியா நாட்டின் அராவ்கா துறைக்கு உட்பட்ட அராகிட்டா நகராட்சி பகுதியி…"
+     },
+     {
+      "rank": 2,
+      "correct": false,
+      "doc_ta": "தென்மராட்சி, வெள்ளாம்போக்கடி பகுதியில் நேற்று இரவு 9.50 மணியளவில் இனம்…"
+     },
+     {
+      "rank": 3,
+      "correct": false,
+      "doc_ta": "ஆப்கனில் நடக்கும் உள்நாட்டு போர் காரணமாக அங்கு உணவு பற்றாக்குறை ஏற்படு…"
+     }
+    ],
+    "dense_rank_of_gold": 1
+   }
+  ]
+ },
+ {
+  "qid": "q00660",
+  "gold_doc_en_gloss": "A member of the Northern Province ஜி.ரி.லிங்கநாதன் has demanded that the length of the uniform of the schoolgirls of the Northern Province b…",
+  "variants": [
+   {
+    "set": "en",
+    "query": "Northern Province school uniform length request",
+    "dense_top3": [
+     {
+      "rank": 1,
+      "correct": true,
+      "doc_ta": "வடக்கு மாகாண பாடசாலை மாணவிகளின் சீருடையின் நீளத்தை அதிகரிக்க வேண்டும் …"
+     },
+     {
+      "rank": 2,
+      "correct": false,
+      "doc_ta": "மேலும், வெளிநாட்டு மற்றும் உள்நாட்டு இணை நிதியளிப்புக்களுக்கூடாக அபிவி…"
+     },
+     {
+      "rank": 3,
+      "correct": false,
+      "doc_ta": "இதேவேளை கடற்படையினரும் அதிகளவான காணிகளை அபகரிப்பதால் சிங்கள குடியேற்றம…"
+     }
+    ],
+    "dense_rank_of_gold": 1
+   },
+   {
+    "set": "ta",
+    "query": "வடக்கு மாகாண பாடசாலை சீருடை நீளம் கோரிக்கை",
+    "dense_top3": [
+     {
+      "rank": 1,
+      "correct": true,
+      "doc_ta": "வடக்கு மாகாண பாடசாலை மாணவிகளின் சீருடையின் நீளத்தை அதிகரிக்க வேண்டும் …"
+     },
+     {
+      "rank": 2,
+      "correct": false,
+      "doc_ta": "மேலும், வெளிநாட்டு மற்றும் உள்நாட்டு இணை நிதியளிப்புக்களுக்கூடாக அபிவி…"
+     },
+     {
+      "rank": 3,
+      "correct": false,
+      "doc_ta": "இந்நிலையில், சீரான வேகத்திலும், தரத்திலும் சேவைகளை அனுபவித்துக்கொண்டிர…"
+     }
+    ],
+    "dense_rank_of_gold": 1
+   },
+   {
+    "set": "rom",
+    "query": "Vadakku maagaana paadasaalai seerudai neelam korikkai",
+    "dense_top3": [
+     {
+      "rank": 1,
+      "correct": false,
+      "doc_ta": "\"பின்னே என்ன சார்? ஒருத்தரை வெறுக்கிறோம்னா அதை வெளிப்படையா சொல்லலாமே? …"
+     },
+     {
+      "rank": 2,
+      "correct": false,
+      "doc_ta": "எதிர்வரும் காலங்களில் சர்வதேச கடற்பரப்பில் கடற்கொள்ளையர்களின் அச்சுறுத…"
+     },
+     {
+      "rank": 3,
+      "correct": false,
+      "doc_ta": "அழகிய மணிமுடியும், தாமரை மலர் போல சிவந்த திருக்கரங்களும், ஒளிவீசும் வே…"
+     }
+    ],
+    "dense_rank_of_gold": -1
+   },
+   {
+    "set": "rom_rules",
+    "query": "வடக்கு மாகான பாடசாலை சீருடை நீலம் கொரிக்கை",
+    "dense_top3": [
+     {
+      "rank": 1,
+      "correct": true,
+      "doc_ta": "வடக்கு மாகாண பாடசாலை மாணவிகளின் சீருடையின் நீளத்தை அதிகரிக்க வேண்டும் …"
+     },
+     {
+      "rank": 2,
+      "correct": false,
+      "doc_ta": "தேர்தல் எந்தவோர் அசம்பாவிதமும் இல்லாமல் அமைதியாக நடந்து முடிந்தது. சொல…"
+     },
+     {
+      "rank": 3,
+      "correct": false,
+      "doc_ta": "நீலகண்டய்யரின் திட்டம் இதுதான்ஃ நாகர்கோவில், கோட்டார் பகுதிகளில் அச்சன…"
+     }
+    ],
+    "dense_rank_of_gold": 1
+   },
+   {
+    "set": "cm",
+    "query": "Northern province school uniform length increase request",
+    "dense_top3": [
+     {
+      "rank": 1,
+      "correct": true,
+      "doc_ta": "வடக்கு மாகாண பாடசாலை மாணவிகளின் சீருடையின் நீளத்தை அதிகரிக்க வேண்டும் …"
+     },
+     {
+      "rank": 2,
+      "correct": false,
+      "doc_ta": "மேலும், வெளிநாட்டு மற்றும் உள்நாட்டு இணை நிதியளிப்புக்களுக்கூடாக அபிவி…"
+     },
+     {
+      "rank": 3,
+      "correct": false,
+      "doc_ta": "இதேவேளை கடற்படையினரும் அதிகளவான காணிகளை அபகரிப்பதால் சிங்கள குடியேற்றம…"
+     }
+    ],
+    "dense_rank_of_gold": 1
+   },
+   {
+    "set": "cm_rules",
+    "query": "Northern province school uniform length increase request",
+    "dense_top3": [
+     {
+      "rank": 1,
+      "correct": true,
+      "doc_ta": "வடக்கு மாகாண பாடசாலை மாணவிகளின் சீருடையின் நீளத்தை அதிகரிக்க வேண்டும் …"
+     },
+     {
+      "rank": 2,
+      "correct": false,
+      "doc_ta": "மேலும், வெளிநாட்டு மற்றும் உள்நாட்டு இணை நிதியளிப்புக்களுக்கூடாக அபிவி…"
+     },
+     {
+      "rank": 3,
+      "correct": false,
+      "doc_ta": "இதேவேளை கடற்படையினரும் அதிகளவான காணிகளை அபகரிப்பதால் சிங்கள குடியேற்றம…"
+     }
+    ],
+    "dense_rank_of_gold": 1
+   }
+  ]
+ },
+ {
+  "qid": "q00114",
+  "gold_doc_en_gloss": "New Delhi: The Triple Talaq (Prohibition) Bill is being introduced in the Rajya Sabha today (December 31), following which the BJP-Congress …",
+  "variants": [
+   {
+    "set": "en",
+    "query": "Triple Talaq Bill Rajya Sabha introduction",
+    "dense_top3": [
+     {
+      "rank": 1,
+      "correct": false,
+      "doc_ta": "மேற்கண்ட தகவல்கள் 2006 ஜூன் மல்லிகையில் மேமன்கவி அவர்கள் எழுதிய, \"எழுத…"
+     },
+     {
+      "rank": 2,
+      "correct": false,
+      "doc_ta": "பேரவைத் தலைவர் நடுநிலைமை தவறி மூன்று சட்டமன்ற உறுப்பினர்கள்மீது நடவடிக…"
+     },
+     {
+      "rank": 3,
+      "correct": true,
+      "doc_ta": "புதுடில்லி : 'முத்தலாக்' தடை மசோதா, ராஜ்யசபாவில் இன்று(டிச.,31) தாக்கல…"
+     }
+    ],
+    "dense_rank_of_gold": 3
+   },
+   {
+    "set": "ta",
+    "query": "முத்தலாக் தடை மசோதா ராஜ்யசபா",
+    "dense_top3": [
+     {
+      "rank": 1,
+      "correct": true,
+      "doc_ta": "புதுடில்லி : 'முத்தலாக்' தடை மசோதா, ராஜ்யசபாவில் இன்று(டிச.,31) தாக்கல…"
+     },
+     {
+      "rank": 2,
+      "correct": false,
+      "doc_ta": "எந்தக் கட்சி ஆட்சியில் இருந்தாலும், 'நான் அடிப்பதுபோல் அடிக்கிறேன். நீ…"
+     },
+     {
+      "rank": 3,
+      "correct": false,
+      "doc_ta": "\"பின்னே என்ன சார்? ஒருத்தரை வெறுக்கிறோம்னா அதை வெளிப்படையா சொல்லலாமே? …"
+     }
+    ],
+    "dense_rank_of_gold": 1
+   },
+   {
+    "set": "rom",
+    "query": "Muthalaq thadai masoda Rajyasabha",
+    "dense_top3": [
+     {
+      "rank": 1,
+      "correct": false,
+      "doc_ta": "அழகிய மணிமுடியும், தாமரை மலர் போல சிவந்த திருக்கரங்களும், ஒளிவீசும் வே…"
+     },
+     {
+      "rank": 2,
+      "correct": false,
+      "doc_ta": "\"பின்னே என்ன சார்? ஒருத்தரை வெறுக்கிறோம்னா அதை வெளிப்படையா சொல்லலாமே? …"
+     },
+     {
+      "rank": 3,
+      "correct": false,
+      "doc_ta": "கு.அழகர்சாமி விடி காலை. சிந்தியிருக்கும் தான்யங்களைச் சீக்கிரமாய்க் கொ…"
+     }
+    ],
+    "dense_rank_of_gold": -1
+   },
+   {
+    "set": "rom_rules",
+    "query": "முதலக் தடை மசொட ரஜ்யசப",
+    "dense_top3": [
+     {
+      "rank": 1,
+      "correct": false,
+      "doc_ta": "எந்தக் கட்சி ஆட்சியில் இருந்தாலும், 'நான் அடிப்பதுபோல் அடிக்கிறேன். நீ…"
+     },
+     {
+      "rank": 2,
+      "correct": false,
+      "doc_ta": "கு.அழகர்சாமி விடி காலை. சிந்தியிருக்கும் தான்யங்களைச் சீக்கிரமாய்க் கொ…"
+     },
+     {
+      "rank": 3,
+      "correct": false,
+      "doc_ta": "அந்த பகுதியில் வசிக்கும் முகமது காலித் என்பவர் கூறுகையில், சில இளைஞர்க…"
+     }
+    ],
+    "dense_rank_of_gold": -1
+   },
+   {
+    "set": "cm",
+    "query": "Triple Talaq bill Rajya Sabha la eppo",
+    "dense_top3": [
+     {
+      "rank": 1,
+      "correct": false,
+      "doc_ta": "எந்தக் கட்சி ஆட்சியில் இருந்தாலும், 'நான் அடிப்பதுபோல் அடிக்கிறேன். நீ…"
+     },
+     {
+      "rank": 2,
+      "correct": false,
+      "doc_ta": "பஞ்சாலை தொழிலாளர்களின் வாழ்வியலையும், உடுமலை வட்டாரப் பகுதிகளில் முன்ப…"
+     },
+     {
+      "rank": 3,
+      "correct": false,
+      "doc_ta": "மேற்கண்ட தகவல்கள் 2006 ஜூன் மல்லிகையில் மேமன்கவி அவர்கள் எழுதிய, \"எழுத…"
+     }
+    ],
+    "dense_rank_of_gold": 4
+   },
+   {
+    "set": "cm_rules",
+    "query": "Triple டலக் bill ரஜ்ய Sabha ல எப்பொ",
+    "dense_top3": [
+     {
+      "rank": 1,
+      "correct": false,
+      "doc_ta": "எந்தக் கட்சி ஆட்சியில் இருந்தாலும், 'நான் அடிப்பதுபோல் அடிக்கிறேன். நீ…"
+     },
+     {
+      "rank": 2,
+      "correct": false,
+      "doc_ta": "கூலி 1 : டேய் பன்னாடை.. காய் வாங்க வர்ற சனத்தையே பாதி காணோம்.. எல்லாக்…"
+     },
+     {
+      "rank": 3,
+      "correct": false,
+      "doc_ta": "மேற்கண்ட தகவல்கள் 2006 ஜூன் மல்லிகையில் மேமன்கவி அவர்கள் எழுதிய, \"எழுத…"
+     }
+    ],
+    "dense_rank_of_gold": -1
+   }
+  ]
+ }
+]

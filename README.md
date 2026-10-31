@@ -1,26 +1,33 @@
-# AVA Evaluation: An Empirical Study of Conflict Resolution for Assertional State in Multi-Agent AI Systems
+# Code-Mixed Retrieval-Augmented Generation for Tamil–English (Tanglish) Queries
 
-- College registration title: Conflict Resolution for Assertional State in Multi-Agent AI Systems
-- Degree: M.E. Computer Science and Engineering, Kings Engineering College
-- Programme period: August 2025–May 2027 (programme period, not a confirmed submission deadline)
+**M.E. CSE Thesis — Selvin PaulRaj K, Kings Engineering College (2025–2027)**
 
-This repository is the working plan and source register for Selvin PaulRaj K's thesis. The project is currently at the **pre-implementation research gate**: the subject and evaluation structure are specified, but the literature gap is provisional and the convergence property is not yet proven. No protocol implementation or thesis/paper drafting should begin until the gates in the specification and plan are satisfied.
+*An empirical study of retrieval, query normalisation and rank fusion for Tamil–English code-mixed and romanised queries in RAG.*
 
-## Start here
+People type Tamil in English letters and mix it with English (for example, *"scholarship ku last date enna?"*). RAG systems are built and tested on English. This project measures how retrieval breaks on Tanglish queries and how a lightweight normaliser fixes it.
 
-- [Finalized thesis specification](docs/AVA%20Evaluation%20%E2%80%94%20Finalized%20Thesis%20Specification.md) — the authoritative scope, naming, research questions, arms, metrics, and current constraints.
-- [End-to-end plan](docs/END-TO-END-PLAN.md) — ordered phases, exit gates, and dependencies.
-- [Research and resources register](docs/RESEARCH-AND-RESOURCES.md) — primary-source queue, novelty checks, and resource requirements.
-- [Pass 3 evidence matrix](docs/PASS-3-EVIDENCE-MATRIX-2026-10-22.md) — selected primary-source findings, overlap assessment, and the remaining full-text gate.
-- [Provisional KEC review outline](docs/REVIEW-OUTLINE.md) — a practical first-two-module preparation aid; not an official college template.
+## Status: Modules 1 & 2 complete (review: 2 Nov 2026)
 
-## Current status (22 October 2026)
+| Folder | Contents |
+|---|---|
+| `report/` | Module 1–2 report (PDF, DOCX) and `FULL_REPORT_FOR_REVIEW.md` (plain text for review) |
+| `slides/` | Review slides (PPTX, PDF) |
+| `code/` | Pipeline: data prep, BM25 / char-3gram BM25 / multilingual-e5 / RRF, normaliser, metrics, significance tests, results |
+| `docs/` | Viva notes, future directions |
+| `archive/ava/` | Earlier AVA (Agree, Verify, or Abstain) topic material, kept for reference |
 
-- AVA Evaluation is the selected thesis framing; SCP-MA is the experimental environment, not a claimed novel protocol.
-- Pass 3 full-text verification and an active attempt to disprove the candidate research gap are still open. No verified novelty claim is made.
-- The first two college modules, required template, supervisor, review times, and final submission date have not been supplied.
-- KEC group notices list Model Project reviews on **24 and 26 October 2026** and ask students to complete and bring the first two modules. A later group note says the **model exam** schedule was postponed; it does not explicitly say the project reviews moved, so the review dates remain as stated in the project-review notice unless the college clarifies otherwise.
+## Key results (MRR@10, 500 Tamil documents, 2,154 queries per form)
+- Raw romanised Tanglish queries collapse: best MRR@10 is **0.178**
+- With the Tanglish→Tamil rule normaliser and character 3-gram BM25: **0.684** (Recall@10 0.812), at about 0.3 ms per query
+- Naive hybrid fusion (RRF) hurts across scripts: English drops from 0.788 to 0.710 (after fixing a zero-score tie bug that had shown 0.187)
+- 22% of the dataset's "code-mixed" queries contain no Tamil word, so real human Tanglish queries are needed (Module 3)
 
-## Evidence and safety rules
+Dataset: [`nlpctx/tamil-english-retrieval`](https://huggingface.co/datasets/nlpctx/tamil-english-retrieval) (Apache-2.0). Built on ideas from [ChunkLab](https://github.com/selvin-paul-raj/chunklab).
 
-Keep source claims, verified facts, and hypotheses distinct. Record exact source versions, access dates, methods, limitations, and verification level. Do not put credentials, private agent traces, personal data, or unlicensed full-text papers in this public repository. Any use of real traces requires suitable permission, minimization, anonymization, and an approved storage location. Paid APIs or participant compensation require a budget decision before use.
+## Run
+```bash
+cd code && pip install -r requirements.txt
+# see code/README.md for the script order
+```
+
+See `docs/FUTURE_DIRECTIONS.md` for Modules 3–5.

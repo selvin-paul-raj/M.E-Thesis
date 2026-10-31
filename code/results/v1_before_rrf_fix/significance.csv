@@ -1,0 +1,12 @@
+retriever,from,to,MRR_from,MRR_to,delta,p_paired_bootstrap
+Dense-e5,rom,rom_rules,0.1434,0.5347,0.3913,0.0
+BM25-char3,rom,rom_rules,0.0587,0.684,0.6254,0.0
+Hybrid-RRF3,rom,rom_rules,0.0881,0.5822,0.4941,0.0
+Dense-e5,rom_itrans,rom_rules,0.3279,0.5347,0.2068,0.0
+BM25-char3,rom_itrans,rom_rules,0.5474,0.684,0.1367,0.0
+Dense-e5,cm,cm_rules,0.6871,0.6922,0.0051,0.446
+BM25,cm,cm_rules,0.0752,0.1165,0.0413,0.0
+Hybrid-RRF3,cm,cm_rules,0.1485,0.3248,0.1763,0.0
+Dense-e5 -> Hybrid-RRF,ta,ta,0.9031,0.8842,-0.019,0.0025
+Dense-e5 -> Hybrid-RRF,en,en,0.7884,0.1873,-0.6012,0.0
+Dense-e5 -> Hybrid-RRF,cm,cm,0.6871,0.1809,-0.5062,0.0

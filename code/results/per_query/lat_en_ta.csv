@@ -1,0 +1,2 @@
+corpus,query_set,bm25_ms,bm25char_ms,dense_search_ms
+en,ta,0.6785291388114983,4.341479037139106,0.1052162061306687
