@@ -13,7 +13,7 @@ People type Tamil in English letters and mix it with English (for example, *"sch
 | `report/` | Module 1–2 report (PDF, DOCX) and `FULL_REPORT_FOR_REVIEW.md` (plain text for review) |
 | `slides/` | Review slides (PPTX, PDF) |
 | `code/` | Pipeline: data prep, BM25 / char-3gram BM25 / multilingual-e5 / RRF, normaliser, metrics, significance tests, results |
-| `docs/` | Viva notes, future directions, literature survey (77 refs, gap analysis, BibTeX) |
+| `docs/` | Viva notes, future directions, literature survey (77 refs, gap analysis, BibTeX), research map (groups, methods, datasets, venues), ResearchGate network |
 | `archive/ava/` | Earlier AVA (Agree, Verify, or Abstain) topic material, kept for reference |
 
 ## Key results (MRR@10, 500 Tamil documents, 2,154 queries per form)
