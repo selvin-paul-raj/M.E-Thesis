@@ -92,69 +92,204 @@ The overall objective is an empirical study, with a reusable benchmark and open 
 
 # Chapter 2: Literature Survey
 
+
 ## 2.1 Retrieval-Augmented Generation and retrievers
 
-Lewis et al. [1] introduced RAG, combining a dense passage retriever with a sequence-to-sequence generator, and showed that retrieval grounds generation in external knowledge. BM25 [2], a probabilistic term-weighting function, remains a strong baseline and is the lexical retriever in most RAG stacks. Cormack et al. [6] proposed Reciprocal Rank Fusion, which sums 1/(k + rank) across ranked lists with k = 60; it needs no score calibration and is the usual way to build a "hybrid" retriever.
+Lewis et al. [1] introduced RAG, which combines a dense passage retriever with a sequence-to-sequence generator, and showed that retrieval grounds generation in external knowledge. BM25 [2], a probabilistic term-weighting function, remains a strong baseline and is the lexical retriever in most RAG stacks.
 
-## 2.2 Multilingual embedding models
+Retrieval quality depends on what the retriever receives as a query. Ma et al. [65] add an explicit *rewrite* step before retrieval (Rewrite-Retrieve-Read), done by a prompted LLM or a small trained rewriter. HyDE [66] instead has an LLM write a hypothetical answer document and retrieves with that document's embedding. Both methods were developed for English. They are the natural templates for the LLM query normaliser planned for Module 3, which rewrites a Tanglish query into Tamil script or English before retrieval.
 
-LaBSE [5] learns language-agnostic sentence embeddings for 109 languages from translation pairs. Multilingual-E5 [3] is a family of text-embedding models (small, base, large) trained with weakly supervised contrastive pre-training followed by supervised fine-tuning; it expects "query:" and "passage:" prefixes. BGE-M3 [4] supports dense, sparse and multi-vector retrieval in one model across more than 100 languages. These models are trained mainly on native-script text, so their behaviour on romanised Tamil is an open empirical question, and one this project measures.
+## 2.2 Hybrid retrieval and rank fusion
 
-## 2.3 Code-mixed language processing and retrieval
+Cormack et al. [6] proposed Reciprocal Rank Fusion (RRF), which sums 1/(k + rank) across ranked lists with k = 60. It needs no score calibration and is the usual way to build a "hybrid" retriever. Later analyses are more cautious:
 
-Chandu et al. [13] crowd-sourced a code-mixed factoid question-answering dataset with 1,694 Hinglish, 2,848 Tamlish (Tamil–English) and 1,391 Tenglish questions. It is the closest earlier Tamil–English resource, but it targets factoid QA, not RAG retrieval components. Chakravarthi et al. [7] built a Tamil–English (Tanglish) sentiment corpus from YouTube comments, and the Dravidian-CodeMix track at FIRE 2020 [8] (continued in 2021) used it for sentiment-classification shared tasks. These works show that Tanglish is common online, but they are classification tasks.
+- Bruch et al. [63] found RRF to be sensitive to its parameters. A tuned convex combination of normalised lexical and dense scores outperformed RRF both in and out of domain and needed only a small set of training examples.
+- Chauhan and Agarwal [64] measured fusion query by query on seven BEIR collections with five dense encoders, SPLADE and three fusion functions. They treat "do not fuse" as a valid outcome. Even the best fusion ranked relevant documents below the better of its two components on 13–48% of queries. RRF carried the largest loss, the "fusion tax", wherever the dense retriever was clearly stronger than BM25.
 
-**Mixed-script IR at FIRE.** Gupta et al. [21] formalised mixed-script information retrieval, where queries and documents in one language appear in both the native and the Roman script. They estimated from Bing logs that 6% of unique queries from India contained romanised Hindi words, and they expanded queries with cross-script term equivalents learned by a deep autoencoder, raising MRR from 0.686 to 0.874 on Hindi song-lyrics retrieval (FIRE 2013 collection, 62,888 documents, 25 queries). The FIRE Transliterated Search track began in 2013 with language labelling and back-transliteration for Hindi, Bengali and Gujarati plus Hindi lyrics retrieval; in 2014 the labelling subtask added Tamil, Kannada and Malayalam [19]. Renamed Mixed Script IR in 2015, it labelled words in code-mixed text for eight languages including Tamil, while its retrieval subtask remained Hindi only (song lyrics, movie reviews and astrology; 25 test queries) [20]. One 2015 system transliterated every Roman-script word to Devanagari and indexed character 2- to 6-grams with vowel signs removed, which gave the best nDCG@10 among its runs [20]; this is a direct precedent for our transliteration plus character-n-gram design. The 2016 edition moved to Bengali–English question classification and Hindi–English tweet retrieval, with a best MAP of only 0.0377 [19]. In short, transliteration-based mixed-script IR is an established FIRE topic, but its retrieval tasks never covered Tamil and predate dense retrievers and RAG.
+In code-mixed IR the picture differs. In the FIRE 2025 CMIR track, fusion and hybrid systems consistently beat standalone models [10], and a BM25 + SBERT re-ranking system improved its BM25 baseline by 83% [30]. In both cases queries and documents share the Roman script, so both lists carry signal. Chapter 5 studies the opposite case: English or romanised queries against Tamil-script documents, where the lexical list is nearly uninformative. This is the condition under which [64] predicts that RRF hurts.
 
-**Transliteration resources.** Aksharantar [22] is a 26-million-pair transliteration corpus for 21 Indic languages, and IndicXlit, trained on it, is an open neural model for romanised-to-native transliteration; it is the natural neural baseline for our rule-based normaliser. IndicCMix [23] is a recent AI4Bharat dataset with about 104,800 Tamil rows, each giving an English sentence with a native-script code-mixed version, a full Tamil translation and a casual romanised version; it has no accompanying paper or retrieval relevance judgements.
+## 2.3 Multilingual embedding models and romanisation
 
-The FIRE Code-Mixed Information Retrieval (CMIR) track [9], [10] is the closest recent retrieval benchmark. Its 2024 edition used 50 Bengali–English code-mixed queries over 107,900 social-media comments; the best system, built on GPT-3.5 Turbo, reached MAP 0.70 [9]. The 2025 edition added native-script Bengali [10]. The language is Bengali, the documents are social-media comments, and RAG components are not studied.
+LaBSE [5] learns language-agnostic sentence embeddings for 109 languages from translation pairs. Multilingual-E5 [3] is a family of text-embedding models trained with weakly supervised contrastive pre-training followed by supervised fine-tuning. It expects "query:" and "passage:" prefixes. BGE-M3 [4] supports dense, sparse and multi-vector retrieval in one model across more than 100 languages. SONAR [58] is a 200-language, fixed-size sentence space with text and speech encoders. It outperforms LASER3 and LaBSE on the xsim and xsim++ similarity-search tasks, and the Large Concept Model [59] builds a language model directly in this space.
 
-Zeng et al. [11] built a human-annotated code-switching retrieval benchmark (CSR-L) and an 11-task CS-MTEB suite for Chinese and Japanese mixed with English. They found that code-switching degrades statistical, dense and late-interaction retrievers, with drops of up to 27%, and that vocabulary expansion does not close the gap. This supports our hypothesis but does not cover Tamil or romanised script.
+These models are trained mainly on native-script text. Several recent studies show what happens with romanised input:
 
-## 2.4 Cross-lingual retrieval and RAG component studies in Indian and low-resource settings
+- Chari et al. [28] showed that multilingual dense retrievers, BGE-M3 included, "rapidly deteriorate" on Latinised queries (Greeklish, Arabizi and similar), creating a "script gap". Fine-tuning on an even mix of native and Latinised queries closed most of it. Their languages include Chinese, Russian, Arabic, Greek and Persian, but no Indic language.
+- Verma et al. [61] found that language-associated units in multilingual LMs are conditioned on orthography: "romanization induces near-disjoint representations that align with neither native-script inputs nor English". This is a likely mechanism for the romanised-query collapse in Section 5.3.
+- RomanSetu [60] reports the opposite effect for an LLM continually pre-trained on romanised text. There, romanisation cut token fertility by 2–4× and aligned *better* with English. Romanised text is therefore a problem for models that never saw it, not an inherently poor input.
+- Zhu et al. [62] interpolated the embeddings of parallel queries in BGE-M3. A mixed query beat the best single-language query in 88 of 105 cases, while English queries worked best against indices that contain English.
 
-Balasubramaniyam and Madushanka [14] compared query translation with cross-lingual embeddings (LaBSE, multilingual-E5, BGE-M3) for Sinhala and Tamil queries over English e-government content, using 500 human-verified question–answer pairs. BGE-M3 reached Recall@15 of 95.6% for Tamil–English. Their Tamil queries are in native script only; romanised and code-mixed queries are not studied.
+## 2.4 Mixed-script and transliterated information retrieval
 
-Singh [15] ran a controlled factorial study of 3 parsers × 3 chunking strategies × 5 dense embedding models, plus BM25, on 800 questions over Indian government regulatory documents, with mixed-effects models and bootstrap intervals. It is the methodological model for this project, but it is English-only.
+**FIRE transliterated search and MSIR.** Gupta et al. [21] formalised mixed-script information retrieval, where queries and documents in one language appear in both the native and the Roman script. They estimated from Bing logs that 6% of unique queries from India contained romanised Hindi words. They expanded queries with cross-script term equivalents learned by a deep autoencoder, raising MRR from 0.686 to 0.874 on Hindi song-lyrics retrieval (FIRE 2013 collection, 62,888 documents, 25 queries).
 
-Chhoun et al. [16] compared four chunking strategies (recursive, Khmer-aware, sentence-based, LLM-based) for Khmer agricultural RAG with BGE-M3, and found 300-character recursive chunking best. It motivates our Tamil-aware chunker in Module 3, although it used only 18 question–answer pairs.
+The FIRE Transliterated Search track began in 2013 [24], [19]:
+- 2013: word-level language labelling with back-transliteration for Hindi, Bangla and Gujarati, plus retrieval of Roman-script Bollywood lyrics queries (25 runs from five teams) [24].
+- 2014: the labelling subtask added Tamil, Kannada and Malayalam [19]. One 2014 system normalised transliterated character sequences with rules at indexing time and used prefix-matched fuzzy query terms, gaining about 56% over a query-likelihood baseline [25].
+- 2015: renamed Mixed Script IR. It labelled words in code-mixed text for eight languages including Tamil, while its retrieval subtask remained Hindi only (song lyrics, movie reviews and astrology; 25 test queries) [20]. One 2015 system transliterated every Roman-script word to Devanagari and indexed character 2- to 6-grams with vowel signs removed, which gave the best nDCG@10 among its runs [20]. This is a direct precedent for our transliteration plus character-n-gram design.
+- 2016: Bengali–English question classification and Hindi–English tweet retrieval, with a best MAP of only 0.0377 [19]. That tweet retrieval task built on the CMIR corpus of Chakma and Das [26].
 
-Madhusudhanan G. [17] studied indirect prompt injection and reasoning monitorability across English, Tamil and Tanglish in a small case study of one model. It is evidence that Tanglish is now studied in LLM safety, a possible later direction for this work.
+In short, transliteration-based mixed-script IR, including rule-based normalisation, is an established FIRE topic. We do not claim the idea as new. However, its retrieval tasks never covered Tamil and predate dense retrievers and RAG.
 
-## 2.5 Datasets
+**FIRE CMIR.** The FIRE Code-Mixed Information Retrieval (CMIR) track [9], [10] is the closest recent retrieval benchmark. Its 2024 edition used 50 Bengali–English code-mixed queries over 107,900 social-media comments. The best system, built on GPT-3.5 Turbo, reached MAP 0.70 [9]; other participants combined prompting with ranking models [29]. The 2025 edition added native-script Bengali [10]. The language is Bengali, the documents are social-media comments, and RAG components are not studied.
 
-The nlpctx/tamil-english-retrieval dataset [18] contains 9,299 LLM-generated query rows over 2,183 Tamil documents from the Mozhi Tamil corpus (IndicCorpV2 news text), with IndicTrans2 English translations. Each row has an English, a Tamil-script, a romanised and a code-mixed query, plus an answer snippet. It is released under Apache-2.0 and has no accompanying paper or reported baselines; to our knowledge, Chapter 5 gives the first retrieval baselines on it.
+**Code-switching IR beyond India.** Zeng et al. [11] built a human-annotated code-switching retrieval benchmark (CSR-L) and an 11-task CS-MTEB suite for Chinese and Japanese mixed with English. Code-switching degraded statistical, dense and late-interaction retrievers, with drops of up to 27%, and vocabulary expansion did not close the gap. This supports our hypothesis but covers neither Tamil nor romanised script. The paper is now published in *Findings of ACL 2026*.
 
-## 2.6 Summary of the literature
+## 2.5 Transliteration, back-transliteration and romanised language identification
 
-| # | Work | Year | Languages / script | Task | Method / models | Key result | Gap relative to this project |
-|---|---|---|---|---|---|---|---|
-| 1 | Lewis et al. [1] | 2020 | English | Open-domain QA | DPR + BART (RAG) | Retrieval grounding improves QA | English only |
-| 2 | Cormack et al. [6] | 2009 | English | Rank fusion | RRF, k = 60 | Beats individual rankers | Not tested across scripts |
-| 3 | Feng et al. (LaBSE) [5] | 2022 | 109 languages | Sentence embedding | Dual encoder | Strong bitext retrieval | Native scripts only |
-| 4 | Wang et al. (mE5) [3] | 2024 | ~100 languages | Text embedding | Contrastive pre-training | Strong multilingual retrieval | Romanised Tamil untested |
-| 5 | Chen et al. (BGE-M3) [4] | 2024 | 100+ languages | Text embedding | Dense + sparse + multi-vector | Strong multilingual retrieval | Romanised Tamil untested |
-| 6 | Chandu et al. [13] | 2018 | Hinglish, Tamlish, Tenglish | Factoid QA | Crowd-sourced data | 2,848 Tamlish questions | QA, not RAG components |
-| 7 | Chakravarthi et al. [7], [8] | 2020 | Tamil–English | Sentiment classification | Corpus + shared task | Tanglish corpus | Classification, not retrieval |
-| 8 | Chanda and Pal; Chanda et al. [9], [10] | 2024–25 | Bengali–English | Code-mixed IR | GPT-3.5, SBERT, BM25 | Best MAP 0.70 (2024) | Bengali; social media; no RAG study |
-| 9 | Zeng et al. [11] | 2026 | Chinese / Japanese + English | Code-switching IR | Sparse, dense, late interaction | Drops up to 27% | Not Tamil; not romanised |
-| 10 | Balasubramaniyam and Madushanka [14] | 2026 | Sinhala, Tamil → English | Cross-lingual IR | Translation vs LaBSE / mE5 / BGE-M3 | BGE-M3 Recall@15 95.6% (Tamil) | Native script only |
-| 11 | Singh [15] | 2026 | English | RAG component study | Parser × chunker × embedder | Components interact | English only |
-| 12 | Chhoun et al. [16] | 2026 | Khmer | RAG chunking | 4 chunkers + BGE-M3 | 300-char recursive best | Khmer; 18 QA pairs |
-| 13 | Madhusudhanan G. [17] | 2026 | English, Tamil, Tanglish | LLM safety | Case study, 1 model | Descriptive only | Safety, not retrieval |
-| 14 | nlpctx dataset [18] | 2026 | Tamil, English, romanised, code-mixed | Retrieval data | LLM-generated queries | No baselines published | Synthetic queries; no study |
-| 15 | Gupta et al. [21] | 2014 | Hindi (Devanagari + Roman) | Mixed-script IR | Autoencoder term equivalents | MRR 0.686 → 0.874 | Hindi lyrics; pre-dense, no RAG |
-| 16 | FIRE MSIR 2015 [20] | 2015 | 8 Indic incl. Tamil (labelling); Hindi (retrieval) | Language labelling; mixed-script retrieval | Transliteration + char n-grams | Best NDCG@10 0.716 | Tamil only in labelling |
-| 17 | FIRE MSIR 2013–16 [19] | 2016 | Hindi, Bengali (+ Tamil labelling, 2014) | Mixed-script IR | Transliteration, query expansion | Best tweet MAP 0.0377 (2016) | No Tamil retrieval |
-| 18 | Madhani et al. (Aksharantar) [22] | 2023 | 21 Indic languages | Transliteration | IndicXlit transformer | 26M word pairs | Not evaluated for retrieval |
-| 19 | IndicCMix [23] | 2026 | 11 Indic incl. Tamil | Parallel code-mixed text | Translated + romanised renderings | ~104.8k Tamil rows | No relevance judgements |
+**Transliteration resources.**
+- Aksharantar [22] is a 26-million-pair transliteration corpus for 21 Indic languages. IndicXlit, trained on it, is an open neural model for romanised-to-native transliteration and the natural neural baseline for our rule-based normaliser.
+- The Dakshina dataset [31] provides native and Latin-script parallel sentences and attested romanisation lexicons for 12 South Asian languages, Tamil included.
+- Kirov et al. [32] used context, including fine-tuned pretrained models trained on simulated parallel data, to substantially improve full-sentence Latin-to-native transliteration on all twelve Dakshina languages.
+- Riyadh and Kondrak [27] combined language identification, back-transliteration and sequence prediction to deromanise code-mixed Bengali and Hindi text.
+- For Tamil specifically, TAMZHI [35] targets "shorthand" romanised Tamil in which vowels are dropped. The difficulty comes from Tamil's twelve vowels against the Roman alphabet's five, which is the same ambiguity our Tanglish rules face.
+- IndicCMix [23] is a recent AI4Bharat dataset with about 104,800 Tamil rows. Each row gives an English sentence, a native-script code-mixed version, a full Tamil translation and a casual romanised version. It has no accompanying paper or retrieval relevance judgements.
+
+**Romanised language identification.** IndicLID [33] is the first language identifier for romanised text in the 22 scheduled Indian languages. Training on synthetic samples with natural spelling variation raised romanised-text F1 on the Bhasha-Abhijnaanam test set from 74.7% to 88.2% [34]. Code-mixed web queries often carry entities in another language, and gazetteer-enhanced NER handles them (F1 = 68% on the EMBER code-mixed query set) [77]. Both lines bear on the script-gated router and the entity-safe language ID planned for Module 3.
+
+None of these transliteration works measures the effect of normalisation on *retrieval*. They report character or word accuracy only.
+
+## 2.6 Code-mixed language processing, question answering and RAG
+
+**Code-mixed QA.** Chandu et al. [13] crowd-sourced a code-mixed factoid question-answering dataset with 1,694 Hinglish, 2,848 Tamlish (Tamil–English) and 1,391 Tenglish questions. It is the closest earlier Tamil–English resource, but it targets factoid QA, not RAG retrieval components. In a related Hindi–English knowledge-base QA study, back-transliterated code-mixed questions beat lexically and sentence-translated questions by 5% and 35% in accuracy [36]. This is early evidence that transliteration can be a better front-end than translation. GLUECoS [37] added code-switched QA and NLI to a Hindi–English and Spanish–English benchmark, and Winata et al. [38] survey the field.
+
+**Code-mixed classification in Tamil.** Chakravarthi et al. [7] built a Tamil–English (Tanglish) sentiment corpus from YouTube comments. The Dravidian-CodeMix track at FIRE 2020 [8], continued in 2021, used it for sentiment-classification shared tasks. The DravidianLangTech workshops continue this line: their 2025 and 2026 shared tasks cover abuse, sentiment, memes and speech, but not retrieval. These works show that Tanglish is common online, but they are classification tasks.
+
+**LLMs on code-mixed and romanised input.**
+- Multilingual LLMs underperform much smaller fine-tuned models on code-switched sentiment, translation, summarisation and language identification [39].
+- CodeMixQA [40] adds human-annotated code-switched QA in 16 language-pair variants, in both native and transliterated forms, and finds persistent reasoning and generation failures.
+- Indi-RomCoM [41] evaluates instruction following on romanised code-mixed Hindi, Bengali, Gujarati and Tamil at three mixing levels. Performance falls as code-mixing density rises.
+- TanglishMedBench [57] provides 700 romanised Tanglish medical questions with English equivalents and expert annotations. It has no document collection or relevance judgements, so it cannot evaluate retrieval.
+
+**Code-mixed RAG (2025–2026).**
+- Sharma et al. [43] retrieved English documents for informal Hinglish queries. A fine-tuned multilingual embedder reached 96.3% accuracy on the strict task against 76.7% for the best zero-shot model.
+- Gaikwad and Gaikwad [42] added lightweight code-mixed query normalisation and an evidence-constrained abstention layer to a RAG pipeline. Hallucination fell most for Hindi–English code-mixed queries.
+- OneVoice [44] is a deployed college-support RAG chatbot. It detects code-mixing at the Unicode level and lists Hinglish, Telugish and Tamlish among its variants, but reports no retrieval ablation. Its domain (student queries about college deadlines) is the same as the Module 3 collection.
+- Similar studies exist for Tagalog–English RAG [45].
+
+**A caution on normalisation.** In a factorial ablation of a Hinglish banking NLU pipeline, Agarwal [46] found that a hand-built normaliser helped a base encoder but became redundant after noisy-query fine-tuning. On native-reviewed Tamil and Telugu probes, its effect was "unstable in sign". This agrees with our Module 2 finding that normalisation helps lexical retrieval for romanised queries but not dense retrieval for code-mixed queries (Section 5.4), and it argues for testing normalisation together with fine-tuning in Module 3.
+
+## 2.7 Tamil and Indic retrieval resources, models and RAG component studies
+
+**Corpora, translation and models.**
+- IndicCorp v2 (20.9 billion tokens across 24 languages), the IndicXTREME benchmark and IndicBERT v2 [47] form the base of most Indic NLU work. The nlpctx documents [18] derive from IndicCorpV2 news text.
+- IndicTrans2 [48] provides open machine translation for all 22 scheduled languages. It produced the English versions in [18].
+- Tamil-specific generators include Tamil-Llama [49], which extends LLaMA-2 with 16,000 Tamil tokens, and Agaram 2.5B [50]. Agaram is a Tamil-first model trained from scratch that converses in Tamil script, romanised Tanglish and English. Its tokeniser needs 1.55 tokens per Tamil word against 9.44 for Qwen2.5.
+- Sarvam-1 [51] is a 2-billion-parameter model for ten Indic languages including Tamil.
+These are candidates for the Module 4 generator.
+
+**Retrieval and RAG benchmarks.**
+- MIRACL [55], the main multilingual ad hoc retrieval benchmark (18 languages, 726k judgements), includes Telugu but not Tamil.
+- INDIC-MARCO and Indic-ColBERT [52] cover 11 Indian languages including Tamil. They were built by machine-translating MS MARCO.
+- IndicMSMarco, part of IndicRAGSuite [53], has 1,000 manually translated MS MARCO queries in 13 languages, Tamil included, for evaluating both retrieval and generation.
+- Indic-QA [54] evaluates context-grounded QA in 11 Indic languages and finds that Translate-Test beats direct multilingual LLMs in low-resource settings.
+- MURMUR [56] tests cross-lingual multimodal RAG in Tamil and Yoruba. Its XM-RAG baseline reaches 38.1 answer accuracy, far below English results.
+Every one of these benchmarks uses **native-script** Tamil queries.
+
+**Component studies.**
+- Balasubramaniyam and Madushanka [14] compared query translation with cross-lingual embeddings (LaBSE, multilingual-E5, BGE-M3) for Sinhala and Tamil queries over English e-government content, using 500 human-verified question–answer pairs. BGE-M3 reached Recall@15 of 95.6% for Tamil–English. Their Tamil queries are in native script only; romanised and code-mixed queries are not studied.
+- Singh [15] ran a controlled factorial study of 3 parsers × 3 chunking strategies × 5 dense embedding models, plus BM25, on 800 questions over Indian government regulatory documents, with mixed-effects models and bootstrap intervals. It is the methodological model for this project, but it is English-only.
+
+**Chunking.**
+- Chhoun et al. [16] compared four chunking strategies (recursive, Khmer-aware, sentence-based, LLM-based) for Khmer agricultural RAG with BGE-M3. They found 300-character recursive chunking best, which motivates our Tamil-aware chunker in Module 3, although they used only 18 question–answer pairs.
+- More general studies show that the choice of retrieval unit significantly affects both retrieval and downstream QA, with propositions as an alternative unit [67].
+- Semantic chunking's extra cost "is not justified by consistent performance gains" over fixed-size chunking [68], so fixed-size baselines must stay in the Module 3 comparison.
+No chunking study for Tamil was found.
+
+**Safety.** Madhusudhanan G. [17] studied indirect prompt injection and reasoning monitorability across English, Tamil and Tanglish in a small case study of one model. It is evidence that Tanglish is now studied in LLM safety, a possible later direction for this work.
+
+## 2.8 Evaluating RAG and LLM output in multilingual and Indic settings
+
+**RAG metrics.**
+- RAGAs [69] provides reference-free metrics for faithfulness, answer relevance and context relevance.
+- ARES [70] fine-tunes lightweight LM judges on synthetic data and corrects their errors with a few hundred human labels through prediction-powered inference.
+- LLM-as-a-judge can match human preferences, with over 80% agreement for GPT-4, but shows position, verbosity and self-enhancement biases [71].
+
+**Multilingual and Indic evaluation.**
+- LLM evaluators are biased towards higher scores, especially in low-resource and non-Latin-script languages, and need calibration against native-speaker judgements [72].
+- PARIKSHA [73] ran 90,000 human and 30,000 LLM evaluations across 10 Indic languages and found that human–LLM agreement varies.
+- In a RAG health chatbot built from real Indian patient queries, factual correctness was lower for Indic-language queries than for English, and code-mixed queries were hard to evaluate [74].
+- NoMIRACL [75] shows that many LLMs hallucinate answers when every retrieved passage is non-relevant.
+- In a 13-language RAG pipeline, Chirkova et al. [76] needed prompt engineering to make the model answer in the user's language and had to adapt metrics to spelling variation in named entities. They list code-switching as an open limitation.
+
+None of these evaluation methods has been validated on Tanglish queries, which is the starting point for Module 4.
+
+## 2.9 Datasets
+
+The nlpctx/tamil-english-retrieval dataset [18] contains 9,299 LLM-generated query rows over 2,183 Tamil documents from the Mozhi Tamil corpus (IndicCorpV2 news text [47]), with IndicTrans2 [48] English translations. Each row has an English, a Tamil-script, a romanised and a code-mixed query, plus an answer snippet. It is released under Apache-2.0 and has no accompanying paper or reported baselines. To our knowledge, Chapter 5 gives the first retrieval baselines on it.
+
+Among other Tanglish resources:
+- The questions of Chandu et al. [13] lack a retrieval collection.
+- TanglishMedBench [57] lacks a collection and relevance judgements.
+- IndicCMix [23] has parallel renderings but no information needs.
+- Native-script Tamil retrieval sets [52], [53] can serve as the Tamil-script upper-bound condition.
+
+## 2.10 Summary of the literature
+
+| Work | Year | Languages / script | Task | Method / models | Key result | Gap relative to this project |
+|---|---|---|---|---|---|---|
+| Lewis et al. [1] | 2020 | English | Open-domain QA | DPR + BART (RAG) | Retrieval grounding improves QA | English only |
+| Cormack et al. [6] | 2009 | English | Rank fusion | RRF, k = 60 | Beats individual rankers | Not tested across scripts |
+| Bruch et al. [63] | 2023 | English (BEIR) | Fusion analysis | Convex combination vs RRF | RRF parameter-sensitive; convex better | Same-script only |
+| Chauhan and Agarwal [64] | 2026 | English (BEIR) | Fusion diagnostics | 5 encoders, SPLADE, 3 fusions | Fusion hurts 13–48% of queries | No script mismatch |
+| Feng et al. (LaBSE) [5] | 2022 | 109 languages | Sentence embedding | Dual encoder | Strong bitext retrieval | Native scripts only |
+| Wang et al. (mE5) [3] | 2024 | ~100 languages | Text embedding | Contrastive pre-training | Strong multilingual retrieval | Romanised Tamil untested |
+| Chen et al. (BGE-M3) [4] | 2024 | 100+ languages | Text embedding | Dense + sparse + multi-vector | Strong multilingual retrieval | Romanised Tamil untested |
+| Chari et al. [28] | 2025 | zh, ru, ar, el, fa (Latinised) | Transliterated-query IR | BGE-M3 etc.; transliterate-train | Large script gap; closed by mixed training | No Indic language |
+| Verma et al. [61] | 2026 | Many | Representation analysis | LAPE + SAE | Romanised ≠ native ≠ English | Analysis, not retrieval |
+| Gupta et al. [21] | 2014 | Hindi (Devanagari + Roman) | Mixed-script IR | Autoencoder term equivalents | MRR 0.686 → 0.874 | Hindi lyrics; pre-dense, no RAG |
+| FIRE 2013 [24]; MSIR 2015 [20]; MSIR 2013–16 [19] | 2013–16 | Hindi, Bengali, Gujarati (+ Tamil labelling, 2014–15) | Mixed-script IR | Transliteration, char n-grams, query expansion | Best NDCG@10 0.716 (2015); tweet MAP 0.0377 (2016) | No Tamil retrieval |
+| Ganguly et al. [25] | 2014 | Hindi (mixed script) | Transliterated search | Rule normalisation + fuzzy queries | ~56% over LM baseline | Hindi; pre-dense |
+| Chanda and Pal; Chanda et al. [9], [10] | 2024–25 | Bengali–English | Code-mixed IR | GPT-3.5, SBERT, BM25, fusion | Best MAP 0.70 (2024); fusion helps (2025) | Bengali; same script; no RAG |
+| Zeng et al. [11] | 2026 | Chinese / Japanese + English | Code-switching IR | Sparse, dense, late interaction | Drops up to 27% | Not Tamil; not romanised |
+| Madhani et al. (Aksharantar) [22] | 2023 | 21 Indic languages | Transliteration | IndicXlit transformer | 26M word pairs | Not evaluated for retrieval |
+| Roark et al. [31]; Kirov et al. [32] | 2020; 2024 | 12 South Asian incl. Tamil | Romanisation data; contextual transliteration | Lexicons + parallel; LM ensembles | Large gains, all 12 languages | Accuracy only, not retrieval |
+| TAMZHI [35] | 2024 | Romanised Tamil | Back-transliteration | Hybrid rules + ML | Handles dropped vowels | Not evaluated for retrieval |
+| IndicLID [33]; Benton et al. [34] | 2023; 2025 | 22 Indic (native + romanised) | Language ID | Classifiers; synthetic data | Romanised F1 74.7 → 88.2 | Sentence-level; no entity handling |
+| Chandu et al. [13] | 2018 | Hinglish, Tamlish, Tenglish | Factoid QA | Crowd-sourced data | 2,848 Tamlish questions | QA, not RAG components |
+| Gupta, Chinnakotla and Shrivastava [36] | 2018 | Hindi–English | Code-mixed KBQA | Transliterate vs translate | Transliteration +5% / +35% | Hindi; KBQA |
+| Chakravarthi et al. [7], [8] | 2020 | Tamil–English | Sentiment classification | Corpus + shared task | Tanglish corpus | Classification, not retrieval |
+| Indi-RomCoM [41]; CodeMixQA [40] | 2026 | Romanised Indic incl. Tamil; 16 CS pairs | LLM instructions; CS QA | Benchmarks | LLMs degrade with mixing | No retrieval |
+| TanglishMedBench [57] | 2026 | Romanised Tanglish | Medical QA (LLM) | 700 QA pairs + expert labels | Benchmark only | No corpus or qrels |
+| Sharma et al. [43] | 2026 | Hinglish → English | Code-mixed RAG retrieval | Zero-shot vs fine-tuned embedders | 96.3% vs 76.7% | Hindi; small task |
+| Gaikwad and Gaikwad [42] | 2026 | Hindi, Hinglish, English | Code-mixed RAG | Normalisation + abstention layer | Fewer hallucinations | Hindi; custom set |
+| Agarwal [46] | 2026 | Hinglish (+ Tamil, Telugu probes) | Code-mixed NLU ablation | Normaliser / rules / LLM arbiter | Normaliser redundant after fine-tuning | NLU, not retrieval |
+| Balasubramaniyam and Madushanka [14] | 2026 | Sinhala, Tamil → English | Cross-lingual IR | Translation vs LaBSE / mE5 / BGE-M3 | BGE-M3 Recall@15 95.6% (Tamil) | Native script only |
+| IndicIRSuite [52]; IndicRAGSuite [53] | 2024; 2025 | 11–13 Indic incl. Tamil | IR / RAG benchmarks | Translated MS MARCO; ColBERT | +47.47% MRR@10 (Indic-ColBERT) | Native-script queries only |
+| MIRACL [55] | 2023 | 18 languages | Monolingual retrieval | Human qrels | 726k judgements | No Tamil |
+| Singh [15] | 2026 | English | RAG component study | Parser × chunker × embedder | Components interact | English only |
+| Chhoun et al. [16]; Qu et al. [68] | 2026; 2025 | Khmer; English | RAG chunking | Chunker comparisons | 300-char recursive best; semantic not worth cost | No Tamil |
+| Ma et al. [65]; HyDE [66] | 2023 | English | Query rewriting for RAG | LLM rewriter; hypothetical docs | Rewriting improves retrieval | Not code-mixed |
+| RAGAs [69]; ARES [70] | 2024 | English | RAG evaluation | LLM judges | Automated RAG scores | Not validated for Tanglish |
+| Hada et al. [72]; PARIKSHA [73] | 2024 | 8 languages; 10 Indic | LLM-as-judge validity | Human vs LLM judgements | LLM judges inflate scores | No code-mixed queries |
+| Madhusudhanan G. [17] | 2026 | English, Tamil, Tanglish | LLM safety | Case study, 1 model | Descriptive only | Safety, not retrieval |
+| nlpctx dataset [18] | 2026 | Tamil, English, romanised, code-mixed | Retrieval data | LLM-generated queries | No baselines published | Synthetic queries; no study |
+| IndicCMix [23] | 2026 | 11 Indic incl. Tamil | Parallel code-mixed text | Translated + romanised renderings | ~104.8k Tamil rows | No relevance judgements |
 
 *Table 2.1: Literature survey summary.*
 
-## 2.7 Research gap
+## 2.11 Research gap
 
-Transliteration-based mixed-script IR has a history at FIRE [19]–[21], and transliteration plus character-n-gram indexing was already used there [20]; we do not claim that idea as new. What the surveyed work never combines is: (a) **Tamil–English code-mixed and romanised queries**, (b) **retrieval for RAG with modern dense, lexical and fusion components**, and (c) **a controlled comparison of those components** on the same information needs. The FIRE retrieval subtasks were Hindi or Bengali [19], [20]; native-script Tamil cross-lingual retrieval has been studied [14]; code-mixed retrieval has been studied for Bengali [9] and for Chinese and Japanese [11]; RAG components have been compared for English [15] and Khmer [16]. No prior study evaluates RAG retrieval components (dense, lexical, fusion) for Tamil–English code-mixed and romanised queries; this project fills that intersection.
+Transliteration-based mixed-script IR has a history at FIRE [19]–[21], [24], [25], and both transliteration plus character-n-gram indexing [20] and rule-based normalisation [25] were already used there. We do not claim either idea as new.
+
+What the surveyed work never combines is:
+- (a) **Tamil–English code-mixed and romanised queries written by people**;
+- (b) **retrieval for RAG with modern dense, lexical and fusion components**;
+- (c) **a controlled comparison of those components, and of query normalisation front-ends, on the same information needs**.
+
+The evidence for each part:
+- The FIRE retrieval subtasks were Hindi or Bengali [19], [20], [24], [9], [10].
+- Every Tamil retrieval and RAG benchmark uses native-script queries [52], [53], [55], [14].
+- Code-mixed and transliterated retrieval has been studied for Bengali [9], [10], Hindi [42], [43], Chinese and Japanese [11], and Greek, Arabic, Russian and other non-Indic scripts [28].
+- The only Tanglish benchmarks evaluate LLM answers without retrieval [41], [57].
+- Transliteration resources report accuracy, not retrieval effect [22], [31], [32], [35].
+- RAG components have been compared for English [15], [68] and Khmer [16].
+- Fusion has been analysed only where queries and documents share a script [63], [64], [10].
+- RAG evaluation methods have not been validated on code-mixed Indian queries [69]–[74].
+
+**No prior study evaluates RAG retrieval components (dense, lexical, fusion) and query normalisation for Tamil–English code-mixed and romanised queries. This project fills that intersection.** Modules 3–5 extend it to human-written queries, Tamil-aware chunking and generation-side evaluation.
+
+---
 
 # Chapter 3: System Analysis and Design
 
@@ -645,7 +780,7 @@ Modules 1 and 2 defined the problem of code-mixed Tamil–English retrieval for 
 
 [10] S. Chanda, K. Tewari, and S. Pal, "Overview of the CMIR track at FIRE 2025: Code-mixed information retrieval from social media data," in *Proc. 17th Annual Meeting of the Forum for Information Retrieval Evaluation (FIRE '25)*, ACM, 2025, pp. 13–16, doi: 10.1145/3777867.3778255. (Author order as in ACM's corrected Version of Record of 27 January 2026; DBLP still lists the original order, Tewari, Chanda and Pal.)
 
-[11] Q. Zeng, Y. Lu, Z. Zhou, H. Qi, P. Yu, F. Zhao, H. Yanaka, W. Xuan, and N. Yokoya, "Code-switching information retrieval: Benchmarks, analysis, and the limits of current retrievers," in *Findings of the Association for Computational Linguistics: ACL 2026*, 2026, arXiv:2604.17632.
+[11] Q. Zeng, Y. Lu, Z. Zhou, H. Qi, P. Yu, F. Zhao, H. Yanaka, W. Xuan, and N. Yokoya, "Code-switching information retrieval: Benchmarks, analysis, and the limits of current retrievers," in *Findings of the Association for Computational Linguistics: ACL 2026*, 2026, doi: 10.18653/v1/2026.findings-acl.636.
 
 [12] S. PaulRaj K, "ChunkLab: The interactive RAG engineering playground," GitHub repository, 2026. [Online]. Available: https://github.com/selvin-paul-raj/chunklab
 
@@ -670,3 +805,111 @@ Modules 1 and 2 defined the problem of code-mixed Tamil–English retrieval for 
 [22] Y. Madhani, S. Parthan, P. Bedekar, G. NC, R. Khapra, A. Kunchukuttan, P. Kumar, and M. Khapra, "Aksharantar: Open Indic-language transliteration datasets and models for the next billion users," in *Findings of the Association for Computational Linguistics: EMNLP 2023*, Singapore, 2023, pp. 40–57, doi: 10.18653/v1/2023.findings-emnlp.4.
 
 [23] AI4Bharat, "IndicCMix (code-mixed, native-script and romanised renderings for 11 Indic languages)," Hugging Face Datasets, MIT licence. [Online]. Available: https://huggingface.co/datasets/ai4bharat/IndicCMix
+
+[24] R. Saha Roy, M. Choudhury, P. Majumder, and K. Agarwal, "Overview of the FIRE 2013 track on transliterated search," in *Proc. 5th Forum for Information Retrieval Evaluation (FIRE '13)*, ACM, 2013, pp. 1–7, doi: 10.1145/2701336.2701636.
+
+[25] D. Ganguly, S. Pal, and G. J. F. Jones, "DCU@FIRE-2014: Fuzzy queries with rule-based normalization for mixed script information retrieval," in *Proc. 6th Forum for Information Retrieval Evaluation (FIRE '14)*, ACM, 2014, pp. 80–85, doi: 10.1145/2824864.2824888.
+
+[26] K. Chakma and A. Das, "CMIR: A corpus for evaluation of code mixed information retrieval of Hindi-English tweets," *Computación y Sistemas*, vol. 20, no. 3, 2016, doi: 10.13053/cys-20-3-2459.
+
+[27] R. R. Riyadh and G. Kondrak, "Joint approach to deromanization of code-mixed texts," in *Proc. 6th Workshop on NLP for Similar Languages, Varieties and Dialects (VarDial)*, Ann Arbor, MI, USA, 2019, doi: 10.18653/v1/W19-1403.
+
+[28] A. Chari, I. Ounis, and S. MacAvaney, "Lost in transliteration: Bridging the script gap in neural IR," in *Proc. 48th Int. ACM SIGIR Conf. Research and Development in Information Retrieval (SIGIR '25)*, Padua, Italy, 2025, pp. 2900–2905, doi: 10.1145/3726302.3730226.
+
+[29] A. Deroy and S. Maity, "RetrieveGPT: Merging prompts and mathematical models for enhanced code-mixed information retrieval," in *FIRE 2024 Working Notes*, CEUR Workshop Proceedings, vol. 4054, 2024, [Online]. Available: https://ceur-ws.org/Vol-4054/T2-2.pdf (arXiv:2411.04752).
+
+[30] H. Mishra, R. Sharma, and N. Yadav, "Decoding Benglish: Scalable information retrieval for transliterated code-mixed conversations," in *FIRE 2025 Working Notes*, CEUR Workshop Proceedings, vol. 4173, 2025, [Online]. Available: https://ceur-ws.org/Vol-4173/T3-9.pdf.
+
+[31] B. Roark, L. Wolf-Sonkin, C. Kirov, S. J. Mielke, C. Johny, I. Demirsahin, and K. Hall, "Processing South Asian languages written in the Latin script: The Dakshina dataset," in *Proc. 12th Language Resources and Evaluation Conf. (LREC)*, Marseille, France, 2020, pp. 2413–2423.
+
+[32] C. Kirov, C. Johny, A. Katanova, A. Gutkin, and B. Roark, "Context-aware transliteration of romanized South Asian languages," *Computational Linguistics*, vol. 50, 2024, pp. 475–534, doi: 10.1162/coli_a_00510.
+
+[33] Y. Madhani, M. M. Khapra, and A. Kunchukuttan, "Bhasha-Abhijnaanam: Native-script and romanized language identification for 22 Indic languages," in *Proc. 61st Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)*, Toronto, Canada, 2023, doi: 10.18653/v1/2023.acl-short.71.
+
+[34] A. Benton, A. Gutkin, C. Kirov, and B. Roark, "Improving informally romanized language identification," in *Proc. 2025 Conf. Empirical Methods in Natural Language Processing (EMNLP)*, Suzhou, China, 2025, pp. 2318–2336, doi: 10.18653/v1/2025.emnlp-main.117.
+
+[35] H. M. A. D. Herath and T. G. D. K. Sumanathilaka, "TAMZHI: Shorthand romanized Tamil to Tamil reverse transliteration using novel hybrid approach," *Int. J. Advances in ICT for Emerging Regions (ICTer)*, vol. 17, no. 1, 2024, pp. 1–7, doi: 10.4038/icter.v17i1.7271.
+
+[36] V. Gupta, M. Chinnakotla, and M. Shrivastava, "Transliteration better than translation? Answering code-mixed questions over a knowledge base," in *Proc. Third Workshop on Computational Approaches to Linguistic Code-Switching*, Melbourne, Australia, 2018, doi: 10.18653/v1/W18-3205.
+
+[37] S. Khanuja, S. Dandapat, A. Srinivasan, S. Sitaram, and M. Choudhury, "GLUECoS: An evaluation benchmark for code-switched NLP," in *Proc. 58th Annual Meeting of the Association for Computational Linguistics (ACL)*, 2020, doi: 10.18653/v1/2020.acl-main.329.
+
+[38] G. Winata, A. F. Aji, Z. X. Yong, and T. Solorio, "The decades progress on code-switching research in NLP: A systematic survey on trends and challenges," in *Findings of the Association for Computational Linguistics: ACL 2023*, Toronto, Canada, 2023, doi: 10.18653/v1/2023.findings-acl.185.
+
+[39] R. Zhang, S. Cahyawijaya, J. C. B. Cruz, G. Winata, and A. F. Aji, "Multilingual large language models are not (yet) code-switchers," in *Proc. 2023 Conf. Empirical Methods in Natural Language Processing (EMNLP)*, Singapore, 2023, doi: 10.18653/v1/2023.emnlp-main.774.
+
+[40] G. I. Winata *et al.*, "Can large language models understand, reason about, and generate code-switched text?," arXiv:2601.07153, 2026.
+
+[41] A. Das, M. Parmar, M. Ramnath, and P. Verma, "Indi-RomCoM: Code-mixed benchmark for evaluating LLMs on romanized Indic-English instructions," arXiv:2606.30790, 2026.
+
+[42] S. S. Gaikwad and J. S. Gaikwad, "Reducing hallucinations in retrieval-augmented LLM question answering for Indian code-mixed queries," in *Smart Trends in Computing and Communications (SmartCom 2026)*, Lecture Notes in Networks and Systems, vol. 1991, Cham: Springer, 2026, pp. 402–415, doi: 10.1007/978-3-032-27754-1_37.
+
+[43] S. Sharma, R. Rathee, N. Mishra, and S. Bhatt, "Multilingual embedders for explainable Hinglish retrieval in RAG," in *Proc. Int. Conf. Artificial Intelligence and Cyber Security (ICAICS 2025)*, Lecture Notes in Networks and Systems, vol. 2024, Cham: Springer, 2026, pp. 157–172, doi: 10.1007/978-3-032-28379-5_13.
+
+[44] T. Harika, Kaniz-E-Fatima, and S. Samreen, "OneVoice: A code-mixed RAG framework for multilingual student support," *ICTACT J. Soft Computing*, vol. 17, 2026, pp. 4297–4305, doi: 10.21917/ijsc.2026.0591.
+
+[45] A. J. M. Adoptante, J. A. D. V. Castro, M. L. B. Medrana, A. P. B. Ocampo, E. C. Peramo, and M. R. M. Miranda, "Benchmarking open-source large language models on code-switched Tagalog-English retrieval augmented generation," *J. Advances in Information Technology*, vol. 16, no. 2, 2025, pp. 233–242, doi: 10.12720/jait.16.2.233-242.
+
+[46] P. Agarwal, "Where does noise robustness live? Evidence from ablation, role swaps, and cross-lingual transfer in code-mixed banking NLU," in *Proc. 11th Workshop on Noisy and User-generated Text (W-NUT)*, 2026, pp. 356–367, doi: 10.18653/2026.wnut-1.26.
+
+[47] S. Doddapaneni, R. Aralikatte, G. Ramesh, S. Goyal, M. M. Khapra, A. Kunchukuttan, and P. Kumar, "Towards leaving no Indic language behind: Building monolingual corpora, benchmark and models for Indic languages," in *Proc. 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)*, Toronto, Canada, 2023, doi: 10.18653/v1/2023.acl-long.693.
+
+[48] J. P. Gala *et al.*, "IndicTrans2: Towards high-quality and accessible machine translation models for all 22 scheduled Indian languages," arXiv:2305.16307, 2023.
+
+[49] A. Balachandran, "Tamil-Llama: A new Tamil language model based on Llama 2," arXiv:2311.05845, 2023.
+
+[50] R. Kumaresan, Madhusudhanan G., and K. Kezendirane, "Agaram 2.5B: The first Tamil-first language model trained from scratch with tool calling. A playbook for under-represented languages," arXiv:2610.18420, 2026.
+
+[51] Sarvam AI, "Sarvam-1," Hugging Face model card, 2024, [Online]. Available: https://huggingface.co/sarvamai/sarvam-1.
+
+[52] S. Haq, A. Sharma, O. Khattab, N. Chhaya, and P. Bhattacharyya, "IndicIRSuite: Multilingual dataset and neural information models for Indian languages," in *Proc. 62nd Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)*, Bangkok, Thailand, 2024, doi: 10.18653/v1/2024.acl-short.46.
+
+[53] P. Prasanjith, P. More, A. Kunchukuttan, and R. Dabre, "IndicRAGSuite: Large-scale datasets and a benchmark for Indian language RAG systems," arXiv:2506.01615, 2025.
+
+[54] A. K. Singh, V. Kumar, R. Murthy, J. Sen, A. Mittal, and G. Ramakrishnan, "INDIC QA BENCHMARK: A multilingual benchmark to evaluate question answering capability of LLMs for Indic languages," in *Findings of the Association for Computational Linguistics: NAACL 2025*, Albuquerque, NM, USA, 2025, pp. 2607–2626, doi: 10.18653/v1/2025.findings-naacl.141.
+
+[55] X. Zhang, N. Thakur, O. Ogundepo, E. Kamalloo, D. Alfonso-Hermelo, X. Li, Q. Liu, M. Rezagholizadeh, and J. Lin, "MIRACL: A multilingual retrieval dataset covering 18 diverse languages," *Trans. Association for Computational Linguistics*, vol. 11, 2023, doi: 10.1162/tacl_a_00595.
+
+[56] K. Raja, M. Abejide, A. Ram, U. Sharma, and K. Zhu, "MURMUR: Cross-lingual and multimodal retrieval augmented reasoning for open question answering in Tamil and Yoruba," in *Proc. Conf. Language Modeling (COLM)*, 2026, [Online]. Available: https://proceedings.colm.cc/paper_files/paper/2026/file/2098f348d1d071e3ce652a5edadae3b1-Paper-Conference.pdf.
+
+[57] S. S. Anthea, N. R. Mary, and K. Varalakshmi, "TanglishMedBench: A benchmark for evaluating LLMs on Tamil-English code-mixed medical queries," Zenodo dataset, v1.0.0, 2026, doi: 10.5281/zenodo.22308075.
+
+[58] P.-A. Duquenne, H. Schwenk, and B. Sagot, "SONAR: Sentence-level multimodal and language-agnostic representations," arXiv:2308.11466, 2023.
+
+[59] LCM Team, L. Barrault, P.-A. Duquenne, M. Elbayad *et al.*, "Large concept models: Language modeling in a sentence representation space," arXiv:2412.08821, 2024.
+
+[60] J. A. Husain, R. Dabre, A. Kumar, J. Gala, T. Jayakumar, R. Puduppully, and A. Kunchukuttan, "RomanSetu: Efficiently unlocking multilingual capabilities of large language models via romanization," in *Proc. 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)*, Bangkok, Thailand, 2024, doi: 10.18653/v1/2024.acl-long.833.
+
+[61] A. A. K. Verma, A. Chatterjee, M. Gupta, and T. Chakraborty, "Multilingual language models encode script over linguistic structure," in *Proc. 64th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)*, San Diego, CA, USA, 2026, pp. 33685–33719, doi: 10.18653/v1/2026.acl-long.1554.
+
+[62] T. Zhu, H. C. Ming, and M.-Y. Kan, "When does mixing help? Analyzing query embedding interpolation in multilingual dense retrieval," in *Proc. 64th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)*, San Diego, CA, USA, 2026, pp. 31544–31562, doi: 10.18653/v1/2026.acl-long.1455.
+
+[63] S. Bruch, S. Gai, and A. Ingber, "An analysis of fusion functions for hybrid retrieval," *ACM Trans. Information Systems*, vol. 42, 2023, pp. 1–35, doi: 10.1145/3596512.
+
+[64] A. Chauhan and A. Agarwal, "The fusion tax: A diagnostic analysis of when hybrid retrieval hurts," *IEEE Access*, vol. 14, 2026, pp. 159620–159637, doi: 10.1109/ACCESS.2026.3743502.
+
+[65] X. Ma, Y. Gong, P. He, H. Zhao, and N. Duan, "Query rewriting in retrieval-augmented large language models," in *Proc. 2023 Conf. Empirical Methods in Natural Language Processing (EMNLP)*, Singapore, 2023, doi: 10.18653/v1/2023.emnlp-main.322.
+
+[66] L. Gao, X. Ma, J. Lin, and J. Callan, "Precise zero-shot dense retrieval without relevance labels," in *Proc. 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)*, Toronto, Canada, 2023, doi: 10.18653/v1/2023.acl-long.99.
+
+[67] T. Chen, H. Wang, S. Chen, W. Yu, K. Ma, X. Zhao, H. Zhang, and D. Yu, "Dense X retrieval: What retrieval granularity should we use?," in *Proc. 2024 Conf. Empirical Methods in Natural Language Processing (EMNLP)*, Miami, FL, USA, 2024, doi: 10.18653/v1/2024.emnlp-main.845.
+
+[68] R. Qu, R. Tu, and F. S. Bao, "Is semantic chunking worth the computational cost?," in *Findings of the Association for Computational Linguistics: NAACL 2025*, Albuquerque, NM, USA, 2025, pp. 2155–2177, doi: 10.18653/v1/2025.findings-naacl.114.
+
+[69] S. Es, J. James, L. Espinosa Anke, and S. Schockaert, "RAGAs: Automated evaluation of retrieval augmented generation," in *Proc. 18th Conf. European Chapter of the Association for Computational Linguistics: System Demonstrations*, St. Julians, Malta, 2024, doi: 10.18653/v1/2024.eacl-demo.16.
+
+[70] J. Saad-Falcon, O. Khattab, C. Potts, and M. Zaharia, "ARES: An automated evaluation framework for retrieval-augmented generation systems," in *Proc. 2024 Conf. North American Chapter of the Association for Computational Linguistics (NAACL), Volume 1: Long Papers*, Mexico City, Mexico, 2024, doi: 10.18653/v1/2024.naacl-long.20.
+
+[71] L. Zheng *et al.*, "Judging LLM-as-a-judge with MT-Bench and Chatbot Arena," in *Advances in Neural Information Processing Systems (NeurIPS)*, vol. 36, Datasets and Benchmarks Track, 2023, pp. 46595–46623.
+
+[72] R. Hada, V. Gumma, A. de Wynter, H. Diddee, M. Ahmed, M. Choudhury, K. Bali, and S. Sitaram, "Are large language model-based evaluators the solution to scaling up multilingual evaluation?," in *Findings of the Association for Computational Linguistics: EACL 2024*, St. Julian's, Malta, 2024, doi: 10.18653/v1/2024.findings-eacl.71.
+
+[73] I. Watts, V. Gumma, A. Yadavalli, V. Seshadri, M. Swaminathan, and S. Sitaram, "PARIKSHA: A large-scale investigation of human-LLM evaluator agreement on multilingual and multi-cultural data," in *Proc. 2024 Conf. Empirical Methods in Natural Language Processing (EMNLP)*, Miami, FL, USA, 2024, pp. 7900–7932.
+
+[74] V. Gumma, A. Raghunath, M. Jain, and S. Sitaram, "HEALTH-PARIKSHA: Assessing RAG models for health chatbots in real-world multilingual settings," arXiv:2410.13671, 2024.
+
+[75] N. Thakur, L. Bonifacio, C. Zhang, O. Ogundepo, E. Kamalloo, D. Alfonso-Hermelo, X. Li, Q. Liu, B. Chen, M. Rezagholizadeh, and J. Lin, ""Knowing when you don't know": A multilingual relevance assessment dataset for robust retrieval-augmented generation," in *Findings of the Association for Computational Linguistics: EMNLP 2024*, Miami, FL, USA, 2024, doi: 10.18653/v1/2024.findings-emnlp.730.
+
+[76] N. Chirkova, D. Rau, H. Déjean, T. Formal, S. Clinchant, and V. Nikoulina, "Retrieval-augmented generation in multilingual settings," in *Proc. 1st Workshop on Towards Knowledgeable Language Models (KnowLLM 2024)*, Bangkok, Thailand, 2024, doi: 10.18653/v1/2024.knowllm-1.15.
+
+[77] B. Fetahu, A. Fang, O. Rokhlenko, and S. Malmasi, "Gazetteer enhanced named entity recognition for code-mixed web queries," in *Proc. 44th Int. ACM SIGIR Conf. Research and Development in Information Retrieval (SIGIR '21)*, 2021, pp. 1677–1681, doi: 10.1145/3404835.3463102.
