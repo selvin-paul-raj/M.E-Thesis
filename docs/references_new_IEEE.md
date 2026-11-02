@@ -109,3 +109,38 @@ Continues the report's existing list [1]–[23]. Italics mark the venue. Every e
 [76] N. Chirkova, D. Rau, H. Déjean, T. Formal, S. Clinchant, and V. Nikoulina, "Retrieval-augmented generation in multilingual settings," in *Proc. 1st Workshop on Towards Knowledgeable Language Models (KnowLLM 2024)*, Bangkok, Thailand, 2024, doi: 10.18653/v1/2024.knowllm-1.15.
 
 [77] B. Fetahu, A. Fang, O. Rokhlenko, and S. Malmasi, "Gazetteer enhanced named entity recognition for code-mixed web queries," in *Proc. 44th Int. ACM SIGIR Conf. Research and Development in Information Retrieval (SIGIR '21)*, 2021, pp. 1677–1681, doi: 10.1145/3404835.3463102.
+
+
+## Additions Nov 2, 2026 ([78]–[92])
+
+[78]–[83] were first listed in RESEARCH_MAP.md §7 (verified there) and are copied here so this file holds the full list. [84] was listed there as unverified; it is now verified. [85]–[92] are new. Already present, not re-added: Gupta et al. SIGIR 2014 = [21]; MSIR FIRE-2016 overview = [19]; Chirkova et al. 2024 = [76].
+
+[78] K. Bali, J. Sharma, M. Choudhury, and Y. Vyas, "'I am borrowing ya mixing?' An analysis of English-Hindi code mixing in Facebook," in *Proc. First Workshop on Computational Approaches to Code Switching*, 2014, pp. 116–126, doi: 10.3115/v1/W14-3914.
+
+[79] Y. Vyas, S. Gella, J. Sharma, K. Bali, and M. Choudhury, "POS tagging of English-Hindi code-mixed social media content," in *Proc. 2014 Conf. Empirical Methods in Natural Language Processing (EMNLP)*, 2014, pp. 974–979, doi: 10.3115/v1/D14-1105.
+
+[80] B. G. Patra, D. Das, and A. Das, "Sentiment analysis of code-mixed Indian languages: An overview of SAIL_Code-Mixed shared task @ICON-2017," arXiv:1803.06745, 2018.
+
+[81] B. R. Chakravarthi, R. Priyadharshini, N. Jose, A. Kumar M, T. Mandl, P. K. Kumaresan, R. Ponnusamy, H. R L, J. P. McCrae, and E. Sherly, "Findings of the shared task on offensive language identification in Tamil, Malayalam, and Kannada," in *Proc. First Workshop on Speech and Language Technologies for Dravidian Languages*, 2021, pp. 133–145 (ACL Anthology 2021.dravidianlangtech-1.17).
+
+[82] B. R. Chakravarthi, R. Priyadharshini, V. Muralidaran, N. Jose, S. Suryawanshi, E. Sherly, and J. P. McCrae, "DravidianCodeMix: Sentiment analysis and offensive language identification dataset for Dravidian languages in code-mixed text," *Language Resources and Evaluation*, vol. 56, pp. 765–806, 2022, doi: 10.1007/s10579-022-09583-7.
+
+[83] A. Kallappa *et al.*, "Krutrim LLM: Multilingual foundational model for over a billion people," arXiv:2502.09642, 2025.
+
+[84] D. Thenmozhi and C. Aravindan, "Ontology-based Tamil–English cross-lingual information retrieval system," *Sādhanā*, vol. 43, art. no. 157, 2018, doi: 10.1007/s12046-018-0942-7.
+
+[85] M. Rekha, P. Pragadeeshwaran, S. Surendhar, and B. Udhayachandran, "Government schemes recommendation system API with bilanguage chatbot using RAG vector search," *Int. J. Advanced Research in Science, Communication and Technology (IJARSCT)*, vol. 6, no. 9, Apr. 2026, doi: 10.48175/IJARSCT-33228.
+
+[86] Vishnu N, "Morgan-Tanglish-v7: Sentence embeddings for romanised Tamil-English code-mixed text," Zenodo preprint, Jun. 2026, doi: 10.5281/zenodo.20792177. Model: huggingface.co/vishnu-n/Morgan-Tanglish-v7 (Apache-2.0).
+
+[87] Vishnu N, "TanglishSTS: A human-annotated semantic textual similarity benchmark for romanised Tamil-English," Hugging Face Datasets, 2026, CC BY 4.0. [Online]. Available: https://huggingface.co/datasets/vishnu-n/TanglishSTS
+
+[88] V. Vijesh and E. Gothai, "TanglishGuard: Benchmarking AI safety guardrails on Tamil-English code-mixed prompts," *Int. J. Innovative Science and Research Technology (IJISRT)*, vol. 11, no. 7, Jul. 2026, doi: 10.38124/ijisrt/26jul962.
+
+[89] L. Ranaldi, B. Haddow, and A. Birch, "Multilingual retrieval-augmented generation for knowledge-intensive question answering task," in *Findings of the Association for Computational Linguistics: EACL 2026*, Rabat, Morocco, 2026, pp. 697–716, doi: 10.18653/v1/2026.findings-eacl.35. (Preprint: arXiv:2504.03616.)
+
+[90] J. Park and H. Lee, "Investigating language preference of multilingual RAG systems," in *Findings of the Association for Computational Linguistics: ACL 2025*, Vienna, Austria, 2025, pp. 5647–5675, doi: 10.18653/v1/2025.findings-acl.295.
+
+[91] C. Amiraz, Y. Fyodorov, E. Haramaty, Z. Karnin, and L. Lewin-Eytan, "The cross-lingual cost: Retrieval biases in RAG over Arabic-English corpora," in *Proc. Third Arabic Natural Language Processing Conf. (ArabicNLP 2025)*, 2025, pp. 69–83, doi: 10.18653/v1/2025.arabicnlp-main.6.
+
+[92] M. Hira, J. Mire, and M. Sap, "The language of evidence: Robustness and bias in code-switched RAG," in *Proc. 2026 Conf. Empirical Methods in Natural Language Processing (EMNLP)*, 2026, pp. 41664–41685. [Online]. Available: https://aclanthology.org/2026.emnlp-main.1830
