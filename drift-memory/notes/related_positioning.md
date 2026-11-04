@@ -1,0 +1,3 @@
+# Positioning for paper v5 (verified abstracts, 2026-11-04)
+- 2605.12978 Zhang et al. "Useful Memories Become Faulty When Continuously Updated by LLMs": consolidated memory utility rises then degrades, can fall below no-memory; episodic-only control competitive; recommend gating consolidation. -> Ours: in conversational memory, degradation is NOT gradual; it is rare abrupt collapse events (>=50% shrink) that never recover; a length-triggered gate (retry) recovers them.
+- 2608.22752 Zerhoudi et al. "The Compaction Cliff" (CIKM 2026): safety rules preserved 53% after 1 /compact round, 10% after 5; Knowledge Triage type-aware compaction. -> Ours: QA facts in personal memory, per-rewrite collapse rate (4.6%), detection by word-count signal, no type classifier.
