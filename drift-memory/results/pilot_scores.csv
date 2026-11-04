@@ -1,0 +1,181 @@
+conv,cond,k,category,age,question,gold,pred,correct,mem_words
+conv-26,k=0,0,1,10,What events has Caroline participated in to help children?,"Mentoring program, school speech","adoption agency interviews, adoption council meeting, LGBTQ support group, LGBTQ youth center volunteer, talent show",0,1254
+conv-26,k=0,0,2,11,When did Melanie go to the pottery workshop?,The Friday before 15 July 2023,5 July 2023,0,1254
+conv-26,k=0,0,3,12,Would Caroline pursue writing as a career option?,"LIkely no; though she likes reading, she wants to be a counselor",unknown,0,1254
+conv-26,k=0,0,4,11,What creative project do Mel and her kids do together besides pottery?,painting,painting nature scenes,1,1254
+conv-26,k=0,0,1,10,What activities has Melanie done with her family?,"Pottery, painting, camping, museum, swimming, hiking","hiking, camping, forest trips, beach trips, museum visit, pottery workshop, music concerts",0,1254
+conv-26,k=0,0,2,11,When did Caroline go to the adoption meeting?,The friday before 15 July 2023,15 July 2023,0,1254
+conv-26,k=0,0,3,5,Would Caroline be considered religious?,"Somewhat, but not extremely religious",unknown,0,1254
+conv-26,k=0,0,4,6,What activity did Caroline used to do with her dad?,Horseback riding,unknown,0,1254
+conv-26,k=0,0,1,12,What books has Melanie read?,"""Nothing is Impossible"", ""Charlotte's Web""",“Charlotte’s Web”,0,1254
+conv-26,k=0,0,2,14,When did Melanie sign up for a pottery class?,2 July 2023,2 July 2023,1,1254
+conv-26,k=1,1,1,10,What events has Caroline participated in to help children?,"Mentoring program, school speech","adoption council meeting, adoption interviews",0,668
+conv-26,k=1,1,2,11,When did Melanie go to the pottery workshop?,The Friday before 15 July 2023,13 July 2023,0,668
+conv-26,k=1,1,3,12,Would Caroline pursue writing as a career option?,"LIkely no; though she likes reading, she wants to be a counselor",unknown,0,668
+conv-26,k=1,1,4,11,What creative project do Mel and her kids do together besides pottery?,painting,painting nature scenes,1,668
+conv-26,k=1,1,1,10,What activities has Melanie done with her family?,"Pottery, painting, camping, museum, swimming, hiking","hiking, camping, beach outings, museum visit, pottery workshop",0,668
+conv-26,k=1,1,2,11,When did Caroline go to the adoption meeting?,The friday before 15 July 2023,15 July 2023,0,668
+conv-26,k=1,1,3,5,Would Caroline be considered religious?,"Somewhat, but not extremely religious",unknown,0,668
+conv-26,k=1,1,4,6,What activity did Caroline used to do with her dad?,Horseback riding,unknown,0,668
+conv-26,k=1,1,1,12,What books has Melanie read?,"""Nothing is Impossible"", ""Charlotte's Web""",unknown,0,668
+conv-26,k=1,1,2,14,When did Melanie sign up for a pottery class?,2 July 2023,2 July 2023,1,668
+conv-26,k=2,2,1,10,What events has Caroline participated in to help children?,"Mentoring program, school speech","adoption council meeting, adoption interviews",0,666
+conv-26,k=2,2,2,11,When did Melanie go to the pottery workshop?,The Friday before 15 July 2023,13 July 2023,1,666
+conv-26,k=2,2,3,12,Would Caroline pursue writing as a career option?,"LIkely no; though she likes reading, she wants to be a counselor",unknown,0,666
+conv-26,k=2,2,4,11,What creative project do Mel and her kids do together besides pottery?,painting,painting nature scenes,1,666
+conv-26,k=2,2,1,10,What activities has Melanie done with her family?,"Pottery, painting, camping, museum, swimming, hiking","hiking, camping, beach outings, museum visits",0,666
+conv-26,k=2,2,2,11,When did Caroline go to the adoption meeting?,The friday before 15 July 2023,15 July 2023,0,666
+conv-26,k=2,2,3,5,Would Caroline be considered religious?,"Somewhat, but not extremely religious",unknown,0,666
+conv-26,k=2,2,4,6,What activity did Caroline used to do with her dad?,Horseback riding,unknown,0,666
+conv-26,k=2,2,1,12,What books has Melanie read?,"""Nothing is Impossible"", ""Charlotte's Web""",unknown,0,666
+conv-26,k=2,2,2,14,When did Melanie sign up for a pottery class?,2 July 2023,2 July 2023,1,666
+conv-26,k=4,4,1,10,What events has Caroline participated in to help children?,"Mentoring program, school speech","adoption council meeting, adoption interviews",0,666
+conv-26,k=4,4,2,11,When did Melanie go to the pottery workshop?,The Friday before 15 July 2023,13 July 2023,1,666
+conv-26,k=4,4,3,12,Would Caroline pursue writing as a career option?,"LIkely no; though she likes reading, she wants to be a counselor",unknown,0,666
+conv-26,k=4,4,4,11,What creative project do Mel and her kids do together besides pottery?,painting,painting nature scenes,1,666
+conv-26,k=4,4,1,10,What activities has Melanie done with her family?,"Pottery, painting, camping, museum, swimming, hiking","hiking, camping, beach outings, museum visits",0,666
+conv-26,k=4,4,2,11,When did Caroline go to the adoption meeting?,The friday before 15 July 2023,15 July 2023,0,666
+conv-26,k=4,4,3,5,Would Caroline be considered religious?,"Somewhat, but not extremely religious",unknown,0,666
+conv-26,k=4,4,4,6,What activity did Caroline used to do with her dad?,Horseback riding,unknown,0,666
+conv-26,k=4,4,1,12,What books has Melanie read?,"""Nothing is Impossible"", ""Charlotte's Web""",unknown,0,666
+conv-26,k=4,4,2,14,When did Melanie sign up for a pottery class?,2 July 2023,2 July 2023,1,666
+conv-26,k=8,8,1,10,What events has Caroline participated in to help children?,"Mentoring program, school speech","adoption council meeting, adoption interviews",0,666
+conv-26,k=8,8,2,11,When did Melanie go to the pottery workshop?,The Friday before 15 July 2023,13 July 2023,1,666
+conv-26,k=8,8,3,12,Would Caroline pursue writing as a career option?,"LIkely no; though she likes reading, she wants to be a counselor",unknown,0,666
+conv-26,k=8,8,4,11,What creative project do Mel and her kids do together besides pottery?,painting,painting nature scenes,1,666
+conv-26,k=8,8,1,10,What activities has Melanie done with her family?,"Pottery, painting, camping, museum, swimming, hiking","hiking, camping, beach outings, museum visits",0,666
+conv-26,k=8,8,2,11,When did Caroline go to the adoption meeting?,The friday before 15 July 2023,15 July 2023,0,666
+conv-26,k=8,8,3,5,Would Caroline be considered religious?,"Somewhat, but not extremely religious",unknown,0,666
+conv-26,k=8,8,4,6,What activity did Caroline used to do with her dad?,Horseback riding,unknown,0,666
+conv-26,k=8,8,1,12,What books has Melanie read?,"""Nothing is Impossible"", ""Charlotte's Web""",unknown,0,666
+conv-26,k=8,8,2,14,When did Melanie sign up for a pottery class?,2 July 2023,2 July 2023,1,666
+conv-26,bm25_raw,-1,1,10,What events has Caroline participated in to help children?,"Mentoring program, school speech",council meeting for adoption,0,
+conv-26,bm25_raw,-1,2,11,When did Melanie go to the pottery workshop?,The Friday before 15 July 2023,13 July 2023,0,
+conv-26,bm25_raw,-1,3,12,Would Caroline pursue writing as a career option?,"LIkely no; though she likes reading, she wants to be a counselor",unknown,0,
+conv-26,bm25_raw,-1,4,11,What creative project do Mel and her kids do together besides pottery?,painting,unknown,0,
+conv-26,bm25_raw,-1,1,10,What activities has Melanie done with her family?,"Pottery, painting, camping, museum, swimming, hiking",unknown,0,
+conv-26,bm25_raw,-1,2,11,When did Caroline go to the adoption meeting?,The friday before 15 July 2023,15 July 2023,0,
+conv-26,bm25_raw,-1,3,5,Would Caroline be considered religious?,"Somewhat, but not extremely religious",unknown,0,
+conv-26,bm25_raw,-1,4,6,What activity did Caroline used to do with her dad?,Horseback riding,horseback riding,1,
+conv-26,bm25_raw,-1,1,12,What books has Melanie read?,"""Nothing is Impossible"", ""Charlotte's Web""",unknown,0,
+conv-26,bm25_raw,-1,2,14,When did Melanie sign up for a pottery class?,2 July 2023,2 July 2023,1,
+conv-30,k=0,0,1,13,Why did Gina decide to start her own clothing store?,She always loved fashion trends and finding unique pieces and she lost her job so decided it was time to start her own business.,after losing her DoorDash job,0,827
+conv-30,k=0,0,2,8,When did Gina interview for a design internship?,"10 May, 2023",10 May 2023,1,827
+conv-30,k=0,0,4,12,What advice does Gina give to Jon about running a successful business?,"build relationships with customers, create a strong brand image, stay positive","networking, sourcing trendy pieces, using Instagram/TikTok for marketing",0,827
+conv-30,k=0,0,1,13,Do Jon and Gina start businesses out of what they love?,Yes,yes,1,827
+conv-30,k=0,0,2,13,When did Jon start to go to the gym?,"March, 2023",early March 2023,1,827
+conv-30,k=0,0,4,6,What is Jon offering to the dancers at his dance studio?,One-on-one mentoring and training,"classes, workshops, one‑on‑one mentoring, training",1,827
+conv-30,k=0,0,1,17,What Jon thinks the ideal dance studio should look like?,"By the water, with natural light and Marley flooring",downtown studio with natural light and Marley flooring,0,827
+conv-30,k=0,0,2,11,When did Jon host a dance competition?,"May, 2023",3 May 2023,1,827
+conv-30,k=0,0,4,14,What does Gina's tattoo symbolize?,Freedom and expressing herself through dance,freedom and following passions,0,827
+conv-30,k=0,0,1,5,Did Jon and Gina both participate in dance competitions?,Yes,yes,1,827
+conv-30,k=1,1,1,13,Why did Gina decide to start her own clothing store?,She always loved fashion trends and finding unique pieces and she lost her job so decided it was time to start her own business.,unknown,0,415
+conv-30,k=1,1,2,8,When did Gina interview for a design internship?,"10 May, 2023",10 May 2023,1,415
+conv-30,k=1,1,4,12,What advice does Gina give to Jon about running a successful business?,"build relationships with customers, create a strong brand image, stay positive",use Instagram/TikTok for marketing; help with content creation and social media management,0,415
+conv-30,k=1,1,1,13,Do Jon and Gina start businesses out of what they love?,Yes,yes,1,415
+conv-30,k=1,1,2,13,When did Jon start to go to the gym?,"March, 2023",early March 2023,1,415
+conv-30,k=1,1,4,6,What is Jon offering to the dancers at his dance studio?,One-on-one mentoring and training,"classes, workshops, one‑on‑one mentoring, and a competition",0,415
+conv-30,k=1,1,1,17,What Jon thinks the ideal dance studio should look like?,"By the water, with natural light and Marley flooring",downtown studio with natural light and Marley flooring,0,415
+conv-30,k=1,1,2,11,When did Jon host a dance competition?,"May, 2023",3 May 2023,1,415
+conv-30,k=1,1,4,14,What does Gina's tattoo symbolize?,Freedom and expressing herself through dance,freedom and following passions,0,415
+conv-30,k=1,1,1,5,Did Jon and Gina both participate in dance competitions?,Yes,yes,1,415
+conv-30,k=2,2,1,13,Why did Gina decide to start her own clothing store?,She always loved fashion trends and finding unique pieces and she lost her job so decided it was time to start her own business.,unknown,0,409
+conv-30,k=2,2,2,8,When did Gina interview for a design internship?,"10 May, 2023",10 May 2023,1,409
+conv-30,k=2,2,4,12,What advice does Gina give to Jon about running a successful business?,"build relationships with customers, create a strong brand image, stay positive","networking, sourcing trendy pieces, using Instagram/TikTok for marketing",0,409
+conv-30,k=2,2,1,13,Do Jon and Gina start businesses out of what they love?,Yes,yes,1,409
+conv-30,k=2,2,2,13,When did Jon start to go to the gym?,"March, 2023",early March 2023,1,409
+conv-30,k=2,2,4,6,What is Jon offering to the dancers at his dance studio?,One-on-one mentoring and training,"classes, workshops, one‑on‑one mentoring",0,409
+conv-30,k=2,2,1,17,What Jon thinks the ideal dance studio should look like?,"By the water, with natural light and Marley flooring",downtown studio with natural light and Marley flooring,0,409
+conv-30,k=2,2,2,11,When did Jon host a dance competition?,"May, 2023",3 May 2023,1,409
+conv-30,k=2,2,4,14,What does Gina's tattoo symbolize?,Freedom and expressing herself through dance,freedom and following passions,0,409
+conv-30,k=2,2,1,5,Did Jon and Gina both participate in dance competitions?,Yes,yes,1,409
+conv-30,k=4,4,1,13,Why did Gina decide to start her own clothing store?,She always loved fashion trends and finding unique pieces and she lost her job so decided it was time to start her own business.,unknown,0,409
+conv-30,k=4,4,2,8,When did Gina interview for a design internship?,"10 May, 2023",10 May 2023,1,409
+conv-30,k=4,4,4,12,What advice does Gina give to Jon about running a successful business?,"build relationships with customers, create a strong brand image, stay positive","networking, sourcing trendy pieces, using Instagram/TikTok for marketing",0,409
+conv-30,k=4,4,1,13,Do Jon and Gina start businesses out of what they love?,Yes,yes,1,409
+conv-30,k=4,4,2,13,When did Jon start to go to the gym?,"March, 2023",early March 2023,1,409
+conv-30,k=4,4,4,6,What is Jon offering to the dancers at his dance studio?,One-on-one mentoring and training,"classes, workshops, one‑on‑one mentoring",0,409
+conv-30,k=4,4,1,17,What Jon thinks the ideal dance studio should look like?,"By the water, with natural light and Marley flooring",downtown studio with natural light and Marley flooring,0,409
+conv-30,k=4,4,2,11,When did Jon host a dance competition?,"May, 2023",3 May 2023,1,409
+conv-30,k=4,4,4,14,What does Gina's tattoo symbolize?,Freedom and expressing herself through dance,freedom and following passions,0,409
+conv-30,k=4,4,1,5,Did Jon and Gina both participate in dance competitions?,Yes,yes,1,409
+conv-30,k=8,8,1,13,Why did Gina decide to start her own clothing store?,She always loved fashion trends and finding unique pieces and she lost her job so decided it was time to start her own business.,unknown,0,409
+conv-30,k=8,8,2,8,When did Gina interview for a design internship?,"10 May, 2023",10 May 2023,1,409
+conv-30,k=8,8,4,12,What advice does Gina give to Jon about running a successful business?,"build relationships with customers, create a strong brand image, stay positive","networking, sourcing trendy pieces, using Instagram/TikTok for marketing",0,409
+conv-30,k=8,8,1,13,Do Jon and Gina start businesses out of what they love?,Yes,yes,1,409
+conv-30,k=8,8,2,13,When did Jon start to go to the gym?,"March, 2023",early March 2023,1,409
+conv-30,k=8,8,4,6,What is Jon offering to the dancers at his dance studio?,One-on-one mentoring and training,"classes, workshops, one‑on‑one mentoring",0,409
+conv-30,k=8,8,1,17,What Jon thinks the ideal dance studio should look like?,"By the water, with natural light and Marley flooring",downtown studio with natural light and Marley flooring,0,409
+conv-30,k=8,8,2,11,When did Jon host a dance competition?,"May, 2023",3 May 2023,1,409
+conv-30,k=8,8,4,14,What does Gina's tattoo symbolize?,Freedom and expressing herself through dance,freedom and following passions,0,409
+conv-30,k=8,8,1,5,Did Jon and Gina both participate in dance competitions?,Yes,yes,1,409
+conv-30,bm25_raw,-1,1,13,Why did Gina decide to start her own clothing store?,She always loved fashion trends and finding unique pieces and she lost her job so decided it was time to start her own business.,lost her job,0,
+conv-30,bm25_raw,-1,2,8,When did Gina interview for a design internship?,"10 May, 2023",10 May 2023,1,
+conv-30,bm25_raw,-1,4,12,What advice does Gina give to Jon about running a successful business?,"build relationships with customers, create a strong brand image, stay positive","Keep up with fashion trends, build relationships, create a strong brand image",0,
+conv-30,bm25_raw,-1,1,13,Do Jon and Gina start businesses out of what they love?,Yes,yes,1,
+conv-30,bm25_raw,-1,2,13,When did Jon start to go to the gym?,"March, 2023",9 March 2023,1,
+conv-30,bm25_raw,-1,4,6,What is Jon offering to the dancers at his dance studio?,One-on-one mentoring and training,one‑on‑one mentoring and training,1,
+conv-30,bm25_raw,-1,1,17,What Jon thinks the ideal dance studio should look like?,"By the water, with natural light and Marley flooring",great natural light,0,
+conv-30,bm25_raw,-1,2,11,When did Jon host a dance competition?,"May, 2023",May 2023,1,
+conv-30,bm25_raw,-1,4,14,What does Gina's tattoo symbolize?,Freedom and expressing herself through dance,freedom,0,
+conv-30,bm25_raw,-1,1,5,Did Jon and Gina both participate in dance competitions?,Yes,unknown,0,
+conv-49,k=0,0,1,20,What motivates Evan to take care of his health?,"family, fitness tracker, thirst for adventure on interesting hikes",unknown,0,1307
+conv-49,k=0,0,2,17,When did Evan go skiing in Banff?,July 2023,August 2023,0,1307
+conv-49,k=0,0,3,16,How might Evan and Sam's experiences with health and lifestyle changes influence their approach to stress and challenges?,"Their experiences likely lead them to view challenges as opportunities for growth and change. They both have embraced healthier lifestyles, indicating a proactive approach to managing stress and challenges.",unknown,0,1307
+conv-49,k=0,0,4,15,What did Evan suggest Sam try as a calming hobby?,Painting,painting,1,1307
+conv-49,k=0,0,1,23,Where has Evan been on roadtrips with his family?,"Rockies, Jasper",Rockies,0,1307
+conv-49,k=0,0,2,15,When did Evan and Sam decide to paint together?,"Saturday after 11 September, 2023.",13 August 2023,0,1307
+conv-49,k=0,0,3,11,"What challenges does Sam face in his quest for a healthier lifestyle, and how does he address them?",Sam faces challenges like maintaining motivation and making dietary changes. He addresses them by enrolling in cooking classes and seeking support from friends like Evan.,"weight issues, unhealthy snacks, gastritis; he addresses them with diet, exercise, Weight Watchers coaching",0,1307
+conv-49,k=0,0,4,6,What is the motto of Evan's family?,'Bring it on Home',unknown,0,1307
+conv-49,k=0,0,1,8,What health scares did Sam and Evan experience?,"Sam faced a health scare with stomach pains that turned out to be gastritis, prompting him to rethink his health habits. Evan, on the other hand, experienced two separate incidents: a sudden heart palpitation incident and a different event involving a misunderstanding during a medical check-up. These experiences have significantly influenced their perspectives on health and well-being.","Evan’s heart palpitation (30 May 2023), Sam’s gastritis (weekend before 17 Oct 2023)",0,1307
+conv-49,k=0,0,2,17,Which classes did Evan join in mid-August 2023?,painting classes,painting classes,1,1307
+conv-49,k=1,1,1,20,What motivates Evan to take care of his health?,"family, fitness tracker, thirst for adventure on interesting hikes","health scares, weight concerns, family pressure",0,968
+conv-49,k=1,1,2,17,When did Evan go skiing in Banff?,July 2023,August 2023,0,968
+conv-49,k=1,1,3,16,How might Evan and Sam's experiences with health and lifestyle changes influence their approach to stress and challenges?,"Their experiences likely lead them to view challenges as opportunities for growth and change. They both have embraced healthier lifestyles, indicating a proactive approach to managing stress and challenges.","they use art, exercise, and nature to reduce stress",0,968
+conv-49,k=1,1,4,15,What did Evan suggest Sam try as a calming hobby?,Painting,painting watercolors,1,968
+conv-49,k=1,1,1,23,Where has Evan been on roadtrips with his family?,"Rockies, Jasper",Rocky Mountains,0,968
+conv-49,k=1,1,2,15,When did Evan and Sam decide to paint together?,"Saturday after 11 September, 2023.",13 Aug 2023,0,968
+conv-49,k=1,1,3,11,"What challenges does Sam face in his quest for a healthier lifestyle, and how does he address them?",Sam faces challenges like maintaining motivation and making dietary changes. He addresses them by enrolling in cooking classes and seeking support from friends like Evan.,"weight, cravings, unhealthy snacks; he uses coaching, diet, training",0,968
+conv-49,k=1,1,4,6,What is the motto of Evan's family?,'Bring it on Home',unknown,0,968
+conv-49,k=1,1,1,8,What health scares did Sam and Evan experience?,"Sam faced a health scare with stomach pains that turned out to be gastritis, prompting him to rethink his health habits. Evan, on the other hand, experienced two separate incidents: a sudden heart palpitation incident and a different event involving a misunderstanding during a medical check-up. These experiences have significantly influenced their perspectives on health and well-being.","Evan: heart palpitation (30 May 2023), knee twist (25 Aug 2023), hospital visit (before 21 Nov 2023); Sam: gastritis (before 17 Oct 2023)",0,968
+conv-49,k=1,1,2,17,Which classes did Evan join in mid-August 2023?,painting classes,"painting classes (watercolors, landscapes)",1,968
+conv-49,k=2,2,1,20,What motivates Evan to take care of his health?,"family, fitness tracker, thirst for adventure on interesting hikes","health scares, family pressure, weight concerns",0,940
+conv-49,k=2,2,2,17,When did Evan go skiing in Banff?,July 2023,August 2023,0,940
+conv-49,k=2,2,3,16,How might Evan and Sam's experiences with health and lifestyle changes influence their approach to stress and challenges?,"Their experiences likely lead them to view challenges as opportunities for growth and change. They both have embraced healthier lifestyles, indicating a proactive approach to managing stress and challenges.","use art, exercise, nutrition, support",0,940
+conv-49,k=2,2,4,15,What did Evan suggest Sam try as a calming hobby?,Painting,painting watercolors,1,940
+conv-49,k=2,2,1,23,Where has Evan been on roadtrips with his family?,"Rockies, Jasper","Rockies, Banff, lake with trails",0,940
+conv-49,k=2,2,2,15,When did Evan and Sam decide to paint together?,"Saturday after 11 September, 2023.",16 Sep 2023,1,940
+conv-49,k=2,2,3,11,"What challenges does Sam face in his quest for a healthier lifestyle, and how does he address them?",Sam faces challenges like maintaining motivation and making dietary changes. He addresses them by enrolling in cooking classes and seeking support from friends like Evan.,"weight, cravings, snacking; uses coaching, diet, training",0,940
+conv-49,k=2,2,4,6,What is the motto of Evan's family?,'Bring it on Home',unknown,0,940
+conv-49,k=2,2,1,8,What health scares did Sam and Evan experience?,"Sam faced a health scare with stomach pains that turned out to be gastritis, prompting him to rethink his health habits. Evan, on the other hand, experienced two separate incidents: a sudden heart palpitation incident and a different event involving a misunderstanding during a medical check-up. These experiences have significantly influenced their perspectives on health and well-being.","Evan: heart palpitation, knee twist, hospital visit; Sam: gastritis, ER visit",0,940
+conv-49,k=2,2,2,17,Which classes did Evan join in mid-August 2023?,painting classes,"painting classes (watercolors, landscapes)",1,940
+conv-49,k=4,4,1,20,What motivates Evan to take care of his health?,"family, fitness tracker, thirst for adventure on interesting hikes","health scares, family pressure, weight concerns",0,930
+conv-49,k=4,4,2,17,When did Evan go skiing in Banff?,July 2023,August 2023,0,930
+conv-49,k=4,4,3,16,How might Evan and Sam's experiences with health and lifestyle changes influence their approach to stress and challenges?,"Their experiences likely lead them to view challenges as opportunities for growth and change. They both have embraced healthier lifestyles, indicating a proactive approach to managing stress and challenges.","they use art, exercise, and nature to reduce stress",0,930
+conv-49,k=4,4,4,15,What did Evan suggest Sam try as a calming hobby?,Painting,painting watercolors,1,930
+conv-49,k=4,4,1,23,Where has Evan been on roadtrips with his family?,"Rockies, Jasper","Rockies, Banff, lake with trails",0,930
+conv-49,k=4,4,2,15,When did Evan and Sam decide to paint together?,"Saturday after 11 September, 2023.",16 Sep 2023,1,930
+conv-49,k=4,4,3,11,"What challenges does Sam face in his quest for a healthier lifestyle, and how does he address them?",Sam faces challenges like maintaining motivation and making dietary changes. He addresses them by enrolling in cooking classes and seeking support from friends like Evan.,"weight, cravings, unhealthy snacks; he uses diet plans, coaching, and training",0,930
+conv-49,k=4,4,4,6,What is the motto of Evan's family?,'Bring it on Home',unknown,0,930
+conv-49,k=4,4,1,8,What health scares did Sam and Evan experience?,"Sam faced a health scare with stomach pains that turned out to be gastritis, prompting him to rethink his health habits. Evan, on the other hand, experienced two separate incidents: a sudden heart palpitation incident and a different event involving a misunderstanding during a medical check-up. These experiences have significantly influenced their perspectives on health and well-being.","Evan’s heart palpitation (30 May 2023), knee twist (25 Aug 2023), son’s ankle injury (10 Aug 2023), son’s bike accident (3 Dec 2023), Sam’s gastritis (before 17 Oct 2023), Sam’s ER visit for stomachache",0,930
+conv-49,k=4,4,2,17,Which classes did Evan join in mid-August 2023?,painting classes,"painting classes (watercolors, landscapes)",1,930
+conv-49,k=8,8,1,20,What motivates Evan to take care of his health?,"family, fitness tracker, thirst for adventure on interesting hikes","health scares, family pressure, weight concerns",0,930
+conv-49,k=8,8,2,17,When did Evan go skiing in Banff?,July 2023,August 2023,0,930
+conv-49,k=8,8,3,16,How might Evan and Sam's experiences with health and lifestyle changes influence their approach to stress and challenges?,"Their experiences likely lead them to view challenges as opportunities for growth and change. They both have embraced healthier lifestyles, indicating a proactive approach to managing stress and challenges.","they use art, exercise, and nature to reduce stress",0,930
+conv-49,k=8,8,4,15,What did Evan suggest Sam try as a calming hobby?,Painting,painting watercolors,1,930
+conv-49,k=8,8,1,23,Where has Evan been on roadtrips with his family?,"Rockies, Jasper","Rockies, Banff, lake with trails",0,930
+conv-49,k=8,8,2,15,When did Evan and Sam decide to paint together?,"Saturday after 11 September, 2023.",16 Sep 2023,1,930
+conv-49,k=8,8,3,11,"What challenges does Sam face in his quest for a healthier lifestyle, and how does he address them?",Sam faces challenges like maintaining motivation and making dietary changes. He addresses them by enrolling in cooking classes and seeking support from friends like Evan.,"weight, cravings, unhealthy snacks; he uses diet plans, coaching, and training",0,930
+conv-49,k=8,8,4,6,What is the motto of Evan's family?,'Bring it on Home',unknown,0,930
+conv-49,k=8,8,1,8,What health scares did Sam and Evan experience?,"Sam faced a health scare with stomach pains that turned out to be gastritis, prompting him to rethink his health habits. Evan, on the other hand, experienced two separate incidents: a sudden heart palpitation incident and a different event involving a misunderstanding during a medical check-up. These experiences have significantly influenced their perspectives on health and well-being.","Evan’s heart palpitation (30 May 2023), knee twist (25 Aug 2023), son’s ankle injury (10 Aug 2023), son’s bike accident (3 Dec 2023), Sam’s gastritis (before 17 Oct 2023), Sam’s ER visit for stomachache",0,930
+conv-49,k=8,8,2,17,Which classes did Evan join in mid-August 2023?,painting classes,"painting classes (watercolors, landscapes)",1,930
+conv-49,bm25_raw,-1,1,20,What motivates Evan to take care of his health?,"family, fitness tracker, thirst for adventure on interesting hikes",strength and resilience symbol,0,
+conv-49,bm25_raw,-1,2,17,When did Evan go skiing in Banff?,July 2023,19 August 2023,0,
+conv-49,bm25_raw,-1,3,16,How might Evan and Sam's experiences with health and lifestyle changes influence their approach to stress and challenges?,"Their experiences likely lead them to view challenges as opportunities for growth and change. They both have embraced healthier lifestyles, indicating a proactive approach to managing stress and challenges.",unknown,0,
+conv-49,bm25_raw,-1,4,15,What did Evan suggest Sam try as a calming hobby?,Painting,painting,1,
+conv-49,bm25_raw,-1,1,23,Where has Evan been on roadtrips with his family?,"Rockies, Jasper","Jasper, Banff",0,
+conv-49,bm25_raw,-1,2,15,When did Evan and Sam decide to paint together?,"Saturday after 11 September, 2023.",11 September 2023,0,
+conv-49,bm25_raw,-1,3,11,"What challenges does Sam face in his quest for a healthier lifestyle, and how does he address them?",Sam faces challenges like maintaining motivation and making dietary changes. He addresses them by enrolling in cooking classes and seeking support from friends like Evan.,unknown,0,
+conv-49,bm25_raw,-1,4,6,What is the motto of Evan's family?,'Bring it on Home',Bring it on Home,1,
+conv-49,bm25_raw,-1,1,8,What health scares did Sam and Evan experience?,"Sam faced a health scare with stomach pains that turned out to be gastritis, prompting him to rethink his health habits. Evan, on the other hand, experienced two separate incidents: a sudden heart palpitation incident and a different event involving a misunderstanding during a medical check-up. These experiences have significantly influenced their perspectives on health and well-being.",unknown,0,
+conv-49,bm25_raw,-1,2,17,Which classes did Evan join in mid-August 2023?,painting classes,painting classes (watercolor),1,
