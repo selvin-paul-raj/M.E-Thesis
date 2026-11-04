@@ -1,0 +1,2351 @@
+persona,cond,task,qid,type,correct,pred,mem_words
+software_engineer,k=0,remembering,activity_todos_163,memory_presence,1,Optimize database queries at work; Schedule car maintenance.,1229
+software_engineer,k=0,remembering,activity_todos_163,memory_presence,1,Optimize database queries at work; Schedule car maintenance.,1229
+software_engineer,k=0,remembering,activity_todos_163,forgetting_absence,1,Optimize database queries at work; Schedule car maintenance.,1229
+software_engineer,k=0,remembering,activity_todos_163,forgetting_absence,1,Optimize database queries at work; Schedule car maintenance.,1229
+software_engineer,k=0,remembering,activity_todos_163,forgetting_absence,1,Optimize database queries at work; Schedule car maintenance.,1229
+software_engineer,k=0,remembering,activity_todos_163,forgetting_absence,1,Optimize database queries at work; Schedule car maintenance.,1229
+software_engineer,k=0,remembering,activity_todos_163,forgetting_absence,1,Optimize database queries at work; Schedule car maintenance.,1229
+software_engineer,k=0,remembering,activity_todos_163,forgetting_absence,1,Optimize database queries at work; Schedule car maintenance.,1229
+software_engineer,k=0,remembering,activity_todos_163,forgetting_absence,1,Optimize database queries at work; Schedule car maintenance.,1229
+software_engineer,k=0,remembering,activity_todos_163,forgetting_absence,1,Optimize database queries at work; Schedule car maintenance.,1229
+software_engineer,k=0,remembering,activity_todos_163,forgetting_absence,1,Optimize database queries at work; Schedule car maintenance.,1229
+software_engineer,k=0,remembering,activity_todos_163,forgetting_absence,1,Optimize database queries at work; Schedule car maintenance.,1229
+software_engineer,k=0,remembering,activity_calendar_163,memory_presence,1,Mechanic visit on 2025-06-10 at 10 AM.,1229
+software_engineer,k=0,remembering,activity_calendar_163,forgetting_absence,1,Mechanic visit on 2025-06-10 at 10 AM.,1229
+software_engineer,k=0,remembering,content_project_proposal_163_project_proposal_1,memory_presence,1,"Title: Real-Time Order Orchestration Engine with Intelligent Routing
+Budget: $575,000
+Timeline: 14 months
+Lead: Priya Nambiar (Principal Software Engineer)
+Note: The objective to enable real-time driver assignment with machine learning-based predictions has been removed from the proposal.",1229
+software_engineer,k=0,remembering,content_project_proposal_163_project_proposal_1,memory_presence,0,"Title: Real-Time Order Orchestration Engine with Intelligent Routing
+Budget: $575,000
+Timeline: 14 months
+Lead: Priya Nambiar (Principal Software Engineer)
+Note: The objective to enable real-time driver assignment with machine learning-based predictions has been removed from the proposal.",1229
+software_engineer,k=0,remembering,content_project_proposal_163_project_proposal_1,memory_presence,1,"Title: Real-Time Order Orchestration Engine with Intelligent Routing
+Budget: $575,000
+Timeline: 14 months
+Lead: Priya Nambiar (Principal Software Engineer)
+Note: The objective to enable real-time driver assignment with machine learning-based predictions has been removed from the proposal.",1229
+software_engineer,k=0,remembering,content_project_proposal_163_project_proposal_1,memory_presence,1,"Title: Real-Time Order Orchestration Engine with Intelligent Routing
+Budget: $575,000
+Timeline: 14 months
+Lead: Priya Nambiar (Principal Software Engineer)
+Note: The objective to enable real-time driver assignment with machine learning-based predictions has been removed from the proposal.",1229
+software_engineer,k=0,remembering,content_project_proposal_163_project_proposal_1,memory_presence,1,"Title: Real-Time Order Orchestration Engine with Intelligent Routing
+Budget: $575,000
+Timeline: 14 months
+Lead: Priya Nambiar (Principal Software Engineer)
+Note: The objective to enable real-time driver assignment with machine learning-based predictions has been removed from the proposal.",1229
+software_engineer,k=0,remembering,content_project_proposal_163_project_proposal_1,memory_presence,0,"Title: Real-Time Order Orchestration Engine with Intelligent Routing
+Budget: $575,000
+Timeline: 14 months
+Lead: Priya Nambiar (Principal Software Engineer)
+Note: The objective to enable real-time driver assignment with machine learning-based predictions has been removed from the proposal.",1229
+software_engineer,k=0,remembering,content_project_proposal_163_project_proposal_1,memory_presence,0,"Title: Real-Time Order Orchestration Engine with Intelligent Routing
+Budget: $575,000
+Timeline: 14 months
+Lead: Priya Nambiar (Principal Software Engineer)
+Note: The objective to enable real-time driver assignment with machine learning-based predictions has been removed from the proposal.",1229
+software_engineer,k=0,remembering,content_project_proposal_163_project_proposal_1,memory_presence,0,"Title: Real-Time Order Orchestration Engine with Intelligent Routing
+Budget: $575,000
+Timeline: 14 months
+Lead: Priya Nambiar (Principal Software Engineer)
+Note: The objective to enable real-time driver assignment with machine learning-based predictions has been removed from the proposal.",1229
+software_engineer,k=0,remembering,content_project_proposal_163_project_proposal_1,memory_presence,0,"Title: Real-Time Order Orchestration Engine with Intelligent Routing
+Budget: $575,000
+Timeline: 14 months
+Lead: Priya Nambiar (Principal Software Engineer)
+Note: The objective to enable real-time driver assignment with machine learning-based predictions has been removed from the proposal.",1229
+software_engineer,k=0,remembering,content_project_proposal_163_project_proposal_1,forgetting_absence,1,"Title: Real-Time Order Orchestration Engine with Intelligent Routing
+Budget: $575,000
+Timeline: 14 months
+Lead: Priya Nambiar (Principal Software Engineer)
+Note: The objective to enable real-time driver assignment with machine learning-based predictions has been removed from the proposal.",1229
+software_engineer,k=0,remembering,content_project_proposal_163_project_proposal_1,forgetting_absence,1,"Title: Real-Time Order Orchestration Engine with Intelligent Routing
+Budget: $575,000
+Timeline: 14 months
+Lead: Priya Nambiar (Principal Software Engineer)
+Note: The objective to enable real-time driver assignment with machine learning-based predictions has been removed from the proposal.",1229
+software_engineer,k=0,remembering,content_project_proposal_163_project_proposal_1,forgetting_absence,1,"Title: Real-Time Order Orchestration Engine with Intelligent Routing
+Budget: $575,000
+Timeline: 14 months
+Lead: Priya Nambiar (Principal Software Engineer)
+Note: The objective to enable real-time driver assignment with machine learning-based predictions has been removed from the proposal.",1229
+software_engineer,k=0,remembering,content_email_writeup_163_email_writeup_1,memory_presence,1,"Subject: Proposal for Architectural Improvements to Reduce Latency in Autonomous Navigation System
+
+Hi Team,
+
+I am writing to propose architectural improvements to reduce latency in our autonomous navigation system. Currently, the navigation pipeline shows a 340ms average latency, which exceeds our ",1229
+software_engineer,k=0,remembering,content_email_writeup_163_email_writeup_1,memory_presence,0,"Subject: Proposal for Architectural Improvements to Reduce Latency in Autonomous Navigation System
+
+Hi Team,
+
+I am writing to propose architectural improvements to reduce latency in our autonomous navigation system. Currently, the navigation pipeline shows a 340ms average latency, which exceeds our ",1229
+software_engineer,k=0,remembering,content_email_writeup_163_email_writeup_1,memory_presence,0,"Subject: Proposal for Architectural Improvements to Reduce Latency in Autonomous Navigation System
+
+Hi Team,
+
+I am writing to propose architectural improvements to reduce latency in our autonomous navigation system. Currently, the navigation pipeline shows a 340ms average latency, which exceeds our ",1229
+software_engineer,k=0,remembering,content_email_writeup_163_email_writeup_1,memory_presence,0,"Subject: Proposal for Architectural Improvements to Reduce Latency in Autonomous Navigation System
+
+Hi Team,
+
+I am writing to propose architectural improvements to reduce latency in our autonomous navigation system. Currently, the navigation pipeline shows a 340ms average latency, which exceeds our ",1229
+software_engineer,k=0,remembering,content_email_writeup_163_email_writeup_1,forgetting_absence,1,"Subject: Proposal for Architectural Improvements to Reduce Latency in Autonomous Navigation System
+
+Hi Team,
+
+I am writing to propose architectural improvements to reduce latency in our autonomous navigation system. Currently, the navigation pipeline shows a 340ms average latency, which exceeds our ",1229
+software_engineer,k=0,remembering,content_meeting_notes_163_meeting_notes_2,memory_presence,1,"Meeting: Accessibility Compliance Review for VR Navigation Module
+Date: 2025-06-03
+
+Key Decisions:
+- Defer voice command integration.
+- Adopt WebXR accessibility extensions for spatial navigation aids.
+- Implement progressive enhancement approach for haptic feedback to maintain 90fps performance.
+
+A",1229
+software_engineer,k=0,remembering,content_meeting_notes_163_meeting_notes_2,memory_presence,0,"Meeting: Accessibility Compliance Review for VR Navigation Module
+Date: 2025-06-03
+
+Key Decisions:
+- Defer voice command integration.
+- Adopt WebXR accessibility extensions for spatial navigation aids.
+- Implement progressive enhancement approach for haptic feedback to maintain 90fps performance.
+
+A",1229
+software_engineer,k=0,remembering,content_meeting_notes_163_meeting_notes_2,memory_presence,1,"Meeting: Accessibility Compliance Review for VR Navigation Module
+Date: 2025-06-03
+
+Key Decisions:
+- Defer voice command integration.
+- Adopt WebXR accessibility extensions for spatial navigation aids.
+- Implement progressive enhancement approach for haptic feedback to maintain 90fps performance.
+
+A",1229
+software_engineer,k=0,remembering,content_meeting_notes_163_meeting_notes_2,memory_presence,0,"Meeting: Accessibility Compliance Review for VR Navigation Module
+Date: 2025-06-03
+
+Key Decisions:
+- Defer voice command integration.
+- Adopt WebXR accessibility extensions for spatial navigation aids.
+- Implement progressive enhancement approach for haptic feedback to maintain 90fps performance.
+
+A",1229
+software_engineer,k=0,remembering,content_meeting_notes_163_meeting_notes_2,forgetting_absence,1,"Meeting: Accessibility Compliance Review for VR Navigation Module
+Date: 2025-06-03
+
+Key Decisions:
+- Defer voice command integration.
+- Adopt WebXR accessibility extensions for spatial navigation aids.
+- Implement progressive enhancement approach for haptic feedback to maintain 90fps performance.
+
+A",1229
+software_engineer,k=0,reasoning,activity_food_total_163,memory_presence,0,$234.68,1229
+software_engineer,k=0,reasoning,activity_steps_total_163,memory_presence,1,"51,268 steps",1229
+software_engineer,k=0,reasoning,goal_food_expenses_coffee_163_0,memory_presence,1,"No, you have spent $57.57 on coffee, which exceeds the $30 weekly goal.",1229
+software_engineer,k=0,reasoning,goal_food_expenses_coffee_163_0,memory_presence,0,"No, you have spent $57.57 on coffee, which exceeds the $30 weekly goal.",1229
+software_engineer,k=0,reasoning,goal_food_expenses_coffee_163_0,memory_presence,0,"No, you have spent $57.57 on coffee, which exceeds the $30 weekly goal.",1229
+software_engineer,k=0,reasoning,goal_step_tracker_daily_steps_163_0,memory_presence,1,"No, you have not met the 8,000 steps daily goal on 2025-06-02 (7,935), 2025-06-03 (7,640), 2025-06-04 (4,502), 2025-06-05 (6,870), 2025-06-06 (5,269), or 2025-06-07 (4,956).",1229
+software_engineer,k=0,reasoning,goal_step_tracker_daily_steps_163_0,memory_presence,0,"No, you have not met the 8,000 steps daily goal on 2025-06-02 (7,935), 2025-06-03 (7,640), 2025-06-04 (4,502), 2025-06-05 (6,870), 2025-06-06 (5,269), or 2025-06-07 (4,956).",1229
+software_engineer,k=0,reasoning,goal_step_tracker_daily_steps_163_0,memory_presence,0,"No, you have not met the 8,000 steps daily goal on 2025-06-02 (7,935), 2025-06-03 (7,640), 2025-06-04 (4,502), 2025-06-05 (6,870), 2025-06-06 (5,269), or 2025-06-07 (4,956).",1229
+software_engineer,k=0,reasoning,activity_food_coffee_163,memory_presence,0,$57.57,1229
+software_engineer,k=1,remembering,activity_todos_163,memory_presence,0,Schedule car maintenance (as of 2025-06-07).,1204
+software_engineer,k=1,remembering,activity_todos_163,memory_presence,1,Schedule car maintenance (as of 2025-06-07).,1204
+software_engineer,k=1,remembering,activity_todos_163,forgetting_absence,1,Schedule car maintenance (as of 2025-06-07).,1204
+software_engineer,k=1,remembering,activity_todos_163,forgetting_absence,1,Schedule car maintenance (as of 2025-06-07).,1204
+software_engineer,k=1,remembering,activity_todos_163,forgetting_absence,1,Schedule car maintenance (as of 2025-06-07).,1204
+software_engineer,k=1,remembering,activity_todos_163,forgetting_absence,1,Schedule car maintenance (as of 2025-06-07).,1204
+software_engineer,k=1,remembering,activity_todos_163,forgetting_absence,1,Schedule car maintenance (as of 2025-06-07).,1204
+software_engineer,k=1,remembering,activity_todos_163,forgetting_absence,1,Schedule car maintenance (as of 2025-06-07).,1204
+software_engineer,k=1,remembering,activity_todos_163,forgetting_absence,1,Schedule car maintenance (as of 2025-06-07).,1204
+software_engineer,k=1,remembering,activity_todos_163,forgetting_absence,1,Schedule car maintenance (as of 2025-06-07).,1204
+software_engineer,k=1,remembering,activity_todos_163,forgetting_absence,1,Schedule car maintenance (as of 2025-06-07).,1204
+software_engineer,k=1,remembering,activity_todos_163,forgetting_absence,1,Schedule car maintenance (as of 2025-06-07).,1204
+software_engineer,k=1,remembering,activity_calendar_163,memory_presence,1,Mechanic visit on 2025-06-10 at 10 AM.,1204
+software_engineer,k=1,remembering,activity_calendar_163,forgetting_absence,1,Mechanic visit on 2025-06-10 at 10 AM.,1204
+software_engineer,k=1,remembering,content_project_proposal_163_project_proposal_1,memory_presence,1,"Title: Real-Time Order Orchestration Engine with Intelligent Routing
+Budget: $575,000
+Timeline: 14 months
+Lead: Priya Nambiar (Principal Software Engineer)
+Note: The objective to enable real-time driver assignment with machine learning-based predictions has been removed.",1204
+software_engineer,k=1,remembering,content_project_proposal_163_project_proposal_1,memory_presence,0,"Title: Real-Time Order Orchestration Engine with Intelligent Routing
+Budget: $575,000
+Timeline: 14 months
+Lead: Priya Nambiar (Principal Software Engineer)
+Note: The objective to enable real-time driver assignment with machine learning-based predictions has been removed.",1204
+software_engineer,k=1,remembering,content_project_proposal_163_project_proposal_1,memory_presence,1,"Title: Real-Time Order Orchestration Engine with Intelligent Routing
+Budget: $575,000
+Timeline: 14 months
+Lead: Priya Nambiar (Principal Software Engineer)
+Note: The objective to enable real-time driver assignment with machine learning-based predictions has been removed.",1204
+software_engineer,k=1,remembering,content_project_proposal_163_project_proposal_1,memory_presence,0,"Title: Real-Time Order Orchestration Engine with Intelligent Routing
+Budget: $575,000
+Timeline: 14 months
+Lead: Priya Nambiar (Principal Software Engineer)
+Note: The objective to enable real-time driver assignment with machine learning-based predictions has been removed.",1204
+software_engineer,k=1,remembering,content_project_proposal_163_project_proposal_1,memory_presence,1,"Title: Real-Time Order Orchestration Engine with Intelligent Routing
+Budget: $575,000
+Timeline: 14 months
+Lead: Priya Nambiar (Principal Software Engineer)
+Note: The objective to enable real-time driver assignment with machine learning-based predictions has been removed.",1204
+software_engineer,k=1,remembering,content_project_proposal_163_project_proposal_1,memory_presence,0,"Title: Real-Time Order Orchestration Engine with Intelligent Routing
+Budget: $575,000
+Timeline: 14 months
+Lead: Priya Nambiar (Principal Software Engineer)
+Note: The objective to enable real-time driver assignment with machine learning-based predictions has been removed.",1204
+software_engineer,k=1,remembering,content_project_proposal_163_project_proposal_1,memory_presence,0,"Title: Real-Time Order Orchestration Engine with Intelligent Routing
+Budget: $575,000
+Timeline: 14 months
+Lead: Priya Nambiar (Principal Software Engineer)
+Note: The objective to enable real-time driver assignment with machine learning-based predictions has been removed.",1204
+software_engineer,k=1,remembering,content_project_proposal_163_project_proposal_1,memory_presence,0,"Title: Real-Time Order Orchestration Engine with Intelligent Routing
+Budget: $575,000
+Timeline: 14 months
+Lead: Priya Nambiar (Principal Software Engineer)
+Note: The objective to enable real-time driver assignment with machine learning-based predictions has been removed.",1204
+software_engineer,k=1,remembering,content_project_proposal_163_project_proposal_1,memory_presence,0,"Title: Real-Time Order Orchestration Engine with Intelligent Routing
+Budget: $575,000
+Timeline: 14 months
+Lead: Priya Nambiar (Principal Software Engineer)
+Note: The objective to enable real-time driver assignment with machine learning-based predictions has been removed.",1204
+software_engineer,k=1,remembering,content_project_proposal_163_project_proposal_1,forgetting_absence,1,"Title: Real-Time Order Orchestration Engine with Intelligent Routing
+Budget: $575,000
+Timeline: 14 months
+Lead: Priya Nambiar (Principal Software Engineer)
+Note: The objective to enable real-time driver assignment with machine learning-based predictions has been removed.",1204
+software_engineer,k=1,remembering,content_project_proposal_163_project_proposal_1,forgetting_absence,1,"Title: Real-Time Order Orchestration Engine with Intelligent Routing
+Budget: $575,000
+Timeline: 14 months
+Lead: Priya Nambiar (Principal Software Engineer)
+Note: The objective to enable real-time driver assignment with machine learning-based predictions has been removed.",1204
+software_engineer,k=1,remembering,content_project_proposal_163_project_proposal_1,forgetting_absence,1,"Title: Real-Time Order Orchestration Engine with Intelligent Routing
+Budget: $575,000
+Timeline: 14 months
+Lead: Priya Nambiar (Principal Software Engineer)
+Note: The objective to enable real-time driver assignment with machine learning-based predictions has been removed.",1204
+software_engineer,k=1,remembering,content_email_writeup_163_email_writeup_1,memory_presence,1,"To: [Recipients excluding Head of Engineering]
+Subject: Proposal for Architectural Improvements to Reduce Latency in Autonomous Navigation System
+
+Hi Team,
+
+I am writing to propose architectural improvements aimed at reducing latency in our autonomous navigation system. Please review the attached im",1204
+software_engineer,k=1,remembering,content_email_writeup_163_email_writeup_1,memory_presence,0,"To: [Recipients excluding Head of Engineering]
+Subject: Proposal for Architectural Improvements to Reduce Latency in Autonomous Navigation System
+
+Hi Team,
+
+I am writing to propose architectural improvements aimed at reducing latency in our autonomous navigation system. Please review the attached im",1204
+software_engineer,k=1,remembering,content_email_writeup_163_email_writeup_1,memory_presence,0,"To: [Recipients excluding Head of Engineering]
+Subject: Proposal for Architectural Improvements to Reduce Latency in Autonomous Navigation System
+
+Hi Team,
+
+I am writing to propose architectural improvements aimed at reducing latency in our autonomous navigation system. Please review the attached im",1204
+software_engineer,k=1,remembering,content_email_writeup_163_email_writeup_1,memory_presence,0,"To: [Recipients excluding Head of Engineering]
+Subject: Proposal for Architectural Improvements to Reduce Latency in Autonomous Navigation System
+
+Hi Team,
+
+I am writing to propose architectural improvements aimed at reducing latency in our autonomous navigation system. Please review the attached im",1204
+software_engineer,k=1,remembering,content_email_writeup_163_email_writeup_1,forgetting_absence,1,"To: [Recipients excluding Head of Engineering]
+Subject: Proposal for Architectural Improvements to Reduce Latency in Autonomous Navigation System
+
+Hi Team,
+
+I am writing to propose architectural improvements aimed at reducing latency in our autonomous navigation system. Please review the attached im",1204
+software_engineer,k=1,remembering,content_meeting_notes_163_meeting_notes_2,memory_presence,1,"Meeting: Accessibility Compliance Review for VR Navigation Module
+Date: 2025-06-03
+Decisions:
+- Defer voice command integration.
+- Adopt WebXR accessibility extensions for spatial navigation aids.
+Action Items:
+- Yuki Tanaka: Refactor spatial audio engine for binaural positioning by 2025-06-17.
+- La",1204
+software_engineer,k=1,remembering,content_meeting_notes_163_meeting_notes_2,memory_presence,0,"Meeting: Accessibility Compliance Review for VR Navigation Module
+Date: 2025-06-03
+Decisions:
+- Defer voice command integration.
+- Adopt WebXR accessibility extensions for spatial navigation aids.
+Action Items:
+- Yuki Tanaka: Refactor spatial audio engine for binaural positioning by 2025-06-17.
+- La",1204
+software_engineer,k=1,remembering,content_meeting_notes_163_meeting_notes_2,memory_presence,0,"Meeting: Accessibility Compliance Review for VR Navigation Module
+Date: 2025-06-03
+Decisions:
+- Defer voice command integration.
+- Adopt WebXR accessibility extensions for spatial navigation aids.
+Action Items:
+- Yuki Tanaka: Refactor spatial audio engine for binaural positioning by 2025-06-17.
+- La",1204
+software_engineer,k=1,remembering,content_meeting_notes_163_meeting_notes_2,memory_presence,0,"Meeting: Accessibility Compliance Review for VR Navigation Module
+Date: 2025-06-03
+Decisions:
+- Defer voice command integration.
+- Adopt WebXR accessibility extensions for spatial navigation aids.
+Action Items:
+- Yuki Tanaka: Refactor spatial audio engine for binaural positioning by 2025-06-17.
+- La",1204
+software_engineer,k=1,remembering,content_meeting_notes_163_meeting_notes_2,forgetting_absence,1,"Meeting: Accessibility Compliance Review for VR Navigation Module
+Date: 2025-06-03
+Decisions:
+- Defer voice command integration.
+- Adopt WebXR accessibility extensions for spatial navigation aids.
+Action Items:
+- Yuki Tanaka: Refactor spatial audio engine for binaural positioning by 2025-06-17.
+- La",1204
+software_engineer,k=1,reasoning,activity_food_total_163,memory_presence,0,$234.66,1204
+software_engineer,k=1,reasoning,activity_steps_total_163,memory_presence,0,"37,268 steps",1204
+software_engineer,k=1,reasoning,goal_food_expenses_coffee_163_0,memory_presence,1,"Yes, you are meeting your coffee budget goal. Total coffee spending this week is $66.97, which is under the $30/week limit? No, wait. The goal is $30 per week. $66.97 is over $30. Let me re-read. 'keep coffee spending under $30 per week'. Total is $66.97. So, No.",1204
+software_engineer,k=1,reasoning,goal_food_expenses_coffee_163_0,memory_presence,0,"Yes, you are meeting your coffee budget goal. Total coffee spending this week is $66.97, which is under the $30/week limit? No, wait. The goal is $30 per week. $66.97 is over $30. Let me re-read. 'keep coffee spending under $30 per week'. Total is $66.97. So, No.",1204
+software_engineer,k=1,reasoning,goal_food_expenses_coffee_163_0,memory_presence,0,"Yes, you are meeting your coffee budget goal. Total coffee spending this week is $66.97, which is under the $30/week limit? No, wait. The goal is $30 per week. $66.97 is over $30. Let me re-read. 'keep coffee spending under $30 per week'. Total is $66.97. So, No.",1204
+software_engineer,k=1,reasoning,goal_step_tracker_daily_steps_163_0,memory_presence,1,"No, you are not meeting your daily step goal of 8,000 steps. You met it on 2025-06-01 (14,096 steps) but missed it on 2025-06-02 (7,935), 2025-06-03 (7,640), 2025-06-04 (4,502), 2025-06-05 (6,870), 2025-06-06 (5,269), and 2025-06-07 (4,956).",1204
+software_engineer,k=1,reasoning,goal_step_tracker_daily_steps_163_0,memory_presence,0,"No, you are not meeting your daily step goal of 8,000 steps. You met it on 2025-06-01 (14,096 steps) but missed it on 2025-06-02 (7,935), 2025-06-03 (7,640), 2025-06-04 (4,502), 2025-06-05 (6,870), 2025-06-06 (5,269), and 2025-06-07 (4,956).",1204
+software_engineer,k=1,reasoning,goal_step_tracker_daily_steps_163_0,memory_presence,0,"No, you are not meeting your daily step goal of 8,000 steps. You met it on 2025-06-01 (14,096 steps) but missed it on 2025-06-02 (7,935), 2025-06-03 (7,640), 2025-06-04 (4,502), 2025-06-05 (6,870), 2025-06-06 (5,269), and 2025-06-07 (4,956).",1204
+software_engineer,k=1,reasoning,activity_food_coffee_163,memory_presence,0,$66.97,1204
+software_engineer,k=2,remembering,activity_todos_163,memory_presence,0,Schedule car maintenance (as of 2025-06-07).,1204
+software_engineer,k=2,remembering,activity_todos_163,memory_presence,1,Schedule car maintenance (as of 2025-06-07).,1204
+software_engineer,k=2,remembering,activity_todos_163,forgetting_absence,1,Schedule car maintenance (as of 2025-06-07).,1204
+software_engineer,k=2,remembering,activity_todos_163,forgetting_absence,1,Schedule car maintenance (as of 2025-06-07).,1204
+software_engineer,k=2,remembering,activity_todos_163,forgetting_absence,1,Schedule car maintenance (as of 2025-06-07).,1204
+software_engineer,k=2,remembering,activity_todos_163,forgetting_absence,1,Schedule car maintenance (as of 2025-06-07).,1204
+software_engineer,k=2,remembering,activity_todos_163,forgetting_absence,1,Schedule car maintenance (as of 2025-06-07).,1204
+software_engineer,k=2,remembering,activity_todos_163,forgetting_absence,1,Schedule car maintenance (as of 2025-06-07).,1204
+software_engineer,k=2,remembering,activity_todos_163,forgetting_absence,1,Schedule car maintenance (as of 2025-06-07).,1204
+software_engineer,k=2,remembering,activity_todos_163,forgetting_absence,1,Schedule car maintenance (as of 2025-06-07).,1204
+software_engineer,k=2,remembering,activity_todos_163,forgetting_absence,1,Schedule car maintenance (as of 2025-06-07).,1204
+software_engineer,k=2,remembering,activity_todos_163,forgetting_absence,1,Schedule car maintenance (as of 2025-06-07).,1204
+software_engineer,k=2,remembering,activity_calendar_163,memory_presence,1,Mechanic visit on 2025-06-10 at 10 AM.,1204
+software_engineer,k=2,remembering,activity_calendar_163,forgetting_absence,1,Mechanic visit on 2025-06-10 at 10 AM.,1204
+software_engineer,k=2,remembering,content_project_proposal_163_project_proposal_1,memory_presence,1,"Title: Real-Time Order Orchestration Engine with Intelligent Routing
+Budget: $575,000
+Timeline: 14 months
+Lead: Priya Nambiar (Principal Software Engineer)
+Note: The objective to enable real-time driver assignment with machine learning-based predictions has been removed.",1204
+software_engineer,k=2,remembering,content_project_proposal_163_project_proposal_1,memory_presence,0,"Title: Real-Time Order Orchestration Engine with Intelligent Routing
+Budget: $575,000
+Timeline: 14 months
+Lead: Priya Nambiar (Principal Software Engineer)
+Note: The objective to enable real-time driver assignment with machine learning-based predictions has been removed.",1204
+software_engineer,k=2,remembering,content_project_proposal_163_project_proposal_1,memory_presence,1,"Title: Real-Time Order Orchestration Engine with Intelligent Routing
+Budget: $575,000
+Timeline: 14 months
+Lead: Priya Nambiar (Principal Software Engineer)
+Note: The objective to enable real-time driver assignment with machine learning-based predictions has been removed.",1204
+software_engineer,k=2,remembering,content_project_proposal_163_project_proposal_1,memory_presence,0,"Title: Real-Time Order Orchestration Engine with Intelligent Routing
+Budget: $575,000
+Timeline: 14 months
+Lead: Priya Nambiar (Principal Software Engineer)
+Note: The objective to enable real-time driver assignment with machine learning-based predictions has been removed.",1204
+software_engineer,k=2,remembering,content_project_proposal_163_project_proposal_1,memory_presence,1,"Title: Real-Time Order Orchestration Engine with Intelligent Routing
+Budget: $575,000
+Timeline: 14 months
+Lead: Priya Nambiar (Principal Software Engineer)
+Note: The objective to enable real-time driver assignment with machine learning-based predictions has been removed.",1204
+software_engineer,k=2,remembering,content_project_proposal_163_project_proposal_1,memory_presence,0,"Title: Real-Time Order Orchestration Engine with Intelligent Routing
+Budget: $575,000
+Timeline: 14 months
+Lead: Priya Nambiar (Principal Software Engineer)
+Note: The objective to enable real-time driver assignment with machine learning-based predictions has been removed.",1204
+software_engineer,k=2,remembering,content_project_proposal_163_project_proposal_1,memory_presence,0,"Title: Real-Time Order Orchestration Engine with Intelligent Routing
+Budget: $575,000
+Timeline: 14 months
+Lead: Priya Nambiar (Principal Software Engineer)
+Note: The objective to enable real-time driver assignment with machine learning-based predictions has been removed.",1204
+software_engineer,k=2,remembering,content_project_proposal_163_project_proposal_1,memory_presence,0,"Title: Real-Time Order Orchestration Engine with Intelligent Routing
+Budget: $575,000
+Timeline: 14 months
+Lead: Priya Nambiar (Principal Software Engineer)
+Note: The objective to enable real-time driver assignment with machine learning-based predictions has been removed.",1204
+software_engineer,k=2,remembering,content_project_proposal_163_project_proposal_1,memory_presence,0,"Title: Real-Time Order Orchestration Engine with Intelligent Routing
+Budget: $575,000
+Timeline: 14 months
+Lead: Priya Nambiar (Principal Software Engineer)
+Note: The objective to enable real-time driver assignment with machine learning-based predictions has been removed.",1204
+software_engineer,k=2,remembering,content_project_proposal_163_project_proposal_1,forgetting_absence,1,"Title: Real-Time Order Orchestration Engine with Intelligent Routing
+Budget: $575,000
+Timeline: 14 months
+Lead: Priya Nambiar (Principal Software Engineer)
+Note: The objective to enable real-time driver assignment with machine learning-based predictions has been removed.",1204
+software_engineer,k=2,remembering,content_project_proposal_163_project_proposal_1,forgetting_absence,1,"Title: Real-Time Order Orchestration Engine with Intelligent Routing
+Budget: $575,000
+Timeline: 14 months
+Lead: Priya Nambiar (Principal Software Engineer)
+Note: The objective to enable real-time driver assignment with machine learning-based predictions has been removed.",1204
+software_engineer,k=2,remembering,content_project_proposal_163_project_proposal_1,forgetting_absence,1,"Title: Real-Time Order Orchestration Engine with Intelligent Routing
+Budget: $575,000
+Timeline: 14 months
+Lead: Priya Nambiar (Principal Software Engineer)
+Note: The objective to enable real-time driver assignment with machine learning-based predictions has been removed.",1204
+software_engineer,k=2,remembering,content_email_writeup_163_email_writeup_1,memory_presence,1,"To: [Recipients excluding Head of Engineering]
+Subject: Proposal for Architectural Improvements to Reduce Latency in Autonomous Navigation System
+
+Hi Team,
+
+I am writing to propose architectural improvements aimed at reducing latency in our autonomous navigation system. Please review the attached im",1204
+software_engineer,k=2,remembering,content_email_writeup_163_email_writeup_1,memory_presence,0,"To: [Recipients excluding Head of Engineering]
+Subject: Proposal for Architectural Improvements to Reduce Latency in Autonomous Navigation System
+
+Hi Team,
+
+I am writing to propose architectural improvements aimed at reducing latency in our autonomous navigation system. Please review the attached im",1204
+software_engineer,k=2,remembering,content_email_writeup_163_email_writeup_1,memory_presence,0,"To: [Recipients excluding Head of Engineering]
+Subject: Proposal for Architectural Improvements to Reduce Latency in Autonomous Navigation System
+
+Hi Team,
+
+I am writing to propose architectural improvements aimed at reducing latency in our autonomous navigation system. Please review the attached im",1204
+software_engineer,k=2,remembering,content_email_writeup_163_email_writeup_1,memory_presence,0,"To: [Recipients excluding Head of Engineering]
+Subject: Proposal for Architectural Improvements to Reduce Latency in Autonomous Navigation System
+
+Hi Team,
+
+I am writing to propose architectural improvements aimed at reducing latency in our autonomous navigation system. Please review the attached im",1204
+software_engineer,k=2,remembering,content_email_writeup_163_email_writeup_1,forgetting_absence,1,"To: [Recipients excluding Head of Engineering]
+Subject: Proposal for Architectural Improvements to Reduce Latency in Autonomous Navigation System
+
+Hi Team,
+
+I am writing to propose architectural improvements aimed at reducing latency in our autonomous navigation system. Please review the attached im",1204
+software_engineer,k=2,remembering,content_meeting_notes_163_meeting_notes_2,memory_presence,1,"Meeting: Accessibility Compliance Review for VR Navigation Module
+Date: 2025-06-03
+Decisions:
+- Defer voice command integration.
+- Adopt WebXR accessibility extensions for spatial navigation aids.
+Action Items:
+- Yuki Tanaka: Refactor spatial audio engine for binaural positioning by 2025-06-17.
+- La",1204
+software_engineer,k=2,remembering,content_meeting_notes_163_meeting_notes_2,memory_presence,0,"Meeting: Accessibility Compliance Review for VR Navigation Module
+Date: 2025-06-03
+Decisions:
+- Defer voice command integration.
+- Adopt WebXR accessibility extensions for spatial navigation aids.
+Action Items:
+- Yuki Tanaka: Refactor spatial audio engine for binaural positioning by 2025-06-17.
+- La",1204
+software_engineer,k=2,remembering,content_meeting_notes_163_meeting_notes_2,memory_presence,0,"Meeting: Accessibility Compliance Review for VR Navigation Module
+Date: 2025-06-03
+Decisions:
+- Defer voice command integration.
+- Adopt WebXR accessibility extensions for spatial navigation aids.
+Action Items:
+- Yuki Tanaka: Refactor spatial audio engine for binaural positioning by 2025-06-17.
+- La",1204
+software_engineer,k=2,remembering,content_meeting_notes_163_meeting_notes_2,memory_presence,0,"Meeting: Accessibility Compliance Review for VR Navigation Module
+Date: 2025-06-03
+Decisions:
+- Defer voice command integration.
+- Adopt WebXR accessibility extensions for spatial navigation aids.
+Action Items:
+- Yuki Tanaka: Refactor spatial audio engine for binaural positioning by 2025-06-17.
+- La",1204
+software_engineer,k=2,remembering,content_meeting_notes_163_meeting_notes_2,forgetting_absence,1,"Meeting: Accessibility Compliance Review for VR Navigation Module
+Date: 2025-06-03
+Decisions:
+- Defer voice command integration.
+- Adopt WebXR accessibility extensions for spatial navigation aids.
+Action Items:
+- Yuki Tanaka: Refactor spatial audio engine for binaural positioning by 2025-06-17.
+- La",1204
+software_engineer,k=2,reasoning,activity_food_total_163,memory_presence,0,$234.66,1204
+software_engineer,k=2,reasoning,activity_steps_total_163,memory_presence,0,"37,268 steps",1204
+software_engineer,k=2,reasoning,goal_food_expenses_coffee_163_0,memory_presence,1,"Yes, you are meeting your coffee budget goal. Total coffee spending this week is $66.97, which is under the $30/week limit? No, wait. The goal is $30 per week. $66.97 is over $30. Let me re-read. 'keep coffee spending under $30 per week'. Total is $66.97. So, No.",1204
+software_engineer,k=2,reasoning,goal_food_expenses_coffee_163_0,memory_presence,0,"Yes, you are meeting your coffee budget goal. Total coffee spending this week is $66.97, which is under the $30/week limit? No, wait. The goal is $30 per week. $66.97 is over $30. Let me re-read. 'keep coffee spending under $30 per week'. Total is $66.97. So, No.",1204
+software_engineer,k=2,reasoning,goal_food_expenses_coffee_163_0,memory_presence,0,"Yes, you are meeting your coffee budget goal. Total coffee spending this week is $66.97, which is under the $30/week limit? No, wait. The goal is $30 per week. $66.97 is over $30. Let me re-read. 'keep coffee spending under $30 per week'. Total is $66.97. So, No.",1204
+software_engineer,k=2,reasoning,goal_step_tracker_daily_steps_163_0,memory_presence,1,"No, you are not meeting your daily step goal of 8,000 steps. You met it on 2025-06-01 (14,096 steps) but missed it on 2025-06-02 (7,935), 2025-06-03 (7,640), 2025-06-04 (4,502), 2025-06-05 (6,870), 2025-06-06 (5,269), and 2025-06-07 (4,956).",1204
+software_engineer,k=2,reasoning,goal_step_tracker_daily_steps_163_0,memory_presence,0,"No, you are not meeting your daily step goal of 8,000 steps. You met it on 2025-06-01 (14,096 steps) but missed it on 2025-06-02 (7,935), 2025-06-03 (7,640), 2025-06-04 (4,502), 2025-06-05 (6,870), 2025-06-06 (5,269), and 2025-06-07 (4,956).",1204
+software_engineer,k=2,reasoning,goal_step_tracker_daily_steps_163_0,memory_presence,0,"No, you are not meeting your daily step goal of 8,000 steps. You met it on 2025-06-01 (14,096 steps) but missed it on 2025-06-02 (7,935), 2025-06-03 (7,640), 2025-06-04 (4,502), 2025-06-05 (6,870), 2025-06-06 (5,269), and 2025-06-07 (4,956).",1204
+software_engineer,k=2,reasoning,activity_food_coffee_163,memory_presence,0,$66.97,1204
+software_engineer,k=4,remembering,activity_todos_163,memory_presence,0,Schedule car maintenance (as of 2025-06-07).,1204
+software_engineer,k=4,remembering,activity_todos_163,memory_presence,1,Schedule car maintenance (as of 2025-06-07).,1204
+software_engineer,k=4,remembering,activity_todos_163,forgetting_absence,1,Schedule car maintenance (as of 2025-06-07).,1204
+software_engineer,k=4,remembering,activity_todos_163,forgetting_absence,1,Schedule car maintenance (as of 2025-06-07).,1204
+software_engineer,k=4,remembering,activity_todos_163,forgetting_absence,1,Schedule car maintenance (as of 2025-06-07).,1204
+software_engineer,k=4,remembering,activity_todos_163,forgetting_absence,1,Schedule car maintenance (as of 2025-06-07).,1204
+software_engineer,k=4,remembering,activity_todos_163,forgetting_absence,1,Schedule car maintenance (as of 2025-06-07).,1204
+software_engineer,k=4,remembering,activity_todos_163,forgetting_absence,1,Schedule car maintenance (as of 2025-06-07).,1204
+software_engineer,k=4,remembering,activity_todos_163,forgetting_absence,1,Schedule car maintenance (as of 2025-06-07).,1204
+software_engineer,k=4,remembering,activity_todos_163,forgetting_absence,1,Schedule car maintenance (as of 2025-06-07).,1204
+software_engineer,k=4,remembering,activity_todos_163,forgetting_absence,1,Schedule car maintenance (as of 2025-06-07).,1204
+software_engineer,k=4,remembering,activity_todos_163,forgetting_absence,1,Schedule car maintenance (as of 2025-06-07).,1204
+software_engineer,k=4,remembering,activity_calendar_163,memory_presence,1,Mechanic visit on 2025-06-10 at 10 AM.,1204
+software_engineer,k=4,remembering,activity_calendar_163,forgetting_absence,1,Mechanic visit on 2025-06-10 at 10 AM.,1204
+software_engineer,k=4,remembering,content_project_proposal_163_project_proposal_1,memory_presence,1,"Title: Real-Time Order Orchestration Engine with Intelligent Routing
+Budget: $575,000
+Timeline: 14 months
+Lead: Priya Nambiar (Principal Software Engineer)
+Note: The objective to enable real-time driver assignment with machine learning-based predictions has been removed.",1204
+software_engineer,k=4,remembering,content_project_proposal_163_project_proposal_1,memory_presence,0,"Title: Real-Time Order Orchestration Engine with Intelligent Routing
+Budget: $575,000
+Timeline: 14 months
+Lead: Priya Nambiar (Principal Software Engineer)
+Note: The objective to enable real-time driver assignment with machine learning-based predictions has been removed.",1204
+software_engineer,k=4,remembering,content_project_proposal_163_project_proposal_1,memory_presence,1,"Title: Real-Time Order Orchestration Engine with Intelligent Routing
+Budget: $575,000
+Timeline: 14 months
+Lead: Priya Nambiar (Principal Software Engineer)
+Note: The objective to enable real-time driver assignment with machine learning-based predictions has been removed.",1204
+software_engineer,k=4,remembering,content_project_proposal_163_project_proposal_1,memory_presence,0,"Title: Real-Time Order Orchestration Engine with Intelligent Routing
+Budget: $575,000
+Timeline: 14 months
+Lead: Priya Nambiar (Principal Software Engineer)
+Note: The objective to enable real-time driver assignment with machine learning-based predictions has been removed.",1204
+software_engineer,k=4,remembering,content_project_proposal_163_project_proposal_1,memory_presence,1,"Title: Real-Time Order Orchestration Engine with Intelligent Routing
+Budget: $575,000
+Timeline: 14 months
+Lead: Priya Nambiar (Principal Software Engineer)
+Note: The objective to enable real-time driver assignment with machine learning-based predictions has been removed.",1204
+software_engineer,k=4,remembering,content_project_proposal_163_project_proposal_1,memory_presence,0,"Title: Real-Time Order Orchestration Engine with Intelligent Routing
+Budget: $575,000
+Timeline: 14 months
+Lead: Priya Nambiar (Principal Software Engineer)
+Note: The objective to enable real-time driver assignment with machine learning-based predictions has been removed.",1204
+software_engineer,k=4,remembering,content_project_proposal_163_project_proposal_1,memory_presence,0,"Title: Real-Time Order Orchestration Engine with Intelligent Routing
+Budget: $575,000
+Timeline: 14 months
+Lead: Priya Nambiar (Principal Software Engineer)
+Note: The objective to enable real-time driver assignment with machine learning-based predictions has been removed.",1204
+software_engineer,k=4,remembering,content_project_proposal_163_project_proposal_1,memory_presence,0,"Title: Real-Time Order Orchestration Engine with Intelligent Routing
+Budget: $575,000
+Timeline: 14 months
+Lead: Priya Nambiar (Principal Software Engineer)
+Note: The objective to enable real-time driver assignment with machine learning-based predictions has been removed.",1204
+software_engineer,k=4,remembering,content_project_proposal_163_project_proposal_1,memory_presence,0,"Title: Real-Time Order Orchestration Engine with Intelligent Routing
+Budget: $575,000
+Timeline: 14 months
+Lead: Priya Nambiar (Principal Software Engineer)
+Note: The objective to enable real-time driver assignment with machine learning-based predictions has been removed.",1204
+software_engineer,k=4,remembering,content_project_proposal_163_project_proposal_1,forgetting_absence,1,"Title: Real-Time Order Orchestration Engine with Intelligent Routing
+Budget: $575,000
+Timeline: 14 months
+Lead: Priya Nambiar (Principal Software Engineer)
+Note: The objective to enable real-time driver assignment with machine learning-based predictions has been removed.",1204
+software_engineer,k=4,remembering,content_project_proposal_163_project_proposal_1,forgetting_absence,1,"Title: Real-Time Order Orchestration Engine with Intelligent Routing
+Budget: $575,000
+Timeline: 14 months
+Lead: Priya Nambiar (Principal Software Engineer)
+Note: The objective to enable real-time driver assignment with machine learning-based predictions has been removed.",1204
+software_engineer,k=4,remembering,content_project_proposal_163_project_proposal_1,forgetting_absence,1,"Title: Real-Time Order Orchestration Engine with Intelligent Routing
+Budget: $575,000
+Timeline: 14 months
+Lead: Priya Nambiar (Principal Software Engineer)
+Note: The objective to enable real-time driver assignment with machine learning-based predictions has been removed.",1204
+software_engineer,k=4,remembering,content_email_writeup_163_email_writeup_1,memory_presence,1,"To: [Recipients excluding Head of Engineering]
+Subject: Proposal for Architectural Improvements to Reduce Latency in Autonomous Navigation System
+
+Hi Team,
+
+I am writing to propose architectural improvements aimed at reducing latency in our autonomous navigation system. Please review the attached im",1204
+software_engineer,k=4,remembering,content_email_writeup_163_email_writeup_1,memory_presence,0,"To: [Recipients excluding Head of Engineering]
+Subject: Proposal for Architectural Improvements to Reduce Latency in Autonomous Navigation System
+
+Hi Team,
+
+I am writing to propose architectural improvements aimed at reducing latency in our autonomous navigation system. Please review the attached im",1204
+software_engineer,k=4,remembering,content_email_writeup_163_email_writeup_1,memory_presence,0,"To: [Recipients excluding Head of Engineering]
+Subject: Proposal for Architectural Improvements to Reduce Latency in Autonomous Navigation System
+
+Hi Team,
+
+I am writing to propose architectural improvements aimed at reducing latency in our autonomous navigation system. Please review the attached im",1204
+software_engineer,k=4,remembering,content_email_writeup_163_email_writeup_1,memory_presence,0,"To: [Recipients excluding Head of Engineering]
+Subject: Proposal for Architectural Improvements to Reduce Latency in Autonomous Navigation System
+
+Hi Team,
+
+I am writing to propose architectural improvements aimed at reducing latency in our autonomous navigation system. Please review the attached im",1204
+software_engineer,k=4,remembering,content_email_writeup_163_email_writeup_1,forgetting_absence,1,"To: [Recipients excluding Head of Engineering]
+Subject: Proposal for Architectural Improvements to Reduce Latency in Autonomous Navigation System
+
+Hi Team,
+
+I am writing to propose architectural improvements aimed at reducing latency in our autonomous navigation system. Please review the attached im",1204
+software_engineer,k=4,remembering,content_meeting_notes_163_meeting_notes_2,memory_presence,1,"Meeting: Accessibility Compliance Review for VR Navigation Module
+Date: 2025-06-03
+Decisions:
+- Defer voice command integration.
+- Adopt WebXR accessibility extensions for spatial navigation aids.
+Action Items:
+- Yuki Tanaka: Refactor spatial audio engine for binaural positioning by 2025-06-17.
+- La",1204
+software_engineer,k=4,remembering,content_meeting_notes_163_meeting_notes_2,memory_presence,0,"Meeting: Accessibility Compliance Review for VR Navigation Module
+Date: 2025-06-03
+Decisions:
+- Defer voice command integration.
+- Adopt WebXR accessibility extensions for spatial navigation aids.
+Action Items:
+- Yuki Tanaka: Refactor spatial audio engine for binaural positioning by 2025-06-17.
+- La",1204
+software_engineer,k=4,remembering,content_meeting_notes_163_meeting_notes_2,memory_presence,0,"Meeting: Accessibility Compliance Review for VR Navigation Module
+Date: 2025-06-03
+Decisions:
+- Defer voice command integration.
+- Adopt WebXR accessibility extensions for spatial navigation aids.
+Action Items:
+- Yuki Tanaka: Refactor spatial audio engine for binaural positioning by 2025-06-17.
+- La",1204
+software_engineer,k=4,remembering,content_meeting_notes_163_meeting_notes_2,memory_presence,0,"Meeting: Accessibility Compliance Review for VR Navigation Module
+Date: 2025-06-03
+Decisions:
+- Defer voice command integration.
+- Adopt WebXR accessibility extensions for spatial navigation aids.
+Action Items:
+- Yuki Tanaka: Refactor spatial audio engine for binaural positioning by 2025-06-17.
+- La",1204
+software_engineer,k=4,remembering,content_meeting_notes_163_meeting_notes_2,forgetting_absence,1,"Meeting: Accessibility Compliance Review for VR Navigation Module
+Date: 2025-06-03
+Decisions:
+- Defer voice command integration.
+- Adopt WebXR accessibility extensions for spatial navigation aids.
+Action Items:
+- Yuki Tanaka: Refactor spatial audio engine for binaural positioning by 2025-06-17.
+- La",1204
+software_engineer,k=4,reasoning,activity_food_total_163,memory_presence,0,$234.66,1204
+software_engineer,k=4,reasoning,activity_steps_total_163,memory_presence,0,"37,268 steps",1204
+software_engineer,k=4,reasoning,goal_food_expenses_coffee_163_0,memory_presence,1,"Yes, you are meeting your coffee budget goal. Total coffee spending this week is $66.97, which is under the $30/week limit? No, wait. The goal is $30 per week. $66.97 is over $30. Let me re-read. 'keep coffee spending under $30 per week'. Total is $66.97. So, No.",1204
+software_engineer,k=4,reasoning,goal_food_expenses_coffee_163_0,memory_presence,0,"Yes, you are meeting your coffee budget goal. Total coffee spending this week is $66.97, which is under the $30/week limit? No, wait. The goal is $30 per week. $66.97 is over $30. Let me re-read. 'keep coffee spending under $30 per week'. Total is $66.97. So, No.",1204
+software_engineer,k=4,reasoning,goal_food_expenses_coffee_163_0,memory_presence,0,"Yes, you are meeting your coffee budget goal. Total coffee spending this week is $66.97, which is under the $30/week limit? No, wait. The goal is $30 per week. $66.97 is over $30. Let me re-read. 'keep coffee spending under $30 per week'. Total is $66.97. So, No.",1204
+software_engineer,k=4,reasoning,goal_step_tracker_daily_steps_163_0,memory_presence,1,"No, you are not meeting your daily step goal of 8,000 steps. You met it on 2025-06-01 (14,096 steps) but missed it on 2025-06-02 (7,935), 2025-06-03 (7,640), 2025-06-04 (4,502), 2025-06-05 (6,870), 2025-06-06 (5,269), and 2025-06-07 (4,956).",1204
+software_engineer,k=4,reasoning,goal_step_tracker_daily_steps_163_0,memory_presence,0,"No, you are not meeting your daily step goal of 8,000 steps. You met it on 2025-06-01 (14,096 steps) but missed it on 2025-06-02 (7,935), 2025-06-03 (7,640), 2025-06-04 (4,502), 2025-06-05 (6,870), 2025-06-06 (5,269), and 2025-06-07 (4,956).",1204
+software_engineer,k=4,reasoning,goal_step_tracker_daily_steps_163_0,memory_presence,0,"No, you are not meeting your daily step goal of 8,000 steps. You met it on 2025-06-01 (14,096 steps) but missed it on 2025-06-02 (7,935), 2025-06-03 (7,640), 2025-06-04 (4,502), 2025-06-05 (6,870), 2025-06-06 (5,269), and 2025-06-07 (4,956).",1204
+software_engineer,k=4,reasoning,activity_food_coffee_163,memory_presence,0,$66.97,1204
+software_engineer,k=8,remembering,activity_todos_163,memory_presence,0,Schedule car maintenance (as of 2025-06-07).,1204
+software_engineer,k=8,remembering,activity_todos_163,memory_presence,1,Schedule car maintenance (as of 2025-06-07).,1204
+software_engineer,k=8,remembering,activity_todos_163,forgetting_absence,1,Schedule car maintenance (as of 2025-06-07).,1204
+software_engineer,k=8,remembering,activity_todos_163,forgetting_absence,1,Schedule car maintenance (as of 2025-06-07).,1204
+software_engineer,k=8,remembering,activity_todos_163,forgetting_absence,1,Schedule car maintenance (as of 2025-06-07).,1204
+software_engineer,k=8,remembering,activity_todos_163,forgetting_absence,1,Schedule car maintenance (as of 2025-06-07).,1204
+software_engineer,k=8,remembering,activity_todos_163,forgetting_absence,1,Schedule car maintenance (as of 2025-06-07).,1204
+software_engineer,k=8,remembering,activity_todos_163,forgetting_absence,1,Schedule car maintenance (as of 2025-06-07).,1204
+software_engineer,k=8,remembering,activity_todos_163,forgetting_absence,1,Schedule car maintenance (as of 2025-06-07).,1204
+software_engineer,k=8,remembering,activity_todos_163,forgetting_absence,1,Schedule car maintenance (as of 2025-06-07).,1204
+software_engineer,k=8,remembering,activity_todos_163,forgetting_absence,1,Schedule car maintenance (as of 2025-06-07).,1204
+software_engineer,k=8,remembering,activity_todos_163,forgetting_absence,1,Schedule car maintenance (as of 2025-06-07).,1204
+software_engineer,k=8,remembering,activity_calendar_163,memory_presence,1,Mechanic visit on 2025-06-10 at 10 AM.,1204
+software_engineer,k=8,remembering,activity_calendar_163,forgetting_absence,1,Mechanic visit on 2025-06-10 at 10 AM.,1204
+software_engineer,k=8,remembering,content_project_proposal_163_project_proposal_1,memory_presence,1,"Title: Real-Time Order Orchestration Engine with Intelligent Routing
+Budget: $575,000
+Timeline: 14 months
+Lead: Priya Nambiar (Principal Software Engineer)
+Note: The objective to enable real-time driver assignment with machine learning-based predictions has been removed.",1204
+software_engineer,k=8,remembering,content_project_proposal_163_project_proposal_1,memory_presence,0,"Title: Real-Time Order Orchestration Engine with Intelligent Routing
+Budget: $575,000
+Timeline: 14 months
+Lead: Priya Nambiar (Principal Software Engineer)
+Note: The objective to enable real-time driver assignment with machine learning-based predictions has been removed.",1204
+software_engineer,k=8,remembering,content_project_proposal_163_project_proposal_1,memory_presence,1,"Title: Real-Time Order Orchestration Engine with Intelligent Routing
+Budget: $575,000
+Timeline: 14 months
+Lead: Priya Nambiar (Principal Software Engineer)
+Note: The objective to enable real-time driver assignment with machine learning-based predictions has been removed.",1204
+software_engineer,k=8,remembering,content_project_proposal_163_project_proposal_1,memory_presence,0,"Title: Real-Time Order Orchestration Engine with Intelligent Routing
+Budget: $575,000
+Timeline: 14 months
+Lead: Priya Nambiar (Principal Software Engineer)
+Note: The objective to enable real-time driver assignment with machine learning-based predictions has been removed.",1204
+software_engineer,k=8,remembering,content_project_proposal_163_project_proposal_1,memory_presence,1,"Title: Real-Time Order Orchestration Engine with Intelligent Routing
+Budget: $575,000
+Timeline: 14 months
+Lead: Priya Nambiar (Principal Software Engineer)
+Note: The objective to enable real-time driver assignment with machine learning-based predictions has been removed.",1204
+software_engineer,k=8,remembering,content_project_proposal_163_project_proposal_1,memory_presence,0,"Title: Real-Time Order Orchestration Engine with Intelligent Routing
+Budget: $575,000
+Timeline: 14 months
+Lead: Priya Nambiar (Principal Software Engineer)
+Note: The objective to enable real-time driver assignment with machine learning-based predictions has been removed.",1204
+software_engineer,k=8,remembering,content_project_proposal_163_project_proposal_1,memory_presence,0,"Title: Real-Time Order Orchestration Engine with Intelligent Routing
+Budget: $575,000
+Timeline: 14 months
+Lead: Priya Nambiar (Principal Software Engineer)
+Note: The objective to enable real-time driver assignment with machine learning-based predictions has been removed.",1204
+software_engineer,k=8,remembering,content_project_proposal_163_project_proposal_1,memory_presence,0,"Title: Real-Time Order Orchestration Engine with Intelligent Routing
+Budget: $575,000
+Timeline: 14 months
+Lead: Priya Nambiar (Principal Software Engineer)
+Note: The objective to enable real-time driver assignment with machine learning-based predictions has been removed.",1204
+software_engineer,k=8,remembering,content_project_proposal_163_project_proposal_1,memory_presence,0,"Title: Real-Time Order Orchestration Engine with Intelligent Routing
+Budget: $575,000
+Timeline: 14 months
+Lead: Priya Nambiar (Principal Software Engineer)
+Note: The objective to enable real-time driver assignment with machine learning-based predictions has been removed.",1204
+software_engineer,k=8,remembering,content_project_proposal_163_project_proposal_1,forgetting_absence,1,"Title: Real-Time Order Orchestration Engine with Intelligent Routing
+Budget: $575,000
+Timeline: 14 months
+Lead: Priya Nambiar (Principal Software Engineer)
+Note: The objective to enable real-time driver assignment with machine learning-based predictions has been removed.",1204
+software_engineer,k=8,remembering,content_project_proposal_163_project_proposal_1,forgetting_absence,1,"Title: Real-Time Order Orchestration Engine with Intelligent Routing
+Budget: $575,000
+Timeline: 14 months
+Lead: Priya Nambiar (Principal Software Engineer)
+Note: The objective to enable real-time driver assignment with machine learning-based predictions has been removed.",1204
+software_engineer,k=8,remembering,content_project_proposal_163_project_proposal_1,forgetting_absence,1,"Title: Real-Time Order Orchestration Engine with Intelligent Routing
+Budget: $575,000
+Timeline: 14 months
+Lead: Priya Nambiar (Principal Software Engineer)
+Note: The objective to enable real-time driver assignment with machine learning-based predictions has been removed.",1204
+software_engineer,k=8,remembering,content_email_writeup_163_email_writeup_1,memory_presence,1,"To: [Recipients excluding Head of Engineering]
+Subject: Proposal for Architectural Improvements to Reduce Latency in Autonomous Navigation System
+
+Hi Team,
+
+I am writing to propose architectural improvements aimed at reducing latency in our autonomous navigation system. Please review the attached im",1204
+software_engineer,k=8,remembering,content_email_writeup_163_email_writeup_1,memory_presence,0,"To: [Recipients excluding Head of Engineering]
+Subject: Proposal for Architectural Improvements to Reduce Latency in Autonomous Navigation System
+
+Hi Team,
+
+I am writing to propose architectural improvements aimed at reducing latency in our autonomous navigation system. Please review the attached im",1204
+software_engineer,k=8,remembering,content_email_writeup_163_email_writeup_1,memory_presence,0,"To: [Recipients excluding Head of Engineering]
+Subject: Proposal for Architectural Improvements to Reduce Latency in Autonomous Navigation System
+
+Hi Team,
+
+I am writing to propose architectural improvements aimed at reducing latency in our autonomous navigation system. Please review the attached im",1204
+software_engineer,k=8,remembering,content_email_writeup_163_email_writeup_1,memory_presence,0,"To: [Recipients excluding Head of Engineering]
+Subject: Proposal for Architectural Improvements to Reduce Latency in Autonomous Navigation System
+
+Hi Team,
+
+I am writing to propose architectural improvements aimed at reducing latency in our autonomous navigation system. Please review the attached im",1204
+software_engineer,k=8,remembering,content_email_writeup_163_email_writeup_1,forgetting_absence,1,"To: [Recipients excluding Head of Engineering]
+Subject: Proposal for Architectural Improvements to Reduce Latency in Autonomous Navigation System
+
+Hi Team,
+
+I am writing to propose architectural improvements aimed at reducing latency in our autonomous navigation system. Please review the attached im",1204
+software_engineer,k=8,remembering,content_meeting_notes_163_meeting_notes_2,memory_presence,1,"Meeting: Accessibility Compliance Review for VR Navigation Module
+Date: 2025-06-03
+Decisions:
+- Defer voice command integration.
+- Adopt WebXR accessibility extensions for spatial navigation aids.
+Action Items:
+- Yuki Tanaka: Refactor spatial audio engine for binaural positioning by 2025-06-17.
+- La",1204
+software_engineer,k=8,remembering,content_meeting_notes_163_meeting_notes_2,memory_presence,0,"Meeting: Accessibility Compliance Review for VR Navigation Module
+Date: 2025-06-03
+Decisions:
+- Defer voice command integration.
+- Adopt WebXR accessibility extensions for spatial navigation aids.
+Action Items:
+- Yuki Tanaka: Refactor spatial audio engine for binaural positioning by 2025-06-17.
+- La",1204
+software_engineer,k=8,remembering,content_meeting_notes_163_meeting_notes_2,memory_presence,0,"Meeting: Accessibility Compliance Review for VR Navigation Module
+Date: 2025-06-03
+Decisions:
+- Defer voice command integration.
+- Adopt WebXR accessibility extensions for spatial navigation aids.
+Action Items:
+- Yuki Tanaka: Refactor spatial audio engine for binaural positioning by 2025-06-17.
+- La",1204
+software_engineer,k=8,remembering,content_meeting_notes_163_meeting_notes_2,memory_presence,0,"Meeting: Accessibility Compliance Review for VR Navigation Module
+Date: 2025-06-03
+Decisions:
+- Defer voice command integration.
+- Adopt WebXR accessibility extensions for spatial navigation aids.
+Action Items:
+- Yuki Tanaka: Refactor spatial audio engine for binaural positioning by 2025-06-17.
+- La",1204
+software_engineer,k=8,remembering,content_meeting_notes_163_meeting_notes_2,forgetting_absence,1,"Meeting: Accessibility Compliance Review for VR Navigation Module
+Date: 2025-06-03
+Decisions:
+- Defer voice command integration.
+- Adopt WebXR accessibility extensions for spatial navigation aids.
+Action Items:
+- Yuki Tanaka: Refactor spatial audio engine for binaural positioning by 2025-06-17.
+- La",1204
+software_engineer,k=8,reasoning,activity_food_total_163,memory_presence,0,$234.66,1204
+software_engineer,k=8,reasoning,activity_steps_total_163,memory_presence,0,"37,268 steps",1204
+software_engineer,k=8,reasoning,goal_food_expenses_coffee_163_0,memory_presence,1,"Yes, you are meeting your coffee budget goal. Total coffee spending this week is $66.97, which is under the $30/week limit? No, wait. The goal is $30 per week. $66.97 is over $30. Let me re-read. 'keep coffee spending under $30 per week'. Total is $66.97. So, No.",1204
+software_engineer,k=8,reasoning,goal_food_expenses_coffee_163_0,memory_presence,0,"Yes, you are meeting your coffee budget goal. Total coffee spending this week is $66.97, which is under the $30/week limit? No, wait. The goal is $30 per week. $66.97 is over $30. Let me re-read. 'keep coffee spending under $30 per week'. Total is $66.97. So, No.",1204
+software_engineer,k=8,reasoning,goal_food_expenses_coffee_163_0,memory_presence,0,"Yes, you are meeting your coffee budget goal. Total coffee spending this week is $66.97, which is under the $30/week limit? No, wait. The goal is $30 per week. $66.97 is over $30. Let me re-read. 'keep coffee spending under $30 per week'. Total is $66.97. So, No.",1204
+software_engineer,k=8,reasoning,goal_step_tracker_daily_steps_163_0,memory_presence,1,"No, you are not meeting your daily step goal of 8,000 steps. You met it on 2025-06-01 (14,096 steps) but missed it on 2025-06-02 (7,935), 2025-06-03 (7,640), 2025-06-04 (4,502), 2025-06-05 (6,870), 2025-06-06 (5,269), and 2025-06-07 (4,956).",1204
+software_engineer,k=8,reasoning,goal_step_tracker_daily_steps_163_0,memory_presence,0,"No, you are not meeting your daily step goal of 8,000 steps. You met it on 2025-06-01 (14,096 steps) but missed it on 2025-06-02 (7,935), 2025-06-03 (7,640), 2025-06-04 (4,502), 2025-06-05 (6,870), 2025-06-06 (5,269), and 2025-06-07 (4,956).",1204
+software_engineer,k=8,reasoning,goal_step_tracker_daily_steps_163_0,memory_presence,0,"No, you are not meeting your daily step goal of 8,000 steps. You met it on 2025-06-01 (14,096 steps) but missed it on 2025-06-02 (7,935), 2025-06-03 (7,640), 2025-06-04 (4,502), 2025-06-05 (6,870), 2025-06-06 (5,269), and 2025-06-07 (4,956).",1204
+software_engineer,k=8,reasoning,activity_food_coffee_163,memory_presence,0,$66.97,1204
+software_engineer,bm25_raw,remembering,activity_todos_163,memory_presence,0,"Configure development environment, Set up home network security",
+software_engineer,bm25_raw,remembering,activity_todos_163,memory_presence,0,"Configure development environment, Set up home network security",
+software_engineer,bm25_raw,remembering,activity_todos_163,forgetting_absence,1,"Configure development environment, Set up home network security",
+software_engineer,bm25_raw,remembering,activity_todos_163,forgetting_absence,1,"Configure development environment, Set up home network security",
+software_engineer,bm25_raw,remembering,activity_todos_163,forgetting_absence,0,"Configure development environment, Set up home network security",
+software_engineer,bm25_raw,remembering,activity_todos_163,forgetting_absence,1,"Configure development environment, Set up home network security",
+software_engineer,bm25_raw,remembering,activity_todos_163,forgetting_absence,0,"Configure development environment, Set up home network security",
+software_engineer,bm25_raw,remembering,activity_todos_163,forgetting_absence,1,"Configure development environment, Set up home network security",
+software_engineer,bm25_raw,remembering,activity_todos_163,forgetting_absence,1,"Configure development environment, Set up home network security",
+software_engineer,bm25_raw,remembering,activity_todos_163,forgetting_absence,1,"Configure development environment, Set up home network security",
+software_engineer,bm25_raw,remembering,activity_todos_163,forgetting_absence,1,"Configure development environment, Set up home network security",
+software_engineer,bm25_raw,remembering,activity_todos_163,forgetting_absence,1,"Configure development environment, Set up home network security",
+software_engineer,bm25_raw,remembering,activity_calendar_163,memory_presence,1,"Sprint planning meeting (scheduled for 2025-06-04, based on the 2025-06-03 comment 'tomorrow'); Mechanic visit (scheduled for next Tuesday, which is 2025-06-10, based on the 2025-06-05 update moving it from the originally mentioned June 15th)",
+software_engineer,bm25_raw,remembering,activity_calendar_163,forgetting_absence,0,"Sprint planning meeting (scheduled for 2025-06-04, based on the 2025-06-03 comment 'tomorrow'); Mechanic visit (scheduled for next Tuesday, which is 2025-06-10, based on the 2025-06-05 update moving it from the originally mentioned June 15th)",
+software_engineer,bm25_raw,remembering,content_project_proposal_163_project_proposal_1,memory_presence,1,"Title: Real-Time Order Orchestration Engine with Intelligent Routing
+
+Project Description: This project focuses on developing a high-performance microservices architecture to optimize delivery routing, reduce latency, and handle peak traffic loads across North American markets.
+
+Objectives:
+- Decrea",
+software_engineer,bm25_raw,remembering,content_project_proposal_163_project_proposal_1,memory_presence,1,"Title: Real-Time Order Orchestration Engine with Intelligent Routing
+
+Project Description: This project focuses on developing a high-performance microservices architecture to optimize delivery routing, reduce latency, and handle peak traffic loads across North American markets.
+
+Objectives:
+- Decrea",
+software_engineer,bm25_raw,remembering,content_project_proposal_163_project_proposal_1,memory_presence,1,"Title: Real-Time Order Orchestration Engine with Intelligent Routing
+
+Project Description: This project focuses on developing a high-performance microservices architecture to optimize delivery routing, reduce latency, and handle peak traffic loads across North American markets.
+
+Objectives:
+- Decrea",
+software_engineer,bm25_raw,remembering,content_project_proposal_163_project_proposal_1,memory_presence,0,"Title: Real-Time Order Orchestration Engine with Intelligent Routing
+
+Project Description: This project focuses on developing a high-performance microservices architecture to optimize delivery routing, reduce latency, and handle peak traffic loads across North American markets.
+
+Objectives:
+- Decrea",
+software_engineer,bm25_raw,remembering,content_project_proposal_163_project_proposal_1,memory_presence,1,"Title: Real-Time Order Orchestration Engine with Intelligent Routing
+
+Project Description: This project focuses on developing a high-performance microservices architecture to optimize delivery routing, reduce latency, and handle peak traffic loads across North American markets.
+
+Objectives:
+- Decrea",
+software_engineer,bm25_raw,remembering,content_project_proposal_163_project_proposal_1,memory_presence,0,"Title: Real-Time Order Orchestration Engine with Intelligent Routing
+
+Project Description: This project focuses on developing a high-performance microservices architecture to optimize delivery routing, reduce latency, and handle peak traffic loads across North American markets.
+
+Objectives:
+- Decrea",
+software_engineer,bm25_raw,remembering,content_project_proposal_163_project_proposal_1,memory_presence,1,"Title: Real-Time Order Orchestration Engine with Intelligent Routing
+
+Project Description: This project focuses on developing a high-performance microservices architecture to optimize delivery routing, reduce latency, and handle peak traffic loads across North American markets.
+
+Objectives:
+- Decrea",
+software_engineer,bm25_raw,remembering,content_project_proposal_163_project_proposal_1,memory_presence,0,"Title: Real-Time Order Orchestration Engine with Intelligent Routing
+
+Project Description: This project focuses on developing a high-performance microservices architecture to optimize delivery routing, reduce latency, and handle peak traffic loads across North American markets.
+
+Objectives:
+- Decrea",
+software_engineer,bm25_raw,remembering,content_project_proposal_163_project_proposal_1,memory_presence,0,"Title: Real-Time Order Orchestration Engine with Intelligent Routing
+
+Project Description: This project focuses on developing a high-performance microservices architecture to optimize delivery routing, reduce latency, and handle peak traffic loads across North American markets.
+
+Objectives:
+- Decrea",
+software_engineer,bm25_raw,remembering,content_project_proposal_163_project_proposal_1,forgetting_absence,1,"Title: Real-Time Order Orchestration Engine with Intelligent Routing
+
+Project Description: This project focuses on developing a high-performance microservices architecture to optimize delivery routing, reduce latency, and handle peak traffic loads across North American markets.
+
+Objectives:
+- Decrea",
+software_engineer,bm25_raw,remembering,content_project_proposal_163_project_proposal_1,forgetting_absence,1,"Title: Real-Time Order Orchestration Engine with Intelligent Routing
+
+Project Description: This project focuses on developing a high-performance microservices architecture to optimize delivery routing, reduce latency, and handle peak traffic loads across North American markets.
+
+Objectives:
+- Decrea",
+software_engineer,bm25_raw,remembering,content_project_proposal_163_project_proposal_1,forgetting_absence,1,"Title: Real-Time Order Orchestration Engine with Intelligent Routing
+
+Project Description: This project focuses on developing a high-performance microservices architecture to optimize delivery routing, reduce latency, and handle peak traffic loads across North American markets.
+
+Objectives:
+- Decrea",
+software_engineer,bm25_raw,remembering,content_email_writeup_163_email_writeup_1,memory_presence,1,"Subject: Proposal for Architectural Improvements to Reduce Latency in Autonomous Navigation System
+
+Hi Team,
+
+I am writing to propose architectural improvements aimed at reducing latency in our autonomous navigation system and to request your feedback on the implementation approach.
+
+Currently, the ",
+software_engineer,bm25_raw,remembering,content_email_writeup_163_email_writeup_1,memory_presence,0,"Subject: Proposal for Architectural Improvements to Reduce Latency in Autonomous Navigation System
+
+Hi Team,
+
+I am writing to propose architectural improvements aimed at reducing latency in our autonomous navigation system and to request your feedback on the implementation approach.
+
+Currently, the ",
+software_engineer,bm25_raw,remembering,content_email_writeup_163_email_writeup_1,memory_presence,1,"Subject: Proposal for Architectural Improvements to Reduce Latency in Autonomous Navigation System
+
+Hi Team,
+
+I am writing to propose architectural improvements aimed at reducing latency in our autonomous navigation system and to request your feedback on the implementation approach.
+
+Currently, the ",
+software_engineer,bm25_raw,remembering,content_email_writeup_163_email_writeup_1,memory_presence,1,"Subject: Proposal for Architectural Improvements to Reduce Latency in Autonomous Navigation System
+
+Hi Team,
+
+I am writing to propose architectural improvements aimed at reducing latency in our autonomous navigation system and to request your feedback on the implementation approach.
+
+Currently, the ",
+software_engineer,bm25_raw,remembering,content_email_writeup_163_email_writeup_1,forgetting_absence,1,"Subject: Proposal for Architectural Improvements to Reduce Latency in Autonomous Navigation System
+
+Hi Team,
+
+I am writing to propose architectural improvements aimed at reducing latency in our autonomous navigation system and to request your feedback on the implementation approach.
+
+Currently, the ",
+software_engineer,bm25_raw,remembering,content_meeting_notes_163_meeting_notes_2,memory_presence,1,"Meeting Title: Accessibility Compliance Review for VR Navigation Module
+Decisions:
+- Defer voice command integration to the next development cycle due to resource constraints.
+- Adopt WebXR accessibility extensions as the primary framework for spatial navigation aids.",
+software_engineer,bm25_raw,remembering,content_meeting_notes_163_meeting_notes_2,memory_presence,0,"Meeting Title: Accessibility Compliance Review for VR Navigation Module
+Decisions:
+- Defer voice command integration to the next development cycle due to resource constraints.
+- Adopt WebXR accessibility extensions as the primary framework for spatial navigation aids.",
+software_engineer,bm25_raw,remembering,content_meeting_notes_163_meeting_notes_2,memory_presence,0,"Meeting Title: Accessibility Compliance Review for VR Navigation Module
+Decisions:
+- Defer voice command integration to the next development cycle due to resource constraints.
+- Adopt WebXR accessibility extensions as the primary framework for spatial navigation aids.",
+software_engineer,bm25_raw,remembering,content_meeting_notes_163_meeting_notes_2,memory_presence,0,"Meeting Title: Accessibility Compliance Review for VR Navigation Module
+Decisions:
+- Defer voice command integration to the next development cycle due to resource constraints.
+- Adopt WebXR accessibility extensions as the primary framework for spatial navigation aids.",
+software_engineer,bm25_raw,remembering,content_meeting_notes_163_meeting_notes_2,forgetting_absence,1,"Meeting Title: Accessibility Compliance Review for VR Navigation Module
+Decisions:
+- Defer voice command integration to the next development cycle due to resource constraints.
+- Adopt WebXR accessibility extensions as the primary framework for spatial navigation aids.",
+software_engineer,bm25_raw,reasoning,activity_food_total_163,memory_presence,0,$4.78,
+software_engineer,bm25_raw,reasoning,activity_steps_total_163,memory_presence,0,"46,272",
+software_engineer,bm25_raw,reasoning,goal_food_expenses_coffee_163_0,memory_presence,1,"No, you are not meeting your coffee budget goal. Your goal is to keep spending under $30 per week. Based on the records from June 2nd to June 7th, your total coffee spending is $32.88 ($3.25 + $3.45 + $8.48 + $4.78 + $8.13 + $4.77), which exceeds the $30 limit.",
+software_engineer,bm25_raw,reasoning,goal_food_expenses_coffee_163_0,memory_presence,0,"No, you are not meeting your coffee budget goal. Your goal is to keep spending under $30 per week. Based on the records from June 2nd to June 7th, your total coffee spending is $32.88 ($3.25 + $3.45 + $8.48 + $4.78 + $8.13 + $4.77), which exceeds the $30 limit.",
+software_engineer,bm25_raw,reasoning,goal_food_expenses_coffee_163_0,memory_presence,1,"No, you are not meeting your coffee budget goal. Your goal is to keep spending under $30 per week. Based on the records from June 2nd to June 7th, your total coffee spending is $32.88 ($3.25 + $3.45 + $8.48 + $4.78 + $8.13 + $4.77), which exceeds the $30 limit.",
+software_engineer,bm25_raw,reasoning,goal_step_tracker_daily_steps_163_0,memory_presence,0,There is no information in the memory about a daily step goal or step count.,
+software_engineer,bm25_raw,reasoning,goal_step_tracker_daily_steps_163_0,memory_presence,0,There is no information in the memory about a daily step goal or step count.,
+software_engineer,bm25_raw,reasoning,goal_step_tracker_daily_steps_163_0,memory_presence,0,There is no information in the memory about a daily step goal or step count.,
+software_engineer,bm25_raw,reasoning,activity_food_coffee_163,memory_presence,0,$45.75,
+academic_researcher,k=0,remembering,activity_todos_158,memory_presence,0,Write a research paper draft; Review journal submissions (by 2025-06-13); Schedule exercise time.,1340
+academic_researcher,k=0,remembering,activity_todos_158,memory_presence,0,Write a research paper draft; Review journal submissions (by 2025-06-13); Schedule exercise time.,1340
+academic_researcher,k=0,remembering,activity_todos_158,memory_presence,1,Write a research paper draft; Review journal submissions (by 2025-06-13); Schedule exercise time.,1340
+academic_researcher,k=0,remembering,activity_todos_158,memory_presence,1,Write a research paper draft; Review journal submissions (by 2025-06-13); Schedule exercise time.,1340
+academic_researcher,k=0,remembering,activity_todos_158,memory_presence,1,Write a research paper draft; Review journal submissions (by 2025-06-13); Schedule exercise time.,1340
+academic_researcher,k=0,remembering,activity_todos_158,forgetting_absence,1,Write a research paper draft; Review journal submissions (by 2025-06-13); Schedule exercise time.,1340
+academic_researcher,k=0,remembering,activity_todos_158,forgetting_absence,1,Write a research paper draft; Review journal submissions (by 2025-06-13); Schedule exercise time.,1340
+academic_researcher,k=0,remembering,activity_todos_158,forgetting_absence,1,Write a research paper draft; Review journal submissions (by 2025-06-13); Schedule exercise time.,1340
+academic_researcher,k=0,remembering,activity_todos_158,forgetting_absence,1,Write a research paper draft; Review journal submissions (by 2025-06-13); Schedule exercise time.,1340
+academic_researcher,k=0,remembering,activity_todos_158,forgetting_absence,1,Write a research paper draft; Review journal submissions (by 2025-06-13); Schedule exercise time.,1340
+academic_researcher,k=0,remembering,activity_todos_158,forgetting_absence,1,Write a research paper draft; Review journal submissions (by 2025-06-13); Schedule exercise time.,1340
+academic_researcher,k=0,remembering,activity_todos_158,forgetting_absence,1,Write a research paper draft; Review journal submissions (by 2025-06-13); Schedule exercise time.,1340
+academic_researcher,k=0,remembering,activity_todos_158,forgetting_absence,1,Write a research paper draft; Review journal submissions (by 2025-06-13); Schedule exercise time.,1340
+academic_researcher,k=0,remembering,content_project_proposal_158_project_proposal_2,memory_presence,1,"Title: Secure Federated Learning Framework for Regional Healthcare Data Analysis
+Principal Investigator: Dr. Anya Sharma
+Budget: $875,000
+Timeline: 24 months
+Objective: To develop a secure federated learning framework for analyzing regional healthcare data while ensuring privacy compliance.",1340
+academic_researcher,k=0,remembering,content_project_proposal_158_project_proposal_2,memory_presence,0,"Title: Secure Federated Learning Framework for Regional Healthcare Data Analysis
+Principal Investigator: Dr. Anya Sharma
+Budget: $875,000
+Timeline: 24 months
+Objective: To develop a secure federated learning framework for analyzing regional healthcare data while ensuring privacy compliance.",1340
+academic_researcher,k=0,remembering,content_project_proposal_158_project_proposal_2,memory_presence,0,"Title: Secure Federated Learning Framework for Regional Healthcare Data Analysis
+Principal Investigator: Dr. Anya Sharma
+Budget: $875,000
+Timeline: 24 months
+Objective: To develop a secure federated learning framework for analyzing regional healthcare data while ensuring privacy compliance.",1340
+academic_researcher,k=0,remembering,content_project_proposal_158_project_proposal_2,memory_presence,0,"Title: Secure Federated Learning Framework for Regional Healthcare Data Analysis
+Principal Investigator: Dr. Anya Sharma
+Budget: $875,000
+Timeline: 24 months
+Objective: To develop a secure federated learning framework for analyzing regional healthcare data while ensuring privacy compliance.",1340
+academic_researcher,k=0,remembering,content_project_proposal_158_project_proposal_2,memory_presence,0,"Title: Secure Federated Learning Framework for Regional Healthcare Data Analysis
+Principal Investigator: Dr. Anya Sharma
+Budget: $875,000
+Timeline: 24 months
+Objective: To develop a secure federated learning framework for analyzing regional healthcare data while ensuring privacy compliance.",1340
+academic_researcher,k=0,remembering,content_project_proposal_158_project_proposal_2,memory_presence,0,"Title: Secure Federated Learning Framework for Regional Healthcare Data Analysis
+Principal Investigator: Dr. Anya Sharma
+Budget: $875,000
+Timeline: 24 months
+Objective: To develop a secure federated learning framework for analyzing regional healthcare data while ensuring privacy compliance.",1340
+academic_researcher,k=0,remembering,content_project_proposal_158_project_proposal_2,memory_presence,0,"Title: Secure Federated Learning Framework for Regional Healthcare Data Analysis
+Principal Investigator: Dr. Anya Sharma
+Budget: $875,000
+Timeline: 24 months
+Objective: To develop a secure federated learning framework for analyzing regional healthcare data while ensuring privacy compliance.",1340
+academic_researcher,k=0,remembering,content_project_proposal_158_project_proposal_2,memory_presence,0,"Title: Secure Federated Learning Framework for Regional Healthcare Data Analysis
+Principal Investigator: Dr. Anya Sharma
+Budget: $875,000
+Timeline: 24 months
+Objective: To develop a secure federated learning framework for analyzing regional healthcare data while ensuring privacy compliance.",1340
+academic_researcher,k=0,remembering,content_project_proposal_158_project_proposal_2,memory_presence,0,"Title: Secure Federated Learning Framework for Regional Healthcare Data Analysis
+Principal Investigator: Dr. Anya Sharma
+Budget: $875,000
+Timeline: 24 months
+Objective: To develop a secure federated learning framework for analyzing regional healthcare data while ensuring privacy compliance.",1340
+academic_researcher,k=0,remembering,content_project_proposal_158_project_proposal_2,memory_presence,0,"Title: Secure Federated Learning Framework for Regional Healthcare Data Analysis
+Principal Investigator: Dr. Anya Sharma
+Budget: $875,000
+Timeline: 24 months
+Objective: To develop a secure federated learning framework for analyzing regional healthcare data while ensuring privacy compliance.",1340
+academic_researcher,k=0,remembering,content_project_proposal_158_project_proposal_2,forgetting_absence,1,"Title: Secure Federated Learning Framework for Regional Healthcare Data Analysis
+Principal Investigator: Dr. Anya Sharma
+Budget: $875,000
+Timeline: 24 months
+Objective: To develop a secure federated learning framework for analyzing regional healthcare data while ensuring privacy compliance.",1340
+academic_researcher,k=0,remembering,content_project_proposal_158_project_proposal_2,forgetting_absence,1,"Title: Secure Federated Learning Framework for Regional Healthcare Data Analysis
+Principal Investigator: Dr. Anya Sharma
+Budget: $875,000
+Timeline: 24 months
+Objective: To develop a secure federated learning framework for analyzing regional healthcare data while ensuring privacy compliance.",1340
+academic_researcher,k=0,remembering,content_project_proposal_158_project_proposal_2,forgetting_absence,0,"Title: Secure Federated Learning Framework for Regional Healthcare Data Analysis
+Principal Investigator: Dr. Anya Sharma
+Budget: $875,000
+Timeline: 24 months
+Objective: To develop a secure federated learning framework for analyzing regional healthcare data while ensuring privacy compliance.",1340
+academic_researcher,k=0,remembering,content_project_proposal_158_project_proposal_2,forgetting_absence,1,"Title: Secure Federated Learning Framework for Regional Healthcare Data Analysis
+Principal Investigator: Dr. Anya Sharma
+Budget: $875,000
+Timeline: 24 months
+Objective: To develop a secure federated learning framework for analyzing regional healthcare data while ensuring privacy compliance.",1340
+academic_researcher,k=0,remembering,content_email_writeup_158_email_writeup_1,memory_presence,1,"Subject: Strategic Research Priorities for Digital Accessibility in Healthcare
+
+Dear Non-profit Leadership and European Healthcare Policy Advisors,
+
+I am writing to outline strategic research priorities for enhancing digital accessibility in healthcare, leveraging current technological advancements.",1340
+academic_researcher,k=0,remembering,content_email_writeup_158_email_writeup_1,memory_presence,1,"Subject: Strategic Research Priorities for Digital Accessibility in Healthcare
+
+Dear Non-profit Leadership and European Healthcare Policy Advisors,
+
+I am writing to outline strategic research priorities for enhancing digital accessibility in healthcare, leveraging current technological advancements.",1340
+academic_researcher,k=0,remembering,content_email_writeup_158_email_writeup_1,memory_presence,0,"Subject: Strategic Research Priorities for Digital Accessibility in Healthcare
+
+Dear Non-profit Leadership and European Healthcare Policy Advisors,
+
+I am writing to outline strategic research priorities for enhancing digital accessibility in healthcare, leveraging current technological advancements.",1340
+academic_researcher,k=0,remembering,content_email_writeup_158_email_writeup_1,memory_presence,0,"Subject: Strategic Research Priorities for Digital Accessibility in Healthcare
+
+Dear Non-profit Leadership and European Healthcare Policy Advisors,
+
+I am writing to outline strategic research priorities for enhancing digital accessibility in healthcare, leveraging current technological advancements.",1340
+academic_researcher,k=0,remembering,content_email_writeup_158_email_writeup_1,forgetting_absence,1,"Subject: Strategic Research Priorities for Digital Accessibility in Healthcare
+
+Dear Non-profit Leadership and European Healthcare Policy Advisors,
+
+I am writing to outline strategic research priorities for enhancing digital accessibility in healthcare, leveraging current technological advancements.",1340
+academic_researcher,k=0,remembering,content_meeting_notes_158_meeting_notes_2,memory_presence,1,"Meeting: Strategic Alignment for AI-Driven Drug Discovery Initiatives
+Date: 2025-06-05
+Attendees: Prof. Mei Ling, Dr. Anya Sharma
+Decisions:
+1. Establish a working group for a standardized data sharing framework.
+2. Allocate computational resources for quantum machine learning in protein folding pre",1340
+academic_researcher,k=0,remembering,content_meeting_notes_158_meeting_notes_2,memory_presence,0,"Meeting: Strategic Alignment for AI-Driven Drug Discovery Initiatives
+Date: 2025-06-05
+Attendees: Prof. Mei Ling, Dr. Anya Sharma
+Decisions:
+1. Establish a working group for a standardized data sharing framework.
+2. Allocate computational resources for quantum machine learning in protein folding pre",1340
+academic_researcher,k=0,remembering,content_meeting_notes_158_meeting_notes_2,memory_presence,1,"Meeting: Strategic Alignment for AI-Driven Drug Discovery Initiatives
+Date: 2025-06-05
+Attendees: Prof. Mei Ling, Dr. Anya Sharma
+Decisions:
+1. Establish a working group for a standardized data sharing framework.
+2. Allocate computational resources for quantum machine learning in protein folding pre",1340
+academic_researcher,k=0,remembering,content_meeting_notes_158_meeting_notes_2,memory_presence,0,"Meeting: Strategic Alignment for AI-Driven Drug Discovery Initiatives
+Date: 2025-06-05
+Attendees: Prof. Mei Ling, Dr. Anya Sharma
+Decisions:
+1. Establish a working group for a standardized data sharing framework.
+2. Allocate computational resources for quantum machine learning in protein folding pre",1340
+academic_researcher,k=0,remembering,content_meeting_notes_158_meeting_notes_2,forgetting_absence,1,"Meeting: Strategic Alignment for AI-Driven Drug Discovery Initiatives
+Date: 2025-06-05
+Attendees: Prof. Mei Ling, Dr. Anya Sharma
+Decisions:
+1. Establish a working group for a standardized data sharing framework.
+2. Allocate computational resources for quantum machine learning in protein folding pre",1340
+academic_researcher,k=0,remembering,content_project_proposal_158_project_proposal_1,memory_presence,1,"Title: Deep Learning for Regional Energy Demand Forecasting under Climate Volatility
+Principal Investigator: Dr. Anya Sharma
+Budget: $1,000,000
+Timeline: 30 months
+Objectives: Include technical report deliverable and actionable insights.
+Stakeholders: EPA removed.",1340
+academic_researcher,k=0,remembering,content_project_proposal_158_project_proposal_1,memory_presence,0,"Title: Deep Learning for Regional Energy Demand Forecasting under Climate Volatility
+Principal Investigator: Dr. Anya Sharma
+Budget: $1,000,000
+Timeline: 30 months
+Objectives: Include technical report deliverable and actionable insights.
+Stakeholders: EPA removed.",1340
+academic_researcher,k=0,remembering,content_project_proposal_158_project_proposal_1,memory_presence,1,"Title: Deep Learning for Regional Energy Demand Forecasting under Climate Volatility
+Principal Investigator: Dr. Anya Sharma
+Budget: $1,000,000
+Timeline: 30 months
+Objectives: Include technical report deliverable and actionable insights.
+Stakeholders: EPA removed.",1340
+academic_researcher,k=0,remembering,content_project_proposal_158_project_proposal_1,memory_presence,0,"Title: Deep Learning for Regional Energy Demand Forecasting under Climate Volatility
+Principal Investigator: Dr. Anya Sharma
+Budget: $1,000,000
+Timeline: 30 months
+Objectives: Include technical report deliverable and actionable insights.
+Stakeholders: EPA removed.",1340
+academic_researcher,k=0,remembering,content_project_proposal_158_project_proposal_1,memory_presence,0,"Title: Deep Learning for Regional Energy Demand Forecasting under Climate Volatility
+Principal Investigator: Dr. Anya Sharma
+Budget: $1,000,000
+Timeline: 30 months
+Objectives: Include technical report deliverable and actionable insights.
+Stakeholders: EPA removed.",1340
+academic_researcher,k=0,remembering,content_project_proposal_158_project_proposal_1,memory_presence,0,"Title: Deep Learning for Regional Energy Demand Forecasting under Climate Volatility
+Principal Investigator: Dr. Anya Sharma
+Budget: $1,000,000
+Timeline: 30 months
+Objectives: Include technical report deliverable and actionable insights.
+Stakeholders: EPA removed.",1340
+academic_researcher,k=0,remembering,content_project_proposal_158_project_proposal_1,memory_presence,0,"Title: Deep Learning for Regional Energy Demand Forecasting under Climate Volatility
+Principal Investigator: Dr. Anya Sharma
+Budget: $1,000,000
+Timeline: 30 months
+Objectives: Include technical report deliverable and actionable insights.
+Stakeholders: EPA removed.",1340
+academic_researcher,k=0,remembering,content_project_proposal_158_project_proposal_1,memory_presence,0,"Title: Deep Learning for Regional Energy Demand Forecasting under Climate Volatility
+Principal Investigator: Dr. Anya Sharma
+Budget: $1,000,000
+Timeline: 30 months
+Objectives: Include technical report deliverable and actionable insights.
+Stakeholders: EPA removed.",1340
+academic_researcher,k=0,remembering,content_project_proposal_158_project_proposal_1,memory_presence,0,"Title: Deep Learning for Regional Energy Demand Forecasting under Climate Volatility
+Principal Investigator: Dr. Anya Sharma
+Budget: $1,000,000
+Timeline: 30 months
+Objectives: Include technical report deliverable and actionable insights.
+Stakeholders: EPA removed.",1340
+academic_researcher,k=0,remembering,content_project_proposal_158_project_proposal_1,memory_presence,0,"Title: Deep Learning for Regional Energy Demand Forecasting under Climate Volatility
+Principal Investigator: Dr. Anya Sharma
+Budget: $1,000,000
+Timeline: 30 months
+Objectives: Include technical report deliverable and actionable insights.
+Stakeholders: EPA removed.",1340
+academic_researcher,k=0,remembering,content_project_proposal_158_project_proposal_1,forgetting_absence,1,"Title: Deep Learning for Regional Energy Demand Forecasting under Climate Volatility
+Principal Investigator: Dr. Anya Sharma
+Budget: $1,000,000
+Timeline: 30 months
+Objectives: Include technical report deliverable and actionable insights.
+Stakeholders: EPA removed.",1340
+academic_researcher,k=0,remembering,content_project_proposal_158_project_proposal_1,forgetting_absence,1,"Title: Deep Learning for Regional Energy Demand Forecasting under Climate Volatility
+Principal Investigator: Dr. Anya Sharma
+Budget: $1,000,000
+Timeline: 30 months
+Objectives: Include technical report deliverable and actionable insights.
+Stakeholders: EPA removed.",1340
+academic_researcher,k=0,reasoning,activity_food_total_158,memory_presence,0,"$1,043.58",1340
+academic_researcher,k=0,reasoning,activity_steps_total_158,memory_presence,1,"64,059",1340
+academic_researcher,k=0,reasoning,goal_food_expenses_lunch_158_1,memory_presence,1,"Yes, you are meeting your lunch budget goal. Total lunch spending is $81.08, which is under the $70/week goal? No, wait. $17.01 + $15.01 + $17.16 + $16.57 + $15.13 = $80.88. The goal is under $70 per week. So, No, you are not meeting the goal. Let me re-calculate. 17.01+15.01+17.16+16.57+15.13 = 80.",1340
+academic_researcher,k=0,reasoning,goal_food_expenses_lunch_158_1,memory_presence,1,"Yes, you are meeting your lunch budget goal. Total lunch spending is $81.08, which is under the $70/week goal? No, wait. $17.01 + $15.01 + $17.16 + $16.57 + $15.13 = $80.88. The goal is under $70 per week. So, No, you are not meeting the goal. Let me re-calculate. 17.01+15.01+17.16+16.57+15.13 = 80.",1340
+academic_researcher,k=0,reasoning,goal_food_expenses_lunch_158_1,memory_presence,1,"Yes, you are meeting your lunch budget goal. Total lunch spending is $81.08, which is under the $70/week goal? No, wait. $17.01 + $15.01 + $17.16 + $16.57 + $15.13 = $80.88. The goal is under $70 per week. So, No, you are not meeting the goal. Let me re-calculate. 17.01+15.01+17.16+16.57+15.13 = 80.",1340
+academic_researcher,k=0,reasoning,goal_step_tracker_daily_steps_158_0,memory_presence,1,"No, you are not meeting your daily step goal of 11,000 steps on all days. Steps: 6,200 (No), 8,579 (No), 5,135 (No), 8,004 (No), 14,157 (Yes), 7,592 (No), 14,392 (Yes).",1340
+academic_researcher,k=0,reasoning,goal_step_tracker_daily_steps_158_0,memory_presence,0,"No, you are not meeting your daily step goal of 11,000 steps on all days. Steps: 6,200 (No), 8,579 (No), 5,135 (No), 8,004 (No), 14,157 (Yes), 7,592 (No), 14,392 (Yes).",1340
+academic_researcher,k=0,reasoning,goal_step_tracker_daily_steps_158_0,memory_presence,1,"No, you are not meeting your daily step goal of 11,000 steps on all days. Steps: 6,200 (No), 8,579 (No), 5,135 (No), 8,004 (No), 14,157 (Yes), 7,592 (No), 14,392 (Yes).",1340
+academic_researcher,k=0,reasoning,activity_food_coffee_158,memory_presence,0,$74.43,1340
+academic_researcher,k=1,remembering,activity_todos_158,memory_presence,0,Review journal submissions (due 2025-06-13); Write a research paper draft; Schedule exercise time.,1055
+academic_researcher,k=1,remembering,activity_todos_158,memory_presence,0,Review journal submissions (due 2025-06-13); Write a research paper draft; Schedule exercise time.,1055
+academic_researcher,k=1,remembering,activity_todos_158,memory_presence,1,Review journal submissions (due 2025-06-13); Write a research paper draft; Schedule exercise time.,1055
+academic_researcher,k=1,remembering,activity_todos_158,memory_presence,1,Review journal submissions (due 2025-06-13); Write a research paper draft; Schedule exercise time.,1055
+academic_researcher,k=1,remembering,activity_todos_158,memory_presence,1,Review journal submissions (due 2025-06-13); Write a research paper draft; Schedule exercise time.,1055
+academic_researcher,k=1,remembering,activity_todos_158,forgetting_absence,1,Review journal submissions (due 2025-06-13); Write a research paper draft; Schedule exercise time.,1055
+academic_researcher,k=1,remembering,activity_todos_158,forgetting_absence,1,Review journal submissions (due 2025-06-13); Write a research paper draft; Schedule exercise time.,1055
+academic_researcher,k=1,remembering,activity_todos_158,forgetting_absence,1,Review journal submissions (due 2025-06-13); Write a research paper draft; Schedule exercise time.,1055
+academic_researcher,k=1,remembering,activity_todos_158,forgetting_absence,1,Review journal submissions (due 2025-06-13); Write a research paper draft; Schedule exercise time.,1055
+academic_researcher,k=1,remembering,activity_todos_158,forgetting_absence,1,Review journal submissions (due 2025-06-13); Write a research paper draft; Schedule exercise time.,1055
+academic_researcher,k=1,remembering,activity_todos_158,forgetting_absence,1,Review journal submissions (due 2025-06-13); Write a research paper draft; Schedule exercise time.,1055
+academic_researcher,k=1,remembering,activity_todos_158,forgetting_absence,1,Review journal submissions (due 2025-06-13); Write a research paper draft; Schedule exercise time.,1055
+academic_researcher,k=1,remembering,activity_todos_158,forgetting_absence,1,Review journal submissions (due 2025-06-13); Write a research paper draft; Schedule exercise time.,1055
+academic_researcher,k=1,remembering,content_project_proposal_158_project_proposal_2,memory_presence,1,"Project Title: Secure Federated Learning Framework for Regional Healthcare Data Analysis
+
+Principal Investigator: Dr. Anya Sharma
+Budget: $875,000
+Timeline: 24 months
+
+Objectives:
+- Develop a secure federated learning framework for regional healthcare data analysis.
+
+Deliverables:
+- Technical implem",1055
+academic_researcher,k=1,remembering,content_project_proposal_158_project_proposal_2,memory_presence,0,"Project Title: Secure Federated Learning Framework for Regional Healthcare Data Analysis
+
+Principal Investigator: Dr. Anya Sharma
+Budget: $875,000
+Timeline: 24 months
+
+Objectives:
+- Develop a secure federated learning framework for regional healthcare data analysis.
+
+Deliverables:
+- Technical implem",1055
+academic_researcher,k=1,remembering,content_project_proposal_158_project_proposal_2,memory_presence,0,"Project Title: Secure Federated Learning Framework for Regional Healthcare Data Analysis
+
+Principal Investigator: Dr. Anya Sharma
+Budget: $875,000
+Timeline: 24 months
+
+Objectives:
+- Develop a secure federated learning framework for regional healthcare data analysis.
+
+Deliverables:
+- Technical implem",1055
+academic_researcher,k=1,remembering,content_project_proposal_158_project_proposal_2,memory_presence,0,"Project Title: Secure Federated Learning Framework for Regional Healthcare Data Analysis
+
+Principal Investigator: Dr. Anya Sharma
+Budget: $875,000
+Timeline: 24 months
+
+Objectives:
+- Develop a secure federated learning framework for regional healthcare data analysis.
+
+Deliverables:
+- Technical implem",1055
+academic_researcher,k=1,remembering,content_project_proposal_158_project_proposal_2,memory_presence,0,"Project Title: Secure Federated Learning Framework for Regional Healthcare Data Analysis
+
+Principal Investigator: Dr. Anya Sharma
+Budget: $875,000
+Timeline: 24 months
+
+Objectives:
+- Develop a secure federated learning framework for regional healthcare data analysis.
+
+Deliverables:
+- Technical implem",1055
+academic_researcher,k=1,remembering,content_project_proposal_158_project_proposal_2,memory_presence,0,"Project Title: Secure Federated Learning Framework for Regional Healthcare Data Analysis
+
+Principal Investigator: Dr. Anya Sharma
+Budget: $875,000
+Timeline: 24 months
+
+Objectives:
+- Develop a secure federated learning framework for regional healthcare data analysis.
+
+Deliverables:
+- Technical implem",1055
+academic_researcher,k=1,remembering,content_project_proposal_158_project_proposal_2,memory_presence,0,"Project Title: Secure Federated Learning Framework for Regional Healthcare Data Analysis
+
+Principal Investigator: Dr. Anya Sharma
+Budget: $875,000
+Timeline: 24 months
+
+Objectives:
+- Develop a secure federated learning framework for regional healthcare data analysis.
+
+Deliverables:
+- Technical implem",1055
+academic_researcher,k=1,remembering,content_project_proposal_158_project_proposal_2,memory_presence,0,"Project Title: Secure Federated Learning Framework for Regional Healthcare Data Analysis
+
+Principal Investigator: Dr. Anya Sharma
+Budget: $875,000
+Timeline: 24 months
+
+Objectives:
+- Develop a secure federated learning framework for regional healthcare data analysis.
+
+Deliverables:
+- Technical implem",1055
+academic_researcher,k=1,remembering,content_project_proposal_158_project_proposal_2,memory_presence,0,"Project Title: Secure Federated Learning Framework for Regional Healthcare Data Analysis
+
+Principal Investigator: Dr. Anya Sharma
+Budget: $875,000
+Timeline: 24 months
+
+Objectives:
+- Develop a secure federated learning framework for regional healthcare data analysis.
+
+Deliverables:
+- Technical implem",1055
+academic_researcher,k=1,remembering,content_project_proposal_158_project_proposal_2,memory_presence,0,"Project Title: Secure Federated Learning Framework for Regional Healthcare Data Analysis
+
+Principal Investigator: Dr. Anya Sharma
+Budget: $875,000
+Timeline: 24 months
+
+Objectives:
+- Develop a secure federated learning framework for regional healthcare data analysis.
+
+Deliverables:
+- Technical implem",1055
+academic_researcher,k=1,remembering,content_project_proposal_158_project_proposal_2,forgetting_absence,1,"Project Title: Secure Federated Learning Framework for Regional Healthcare Data Analysis
+
+Principal Investigator: Dr. Anya Sharma
+Budget: $875,000
+Timeline: 24 months
+
+Objectives:
+- Develop a secure federated learning framework for regional healthcare data analysis.
+
+Deliverables:
+- Technical implem",1055
+academic_researcher,k=1,remembering,content_project_proposal_158_project_proposal_2,forgetting_absence,1,"Project Title: Secure Federated Learning Framework for Regional Healthcare Data Analysis
+
+Principal Investigator: Dr. Anya Sharma
+Budget: $875,000
+Timeline: 24 months
+
+Objectives:
+- Develop a secure federated learning framework for regional healthcare data analysis.
+
+Deliverables:
+- Technical implem",1055
+academic_researcher,k=1,remembering,content_project_proposal_158_project_proposal_2,forgetting_absence,0,"Project Title: Secure Federated Learning Framework for Regional Healthcare Data Analysis
+
+Principal Investigator: Dr. Anya Sharma
+Budget: $875,000
+Timeline: 24 months
+
+Objectives:
+- Develop a secure federated learning framework for regional healthcare data analysis.
+
+Deliverables:
+- Technical implem",1055
+academic_researcher,k=1,remembering,content_project_proposal_158_project_proposal_2,forgetting_absence,1,"Project Title: Secure Federated Learning Framework for Regional Healthcare Data Analysis
+
+Principal Investigator: Dr. Anya Sharma
+Budget: $875,000
+Timeline: 24 months
+
+Objectives:
+- Develop a secure federated learning framework for regional healthcare data analysis.
+
+Deliverables:
+- Technical implem",1055
+academic_researcher,k=1,remembering,content_email_writeup_158_email_writeup_1,memory_presence,1,"Subject: Strategic Research Priorities for Digital Accessibility in Healthcare
+
+Dear Non-profit Leadership and European Healthcare Policy Advisors,
+
+I am writing to outline our strategic research priorities for enhancing digital accessibility in healthcare, leveraging current technological advanceme",1055
+academic_researcher,k=1,remembering,content_email_writeup_158_email_writeup_1,memory_presence,1,"Subject: Strategic Research Priorities for Digital Accessibility in Healthcare
+
+Dear Non-profit Leadership and European Healthcare Policy Advisors,
+
+I am writing to outline our strategic research priorities for enhancing digital accessibility in healthcare, leveraging current technological advanceme",1055
+academic_researcher,k=1,remembering,content_email_writeup_158_email_writeup_1,memory_presence,0,"Subject: Strategic Research Priorities for Digital Accessibility in Healthcare
+
+Dear Non-profit Leadership and European Healthcare Policy Advisors,
+
+I am writing to outline our strategic research priorities for enhancing digital accessibility in healthcare, leveraging current technological advanceme",1055
+academic_researcher,k=1,remembering,content_email_writeup_158_email_writeup_1,memory_presence,0,"Subject: Strategic Research Priorities for Digital Accessibility in Healthcare
+
+Dear Non-profit Leadership and European Healthcare Policy Advisors,
+
+I am writing to outline our strategic research priorities for enhancing digital accessibility in healthcare, leveraging current technological advanceme",1055
+academic_researcher,k=1,remembering,content_email_writeup_158_email_writeup_1,forgetting_absence,1,"Subject: Strategic Research Priorities for Digital Accessibility in Healthcare
+
+Dear Non-profit Leadership and European Healthcare Policy Advisors,
+
+I am writing to outline our strategic research priorities for enhancing digital accessibility in healthcare, leveraging current technological advanceme",1055
+academic_researcher,k=1,remembering,content_meeting_notes_158_meeting_notes_2,memory_presence,1,"Meeting: Strategic Alignment for AI-Driven Drug Discovery Initiatives
+Date: 2025-06-05
+
+Attendees:
+- Prof. Mei Ling
+- Dr. Anya Sharma
+- (Note: Dr. Kenji Tanaka was removed from the attendee record)
+
+Decisions:
+1. Establish a working group for a standardized data sharing framework.
+2. Allocate comput",1055
+academic_researcher,k=1,remembering,content_meeting_notes_158_meeting_notes_2,memory_presence,0,"Meeting: Strategic Alignment for AI-Driven Drug Discovery Initiatives
+Date: 2025-06-05
+
+Attendees:
+- Prof. Mei Ling
+- Dr. Anya Sharma
+- (Note: Dr. Kenji Tanaka was removed from the attendee record)
+
+Decisions:
+1. Establish a working group for a standardized data sharing framework.
+2. Allocate comput",1055
+academic_researcher,k=1,remembering,content_meeting_notes_158_meeting_notes_2,memory_presence,0,"Meeting: Strategic Alignment for AI-Driven Drug Discovery Initiatives
+Date: 2025-06-05
+
+Attendees:
+- Prof. Mei Ling
+- Dr. Anya Sharma
+- (Note: Dr. Kenji Tanaka was removed from the attendee record)
+
+Decisions:
+1. Establish a working group for a standardized data sharing framework.
+2. Allocate comput",1055
+academic_researcher,k=1,remembering,content_meeting_notes_158_meeting_notes_2,memory_presence,0,"Meeting: Strategic Alignment for AI-Driven Drug Discovery Initiatives
+Date: 2025-06-05
+
+Attendees:
+- Prof. Mei Ling
+- Dr. Anya Sharma
+- (Note: Dr. Kenji Tanaka was removed from the attendee record)
+
+Decisions:
+1. Establish a working group for a standardized data sharing framework.
+2. Allocate comput",1055
+academic_researcher,k=1,remembering,content_meeting_notes_158_meeting_notes_2,forgetting_absence,1,"Meeting: Strategic Alignment for AI-Driven Drug Discovery Initiatives
+Date: 2025-06-05
+
+Attendees:
+- Prof. Mei Ling
+- Dr. Anya Sharma
+- (Note: Dr. Kenji Tanaka was removed from the attendee record)
+
+Decisions:
+1. Establish a working group for a standardized data sharing framework.
+2. Allocate comput",1055
+academic_researcher,k=1,remembering,content_project_proposal_158_project_proposal_1,memory_presence,1,"Project Title: Deep Learning for Regional Energy Demand Forecasting under Climate Volatility
+
+Budget: $1,000,000
+
+Objectives:
+- Generate actionable insights for regional energy demand.
+
+Deliverables:
+- Technical report.
+
+Stakeholders:
+- (Note: EPA was removed from stakeholders)",1055
+academic_researcher,k=1,remembering,content_project_proposal_158_project_proposal_1,memory_presence,0,"Project Title: Deep Learning for Regional Energy Demand Forecasting under Climate Volatility
+
+Budget: $1,000,000
+
+Objectives:
+- Generate actionable insights for regional energy demand.
+
+Deliverables:
+- Technical report.
+
+Stakeholders:
+- (Note: EPA was removed from stakeholders)",1055
+academic_researcher,k=1,remembering,content_project_proposal_158_project_proposal_1,memory_presence,1,"Project Title: Deep Learning for Regional Energy Demand Forecasting under Climate Volatility
+
+Budget: $1,000,000
+
+Objectives:
+- Generate actionable insights for regional energy demand.
+
+Deliverables:
+- Technical report.
+
+Stakeholders:
+- (Note: EPA was removed from stakeholders)",1055
+academic_researcher,k=1,remembering,content_project_proposal_158_project_proposal_1,memory_presence,0,"Project Title: Deep Learning for Regional Energy Demand Forecasting under Climate Volatility
+
+Budget: $1,000,000
+
+Objectives:
+- Generate actionable insights for regional energy demand.
+
+Deliverables:
+- Technical report.
+
+Stakeholders:
+- (Note: EPA was removed from stakeholders)",1055
+academic_researcher,k=1,remembering,content_project_proposal_158_project_proposal_1,memory_presence,0,"Project Title: Deep Learning for Regional Energy Demand Forecasting under Climate Volatility
+
+Budget: $1,000,000
+
+Objectives:
+- Generate actionable insights for regional energy demand.
+
+Deliverables:
+- Technical report.
+
+Stakeholders:
+- (Note: EPA was removed from stakeholders)",1055
+academic_researcher,k=1,remembering,content_project_proposal_158_project_proposal_1,memory_presence,0,"Project Title: Deep Learning for Regional Energy Demand Forecasting under Climate Volatility
+
+Budget: $1,000,000
+
+Objectives:
+- Generate actionable insights for regional energy demand.
+
+Deliverables:
+- Technical report.
+
+Stakeholders:
+- (Note: EPA was removed from stakeholders)",1055
+academic_researcher,k=1,remembering,content_project_proposal_158_project_proposal_1,memory_presence,0,"Project Title: Deep Learning for Regional Energy Demand Forecasting under Climate Volatility
+
+Budget: $1,000,000
+
+Objectives:
+- Generate actionable insights for regional energy demand.
+
+Deliverables:
+- Technical report.
+
+Stakeholders:
+- (Note: EPA was removed from stakeholders)",1055
+academic_researcher,k=1,remembering,content_project_proposal_158_project_proposal_1,memory_presence,0,"Project Title: Deep Learning for Regional Energy Demand Forecasting under Climate Volatility
+
+Budget: $1,000,000
+
+Objectives:
+- Generate actionable insights for regional energy demand.
+
+Deliverables:
+- Technical report.
+
+Stakeholders:
+- (Note: EPA was removed from stakeholders)",1055
+academic_researcher,k=1,remembering,content_project_proposal_158_project_proposal_1,memory_presence,0,"Project Title: Deep Learning for Regional Energy Demand Forecasting under Climate Volatility
+
+Budget: $1,000,000
+
+Objectives:
+- Generate actionable insights for regional energy demand.
+
+Deliverables:
+- Technical report.
+
+Stakeholders:
+- (Note: EPA was removed from stakeholders)",1055
+academic_researcher,k=1,remembering,content_project_proposal_158_project_proposal_1,memory_presence,0,"Project Title: Deep Learning for Regional Energy Demand Forecasting under Climate Volatility
+
+Budget: $1,000,000
+
+Objectives:
+- Generate actionable insights for regional energy demand.
+
+Deliverables:
+- Technical report.
+
+Stakeholders:
+- (Note: EPA was removed from stakeholders)",1055
+academic_researcher,k=1,remembering,content_project_proposal_158_project_proposal_1,forgetting_absence,1,"Project Title: Deep Learning for Regional Energy Demand Forecasting under Climate Volatility
+
+Budget: $1,000,000
+
+Objectives:
+- Generate actionable insights for regional energy demand.
+
+Deliverables:
+- Technical report.
+
+Stakeholders:
+- (Note: EPA was removed from stakeholders)",1055
+academic_researcher,k=1,remembering,content_project_proposal_158_project_proposal_1,forgetting_absence,1,"Project Title: Deep Learning for Regional Energy Demand Forecasting under Climate Volatility
+
+Budget: $1,000,000
+
+Objectives:
+- Generate actionable insights for regional energy demand.
+
+Deliverables:
+- Technical report.
+
+Stakeholders:
+- (Note: EPA was removed from stakeholders)",1055
+academic_researcher,k=1,reasoning,activity_food_total_158,memory_presence,0,"$1,000,000",1055
+academic_researcher,k=1,reasoning,activity_steps_total_158,memory_presence,0,"62,069",1055
+academic_researcher,k=1,reasoning,goal_food_expenses_lunch_158_1,memory_presence,1,"Yes. Total lunch spending is $81.88, which is under the $70/week goal? No, wait. $17.01 + $15.01 + $17.16 + $16.57 + $15.13 = $80.88. The goal is under $70. So, No.",1055
+academic_researcher,k=1,reasoning,goal_food_expenses_lunch_158_1,memory_presence,1,"Yes. Total lunch spending is $81.88, which is under the $70/week goal? No, wait. $17.01 + $15.01 + $17.16 + $16.57 + $15.13 = $80.88. The goal is under $70. So, No.",1055
+academic_researcher,k=1,reasoning,goal_food_expenses_lunch_158_1,memory_presence,1,"Yes. Total lunch spending is $81.88, which is under the $70/week goal? No, wait. $17.01 + $15.01 + $17.16 + $16.57 + $15.13 = $80.88. The goal is under $70. So, No.",1055
+academic_researcher,k=1,reasoning,goal_step_tracker_daily_steps_158_0,memory_presence,1,"No. The daily goal is 11,000 steps. Days below goal: 06-01 (6,200), 06-03 (5,135), 06-06 (7,592). Days above goal: 06-02 (8,579 - wait, 8579 < 11000), 06-04 (8,004 - wait, 8004 < 11000), 06-05 (14,157), 06-07 (14,392). Let's re-evaluate. Goal: 11,000. 06-01: 6,200 (No). 06-02: 8,579 (No). 06-03: 5,1",1055
+academic_researcher,k=1,reasoning,goal_step_tracker_daily_steps_158_0,memory_presence,0,"No. The daily goal is 11,000 steps. Days below goal: 06-01 (6,200), 06-03 (5,135), 06-06 (7,592). Days above goal: 06-02 (8,579 - wait, 8579 < 11000), 06-04 (8,004 - wait, 8004 < 11000), 06-05 (14,157), 06-07 (14,392). Let's re-evaluate. Goal: 11,000. 06-01: 6,200 (No). 06-02: 8,579 (No). 06-03: 5,1",1055
+academic_researcher,k=1,reasoning,goal_step_tracker_daily_steps_158_0,memory_presence,1,"No. The daily goal is 11,000 steps. Days below goal: 06-01 (6,200), 06-03 (5,135), 06-06 (7,592). Days above goal: 06-02 (8,579 - wait, 8579 < 11000), 06-04 (8,004 - wait, 8004 < 11000), 06-05 (14,157), 06-07 (14,392). Let's re-evaluate. Goal: 11,000. 06-01: 6,200 (No). 06-02: 8,579 (No). 06-03: 5,1",1055
+academic_researcher,k=1,reasoning,activity_food_coffee_158,memory_presence,0,$69.37,1055
+academic_researcher,k=2,remembering,activity_todos_158,memory_presence,0,Review journal submissions (due 2025-06-13); Write a research paper draft; Schedule exercise time.,964
+academic_researcher,k=2,remembering,activity_todos_158,memory_presence,0,Review journal submissions (due 2025-06-13); Write a research paper draft; Schedule exercise time.,964
+academic_researcher,k=2,remembering,activity_todos_158,memory_presence,1,Review journal submissions (due 2025-06-13); Write a research paper draft; Schedule exercise time.,964
+academic_researcher,k=2,remembering,activity_todos_158,memory_presence,1,Review journal submissions (due 2025-06-13); Write a research paper draft; Schedule exercise time.,964
+academic_researcher,k=2,remembering,activity_todos_158,memory_presence,1,Review journal submissions (due 2025-06-13); Write a research paper draft; Schedule exercise time.,964
+academic_researcher,k=2,remembering,activity_todos_158,forgetting_absence,1,Review journal submissions (due 2025-06-13); Write a research paper draft; Schedule exercise time.,964
+academic_researcher,k=2,remembering,activity_todos_158,forgetting_absence,1,Review journal submissions (due 2025-06-13); Write a research paper draft; Schedule exercise time.,964
+academic_researcher,k=2,remembering,activity_todos_158,forgetting_absence,1,Review journal submissions (due 2025-06-13); Write a research paper draft; Schedule exercise time.,964
+academic_researcher,k=2,remembering,activity_todos_158,forgetting_absence,1,Review journal submissions (due 2025-06-13); Write a research paper draft; Schedule exercise time.,964
+academic_researcher,k=2,remembering,activity_todos_158,forgetting_absence,1,Review journal submissions (due 2025-06-13); Write a research paper draft; Schedule exercise time.,964
+academic_researcher,k=2,remembering,activity_todos_158,forgetting_absence,1,Review journal submissions (due 2025-06-13); Write a research paper draft; Schedule exercise time.,964
+academic_researcher,k=2,remembering,activity_todos_158,forgetting_absence,1,Review journal submissions (due 2025-06-13); Write a research paper draft; Schedule exercise time.,964
+academic_researcher,k=2,remembering,activity_todos_158,forgetting_absence,1,Review journal submissions (due 2025-06-13); Write a research paper draft; Schedule exercise time.,964
+academic_researcher,k=2,remembering,content_project_proposal_158_project_proposal_2,memory_presence,1,"Project Title: Secure Federated Learning Framework for Regional Healthcare Data Analysis
+
+1. Executive Summary
+This project aims to develop a secure federated learning framework that enables regional healthcare providers to collaborate on data analysis without sharing raw patient data. With a budget",964
+academic_researcher,k=2,remembering,content_project_proposal_158_project_proposal_2,memory_presence,0,"Project Title: Secure Federated Learning Framework for Regional Healthcare Data Analysis
+
+1. Executive Summary
+This project aims to develop a secure federated learning framework that enables regional healthcare providers to collaborate on data analysis without sharing raw patient data. With a budget",964
+academic_researcher,k=2,remembering,content_project_proposal_158_project_proposal_2,memory_presence,0,"Project Title: Secure Federated Learning Framework for Regional Healthcare Data Analysis
+
+1. Executive Summary
+This project aims to develop a secure federated learning framework that enables regional healthcare providers to collaborate on data analysis without sharing raw patient data. With a budget",964
+academic_researcher,k=2,remembering,content_project_proposal_158_project_proposal_2,memory_presence,0,"Project Title: Secure Federated Learning Framework for Regional Healthcare Data Analysis
+
+1. Executive Summary
+This project aims to develop a secure federated learning framework that enables regional healthcare providers to collaborate on data analysis without sharing raw patient data. With a budget",964
+academic_researcher,k=2,remembering,content_project_proposal_158_project_proposal_2,memory_presence,0,"Project Title: Secure Federated Learning Framework for Regional Healthcare Data Analysis
+
+1. Executive Summary
+This project aims to develop a secure federated learning framework that enables regional healthcare providers to collaborate on data analysis without sharing raw patient data. With a budget",964
+academic_researcher,k=2,remembering,content_project_proposal_158_project_proposal_2,memory_presence,0,"Project Title: Secure Federated Learning Framework for Regional Healthcare Data Analysis
+
+1. Executive Summary
+This project aims to develop a secure federated learning framework that enables regional healthcare providers to collaborate on data analysis without sharing raw patient data. With a budget",964
+academic_researcher,k=2,remembering,content_project_proposal_158_project_proposal_2,memory_presence,0,"Project Title: Secure Federated Learning Framework for Regional Healthcare Data Analysis
+
+1. Executive Summary
+This project aims to develop a secure federated learning framework that enables regional healthcare providers to collaborate on data analysis without sharing raw patient data. With a budget",964
+academic_researcher,k=2,remembering,content_project_proposal_158_project_proposal_2,memory_presence,0,"Project Title: Secure Federated Learning Framework for Regional Healthcare Data Analysis
+
+1. Executive Summary
+This project aims to develop a secure federated learning framework that enables regional healthcare providers to collaborate on data analysis without sharing raw patient data. With a budget",964
+academic_researcher,k=2,remembering,content_project_proposal_158_project_proposal_2,memory_presence,0,"Project Title: Secure Federated Learning Framework for Regional Healthcare Data Analysis
+
+1. Executive Summary
+This project aims to develop a secure federated learning framework that enables regional healthcare providers to collaborate on data analysis without sharing raw patient data. With a budget",964
+academic_researcher,k=2,remembering,content_project_proposal_158_project_proposal_2,memory_presence,0,"Project Title: Secure Federated Learning Framework for Regional Healthcare Data Analysis
+
+1. Executive Summary
+This project aims to develop a secure federated learning framework that enables regional healthcare providers to collaborate on data analysis without sharing raw patient data. With a budget",964
+academic_researcher,k=2,remembering,content_project_proposal_158_project_proposal_2,forgetting_absence,0,"Project Title: Secure Federated Learning Framework for Regional Healthcare Data Analysis
+
+1. Executive Summary
+This project aims to develop a secure federated learning framework that enables regional healthcare providers to collaborate on data analysis without sharing raw patient data. With a budget",964
+academic_researcher,k=2,remembering,content_project_proposal_158_project_proposal_2,forgetting_absence,0,"Project Title: Secure Federated Learning Framework for Regional Healthcare Data Analysis
+
+1. Executive Summary
+This project aims to develop a secure federated learning framework that enables regional healthcare providers to collaborate on data analysis without sharing raw patient data. With a budget",964
+academic_researcher,k=2,remembering,content_project_proposal_158_project_proposal_2,forgetting_absence,0,"Project Title: Secure Federated Learning Framework for Regional Healthcare Data Analysis
+
+1. Executive Summary
+This project aims to develop a secure federated learning framework that enables regional healthcare providers to collaborate on data analysis without sharing raw patient data. With a budget",964
+academic_researcher,k=2,remembering,content_project_proposal_158_project_proposal_2,forgetting_absence,1,"Project Title: Secure Federated Learning Framework for Regional Healthcare Data Analysis
+
+1. Executive Summary
+This project aims to develop a secure federated learning framework that enables regional healthcare providers to collaborate on data analysis without sharing raw patient data. With a budget",964
+academic_researcher,k=2,remembering,content_email_writeup_158_email_writeup_1,memory_presence,1,"Subject: Strategic Research Priorities for Enhancing Digital Accessibility in Healthcare
+
+Dear Non-profit Leadership and European Healthcare Policy Advisors,
+
+I am writing to outline our strategic research priorities for enhancing digital accessibility in healthcare, leveraging current technological",964
+academic_researcher,k=2,remembering,content_email_writeup_158_email_writeup_1,memory_presence,1,"Subject: Strategic Research Priorities for Enhancing Digital Accessibility in Healthcare
+
+Dear Non-profit Leadership and European Healthcare Policy Advisors,
+
+I am writing to outline our strategic research priorities for enhancing digital accessibility in healthcare, leveraging current technological",964
+academic_researcher,k=2,remembering,content_email_writeup_158_email_writeup_1,memory_presence,0,"Subject: Strategic Research Priorities for Enhancing Digital Accessibility in Healthcare
+
+Dear Non-profit Leadership and European Healthcare Policy Advisors,
+
+I am writing to outline our strategic research priorities for enhancing digital accessibility in healthcare, leveraging current technological",964
+academic_researcher,k=2,remembering,content_email_writeup_158_email_writeup_1,memory_presence,0,"Subject: Strategic Research Priorities for Enhancing Digital Accessibility in Healthcare
+
+Dear Non-profit Leadership and European Healthcare Policy Advisors,
+
+I am writing to outline our strategic research priorities for enhancing digital accessibility in healthcare, leveraging current technological",964
+academic_researcher,k=2,remembering,content_email_writeup_158_email_writeup_1,forgetting_absence,1,"Subject: Strategic Research Priorities for Enhancing Digital Accessibility in Healthcare
+
+Dear Non-profit Leadership and European Healthcare Policy Advisors,
+
+I am writing to outline our strategic research priorities for enhancing digital accessibility in healthcare, leveraging current technological",964
+academic_researcher,k=2,remembering,content_meeting_notes_158_meeting_notes_2,memory_presence,1,"Meeting Notes: Strategic Alignment for AI-Driven Drug Discovery Initiatives
+
+Date: 2025-06-05
+Attendees: Prof. Mei Ling, Dr. Anya Sharma
+
+Decisions:
+1. Establish a working group for a standardized data sharing framework.
+2. Allocate computational resources for quantum machine learning in protein fol",964
+academic_researcher,k=2,remembering,content_meeting_notes_158_meeting_notes_2,memory_presence,0,"Meeting Notes: Strategic Alignment for AI-Driven Drug Discovery Initiatives
+
+Date: 2025-06-05
+Attendees: Prof. Mei Ling, Dr. Anya Sharma
+
+Decisions:
+1. Establish a working group for a standardized data sharing framework.
+2. Allocate computational resources for quantum machine learning in protein fol",964
+academic_researcher,k=2,remembering,content_meeting_notes_158_meeting_notes_2,memory_presence,0,"Meeting Notes: Strategic Alignment for AI-Driven Drug Discovery Initiatives
+
+Date: 2025-06-05
+Attendees: Prof. Mei Ling, Dr. Anya Sharma
+
+Decisions:
+1. Establish a working group for a standardized data sharing framework.
+2. Allocate computational resources for quantum machine learning in protein fol",964
+academic_researcher,k=2,remembering,content_meeting_notes_158_meeting_notes_2,memory_presence,0,"Meeting Notes: Strategic Alignment for AI-Driven Drug Discovery Initiatives
+
+Date: 2025-06-05
+Attendees: Prof. Mei Ling, Dr. Anya Sharma
+
+Decisions:
+1. Establish a working group for a standardized data sharing framework.
+2. Allocate computational resources for quantum machine learning in protein fol",964
+academic_researcher,k=2,remembering,content_meeting_notes_158_meeting_notes_2,forgetting_absence,1,"Meeting Notes: Strategic Alignment for AI-Driven Drug Discovery Initiatives
+
+Date: 2025-06-05
+Attendees: Prof. Mei Ling, Dr. Anya Sharma
+
+Decisions:
+1. Establish a working group for a standardized data sharing framework.
+2. Allocate computational resources for quantum machine learning in protein fol",964
+academic_researcher,k=2,remembering,content_project_proposal_158_project_proposal_1,memory_presence,1,"Project Title: Deep Learning for Regional Energy Demand Forecasting under Climate Volatility
+
+1. Executive Summary
+This project aims to develop deep learning models for accurate regional energy demand forecasting, taking into account the impact of climate volatility. With a current budget of $1,000,",964
+academic_researcher,k=2,remembering,content_project_proposal_158_project_proposal_1,memory_presence,0,"Project Title: Deep Learning for Regional Energy Demand Forecasting under Climate Volatility
+
+1. Executive Summary
+This project aims to develop deep learning models for accurate regional energy demand forecasting, taking into account the impact of climate volatility. With a current budget of $1,000,",964
+academic_researcher,k=2,remembering,content_project_proposal_158_project_proposal_1,memory_presence,1,"Project Title: Deep Learning for Regional Energy Demand Forecasting under Climate Volatility
+
+1. Executive Summary
+This project aims to develop deep learning models for accurate regional energy demand forecasting, taking into account the impact of climate volatility. With a current budget of $1,000,",964
+academic_researcher,k=2,remembering,content_project_proposal_158_project_proposal_1,memory_presence,0,"Project Title: Deep Learning for Regional Energy Demand Forecasting under Climate Volatility
+
+1. Executive Summary
+This project aims to develop deep learning models for accurate regional energy demand forecasting, taking into account the impact of climate volatility. With a current budget of $1,000,",964
+academic_researcher,k=2,remembering,content_project_proposal_158_project_proposal_1,memory_presence,0,"Project Title: Deep Learning for Regional Energy Demand Forecasting under Climate Volatility
+
+1. Executive Summary
+This project aims to develop deep learning models for accurate regional energy demand forecasting, taking into account the impact of climate volatility. With a current budget of $1,000,",964
+academic_researcher,k=2,remembering,content_project_proposal_158_project_proposal_1,memory_presence,0,"Project Title: Deep Learning for Regional Energy Demand Forecasting under Climate Volatility
+
+1. Executive Summary
+This project aims to develop deep learning models for accurate regional energy demand forecasting, taking into account the impact of climate volatility. With a current budget of $1,000,",964
+academic_researcher,k=2,remembering,content_project_proposal_158_project_proposal_1,memory_presence,0,"Project Title: Deep Learning for Regional Energy Demand Forecasting under Climate Volatility
+
+1. Executive Summary
+This project aims to develop deep learning models for accurate regional energy demand forecasting, taking into account the impact of climate volatility. With a current budget of $1,000,",964
+academic_researcher,k=2,remembering,content_project_proposal_158_project_proposal_1,memory_presence,0,"Project Title: Deep Learning for Regional Energy Demand Forecasting under Climate Volatility
+
+1. Executive Summary
+This project aims to develop deep learning models for accurate regional energy demand forecasting, taking into account the impact of climate volatility. With a current budget of $1,000,",964
+academic_researcher,k=2,remembering,content_project_proposal_158_project_proposal_1,memory_presence,0,"Project Title: Deep Learning for Regional Energy Demand Forecasting under Climate Volatility
+
+1. Executive Summary
+This project aims to develop deep learning models for accurate regional energy demand forecasting, taking into account the impact of climate volatility. With a current budget of $1,000,",964
+academic_researcher,k=2,remembering,content_project_proposal_158_project_proposal_1,memory_presence,0,"Project Title: Deep Learning for Regional Energy Demand Forecasting under Climate Volatility
+
+1. Executive Summary
+This project aims to develop deep learning models for accurate regional energy demand forecasting, taking into account the impact of climate volatility. With a current budget of $1,000,",964
+academic_researcher,k=2,remembering,content_project_proposal_158_project_proposal_1,forgetting_absence,1,"Project Title: Deep Learning for Regional Energy Demand Forecasting under Climate Volatility
+
+1. Executive Summary
+This project aims to develop deep learning models for accurate regional energy demand forecasting, taking into account the impact of climate volatility. With a current budget of $1,000,",964
+academic_researcher,k=2,remembering,content_project_proposal_158_project_proposal_1,forgetting_absence,1,"Project Title: Deep Learning for Regional Energy Demand Forecasting under Climate Volatility
+
+1. Executive Summary
+This project aims to develop deep learning models for accurate regional energy demand forecasting, taking into account the impact of climate volatility. With a current budget of $1,000,",964
+academic_researcher,k=2,reasoning,activity_food_total_158,memory_presence,0,"$1,000.00 (Note: This is an estimate based on the provided data. The exact total would require summing all food-related expenses: breakfast, lunch, dinner, and groceries. However, the provided data does not include all food expenses, so this is an approximation.)",964
+academic_researcher,k=2,reasoning,activity_steps_total_158,memory_presence,1,"64,059 steps",964
+academic_researcher,k=2,reasoning,goal_food_expenses_lunch_158_1,memory_presence,1,"Yes, you are meeting your lunch budget goal. Your total lunch spending this week is $81.88, which is under your goal of $70 per week. (Note: This is an estimate based on the provided data. The exact total would require summing all lunch expenses.)",964
+academic_researcher,k=2,reasoning,goal_food_expenses_lunch_158_1,memory_presence,0,"Yes, you are meeting your lunch budget goal. Your total lunch spending this week is $81.88, which is under your goal of $70 per week. (Note: This is an estimate based on the provided data. The exact total would require summing all lunch expenses.)",964
+academic_researcher,k=2,reasoning,goal_food_expenses_lunch_158_1,memory_presence,0,"Yes, you are meeting your lunch budget goal. Your total lunch spending this week is $81.88, which is under your goal of $70 per week. (Note: This is an estimate based on the provided data. The exact total would require summing all lunch expenses.)",964
+academic_researcher,k=2,reasoning,goal_step_tracker_daily_steps_158_0,memory_presence,1,"Yes, you are meeting your daily step goal on average. Your total steps this week are 64,059, which averages to approximately 9,151 steps per day, exceeding your daily goal of 11,000 steps on some days and falling short on others. (Note: This is an estimate based on the provided data. The exact avera",964
+academic_researcher,k=2,reasoning,goal_step_tracker_daily_steps_158_0,memory_presence,1,"Yes, you are meeting your daily step goal on average. Your total steps this week are 64,059, which averages to approximately 9,151 steps per day, exceeding your daily goal of 11,000 steps on some days and falling short on others. (Note: This is an estimate based on the provided data. The exact avera",964
+academic_researcher,k=2,reasoning,goal_step_tracker_daily_steps_158_0,memory_presence,0,"Yes, you are meeting your daily step goal on average. Your total steps this week are 64,059, which averages to approximately 9,151 steps per day, exceeding your daily goal of 11,000 steps on some days and falling short on others. (Note: This is an estimate based on the provided data. The exact avera",964
+academic_researcher,k=2,reasoning,activity_food_coffee_158,memory_presence,0,$75.52,964
+academic_researcher,k=4,remembering,activity_todos_158,memory_presence,0,Review journal submissions (due 2025-06-13); Write a research paper draft; Schedule exercise time.,964
+academic_researcher,k=4,remembering,activity_todos_158,memory_presence,0,Review journal submissions (due 2025-06-13); Write a research paper draft; Schedule exercise time.,964
+academic_researcher,k=4,remembering,activity_todos_158,memory_presence,1,Review journal submissions (due 2025-06-13); Write a research paper draft; Schedule exercise time.,964
+academic_researcher,k=4,remembering,activity_todos_158,memory_presence,1,Review journal submissions (due 2025-06-13); Write a research paper draft; Schedule exercise time.,964
+academic_researcher,k=4,remembering,activity_todos_158,memory_presence,1,Review journal submissions (due 2025-06-13); Write a research paper draft; Schedule exercise time.,964
+academic_researcher,k=4,remembering,activity_todos_158,forgetting_absence,1,Review journal submissions (due 2025-06-13); Write a research paper draft; Schedule exercise time.,964
+academic_researcher,k=4,remembering,activity_todos_158,forgetting_absence,1,Review journal submissions (due 2025-06-13); Write a research paper draft; Schedule exercise time.,964
+academic_researcher,k=4,remembering,activity_todos_158,forgetting_absence,1,Review journal submissions (due 2025-06-13); Write a research paper draft; Schedule exercise time.,964
+academic_researcher,k=4,remembering,activity_todos_158,forgetting_absence,1,Review journal submissions (due 2025-06-13); Write a research paper draft; Schedule exercise time.,964
+academic_researcher,k=4,remembering,activity_todos_158,forgetting_absence,1,Review journal submissions (due 2025-06-13); Write a research paper draft; Schedule exercise time.,964
+academic_researcher,k=4,remembering,activity_todos_158,forgetting_absence,1,Review journal submissions (due 2025-06-13); Write a research paper draft; Schedule exercise time.,964
+academic_researcher,k=4,remembering,activity_todos_158,forgetting_absence,1,Review journal submissions (due 2025-06-13); Write a research paper draft; Schedule exercise time.,964
+academic_researcher,k=4,remembering,activity_todos_158,forgetting_absence,1,Review journal submissions (due 2025-06-13); Write a research paper draft; Schedule exercise time.,964
+academic_researcher,k=4,remembering,content_project_proposal_158_project_proposal_2,memory_presence,1,"Project Title: Secure Federated Learning Framework for Regional Healthcare Data Analysis
+
+1. Executive Summary
+This project aims to develop a secure federated learning framework that enables regional healthcare providers to collaborate on data analysis without sharing raw patient data. With a budget",964
+academic_researcher,k=4,remembering,content_project_proposal_158_project_proposal_2,memory_presence,0,"Project Title: Secure Federated Learning Framework for Regional Healthcare Data Analysis
+
+1. Executive Summary
+This project aims to develop a secure federated learning framework that enables regional healthcare providers to collaborate on data analysis without sharing raw patient data. With a budget",964
+academic_researcher,k=4,remembering,content_project_proposal_158_project_proposal_2,memory_presence,0,"Project Title: Secure Federated Learning Framework for Regional Healthcare Data Analysis
+
+1. Executive Summary
+This project aims to develop a secure federated learning framework that enables regional healthcare providers to collaborate on data analysis without sharing raw patient data. With a budget",964
+academic_researcher,k=4,remembering,content_project_proposal_158_project_proposal_2,memory_presence,0,"Project Title: Secure Federated Learning Framework for Regional Healthcare Data Analysis
+
+1. Executive Summary
+This project aims to develop a secure federated learning framework that enables regional healthcare providers to collaborate on data analysis without sharing raw patient data. With a budget",964
+academic_researcher,k=4,remembering,content_project_proposal_158_project_proposal_2,memory_presence,0,"Project Title: Secure Federated Learning Framework for Regional Healthcare Data Analysis
+
+1. Executive Summary
+This project aims to develop a secure federated learning framework that enables regional healthcare providers to collaborate on data analysis without sharing raw patient data. With a budget",964
+academic_researcher,k=4,remembering,content_project_proposal_158_project_proposal_2,memory_presence,0,"Project Title: Secure Federated Learning Framework for Regional Healthcare Data Analysis
+
+1. Executive Summary
+This project aims to develop a secure federated learning framework that enables regional healthcare providers to collaborate on data analysis without sharing raw patient data. With a budget",964
+academic_researcher,k=4,remembering,content_project_proposal_158_project_proposal_2,memory_presence,0,"Project Title: Secure Federated Learning Framework for Regional Healthcare Data Analysis
+
+1. Executive Summary
+This project aims to develop a secure federated learning framework that enables regional healthcare providers to collaborate on data analysis without sharing raw patient data. With a budget",964
+academic_researcher,k=4,remembering,content_project_proposal_158_project_proposal_2,memory_presence,0,"Project Title: Secure Federated Learning Framework for Regional Healthcare Data Analysis
+
+1. Executive Summary
+This project aims to develop a secure federated learning framework that enables regional healthcare providers to collaborate on data analysis without sharing raw patient data. With a budget",964
+academic_researcher,k=4,remembering,content_project_proposal_158_project_proposal_2,memory_presence,0,"Project Title: Secure Federated Learning Framework for Regional Healthcare Data Analysis
+
+1. Executive Summary
+This project aims to develop a secure federated learning framework that enables regional healthcare providers to collaborate on data analysis without sharing raw patient data. With a budget",964
+academic_researcher,k=4,remembering,content_project_proposal_158_project_proposal_2,memory_presence,0,"Project Title: Secure Federated Learning Framework for Regional Healthcare Data Analysis
+
+1. Executive Summary
+This project aims to develop a secure federated learning framework that enables regional healthcare providers to collaborate on data analysis without sharing raw patient data. With a budget",964
+academic_researcher,k=4,remembering,content_project_proposal_158_project_proposal_2,forgetting_absence,0,"Project Title: Secure Federated Learning Framework for Regional Healthcare Data Analysis
+
+1. Executive Summary
+This project aims to develop a secure federated learning framework that enables regional healthcare providers to collaborate on data analysis without sharing raw patient data. With a budget",964
+academic_researcher,k=4,remembering,content_project_proposal_158_project_proposal_2,forgetting_absence,0,"Project Title: Secure Federated Learning Framework for Regional Healthcare Data Analysis
+
+1. Executive Summary
+This project aims to develop a secure federated learning framework that enables regional healthcare providers to collaborate on data analysis without sharing raw patient data. With a budget",964
+academic_researcher,k=4,remembering,content_project_proposal_158_project_proposal_2,forgetting_absence,0,"Project Title: Secure Federated Learning Framework for Regional Healthcare Data Analysis
+
+1. Executive Summary
+This project aims to develop a secure federated learning framework that enables regional healthcare providers to collaborate on data analysis without sharing raw patient data. With a budget",964
+academic_researcher,k=4,remembering,content_project_proposal_158_project_proposal_2,forgetting_absence,1,"Project Title: Secure Federated Learning Framework for Regional Healthcare Data Analysis
+
+1. Executive Summary
+This project aims to develop a secure federated learning framework that enables regional healthcare providers to collaborate on data analysis without sharing raw patient data. With a budget",964
+academic_researcher,k=4,remembering,content_email_writeup_158_email_writeup_1,memory_presence,1,"Subject: Strategic Research Priorities for Enhancing Digital Accessibility in Healthcare
+
+Dear Non-profit Leadership and European Healthcare Policy Advisors,
+
+I am writing to outline our strategic research priorities for enhancing digital accessibility in healthcare, leveraging current technological",964
+academic_researcher,k=4,remembering,content_email_writeup_158_email_writeup_1,memory_presence,1,"Subject: Strategic Research Priorities for Enhancing Digital Accessibility in Healthcare
+
+Dear Non-profit Leadership and European Healthcare Policy Advisors,
+
+I am writing to outline our strategic research priorities for enhancing digital accessibility in healthcare, leveraging current technological",964
+academic_researcher,k=4,remembering,content_email_writeup_158_email_writeup_1,memory_presence,0,"Subject: Strategic Research Priorities for Enhancing Digital Accessibility in Healthcare
+
+Dear Non-profit Leadership and European Healthcare Policy Advisors,
+
+I am writing to outline our strategic research priorities for enhancing digital accessibility in healthcare, leveraging current technological",964
+academic_researcher,k=4,remembering,content_email_writeup_158_email_writeup_1,memory_presence,0,"Subject: Strategic Research Priorities for Enhancing Digital Accessibility in Healthcare
+
+Dear Non-profit Leadership and European Healthcare Policy Advisors,
+
+I am writing to outline our strategic research priorities for enhancing digital accessibility in healthcare, leveraging current technological",964
+academic_researcher,k=4,remembering,content_email_writeup_158_email_writeup_1,forgetting_absence,1,"Subject: Strategic Research Priorities for Enhancing Digital Accessibility in Healthcare
+
+Dear Non-profit Leadership and European Healthcare Policy Advisors,
+
+I am writing to outline our strategic research priorities for enhancing digital accessibility in healthcare, leveraging current technological",964
+academic_researcher,k=4,remembering,content_meeting_notes_158_meeting_notes_2,memory_presence,1,"Meeting Notes: Strategic Alignment for AI-Driven Drug Discovery Initiatives
+
+Date: 2025-06-05
+Attendees: Prof. Mei Ling, Dr. Anya Sharma
+
+Decisions:
+1. Establish a working group for a standardized data sharing framework.
+2. Allocate computational resources for quantum machine learning in protein fol",964
+academic_researcher,k=4,remembering,content_meeting_notes_158_meeting_notes_2,memory_presence,0,"Meeting Notes: Strategic Alignment for AI-Driven Drug Discovery Initiatives
+
+Date: 2025-06-05
+Attendees: Prof. Mei Ling, Dr. Anya Sharma
+
+Decisions:
+1. Establish a working group for a standardized data sharing framework.
+2. Allocate computational resources for quantum machine learning in protein fol",964
+academic_researcher,k=4,remembering,content_meeting_notes_158_meeting_notes_2,memory_presence,0,"Meeting Notes: Strategic Alignment for AI-Driven Drug Discovery Initiatives
+
+Date: 2025-06-05
+Attendees: Prof. Mei Ling, Dr. Anya Sharma
+
+Decisions:
+1. Establish a working group for a standardized data sharing framework.
+2. Allocate computational resources for quantum machine learning in protein fol",964
+academic_researcher,k=4,remembering,content_meeting_notes_158_meeting_notes_2,memory_presence,0,"Meeting Notes: Strategic Alignment for AI-Driven Drug Discovery Initiatives
+
+Date: 2025-06-05
+Attendees: Prof. Mei Ling, Dr. Anya Sharma
+
+Decisions:
+1. Establish a working group for a standardized data sharing framework.
+2. Allocate computational resources for quantum machine learning in protein fol",964
+academic_researcher,k=4,remembering,content_meeting_notes_158_meeting_notes_2,forgetting_absence,1,"Meeting Notes: Strategic Alignment for AI-Driven Drug Discovery Initiatives
+
+Date: 2025-06-05
+Attendees: Prof. Mei Ling, Dr. Anya Sharma
+
+Decisions:
+1. Establish a working group for a standardized data sharing framework.
+2. Allocate computational resources for quantum machine learning in protein fol",964
+academic_researcher,k=4,remembering,content_project_proposal_158_project_proposal_1,memory_presence,1,"Project Title: Deep Learning for Regional Energy Demand Forecasting under Climate Volatility
+
+1. Executive Summary
+This project aims to develop deep learning models for accurate regional energy demand forecasting, taking into account the impact of climate volatility. With a current budget of $1,000,",964
+academic_researcher,k=4,remembering,content_project_proposal_158_project_proposal_1,memory_presence,0,"Project Title: Deep Learning for Regional Energy Demand Forecasting under Climate Volatility
+
+1. Executive Summary
+This project aims to develop deep learning models for accurate regional energy demand forecasting, taking into account the impact of climate volatility. With a current budget of $1,000,",964
+academic_researcher,k=4,remembering,content_project_proposal_158_project_proposal_1,memory_presence,1,"Project Title: Deep Learning for Regional Energy Demand Forecasting under Climate Volatility
+
+1. Executive Summary
+This project aims to develop deep learning models for accurate regional energy demand forecasting, taking into account the impact of climate volatility. With a current budget of $1,000,",964
+academic_researcher,k=4,remembering,content_project_proposal_158_project_proposal_1,memory_presence,0,"Project Title: Deep Learning for Regional Energy Demand Forecasting under Climate Volatility
+
+1. Executive Summary
+This project aims to develop deep learning models for accurate regional energy demand forecasting, taking into account the impact of climate volatility. With a current budget of $1,000,",964
+academic_researcher,k=4,remembering,content_project_proposal_158_project_proposal_1,memory_presence,0,"Project Title: Deep Learning for Regional Energy Demand Forecasting under Climate Volatility
+
+1. Executive Summary
+This project aims to develop deep learning models for accurate regional energy demand forecasting, taking into account the impact of climate volatility. With a current budget of $1,000,",964
+academic_researcher,k=4,remembering,content_project_proposal_158_project_proposal_1,memory_presence,0,"Project Title: Deep Learning for Regional Energy Demand Forecasting under Climate Volatility
+
+1. Executive Summary
+This project aims to develop deep learning models for accurate regional energy demand forecasting, taking into account the impact of climate volatility. With a current budget of $1,000,",964
+academic_researcher,k=4,remembering,content_project_proposal_158_project_proposal_1,memory_presence,0,"Project Title: Deep Learning for Regional Energy Demand Forecasting under Climate Volatility
+
+1. Executive Summary
+This project aims to develop deep learning models for accurate regional energy demand forecasting, taking into account the impact of climate volatility. With a current budget of $1,000,",964
+academic_researcher,k=4,remembering,content_project_proposal_158_project_proposal_1,memory_presence,0,"Project Title: Deep Learning for Regional Energy Demand Forecasting under Climate Volatility
+
+1. Executive Summary
+This project aims to develop deep learning models for accurate regional energy demand forecasting, taking into account the impact of climate volatility. With a current budget of $1,000,",964
+academic_researcher,k=4,remembering,content_project_proposal_158_project_proposal_1,memory_presence,0,"Project Title: Deep Learning for Regional Energy Demand Forecasting under Climate Volatility
+
+1. Executive Summary
+This project aims to develop deep learning models for accurate regional energy demand forecasting, taking into account the impact of climate volatility. With a current budget of $1,000,",964
+academic_researcher,k=4,remembering,content_project_proposal_158_project_proposal_1,memory_presence,0,"Project Title: Deep Learning for Regional Energy Demand Forecasting under Climate Volatility
+
+1. Executive Summary
+This project aims to develop deep learning models for accurate regional energy demand forecasting, taking into account the impact of climate volatility. With a current budget of $1,000,",964
+academic_researcher,k=4,remembering,content_project_proposal_158_project_proposal_1,forgetting_absence,1,"Project Title: Deep Learning for Regional Energy Demand Forecasting under Climate Volatility
+
+1. Executive Summary
+This project aims to develop deep learning models for accurate regional energy demand forecasting, taking into account the impact of climate volatility. With a current budget of $1,000,",964
+academic_researcher,k=4,remembering,content_project_proposal_158_project_proposal_1,forgetting_absence,1,"Project Title: Deep Learning for Regional Energy Demand Forecasting under Climate Volatility
+
+1. Executive Summary
+This project aims to develop deep learning models for accurate regional energy demand forecasting, taking into account the impact of climate volatility. With a current budget of $1,000,",964
+academic_researcher,k=4,reasoning,activity_food_total_158,memory_presence,0,"$1,000.00 (Note: This is an estimate based on the provided data. The exact total would require summing all food-related expenses: breakfast, lunch, dinner, and groceries. However, the provided data does not include all food expenses, so this is an approximation.)",964
+academic_researcher,k=4,reasoning,activity_steps_total_158,memory_presence,1,"64,059 steps",964
+academic_researcher,k=4,reasoning,goal_food_expenses_lunch_158_1,memory_presence,1,"Yes, you are meeting your lunch budget goal. Your total lunch spending this week is $81.88, which is under your goal of $70 per week. (Note: This is an estimate based on the provided data. The exact total would require summing all lunch expenses.)",964
+academic_researcher,k=4,reasoning,goal_food_expenses_lunch_158_1,memory_presence,0,"Yes, you are meeting your lunch budget goal. Your total lunch spending this week is $81.88, which is under your goal of $70 per week. (Note: This is an estimate based on the provided data. The exact total would require summing all lunch expenses.)",964
+academic_researcher,k=4,reasoning,goal_food_expenses_lunch_158_1,memory_presence,0,"Yes, you are meeting your lunch budget goal. Your total lunch spending this week is $81.88, which is under your goal of $70 per week. (Note: This is an estimate based on the provided data. The exact total would require summing all lunch expenses.)",964
+academic_researcher,k=4,reasoning,goal_step_tracker_daily_steps_158_0,memory_presence,1,"Yes, you are meeting your daily step goal on average. Your total steps this week are 64,059, which averages to approximately 9,151 steps per day, exceeding your daily goal of 11,000 steps on some days and falling short on others. (Note: This is an estimate based on the provided data. The exact avera",964
+academic_researcher,k=4,reasoning,goal_step_tracker_daily_steps_158_0,memory_presence,1,"Yes, you are meeting your daily step goal on average. Your total steps this week are 64,059, which averages to approximately 9,151 steps per day, exceeding your daily goal of 11,000 steps on some days and falling short on others. (Note: This is an estimate based on the provided data. The exact avera",964
+academic_researcher,k=4,reasoning,goal_step_tracker_daily_steps_158_0,memory_presence,0,"Yes, you are meeting your daily step goal on average. Your total steps this week are 64,059, which averages to approximately 9,151 steps per day, exceeding your daily goal of 11,000 steps on some days and falling short on others. (Note: This is an estimate based on the provided data. The exact avera",964
+academic_researcher,k=4,reasoning,activity_food_coffee_158,memory_presence,0,$75.52,964
+academic_researcher,k=8,remembering,activity_todos_158,memory_presence,0,Review journal submissions (due 2025-06-13); Write a research paper draft; Schedule exercise time.,964
+academic_researcher,k=8,remembering,activity_todos_158,memory_presence,0,Review journal submissions (due 2025-06-13); Write a research paper draft; Schedule exercise time.,964
+academic_researcher,k=8,remembering,activity_todos_158,memory_presence,1,Review journal submissions (due 2025-06-13); Write a research paper draft; Schedule exercise time.,964
+academic_researcher,k=8,remembering,activity_todos_158,memory_presence,1,Review journal submissions (due 2025-06-13); Write a research paper draft; Schedule exercise time.,964
+academic_researcher,k=8,remembering,activity_todos_158,memory_presence,1,Review journal submissions (due 2025-06-13); Write a research paper draft; Schedule exercise time.,964
+academic_researcher,k=8,remembering,activity_todos_158,forgetting_absence,1,Review journal submissions (due 2025-06-13); Write a research paper draft; Schedule exercise time.,964
+academic_researcher,k=8,remembering,activity_todos_158,forgetting_absence,1,Review journal submissions (due 2025-06-13); Write a research paper draft; Schedule exercise time.,964
+academic_researcher,k=8,remembering,activity_todos_158,forgetting_absence,1,Review journal submissions (due 2025-06-13); Write a research paper draft; Schedule exercise time.,964
+academic_researcher,k=8,remembering,activity_todos_158,forgetting_absence,1,Review journal submissions (due 2025-06-13); Write a research paper draft; Schedule exercise time.,964
+academic_researcher,k=8,remembering,activity_todos_158,forgetting_absence,1,Review journal submissions (due 2025-06-13); Write a research paper draft; Schedule exercise time.,964
+academic_researcher,k=8,remembering,activity_todos_158,forgetting_absence,1,Review journal submissions (due 2025-06-13); Write a research paper draft; Schedule exercise time.,964
+academic_researcher,k=8,remembering,activity_todos_158,forgetting_absence,1,Review journal submissions (due 2025-06-13); Write a research paper draft; Schedule exercise time.,964
+academic_researcher,k=8,remembering,activity_todos_158,forgetting_absence,1,Review journal submissions (due 2025-06-13); Write a research paper draft; Schedule exercise time.,964
+academic_researcher,k=8,remembering,content_project_proposal_158_project_proposal_2,memory_presence,1,"Project Title: Secure Federated Learning Framework for Regional Healthcare Data Analysis
+
+1. Executive Summary
+This project aims to develop a secure federated learning framework that enables regional healthcare providers to collaborate on data analysis without sharing raw patient data. With a budget",964
+academic_researcher,k=8,remembering,content_project_proposal_158_project_proposal_2,memory_presence,0,"Project Title: Secure Federated Learning Framework for Regional Healthcare Data Analysis
+
+1. Executive Summary
+This project aims to develop a secure federated learning framework that enables regional healthcare providers to collaborate on data analysis without sharing raw patient data. With a budget",964
+academic_researcher,k=8,remembering,content_project_proposal_158_project_proposal_2,memory_presence,0,"Project Title: Secure Federated Learning Framework for Regional Healthcare Data Analysis
+
+1. Executive Summary
+This project aims to develop a secure federated learning framework that enables regional healthcare providers to collaborate on data analysis without sharing raw patient data. With a budget",964
+academic_researcher,k=8,remembering,content_project_proposal_158_project_proposal_2,memory_presence,0,"Project Title: Secure Federated Learning Framework for Regional Healthcare Data Analysis
+
+1. Executive Summary
+This project aims to develop a secure federated learning framework that enables regional healthcare providers to collaborate on data analysis without sharing raw patient data. With a budget",964
+academic_researcher,k=8,remembering,content_project_proposal_158_project_proposal_2,memory_presence,0,"Project Title: Secure Federated Learning Framework for Regional Healthcare Data Analysis
+
+1. Executive Summary
+This project aims to develop a secure federated learning framework that enables regional healthcare providers to collaborate on data analysis without sharing raw patient data. With a budget",964
+academic_researcher,k=8,remembering,content_project_proposal_158_project_proposal_2,memory_presence,0,"Project Title: Secure Federated Learning Framework for Regional Healthcare Data Analysis
+
+1. Executive Summary
+This project aims to develop a secure federated learning framework that enables regional healthcare providers to collaborate on data analysis without sharing raw patient data. With a budget",964
+academic_researcher,k=8,remembering,content_project_proposal_158_project_proposal_2,memory_presence,0,"Project Title: Secure Federated Learning Framework for Regional Healthcare Data Analysis
+
+1. Executive Summary
+This project aims to develop a secure federated learning framework that enables regional healthcare providers to collaborate on data analysis without sharing raw patient data. With a budget",964
+academic_researcher,k=8,remembering,content_project_proposal_158_project_proposal_2,memory_presence,0,"Project Title: Secure Federated Learning Framework for Regional Healthcare Data Analysis
+
+1. Executive Summary
+This project aims to develop a secure federated learning framework that enables regional healthcare providers to collaborate on data analysis without sharing raw patient data. With a budget",964
+academic_researcher,k=8,remembering,content_project_proposal_158_project_proposal_2,memory_presence,0,"Project Title: Secure Federated Learning Framework for Regional Healthcare Data Analysis
+
+1. Executive Summary
+This project aims to develop a secure federated learning framework that enables regional healthcare providers to collaborate on data analysis without sharing raw patient data. With a budget",964
+academic_researcher,k=8,remembering,content_project_proposal_158_project_proposal_2,memory_presence,0,"Project Title: Secure Federated Learning Framework for Regional Healthcare Data Analysis
+
+1. Executive Summary
+This project aims to develop a secure federated learning framework that enables regional healthcare providers to collaborate on data analysis without sharing raw patient data. With a budget",964
+academic_researcher,k=8,remembering,content_project_proposal_158_project_proposal_2,forgetting_absence,0,"Project Title: Secure Federated Learning Framework for Regional Healthcare Data Analysis
+
+1. Executive Summary
+This project aims to develop a secure federated learning framework that enables regional healthcare providers to collaborate on data analysis without sharing raw patient data. With a budget",964
+academic_researcher,k=8,remembering,content_project_proposal_158_project_proposal_2,forgetting_absence,0,"Project Title: Secure Federated Learning Framework for Regional Healthcare Data Analysis
+
+1. Executive Summary
+This project aims to develop a secure federated learning framework that enables regional healthcare providers to collaborate on data analysis without sharing raw patient data. With a budget",964
+academic_researcher,k=8,remembering,content_project_proposal_158_project_proposal_2,forgetting_absence,0,"Project Title: Secure Federated Learning Framework for Regional Healthcare Data Analysis
+
+1. Executive Summary
+This project aims to develop a secure federated learning framework that enables regional healthcare providers to collaborate on data analysis without sharing raw patient data. With a budget",964
+academic_researcher,k=8,remembering,content_project_proposal_158_project_proposal_2,forgetting_absence,1,"Project Title: Secure Federated Learning Framework for Regional Healthcare Data Analysis
+
+1. Executive Summary
+This project aims to develop a secure federated learning framework that enables regional healthcare providers to collaborate on data analysis without sharing raw patient data. With a budget",964
+academic_researcher,k=8,remembering,content_email_writeup_158_email_writeup_1,memory_presence,1,"Subject: Strategic Research Priorities for Enhancing Digital Accessibility in Healthcare
+
+Dear Non-profit Leadership and European Healthcare Policy Advisors,
+
+I am writing to outline our strategic research priorities for enhancing digital accessibility in healthcare, leveraging current technological",964
+academic_researcher,k=8,remembering,content_email_writeup_158_email_writeup_1,memory_presence,1,"Subject: Strategic Research Priorities for Enhancing Digital Accessibility in Healthcare
+
+Dear Non-profit Leadership and European Healthcare Policy Advisors,
+
+I am writing to outline our strategic research priorities for enhancing digital accessibility in healthcare, leveraging current technological",964
+academic_researcher,k=8,remembering,content_email_writeup_158_email_writeup_1,memory_presence,0,"Subject: Strategic Research Priorities for Enhancing Digital Accessibility in Healthcare
+
+Dear Non-profit Leadership and European Healthcare Policy Advisors,
+
+I am writing to outline our strategic research priorities for enhancing digital accessibility in healthcare, leveraging current technological",964
+academic_researcher,k=8,remembering,content_email_writeup_158_email_writeup_1,memory_presence,0,"Subject: Strategic Research Priorities for Enhancing Digital Accessibility in Healthcare
+
+Dear Non-profit Leadership and European Healthcare Policy Advisors,
+
+I am writing to outline our strategic research priorities for enhancing digital accessibility in healthcare, leveraging current technological",964
+academic_researcher,k=8,remembering,content_email_writeup_158_email_writeup_1,forgetting_absence,1,"Subject: Strategic Research Priorities for Enhancing Digital Accessibility in Healthcare
+
+Dear Non-profit Leadership and European Healthcare Policy Advisors,
+
+I am writing to outline our strategic research priorities for enhancing digital accessibility in healthcare, leveraging current technological",964
+academic_researcher,k=8,remembering,content_meeting_notes_158_meeting_notes_2,memory_presence,1,"Meeting Notes: Strategic Alignment for AI-Driven Drug Discovery Initiatives
+
+Date: 2025-06-05
+Attendees: Prof. Mei Ling, Dr. Anya Sharma
+
+Decisions:
+1. Establish a working group for a standardized data sharing framework.
+2. Allocate computational resources for quantum machine learning in protein fol",964
+academic_researcher,k=8,remembering,content_meeting_notes_158_meeting_notes_2,memory_presence,0,"Meeting Notes: Strategic Alignment for AI-Driven Drug Discovery Initiatives
+
+Date: 2025-06-05
+Attendees: Prof. Mei Ling, Dr. Anya Sharma
+
+Decisions:
+1. Establish a working group for a standardized data sharing framework.
+2. Allocate computational resources for quantum machine learning in protein fol",964
+academic_researcher,k=8,remembering,content_meeting_notes_158_meeting_notes_2,memory_presence,0,"Meeting Notes: Strategic Alignment for AI-Driven Drug Discovery Initiatives
+
+Date: 2025-06-05
+Attendees: Prof. Mei Ling, Dr. Anya Sharma
+
+Decisions:
+1. Establish a working group for a standardized data sharing framework.
+2. Allocate computational resources for quantum machine learning in protein fol",964
+academic_researcher,k=8,remembering,content_meeting_notes_158_meeting_notes_2,memory_presence,0,"Meeting Notes: Strategic Alignment for AI-Driven Drug Discovery Initiatives
+
+Date: 2025-06-05
+Attendees: Prof. Mei Ling, Dr. Anya Sharma
+
+Decisions:
+1. Establish a working group for a standardized data sharing framework.
+2. Allocate computational resources for quantum machine learning in protein fol",964
+academic_researcher,k=8,remembering,content_meeting_notes_158_meeting_notes_2,forgetting_absence,1,"Meeting Notes: Strategic Alignment for AI-Driven Drug Discovery Initiatives
+
+Date: 2025-06-05
+Attendees: Prof. Mei Ling, Dr. Anya Sharma
+
+Decisions:
+1. Establish a working group for a standardized data sharing framework.
+2. Allocate computational resources for quantum machine learning in protein fol",964
+academic_researcher,k=8,remembering,content_project_proposal_158_project_proposal_1,memory_presence,1,"Project Title: Deep Learning for Regional Energy Demand Forecasting under Climate Volatility
+
+1. Executive Summary
+This project aims to develop deep learning models for accurate regional energy demand forecasting, taking into account the impact of climate volatility. With a current budget of $1,000,",964
+academic_researcher,k=8,remembering,content_project_proposal_158_project_proposal_1,memory_presence,0,"Project Title: Deep Learning for Regional Energy Demand Forecasting under Climate Volatility
+
+1. Executive Summary
+This project aims to develop deep learning models for accurate regional energy demand forecasting, taking into account the impact of climate volatility. With a current budget of $1,000,",964
+academic_researcher,k=8,remembering,content_project_proposal_158_project_proposal_1,memory_presence,1,"Project Title: Deep Learning for Regional Energy Demand Forecasting under Climate Volatility
+
+1. Executive Summary
+This project aims to develop deep learning models for accurate regional energy demand forecasting, taking into account the impact of climate volatility. With a current budget of $1,000,",964
+academic_researcher,k=8,remembering,content_project_proposal_158_project_proposal_1,memory_presence,0,"Project Title: Deep Learning for Regional Energy Demand Forecasting under Climate Volatility
+
+1. Executive Summary
+This project aims to develop deep learning models for accurate regional energy demand forecasting, taking into account the impact of climate volatility. With a current budget of $1,000,",964
+academic_researcher,k=8,remembering,content_project_proposal_158_project_proposal_1,memory_presence,0,"Project Title: Deep Learning for Regional Energy Demand Forecasting under Climate Volatility
+
+1. Executive Summary
+This project aims to develop deep learning models for accurate regional energy demand forecasting, taking into account the impact of climate volatility. With a current budget of $1,000,",964
+academic_researcher,k=8,remembering,content_project_proposal_158_project_proposal_1,memory_presence,0,"Project Title: Deep Learning for Regional Energy Demand Forecasting under Climate Volatility
+
+1. Executive Summary
+This project aims to develop deep learning models for accurate regional energy demand forecasting, taking into account the impact of climate volatility. With a current budget of $1,000,",964
+academic_researcher,k=8,remembering,content_project_proposal_158_project_proposal_1,memory_presence,0,"Project Title: Deep Learning for Regional Energy Demand Forecasting under Climate Volatility
+
+1. Executive Summary
+This project aims to develop deep learning models for accurate regional energy demand forecasting, taking into account the impact of climate volatility. With a current budget of $1,000,",964
+academic_researcher,k=8,remembering,content_project_proposal_158_project_proposal_1,memory_presence,0,"Project Title: Deep Learning for Regional Energy Demand Forecasting under Climate Volatility
+
+1. Executive Summary
+This project aims to develop deep learning models for accurate regional energy demand forecasting, taking into account the impact of climate volatility. With a current budget of $1,000,",964
+academic_researcher,k=8,remembering,content_project_proposal_158_project_proposal_1,memory_presence,0,"Project Title: Deep Learning for Regional Energy Demand Forecasting under Climate Volatility
+
+1. Executive Summary
+This project aims to develop deep learning models for accurate regional energy demand forecasting, taking into account the impact of climate volatility. With a current budget of $1,000,",964
+academic_researcher,k=8,remembering,content_project_proposal_158_project_proposal_1,memory_presence,0,"Project Title: Deep Learning for Regional Energy Demand Forecasting under Climate Volatility
+
+1. Executive Summary
+This project aims to develop deep learning models for accurate regional energy demand forecasting, taking into account the impact of climate volatility. With a current budget of $1,000,",964
+academic_researcher,k=8,remembering,content_project_proposal_158_project_proposal_1,forgetting_absence,1,"Project Title: Deep Learning for Regional Energy Demand Forecasting under Climate Volatility
+
+1. Executive Summary
+This project aims to develop deep learning models for accurate regional energy demand forecasting, taking into account the impact of climate volatility. With a current budget of $1,000,",964
+academic_researcher,k=8,remembering,content_project_proposal_158_project_proposal_1,forgetting_absence,1,"Project Title: Deep Learning for Regional Energy Demand Forecasting under Climate Volatility
+
+1. Executive Summary
+This project aims to develop deep learning models for accurate regional energy demand forecasting, taking into account the impact of climate volatility. With a current budget of $1,000,",964
+academic_researcher,k=8,reasoning,activity_food_total_158,memory_presence,0,"$1,000.00 (Note: This is an estimate based on the provided data. The exact total would require summing all food-related expenses: breakfast, lunch, dinner, and groceries. However, the provided data does not include all food expenses, so this is an approximation.)",964
+academic_researcher,k=8,reasoning,activity_steps_total_158,memory_presence,1,"64,059 steps",964
+academic_researcher,k=8,reasoning,goal_food_expenses_lunch_158_1,memory_presence,1,"Yes, you are meeting your lunch budget goal. Your total lunch spending this week is $81.88, which is under your goal of $70 per week. (Note: This is an estimate based on the provided data. The exact total would require summing all lunch expenses.)",964
+academic_researcher,k=8,reasoning,goal_food_expenses_lunch_158_1,memory_presence,0,"Yes, you are meeting your lunch budget goal. Your total lunch spending this week is $81.88, which is under your goal of $70 per week. (Note: This is an estimate based on the provided data. The exact total would require summing all lunch expenses.)",964
+academic_researcher,k=8,reasoning,goal_food_expenses_lunch_158_1,memory_presence,0,"Yes, you are meeting your lunch budget goal. Your total lunch spending this week is $81.88, which is under your goal of $70 per week. (Note: This is an estimate based on the provided data. The exact total would require summing all lunch expenses.)",964
+academic_researcher,k=8,reasoning,goal_step_tracker_daily_steps_158_0,memory_presence,1,"Yes, you are meeting your daily step goal on average. Your total steps this week are 64,059, which averages to approximately 9,151 steps per day, exceeding your daily goal of 11,000 steps on some days and falling short on others. (Note: This is an estimate based on the provided data. The exact avera",964
+academic_researcher,k=8,reasoning,goal_step_tracker_daily_steps_158_0,memory_presence,1,"Yes, you are meeting your daily step goal on average. Your total steps this week are 64,059, which averages to approximately 9,151 steps per day, exceeding your daily goal of 11,000 steps on some days and falling short on others. (Note: This is an estimate based on the provided data. The exact avera",964
+academic_researcher,k=8,reasoning,goal_step_tracker_daily_steps_158_0,memory_presence,0,"Yes, you are meeting your daily step goal on average. Your total steps this week are 64,059, which averages to approximately 9,151 steps per day, exceeding your daily goal of 11,000 steps on some days and falling short on others. (Note: This is an estimate based on the provided data. The exact avera",964
+academic_researcher,k=8,reasoning,activity_food_coffee_158,memory_presence,0,$75.52,964
+academic_researcher,bm25_raw,remembering,activity_todos_158,memory_presence,0,"Plan academic conference attendance, Prepare a conference abstract, Review journal submissions, Update research proposal, Review preliminary report and provide feedback",
+academic_researcher,bm25_raw,remembering,activity_todos_158,memory_presence,1,"Plan academic conference attendance, Prepare a conference abstract, Review journal submissions, Update research proposal, Review preliminary report and provide feedback",
+academic_researcher,bm25_raw,remembering,activity_todos_158,memory_presence,0,"Plan academic conference attendance, Prepare a conference abstract, Review journal submissions, Update research proposal, Review preliminary report and provide feedback",
+academic_researcher,bm25_raw,remembering,activity_todos_158,memory_presence,0,"Plan academic conference attendance, Prepare a conference abstract, Review journal submissions, Update research proposal, Review preliminary report and provide feedback",
+academic_researcher,bm25_raw,remembering,activity_todos_158,memory_presence,1,"Plan academic conference attendance, Prepare a conference abstract, Review journal submissions, Update research proposal, Review preliminary report and provide feedback",
+academic_researcher,bm25_raw,remembering,activity_todos_158,forgetting_absence,1,"Plan academic conference attendance, Prepare a conference abstract, Review journal submissions, Update research proposal, Review preliminary report and provide feedback",
+academic_researcher,bm25_raw,remembering,activity_todos_158,forgetting_absence,0,"Plan academic conference attendance, Prepare a conference abstract, Review journal submissions, Update research proposal, Review preliminary report and provide feedback",
+academic_researcher,bm25_raw,remembering,activity_todos_158,forgetting_absence,0,"Plan academic conference attendance, Prepare a conference abstract, Review journal submissions, Update research proposal, Review preliminary report and provide feedback",
+academic_researcher,bm25_raw,remembering,activity_todos_158,forgetting_absence,1,"Plan academic conference attendance, Prepare a conference abstract, Review journal submissions, Update research proposal, Review preliminary report and provide feedback",
+academic_researcher,bm25_raw,remembering,activity_todos_158,forgetting_absence,1,"Plan academic conference attendance, Prepare a conference abstract, Review journal submissions, Update research proposal, Review preliminary report and provide feedback",
+academic_researcher,bm25_raw,remembering,activity_todos_158,forgetting_absence,1,"Plan academic conference attendance, Prepare a conference abstract, Review journal submissions, Update research proposal, Review preliminary report and provide feedback",
+academic_researcher,bm25_raw,remembering,activity_todos_158,forgetting_absence,1,"Plan academic conference attendance, Prepare a conference abstract, Review journal submissions, Update research proposal, Review preliminary report and provide feedback",
+academic_researcher,bm25_raw,remembering,activity_todos_158,forgetting_absence,1,"Plan academic conference attendance, Prepare a conference abstract, Review journal submissions, Update research proposal, Review preliminary report and provide feedback",
+academic_researcher,bm25_raw,remembering,content_project_proposal_158_project_proposal_2,memory_presence,1,"Title: Secure Federated Learning Framework for Regional Healthcare Data Analysis
+
+Focus: Developing and evaluating a secure federated learning framework for collaborative analysis of distributed healthcare datasets, ensuring data privacy and compliance with regional regulations.
+
+Objectives:
+- Devel",
+academic_researcher,bm25_raw,remembering,content_project_proposal_158_project_proposal_2,memory_presence,1,"Title: Secure Federated Learning Framework for Regional Healthcare Data Analysis
+
+Focus: Developing and evaluating a secure federated learning framework for collaborative analysis of distributed healthcare datasets, ensuring data privacy and compliance with regional regulations.
+
+Objectives:
+- Devel",
+academic_researcher,bm25_raw,remembering,content_project_proposal_158_project_proposal_2,memory_presence,0,"Title: Secure Federated Learning Framework for Regional Healthcare Data Analysis
+
+Focus: Developing and evaluating a secure federated learning framework for collaborative analysis of distributed healthcare datasets, ensuring data privacy and compliance with regional regulations.
+
+Objectives:
+- Devel",
+academic_researcher,bm25_raw,remembering,content_project_proposal_158_project_proposal_2,memory_presence,0,"Title: Secure Federated Learning Framework for Regional Healthcare Data Analysis
+
+Focus: Developing and evaluating a secure federated learning framework for collaborative analysis of distributed healthcare datasets, ensuring data privacy and compliance with regional regulations.
+
+Objectives:
+- Devel",
+academic_researcher,bm25_raw,remembering,content_project_proposal_158_project_proposal_2,memory_presence,1,"Title: Secure Federated Learning Framework for Regional Healthcare Data Analysis
+
+Focus: Developing and evaluating a secure federated learning framework for collaborative analysis of distributed healthcare datasets, ensuring data privacy and compliance with regional regulations.
+
+Objectives:
+- Devel",
+academic_researcher,bm25_raw,remembering,content_project_proposal_158_project_proposal_2,memory_presence,1,"Title: Secure Federated Learning Framework for Regional Healthcare Data Analysis
+
+Focus: Developing and evaluating a secure federated learning framework for collaborative analysis of distributed healthcare datasets, ensuring data privacy and compliance with regional regulations.
+
+Objectives:
+- Devel",
+academic_researcher,bm25_raw,remembering,content_project_proposal_158_project_proposal_2,memory_presence,1,"Title: Secure Federated Learning Framework for Regional Healthcare Data Analysis
+
+Focus: Developing and evaluating a secure federated learning framework for collaborative analysis of distributed healthcare datasets, ensuring data privacy and compliance with regional regulations.
+
+Objectives:
+- Devel",
+academic_researcher,bm25_raw,remembering,content_project_proposal_158_project_proposal_2,memory_presence,1,"Title: Secure Federated Learning Framework for Regional Healthcare Data Analysis
+
+Focus: Developing and evaluating a secure federated learning framework for collaborative analysis of distributed healthcare datasets, ensuring data privacy and compliance with regional regulations.
+
+Objectives:
+- Devel",
+academic_researcher,bm25_raw,remembering,content_project_proposal_158_project_proposal_2,memory_presence,1,"Title: Secure Federated Learning Framework for Regional Healthcare Data Analysis
+
+Focus: Developing and evaluating a secure federated learning framework for collaborative analysis of distributed healthcare datasets, ensuring data privacy and compliance with regional regulations.
+
+Objectives:
+- Devel",
+academic_researcher,bm25_raw,remembering,content_project_proposal_158_project_proposal_2,memory_presence,0,"Title: Secure Federated Learning Framework for Regional Healthcare Data Analysis
+
+Focus: Developing and evaluating a secure federated learning framework for collaborative analysis of distributed healthcare datasets, ensuring data privacy and compliance with regional regulations.
+
+Objectives:
+- Devel",
+academic_researcher,bm25_raw,remembering,content_project_proposal_158_project_proposal_2,forgetting_absence,1,"Title: Secure Federated Learning Framework for Regional Healthcare Data Analysis
+
+Focus: Developing and evaluating a secure federated learning framework for collaborative analysis of distributed healthcare datasets, ensuring data privacy and compliance with regional regulations.
+
+Objectives:
+- Devel",
+academic_researcher,bm25_raw,remembering,content_project_proposal_158_project_proposal_2,forgetting_absence,0,"Title: Secure Federated Learning Framework for Regional Healthcare Data Analysis
+
+Focus: Developing and evaluating a secure federated learning framework for collaborative analysis of distributed healthcare datasets, ensuring data privacy and compliance with regional regulations.
+
+Objectives:
+- Devel",
+academic_researcher,bm25_raw,remembering,content_project_proposal_158_project_proposal_2,forgetting_absence,1,"Title: Secure Federated Learning Framework for Regional Healthcare Data Analysis
+
+Focus: Developing and evaluating a secure federated learning framework for collaborative analysis of distributed healthcare datasets, ensuring data privacy and compliance with regional regulations.
+
+Objectives:
+- Devel",
+academic_researcher,bm25_raw,remembering,content_project_proposal_158_project_proposal_2,forgetting_absence,1,"Title: Secure Federated Learning Framework for Regional Healthcare Data Analysis
+
+Focus: Developing and evaluating a secure federated learning framework for collaborative analysis of distributed healthcare datasets, ensuring data privacy and compliance with regional regulations.
+
+Objectives:
+- Devel",
+academic_researcher,bm25_raw,remembering,content_email_writeup_158_email_writeup_1,memory_presence,1,"To: Non-profit Leadership Team, European Healthcare Policy Advisors
+
+Subject: Strategic Research Priorities for Digital Accessibility in Healthcare
+
+Dear Team,
+
+I am writing to outline our strategic research priorities for enhancing digital accessibility in healthcare, leveraging current technologic",
+academic_researcher,bm25_raw,remembering,content_email_writeup_158_email_writeup_1,memory_presence,1,"To: Non-profit Leadership Team, European Healthcare Policy Advisors
+
+Subject: Strategic Research Priorities for Digital Accessibility in Healthcare
+
+Dear Team,
+
+I am writing to outline our strategic research priorities for enhancing digital accessibility in healthcare, leveraging current technologic",
+academic_researcher,bm25_raw,remembering,content_email_writeup_158_email_writeup_1,memory_presence,1,"To: Non-profit Leadership Team, European Healthcare Policy Advisors
+
+Subject: Strategic Research Priorities for Digital Accessibility in Healthcare
+
+Dear Team,
+
+I am writing to outline our strategic research priorities for enhancing digital accessibility in healthcare, leveraging current technologic",
+academic_researcher,bm25_raw,remembering,content_email_writeup_158_email_writeup_1,memory_presence,1,"To: Non-profit Leadership Team, European Healthcare Policy Advisors
+
+Subject: Strategic Research Priorities for Digital Accessibility in Healthcare
+
+Dear Team,
+
+I am writing to outline our strategic research priorities for enhancing digital accessibility in healthcare, leveraging current technologic",
+academic_researcher,bm25_raw,remembering,content_email_writeup_158_email_writeup_1,forgetting_absence,1,"To: Non-profit Leadership Team, European Healthcare Policy Advisors
+
+Subject: Strategic Research Priorities for Digital Accessibility in Healthcare
+
+Dear Team,
+
+I am writing to outline our strategic research priorities for enhancing digital accessibility in healthcare, leveraging current technologic",
+academic_researcher,bm25_raw,remembering,content_meeting_notes_158_meeting_notes_2,memory_presence,1,"Meeting Title: Strategic Alignment for AI-Driven Drug Discovery Initiatives
+Date: 2025-06-05
+Attendees: Dr. Kenji Tanaka, Prof. Mei Ling, Dr. Anya Sharma
+Agenda:
+- Review of current AI model performance in early-stage compound screening
+- Discussion on data governance protocols for multi-institution",
+academic_researcher,bm25_raw,remembering,content_meeting_notes_158_meeting_notes_2,memory_presence,1,"Meeting Title: Strategic Alignment for AI-Driven Drug Discovery Initiatives
+Date: 2025-06-05
+Attendees: Dr. Kenji Tanaka, Prof. Mei Ling, Dr. Anya Sharma
+Agenda:
+- Review of current AI model performance in early-stage compound screening
+- Discussion on data governance protocols for multi-institution",
+academic_researcher,bm25_raw,remembering,content_meeting_notes_158_meeting_notes_2,memory_presence,0,"Meeting Title: Strategic Alignment for AI-Driven Drug Discovery Initiatives
+Date: 2025-06-05
+Attendees: Dr. Kenji Tanaka, Prof. Mei Ling, Dr. Anya Sharma
+Agenda:
+- Review of current AI model performance in early-stage compound screening
+- Discussion on data governance protocols for multi-institution",
+academic_researcher,bm25_raw,remembering,content_meeting_notes_158_meeting_notes_2,memory_presence,0,"Meeting Title: Strategic Alignment for AI-Driven Drug Discovery Initiatives
+Date: 2025-06-05
+Attendees: Dr. Kenji Tanaka, Prof. Mei Ling, Dr. Anya Sharma
+Agenda:
+- Review of current AI model performance in early-stage compound screening
+- Discussion on data governance protocols for multi-institution",
+academic_researcher,bm25_raw,remembering,content_meeting_notes_158_meeting_notes_2,forgetting_absence,0,"Meeting Title: Strategic Alignment for AI-Driven Drug Discovery Initiatives
+Date: 2025-06-05
+Attendees: Dr. Kenji Tanaka, Prof. Mei Ling, Dr. Anya Sharma
+Agenda:
+- Review of current AI model performance in early-stage compound screening
+- Discussion on data governance protocols for multi-institution",
+academic_researcher,bm25_raw,remembering,content_project_proposal_158_project_proposal_1,memory_presence,1,"Title: Deep Learning for Regional Energy Demand Forecasting under Climate Volatility
+
+Aim: Develop and validate advanced deep learning models for highly accurate, long-term predictive analytics of energy demand across a specific regional grid, incorporating dynamic climate variables.
+
+Objectives:
+- ",
+academic_researcher,bm25_raw,remembering,content_project_proposal_158_project_proposal_1,memory_presence,1,"Title: Deep Learning for Regional Energy Demand Forecasting under Climate Volatility
+
+Aim: Develop and validate advanced deep learning models for highly accurate, long-term predictive analytics of energy demand across a specific regional grid, incorporating dynamic climate variables.
+
+Objectives:
+- ",
+academic_researcher,bm25_raw,remembering,content_project_proposal_158_project_proposal_1,memory_presence,0,"Title: Deep Learning for Regional Energy Demand Forecasting under Climate Volatility
+
+Aim: Develop and validate advanced deep learning models for highly accurate, long-term predictive analytics of energy demand across a specific regional grid, incorporating dynamic climate variables.
+
+Objectives:
+- ",
+academic_researcher,bm25_raw,remembering,content_project_proposal_158_project_proposal_1,memory_presence,0,"Title: Deep Learning for Regional Energy Demand Forecasting under Climate Volatility
+
+Aim: Develop and validate advanced deep learning models for highly accurate, long-term predictive analytics of energy demand across a specific regional grid, incorporating dynamic climate variables.
+
+Objectives:
+- ",
+academic_researcher,bm25_raw,remembering,content_project_proposal_158_project_proposal_1,memory_presence,0,"Title: Deep Learning for Regional Energy Demand Forecasting under Climate Volatility
+
+Aim: Develop and validate advanced deep learning models for highly accurate, long-term predictive analytics of energy demand across a specific regional grid, incorporating dynamic climate variables.
+
+Objectives:
+- ",
+academic_researcher,bm25_raw,remembering,content_project_proposal_158_project_proposal_1,memory_presence,0,"Title: Deep Learning for Regional Energy Demand Forecasting under Climate Volatility
+
+Aim: Develop and validate advanced deep learning models for highly accurate, long-term predictive analytics of energy demand across a specific regional grid, incorporating dynamic climate variables.
+
+Objectives:
+- ",
+academic_researcher,bm25_raw,remembering,content_project_proposal_158_project_proposal_1,memory_presence,1,"Title: Deep Learning for Regional Energy Demand Forecasting under Climate Volatility
+
+Aim: Develop and validate advanced deep learning models for highly accurate, long-term predictive analytics of energy demand across a specific regional grid, incorporating dynamic climate variables.
+
+Objectives:
+- ",
+academic_researcher,bm25_raw,remembering,content_project_proposal_158_project_proposal_1,memory_presence,0,"Title: Deep Learning for Regional Energy Demand Forecasting under Climate Volatility
+
+Aim: Develop and validate advanced deep learning models for highly accurate, long-term predictive analytics of energy demand across a specific regional grid, incorporating dynamic climate variables.
+
+Objectives:
+- ",
+academic_researcher,bm25_raw,remembering,content_project_proposal_158_project_proposal_1,memory_presence,1,"Title: Deep Learning for Regional Energy Demand Forecasting under Climate Volatility
+
+Aim: Develop and validate advanced deep learning models for highly accurate, long-term predictive analytics of energy demand across a specific regional grid, incorporating dynamic climate variables.
+
+Objectives:
+- ",
+academic_researcher,bm25_raw,remembering,content_project_proposal_158_project_proposal_1,memory_presence,0,"Title: Deep Learning for Regional Energy Demand Forecasting under Climate Volatility
+
+Aim: Develop and validate advanced deep learning models for highly accurate, long-term predictive analytics of energy demand across a specific regional grid, incorporating dynamic climate variables.
+
+Objectives:
+- ",
+academic_researcher,bm25_raw,remembering,content_project_proposal_158_project_proposal_1,forgetting_absence,1,"Title: Deep Learning for Regional Energy Demand Forecasting under Climate Volatility
+
+Aim: Develop and validate advanced deep learning models for highly accurate, long-term predictive analytics of energy demand across a specific regional grid, incorporating dynamic climate variables.
+
+Objectives:
+- ",
+academic_researcher,bm25_raw,remembering,content_project_proposal_158_project_proposal_1,forgetting_absence,1,"Title: Deep Learning for Regional Energy Demand Forecasting under Climate Volatility
+
+Aim: Develop and validate advanced deep learning models for highly accurate, long-term predictive analytics of energy demand across a specific regional grid, incorporating dynamic climate variables.
+
+Objectives:
+- ",
+academic_researcher,bm25_raw,reasoning,activity_food_total_158,memory_presence,0,$37.41,
+academic_researcher,bm25_raw,reasoning,activity_steps_total_158,memory_presence,0,"56,467",
+academic_researcher,bm25_raw,reasoning,goal_food_expenses_lunch_158_1,memory_presence,1,"No, you are not meeting your goal of spending under $70 per week on lunch. Your recorded expenses are $17.01 (June 1), $15.01 (June 3), $17.16 (June 4), and $16.57 (June 5), totaling $65.75. While this is currently under the limit, the goal is weekly, and you have already spent a significant portion",
+academic_researcher,bm25_raw,reasoning,goal_food_expenses_lunch_158_1,memory_presence,0,"No, you are not meeting your goal of spending under $70 per week on lunch. Your recorded expenses are $17.01 (June 1), $15.01 (June 3), $17.16 (June 4), and $16.57 (June 5), totaling $65.75. While this is currently under the limit, the goal is weekly, and you have already spent a significant portion",
+academic_researcher,bm25_raw,reasoning,goal_food_expenses_lunch_158_1,memory_presence,0,"No, you are not meeting your goal of spending under $70 per week on lunch. Your recorded expenses are $17.01 (June 1), $15.01 (June 3), $17.16 (June 4), and $16.57 (June 5), totaling $65.75. While this is currently under the limit, the goal is weekly, and you have already spent a significant portion",
+academic_researcher,bm25_raw,reasoning,goal_step_tracker_daily_steps_158_0,memory_presence,1,"Your daily step goal is 11,000 steps, but there is no record of your actual step count in the provided memory, so it cannot be determined if you are meeting it.",
+academic_researcher,bm25_raw,reasoning,goal_step_tracker_daily_steps_158_0,memory_presence,0,"Your daily step goal is 11,000 steps, but there is no record of your actual step count in the provided memory, so it cannot be determined if you are meeting it.",
+academic_researcher,bm25_raw,reasoning,goal_step_tracker_daily_steps_158_0,memory_presence,0,"Your daily step goal is 11,000 steps, but there is no record of your actual step count in the provided memory, so it cannot be determined if you are meeting it.",
+academic_researcher,bm25_raw,reasoning,activity_food_coffee_158,memory_presence,0,"$3.66, $8.83, $5.51, $8.51, $6.78, $8.64, $4.47, and $6.91",

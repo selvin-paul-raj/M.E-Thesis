@@ -1,0 +1,8 @@
+rows 618
+k=0 acc 58.3 presence 40.8 forget 96.9 n=103
+k=1 acc 52.4 presence 32.4 forget 96.9 n=103
+k=2 acc 49.5 presence 31.0 forget 90.6 n=103
+k=4 acc 49.5 presence 31.0 forget 90.6 n=103
+k=8 acc 49.5 presence 31.0 forget 90.6 n=103
+bm25_raw acc 56.3 presence 46.5 forget 78.1 n=103
+EXIT 0
