@@ -1,23 +1,22 @@
 {
-  "updated": "2026-11-04 13:40 IST",
-  "current_step": "WAIT_OWNER",
+  "updated": "2026-11-04 15:16 IST",
+  "current_step": "A2",
   "steps_done": [
     "S1",
     "S2",
     "S3",
     "S4",
     "S5",
-    "S5b"
+    "S5b",
+    "A1"
   ],
-  "blocked": [
-    "Kill-switch tripped: flat on LoCoMo and Memora. Owner must choose A (reframe), B (pivot to stale-vs-forgotten), or C (drop); see notes/memora_verdict.md. Do not start S6+ until owner decides."
-  ],
+  "blocked": [],
   "models": {
     "writer": "openai/gpt-oss-20b",
     "judge": "openai/gpt-oss-120b",
     "writer2": "qwen/qwen3.8-27b"
   },
-  "notes": "Both pilots flat: loss is one-shot, then a fixed point. Waiting on owner decision. Groq free tier: 200K tokens/day per model (gpt-oss-20b exhausted 2026-11-04). Push via browser session github-selvin.",
+  "notes": "Option A chosen 2026-11-04 13:47. A1 streaming LoCoMo: 36.7% = fixed k=8; age10+ 30.4 vs 39.1 (n=23, ns); conv-26 memory sawtooth/collapse. Groq: AgentsWar key + NVIDIA NIM fallback in groq_client. Push via browser session github-selvin.",
   "pilot": {
     "acc": {
       "k0": 33.3,
@@ -55,5 +54,27 @@
       "bm25": 78.1
     },
     "verdict": "flat"
+  },
+  "decision": "2026-11-04 13:47 IST: owner said go ahead with Hark pick = Option A (reframe: front-loaded consolidation loss; test whether streaming new content restarts decay).",
+  "a1": {
+    "stream": 36.7,
+    "k0": 33.3,
+    "k8": 36.7,
+    "bm25": 33.3,
+    "age10plus": {
+      "stream": 30.4,
+      "k8": 39.1,
+      "n": 23
+    },
+    "age5_9": {
+      "stream": 57.1,
+      "k8": 28.6,
+      "n": 7
+    },
+    "per_conv_stream": {
+      "conv-26": 0,
+      "conv-30": 6,
+      "conv-49": 5
+    }
   }
 }

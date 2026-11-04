@@ -44,3 +44,15 @@
 - Never submit, email, post, pay, or contact anyone. Owner submits.
 - Never commit datasets, caches, keys or tokens. Secret-grep before every push.
 - Stop and report if a step fails twice, a limit blocks progress, or a result changes the plan.
+
+## Revision 2026-11-04 (after kill-switch): Option A chosen by owner
+Both pilots were flat: rewrite loss is one-shot (k <= 2), then a fixed point. New framing:
+"Consolidation loss is front-loaded, not compounding" + does streaming new content restart it? + Render-from-Raw avoids the first-pass loss.
+| # | Step | Done when |
+|---|---|---|
+| A1 | Streaming rewrite-in-place arm on the 30 LoCoMo pilot questions (code/stream_pilot.py) vs append-only (k=0), fixed k=8, BM25; accuracy by evidence age | results/stream_summary.md |
+| A2 | Same streaming arm on Memora (2-3 personas, qwen3.8-27b writer if 20b capped) incl. presence vs forgetting | results/memora_stream.csv |
+| A3 | Render-from-Raw: keep raw sessions, rebuild memory from raw at query time / on trigger; compare to rewrite at equal tokens | results/rfr.csv |
+| A4 | Staleness detector (NLI + coverage) deciding when to rebuild; P/R vs oracle | results/detector_pr.csv |
+| A5 | Scale-up (more convs/personas, 2 seeds, temperature 0.7 to test the fixed-point caveat), then S12 writing | results/main_*.csv |
+Groq free tier: 200K tokens/day per model; split work across days and models.
