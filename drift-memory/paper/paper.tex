@@ -1,0 +1,117 @@
+\documentclass[11pt]{article}
+\usepackage[review]{acl}
+\usepackage{times}
+\usepackage{latexsym}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{microtype}
+\usepackage{booktabs}
+\usepackage{amsmath}
+
+\title{Memory Rewrites Do Not Drift, They Collapse:\\ Detecting and Guarding Against Catastrophic Consolidation\\ in Long-Term LLM Agent Memory}
+
+\author{Anonymous ACL submission}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+LLM agents often keep long-term memory as a text summary that an LLM rewrites after every session. The common worry is \emph{drift}: small losses that compound with each rewrite. We test this on two long-term memory benchmarks, LoCoMo and Memora, and find no compounding. Repeatedly rewriting fixed content loses facts once and then reaches a fixed point, and streaming rewrites are not significantly worse than append-only notes on average. What does happen is \emph{collapse}. In 3.7\% of rewrites (13 of 351), the model discards at least half of a memory of 300 words or more in one step, and no collapsed stream recovers. Collapses hit 6 of 19 streams, and on held-out LoCoMo conversations they drop accuracy from 23.3\% (append-only notes) to 3.3\%. Because a collapse shows up as a sharp drop in length, it is cheap to detect. A guard that retries the rewrite once and keeps the longer attempt recovers 12 of 16 collapses without letting memory grow. On a held-out replication whose rule was fixed in advance, it improves accuracy over plain streaming by 6.0 points overall (95\% CI [+2.0, +11.0], $p{=}0.002$) and by 20.0 points on collapsed conversations. Rewrite failures in agent memory are rare and abrupt, not gradual, so they should be monitored and guarded, not merely averaged over.
+\end{abstract}
+
+\section{Introduction}
+Long-term conversational agents cannot keep every past session in context, so many systems keep a consolidated memory that an LLM edits as new sessions arrive \citep{packer2023memgpt,chhikara2025mem0,xu2025amem,rasmussen2025zep}. Because each rewrite is lossy, a natural hypothesis is that errors compound: facts erode a little with every pass until the memory no longer reflects the user. Recent work reports that consolidated memories can become faulty under continuous updates \citep{zhang2026faulty}, and that compaction loses exact-wording rules over rounds \citep{zerhoudi2026cliff}.
+
+We set out to measure this drift curve directly and did not find it. Instead, we found a different failure mode with a different remedy. Our contributions:
+\begin{itemize}
+\item A controlled measurement of rewrite drift on LoCoMo \citep{maharana2024locomo} and Memora \citep{uddin2026memora}. Fixed-content rewriting loses facts once and then stays at a fixed point. Streaming rewrites are statistically indistinguishable from append-only notes on average (\S\ref{sec:drift}).
+\item The identification of \emph{rewrite collapse}: rare, single-step losses of at least 50\% of memory that never recover and account for the worst outcomes (\S\ref{sec:collapse}).
+\item A length-triggered \emph{collapse guard} and a held-out replication with the rule fixed before the run. A bounded variant removes the obvious length confound (\S\ref{sec:guard}).
+\end{itemize}
+
+\section{Related Work}
+\textbf{Agent memory.} MemGPT \citep{packer2023memgpt}, Mem0 \citep{chhikara2025mem0}, A-Mem \citep{xu2025amem}, and Zep \citep{rasmussen2025zep} maintain external memories that an LLM updates. Retrieval-driven reconsolidation revisits stored memories when they are recalled \citep{song2026realm}. Benchmarks such as LoCoMo, LongMemEval \citep{wu2024longmemeval}, and Memora evaluate recall over many sessions.
+
+\textbf{Degradation under rewriting.} \citet{zhang2026faulty} show that memory utility first rises and then degrades as LLM consolidation proceeds, and they recommend gating consolidation. \citet{zerhoudi2026cliff} show that compaction keeps 53\% of safety rules after one round and 10\% after five, and they propose type-aware compaction. \citet{colaco2026rd} frame compaction as a rate--distortion trade-off. \citet{dongre2025drift} find that multi-turn drift settles into bounded equilibria rather than growing without limit. We find the same equilibrium behaviour for fixed content. Our distinct observation is that, in streaming conversational memory, the harmful losses are discrete events that a length signal detects, so a gate needs no classifier or second model.
+
+\section{Setup}
+\textbf{Data.} LoCoMo: all 10 conversations (19--32 sessions each). Per conversation we sample 10 questions, stratified by category, whose evidence is at least 5 sessions old (adversarial category excluded). Memora: 9 personas from the weekly split, 10 questions each, scored with Memora's own rubric checks (442 checks in total). Sessions are fed in batches of 10.
+
+\textbf{Memory arms.} \emph{k0}: append-only notes extracted from each session, never rewritten. \emph{k}$_n$: the full k0 memory rewritten $n$ times (fixed content). \emph{stream}: after each session, the LLM rewrites the whole memory to add new facts, update or remove changed ones, and merge duplicates, with a nominal 1,200-word cap. \emph{guard} variants are described in \S\ref{sec:guard}.
+
+\textbf{Models.} Writer and reader: Nemotron-3.5-Lightning-30B-A3B with reasoning disabled, temperature 0. Judge: gpt-oss-120b, scoring each answer against the gold answer (LoCoMo) or each rubric check (Memora). Early pilots used gpt-oss-20b and Qwen3.8-27B as writers. All prompts and code are released.
+
+\textbf{Statistics.} Accuracy is the share of correct items. Confidence intervals and two-sided $p$-values come from a bootstrap that resamples questions (clustering a question's rubric checks), with 5,000 resamples \citep{efron1994bootstrap}.
+
+\section{No Compounding Drift}\label{sec:drift}
+\textbf{Fixed content.} In the LoCoMo pilot (30 questions, gpt-oss-20b writer), one rewrite cut memory from 1,129 to 684 words and kept 79\% of k0 facts. Rounds 2--8 changed length and survival by at most 1--2\%, and accuracy stayed within 30.0--36.7\% for $k{=}0$ to 8. On Memora (Qwen writer), accuracy fell from 58.3\% at $k{=}0$ to 49.5\% at $k{=}2$ and was identical for $k{=}4$ and $k{=}8$. The loss is front-loaded and then stops.
+
+\textbf{Streaming.} At scale on Memora (9 personas, Nemotron), k0, k2, and stream scored 47.5\%, 48.2\%, and 50.9\%. No contrast was significant: stream$-$k0 was +3.4 [$-$2.8, +9.9], $p{=}0.31$. The per-persona deltas, however, ranged from $-$20.0 to +34.0 points, and they correlated with the stream memory's final length ($r{=}0.45$). The average hides a few streams that failed badly.
+
+\section{Rewrite Collapse}\label{sec:collapse}
+We define a \emph{collapse} as a single rewrite that shrinks a memory of at least 300 words to at most half its length. With Nemotron, 13 of 351 streaming rewrites collapsed (3.7\%): 4 of 89 on Memora and 9 of 262 on LoCoMo. These collapses hit 6 of 19 streams (3/9 and 3/10). A collapsed memory never regained its previous length: later sessions add new facts but do not restore the discarded ones. Typical events shrank memories from 1,479 to 149 words or from 2,089 to 190. The pilot writer gpt-oss-20b collapsed as well (4 events on one LoCoMo conversation), so the behaviour is not specific to one model. The damage is large. On the three collapsed held-out LoCoMo conversations, stream accuracy was 3.3\% against 23.3\% for k0 ($-$20.0 [$-$36.7, $-$6.7], $p{=}0.001$). On the six other conversations the arms were close.
+
+\section{A Collapse Guard}\label{sec:guard}
+A collapse has a simple signature, a large drop in length, so we guard against it at the moment it happens. When a rewrite collapses, we re-issue it once with an explicit instruction to keep every existing fact unless the new session contradicts or retires it.
+\begin{itemize}
+\item \textbf{Guard-append}: if the retry also collapses, keep the old memory and append the new rewrite under ``Recent updates''.
+\item \textbf{Guard-bounded}: keep the longer of the two attempts and never append.
+\end{itemize}
+When no collapse occurs, both guards are identical to stream. Guard-append was designed after seeing the Memora collapses (A6). We then fixed the rule and ran it on all 10 LoCoMo conversations as a held-out test (A7). Guard-append can let memory grow without bound: on two LoCoMo conversations it reached 11,707 and 18,322 words, which confounds accuracy with memory size. Guard-bounded (A8) removes that confound. Its largest memory was 2,318 words, within the range of uncollapsed plain streams (up to 2,372).
+
+\begin{table}[t]
+\centering\small
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{lrrrr}
+\toprule
+ & k0 & stream & g-app. & g-bnd. \\
+\midrule
+Memora & 47.5 & 50.9 & 56.8 & 55.2 \\
+\quad collapsed (3) & 49.0 & 41.9 & 58.7 & 54.2 \\
+LoCoMo, held-out & 26.0 & 18.0 & 26.0 & 24.0 \\
+\quad collapsed (3) & 23.3 & 3.3 & 30.0 & 23.3 \\
+Pooled (190 q) & 43.5 & 44.8 & 51.1 & 49.4 \\
+\bottomrule
+\end{tabular}
+\caption{Accuracy (\%). g-app.\ and g-bnd.\ are the appending and bounded guards. Collapsed rows are the units whose plain stream collapsed.}
+\label{tab:main}
+\end{table}
+
+\begin{table}[t]
+\centering\small
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{llr}
+\toprule
+Contrast & Subset & $\Delta$ [95\% CI], $p$ \\
+\midrule
+g-app.$-$stream & Memora & +5.9 [+1.0, +11.6], .016 \\
+g-app.$-$stream & LoCoMo & +8.0 [+3.0, +14.0], $<$.001 \\
+g-bnd.$-$stream & Memora & +4.3 [$-$0.5, +9.9], .092 \\
+g-bnd.$-$stream & LoCoMo & +6.0 [+2.0, +11.0], .002 \\
+g-bnd.$-$stream & LoCoMo coll. & +20.0 [+6.7, +36.7], .002 \\
+g-bnd.$-$stream & Pooled & +4.6 [+0.6, +9.3], .020 \\
+g-bnd.$-$k0 & Pooled & +5.9 [$-$0.8, +12.2], .086 \\
+g-bnd.$-$g-app. & Pooled & $-$1.7 [$-$3.3, $-$0.3], .023 \\
+\bottomrule
+\end{tabular}
+\caption{Question-clustered bootstrap contrasts (points).}
+\label{tab:contrast}
+\end{table}
+
+\textbf{Results.} Tables~\ref{tab:main} and~\ref{tab:contrast} report accuracy and contrasts. On the held-out LoCoMo replication, both guards beat plain streaming, and the bounded guard did so by +6.0 points ($p{=}0.002$). Almost all of the gain comes from the collapsed conversations (+20.0). The bounded guard matches k0 there (23.3 vs.\ 23.3) and is never worse than stream on uncollapsed units, since it is identical to stream there. A single retry recovered 12 of 16 collapse events (75\%). The bounded guard gives up 1.7 points against the appending guard. That gap is the price of keeping memory bounded, and the bounded guard is the variant we recommend. Pooled over both benchmarks, streaming with the bounded guard is the best bounded-size arm, but it does not significantly beat append-only notes (+5.9, $p{=}0.086$).
+
+\section{Discussion}
+The drift-as-erosion picture predicts a smooth decline that grows with the number of rewrites. Our data show something else: a stable equilibrium punctuated by rare catastrophic events. This has three practical consequences. First, average accuracy is a poor monitor. On Memora, three collapsed personas were hidden inside a non-significant mean. Second, collapses are cheap to detect: a word-count ratio needs no extra model call until it fires, and the guard re-runs only about 4\% of rewrites. Third, the remedy is local. A retry or a fallback at the moment of collapse suffices, so the whole consolidation design does not need replacing. This complements \citet{zhang2026faulty}, who argue for gating consolidation, by giving a concrete, inexpensive trigger.
+
+\section{Conclusion}
+LLM-rewritten agent memory does not erode steadily. It holds a fixed point and occasionally collapses. A length-triggered retry with a bounded fallback repairs most collapses, and on a held-out replication it gave a significant gain. Memory systems should log length per rewrite and guard against collapse.
+
+\section*{Limitations}
+The guard was designed after inspecting the Memora collapses. Only the LoCoMo replication is held out, and the bounded variant was introduced after we saw the appending guard's length growth on LoCoMo, although its rule needs no tuning. Samples are small (90 + 100 questions), and collapses occur in only 6 streams, so per-subset intervals are wide. We use one main writer model at temperature 0. Collapse rates for other models, other prompts, and sampling temperatures are untested beyond two pilot writers. The judge is an LLM, and strict grading together with frequent ``unknown'' answers lowers absolute LoCoMo accuracy. The 50\%/300-word threshold is a heuristic that we did not tune. Writers exceed the nominal 1,200-word cap, so ``bounded'' means bounded by the writer's own behaviour, not by the cap.
+
+\section*{Ethics Statement}
+We use only public benchmark data (LoCoMo, Memora) whose dialogues are synthetic (LLM-generated personas). Memory systems that store personal facts raise privacy concerns. Collapse guards keep facts that would otherwise be dropped, so deletion requests must be honoured explicitly rather than left to lossy rewrites.
+
+\bibliography{refs}
+
+\end{document}
