@@ -5,14 +5,15 @@ cached by sha256(model, messages, max_tokens, temperature) in
 results/cache/<model>.jsonl, so reruns are free. The API key is injected by
 the environment proxy; this file never reads or prints it.
 """
-import hashlib, json, os, time, pathlib, urllib.request, urllib.error
+import hashlib, json, os, time, pathlib, threading, urllib.request, urllib.error
 
 URL = "https://api.groq.com/openai/v1/chat/completions"
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 CACHE = ROOT / "results" / "cache"
 CACHE.mkdir(parents=True, exist_ok=True)
 TPM = 7000          # stay under 8,000 tokens/min
-_window = []        # (timestamp, tokens)
+_windows = {}       # model -> [(timestamp, tokens)]  (limits are per model)
+_lock = threading.Lock()
 _mem = {}
 
 
@@ -35,14 +36,20 @@ def _load(model):
     return d
 
 
-def _throttle(est):
-    now = time.time()
-    while _window and now - _window[0][0] > 60:
-        _window.pop(0)
-    used = sum(t for _, t in _window)
-    if used + est > TPM and _window:
-        time.sleep(max(0.0, 60 - (now - _window[0][0])) + 0.5)
-        return _throttle(est)
+def _throttle(model, est):
+    while True:
+        with _lock:
+            w = _windows.setdefault(model, [])
+            now = time.time()
+            while w and now - w[0][0] > 60:
+                w.pop(0)
+            used = sum(t for _, t in w)
+            if used + est <= TPM or not w:
+                slot = [now, est]  # reserve; corrected to real usage after the call
+                w.append(slot)
+                return slot
+            wait = max(0.0, 60 - (now - w[0][0])) + 0.5
+        time.sleep(wait)
 
 
 def chat(model, messages, max_tokens=512, temperature=0.0, reasoning_effort="low"):
@@ -57,7 +64,7 @@ def chat(model, messages, max_tokens=512, temperature=0.0, reasoning_effort="low
         return cache[key]["text"], cache[key]["usage"]
     est = sum(len(m["content"]) for m in messages) // 3 + max_tokens
     for attempt in range(6):
-        _throttle(est)
+        slot = _throttle(model, est)
         req = urllib.request.Request(URL, data=json.dumps(payload).encode(),
                                      headers={"Content-Type": "application/json", "User-Agent": "driftbench/0.1 (curl-compatible)"})
         try:
@@ -65,9 +72,9 @@ def chat(model, messages, max_tokens=512, temperature=0.0, reasoning_effort="low
                 body = json.loads(r.read())
             text = body["choices"][0]["message"].get("content") or ""
             usage = body.get("usage", {})
-            _window.append((time.time(), usage.get("total_tokens", est)))
+            slot[1] = usage.get("total_tokens", est)
             rec = {"key": key, "model": model, "text": text, "usage": usage}
-            with _cache_file(model).open("a") as f:
+            with _lock, _cache_file(model).open("a") as f:
                 f.write(json.dumps(rec) + "\n")
             cache[key] = rec
             return text, usage
