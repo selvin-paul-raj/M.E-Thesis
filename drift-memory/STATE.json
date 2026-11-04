@@ -1,140 +1,146 @@
 {
-  "updated": "2026-11-04 19:30 IST",
-  "current_step": "A5",
-  "steps_done": [
-    "S1",
-    "S2",
-    "S3",
-    "S4",
-    "S5",
-    "S5b",
-    "A1",
-    "A2",
-    "A3",
-    "A3b"
-  ],
-  "blocked": [
-    "A5 throughput: Groq gpt-oss-20b 200K tokens/day cap (196.7K used at 19:10 IST); NVIDIA fallback unresponsive"
-  ],
-  "models": {
-    "writer": "openai/gpt-oss-20b",
-    "judge": "openai/gpt-oss-120b",
-    "writer2": "qwen/qwen3.8-27b"
+ "updated": "2026-11-04T23:55+05:30",
+ "current_step": "Paper v5 drafted (collapse + guard); polish and submit decision by owner",
+ "steps_done": [
+  "S1",
+  "S2",
+  "S3",
+  "S4",
+  "S5",
+  "S5b",
+  "A1",
+  "A2",
+  "A3",
+  "A3b",
+  "A5 Nemotron Memora scale-up (n.s. drift)",
+  "A6 collapse guard (post hoc, p=0.016)",
+  "A7 LoCoMo held-out replication (guard-append +8.0, p<0.001)",
+  "A8 bounded guard (+6.0 held-out, p=0.002; pooled +4.6, p=0.02)",
+  "Paper v5 4-page ACL short draft: paper/DriftMemory_Collapse_v5.pdf"
+ ],
+ "blocked": [
+  "A5 throughput: Groq gpt-oss-20b 200K tokens/day cap (196.7K used at 19:10 IST); NVIDIA fallback unresponsive"
+ ],
+ "models": {
+  "writer": "openai/gpt-oss-20b",
+  "judge": "openai/gpt-oss-120b",
+  "writer2": "qwen/qwen3.8-27b"
+ },
+ "notes": "Option A chosen 2026-11-04 13:47. A1 streaming LoCoMo: 36.7% = fixed k=8; age10+ 30.4 vs 39.1 (n=23, ns); conv-26 memory sawtooth/collapse. Groq: AgentsWar key + NVIDIA NIM fallback in groq_client. Push via browser session github-selvin.",
+ "pilot": {
+  "acc": {
+   "k0": 33.3,
+   "k1": 30.0,
+   "k2": 36.7,
+   "k4": 36.7,
+   "k8": 36.7,
+   "bm25": 33.3
   },
-  "notes": "Option A chosen 2026-11-04 13:47. A1 streaming LoCoMo: 36.7% = fixed k=8; age10+ 30.4 vs 39.1 (n=23, ns); conv-26 memory sawtooth/collapse. Groq: AgentsWar key + NVIDIA NIM fallback in groq_client. Push via browser session github-selvin.",
-  "pilot": {
-    "acc": {
-      "k0": 33.3,
-      "k1": 30.0,
-      "k2": 36.7,
-      "k4": 36.7,
-      "k8": 36.7,
-      "bm25": 33.3
-    },
-    "fact_survival": {
-      "k1": 79.2,
-      "k2": 80.8,
-      "k4": 80.0,
-      "k8": 80.0
-    },
-    "verdict": "flat"
+  "fact_survival": {
+   "k1": 79.2,
+   "k2": 80.8,
+   "k4": 80.0,
+   "k8": 80.0
   },
-  "memora": {
-    "acc": {
-      "k0": 58.3,
-      "k1": 52.4,
-      "k2": 49.5,
-      "k4": 49.5,
-      "k8": 49.5,
-      "bm25": 56.3
-    },
-    "presence": {
-      "k0": 40.8,
-      "k2": 31.0,
-      "bm25": 46.5
-    },
-    "forget": {
-      "k0": 96.9,
-      "k2": 90.6,
-      "bm25": 78.1
-    },
-    "verdict": "flat"
+  "verdict": "flat"
+ },
+ "memora": {
+  "acc": {
+   "k0": 58.3,
+   "k1": 52.4,
+   "k2": 49.5,
+   "k4": 49.5,
+   "k8": 49.5,
+   "bm25": 56.3
   },
-  "decision": "2026-11-04 13:47 IST: owner said go ahead with Hark pick = Option A (reframe: front-loaded consolidation loss; test whether streaming new content restarts decay).",
-  "a1": {
-    "stream": 36.7,
-    "k0": 33.3,
-    "k8": 36.7,
-    "bm25": 33.3,
-    "age10plus": {
-      "stream": 30.4,
-      "k8": 39.1,
-      "n": 23
-    },
-    "age5_9": {
-      "stream": 57.1,
-      "k8": 28.6,
-      "n": 7
-    },
-    "per_conv_stream": {
-      "conv-26": 0,
-      "conv-30": 6,
-      "conv-49": 5
-    }
+  "presence": {
+   "k0": 40.8,
+   "k2": 31.0,
+   "bm25": 46.5
   },
-  "a2": {
-    "stream": 62.1,
-    "k0": 58.3,
-    "k8": 49.5,
-    "bm25": 56.3,
-    "presence": {
-      "stream": 46.5,
-      "k0": 40.8,
-      "k8": 31.0,
-      "bm25": 46.5
-    },
-    "forgetting": {
-      "stream": 96.9,
-      "k0": 96.9,
-      "k8": 90.6,
-      "bm25": 78.1
-    },
-    "note": "stream memory exceeded cap (1497/1210 words); length confound"
+  "forget": {
+   "k0": 96.9,
+   "k2": 90.6,
+   "bm25": 78.1
   },
-  "a3": {
-    "memora_stream_vs_k0": {
-      "diff": 3.9,
-      "p": 0.52
-    },
-    "memora_k0_vs_k8": {
-      "diff": 8.7,
-      "p": 0.012
-    },
-    "cap_violation": "writers ignore word caps; enforce mechanically",
-    "next": "A3b: hard token budget (iterative condense until <=W, else truncate) for stream, k=0 and Render-from-Raw at equal W; cluster bootstrap by question"
+  "verdict": "flat"
+ },
+ "decision": "2026-11-04 13:47 IST: owner said go ahead with Hark pick = Option A (reframe: front-loaded consolidation loss; test whether streaming new content restarts decay).",
+ "a1": {
+  "stream": 36.7,
+  "k0": 33.3,
+  "k8": 36.7,
+  "bm25": 33.3,
+  "age10plus": {
+   "stream": 30.4,
+   "k8": 39.1,
+   "n": 23
   },
-  "a3b": {
-    "budget_words": 900,
-    "stream_W": 56.3,
-    "k0_W": 50.5,
-    "k8_W": 48.5,
-    "forget": {
-      "stream_W": 100.0,
-      "k0_W": 96.9,
-      "k8_W": 90.6
-    },
-    "stream_vs_k8": {
-      "diff": 7.8,
-      "ci": [
-        -7.7,
-        25.9
-      ],
-      "p": 0.15
-    },
-    "note": "underpowered; caps never obeyed after 3 passes"
+  "age5_9": {
+   "stream": 57.1,
+   "k8": 28.6,
+   "n": 7
   },
-  "a5": {
-    "personas_done": 0,
-    "academic_researcher": "k0/k1/k2 built; stream 60/102 sessions"
+  "per_conv_stream": {
+   "conv-26": 0,
+   "conv-30": 6,
+   "conv-49": 5
   }
+ },
+ "a2": {
+  "stream": 62.1,
+  "k0": 58.3,
+  "k8": 49.5,
+  "bm25": 56.3,
+  "presence": {
+   "stream": 46.5,
+   "k0": 40.8,
+   "k8": 31.0,
+   "bm25": 46.5
+  },
+  "forgetting": {
+   "stream": 96.9,
+   "k0": 96.9,
+   "k8": 90.6,
+   "bm25": 78.1
+  },
+  "note": "stream memory exceeded cap (1497/1210 words); length confound"
+ },
+ "a3": {
+  "memora_stream_vs_k0": {
+   "diff": 3.9,
+   "p": 0.52
+  },
+  "memora_k0_vs_k8": {
+   "diff": 8.7,
+   "p": 0.012
+  },
+  "cap_violation": "writers ignore word caps; enforce mechanically",
+  "next": "A3b: hard token budget (iterative condense until <=W, else truncate) for stream, k=0 and Render-from-Raw at equal W; cluster bootstrap by question"
+ },
+ "a3b": {
+  "budget_words": 900,
+  "stream_W": 56.3,
+  "k0_W": 50.5,
+  "k8_W": 48.5,
+  "forget": {
+   "stream_W": 100.0,
+   "k0_W": 96.9,
+   "k8_W": 90.6
+  },
+  "stream_vs_k8": {
+   "diff": 7.8,
+   "ci": [
+    -7.7,
+    25.9
+   ],
+   "p": 0.15
+  },
+  "note": "underpowered; caps never obeyed after 3 passes"
+ },
+ "a5": {
+  "personas_done": 0,
+  "academic_researcher": "k0/k1/k2 built; stream 60/102 sessions"
+ },
+ "deadline_internal": "2026-11-07T14:00+05:30"
 }
