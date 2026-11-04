@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-04 15:16 IST",
-  "current_step": "A2",
+  "updated": "2026-11-04 19:30 IST",
+  "current_step": "A5",
   "steps_done": [
     "S1",
     "S2",
@@ -8,9 +8,14 @@
     "S4",
     "S5",
     "S5b",
-    "A1"
+    "A1",
+    "A2",
+    "A3",
+    "A3b"
   ],
-  "blocked": [],
+  "blocked": [
+    "A5 throughput: Groq gpt-oss-20b 200K tokens/day cap (196.7K used at 19:10 IST); NVIDIA fallback unresponsive"
+  ],
   "models": {
     "writer": "openai/gpt-oss-20b",
     "judge": "openai/gpt-oss-120b",
@@ -76,5 +81,60 @@
       "conv-30": 6,
       "conv-49": 5
     }
+  },
+  "a2": {
+    "stream": 62.1,
+    "k0": 58.3,
+    "k8": 49.5,
+    "bm25": 56.3,
+    "presence": {
+      "stream": 46.5,
+      "k0": 40.8,
+      "k8": 31.0,
+      "bm25": 46.5
+    },
+    "forgetting": {
+      "stream": 96.9,
+      "k0": 96.9,
+      "k8": 90.6,
+      "bm25": 78.1
+    },
+    "note": "stream memory exceeded cap (1497/1210 words); length confound"
+  },
+  "a3": {
+    "memora_stream_vs_k0": {
+      "diff": 3.9,
+      "p": 0.52
+    },
+    "memora_k0_vs_k8": {
+      "diff": 8.7,
+      "p": 0.012
+    },
+    "cap_violation": "writers ignore word caps; enforce mechanically",
+    "next": "A3b: hard token budget (iterative condense until <=W, else truncate) for stream, k=0 and Render-from-Raw at equal W; cluster bootstrap by question"
+  },
+  "a3b": {
+    "budget_words": 900,
+    "stream_W": 56.3,
+    "k0_W": 50.5,
+    "k8_W": 48.5,
+    "forget": {
+      "stream_W": 100.0,
+      "k0_W": 96.9,
+      "k8_W": 90.6
+    },
+    "stream_vs_k8": {
+      "diff": 7.8,
+      "ci": [
+        -7.7,
+        25.9
+      ],
+      "p": 0.15
+    },
+    "note": "underpowered; caps never obeyed after 3 passes"
+  },
+  "a5": {
+    "personas_done": 0,
+    "academic_researcher": "k0/k1/k2 built; stream 60/102 sessions"
   }
 }

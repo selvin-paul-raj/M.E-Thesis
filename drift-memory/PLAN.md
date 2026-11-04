@@ -51,8 +51,14 @@ Both pilots were flat: rewrite loss is one-shot (k <= 2), then a fixed point. Ne
 | # | Step | Done when |
 |---|---|---|
 | A1 | Streaming rewrite-in-place arm on the 30 LoCoMo pilot questions (code/stream_pilot.py) vs append-only (k=0), fixed k=8, BM25; accuracy by evidence age | results/stream_summary.md |
-| A2 | Same streaming arm on Memora (2-3 personas, qwen3.8-27b writer if 20b capped) incl. presence vs forgetting | results/memora_stream.csv |
+| A2 | Same streaming arm on Memora (2-3 personas, qwen3.8-27b writer if 20b capped) incl. presence vs forgetting | results/memora_stream.csv | — DONE 2026-11-04: stream 62.1 best (length confound)
 | A3 | Render-from-Raw: keep raw sessions, rebuild memory from raw at query time / on trigger; compare to rewrite at equal tokens | results/rfr.csv |
 | A4 | Staleness detector (NLI + coverage) deciding when to rebuild; P/R vs oracle | results/detector_pr.csv |
 | A5 | Scale-up (more convs/personas, 2 seeds, temperature 0.7 to test the fixed-point caveat), then S12 writing | results/main_*.csv |
 Groq free tier: 200K tokens/day per model; split work across days and models.
+
+## Status 2026-11-04 18:35 IST (Option A)
+- A1 done (LoCoMo streaming flat 36.7 vs 36.7). A2 done (Memora streaming 62.1 vs k=8 49.5). A3 and A3b done: at a hard 900-word budget, stream 56.3 > k0 50.5 > k8 48.5, not significant (clustered bootstrap, p=0.15). Soft word caps are never obeyed; budgets must be enforced mechanically. code/stats.py gives the paired, question-clustered bootstrap plus McNemar.
+- A5 RUNNING: code/a5_scale.py, all 10 Memora weekly personas, gpt-oss-20b writer and reader, arms k0/k2/stream. Each job runs about 19 minutes and is resumable per persona (results/a5_scores.csv). Relaunch in the background with `timeout 1150 python3 -u code/a5_scale.py >> results/a5_run.log` until all 10 personas are in, then extend stats.py to a5_scores.csv (cluster by persona|qid) and report.
+- LLM access: Groq on the AgentsWar key (vault); groq_client falls back to NVIDIA NIM (integrate.api.nvidia.com, same gpt-oss models, slow) when the Groq daily cap hits.
+- A4 (staleness detector) after A5.
