@@ -8,6 +8,8 @@ the environment proxy; this file never reads or prints it.
 import hashlib, json, os, time, pathlib, threading, urllib.request, urllib.error
 
 URL = "https://api.groq.com/openai/v1/chat/completions"
+NV_URL = "https://integrate.api.nvidia.com/v1/chat/completions"
+_FALLBACK = set()  # models switched to NVIDIA after Groq daily cap
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 CACHE = ROOT / "results" / "cache"
 CACHE.mkdir(parents=True, exist_ok=True)
@@ -65,16 +67,17 @@ def chat(model, messages, max_tokens=512, temperature=0.0, reasoning_effort="low
     est = sum(len(m["content"]) for m in messages) // 3 + max_tokens
     for attempt in range(10):
         slot = _throttle(model, est)
-        req = urllib.request.Request(URL, data=json.dumps(payload).encode(),
+        url = NV_URL if model in _FALLBACK else URL
+        req = urllib.request.Request(url, data=json.dumps(payload).encode(),
                                      headers={"Content-Type": "application/json", "User-Agent": "driftbench/0.1 (curl-compatible)"})
         try:
-            with urllib.request.urlopen(req, timeout=120) as r:
+            with urllib.request.urlopen(req, timeout=300) as r:
                 body = json.loads(r.read())
             text = body["choices"][0]["message"].get("content") or ""
             import re as _re; text = _re.sub(r"<think>.*?</think>", "", text, flags=_re.S).strip()
             usage = body.get("usage", {})
             slot[1] = usage.get("total_tokens", est)
-            rec = {"key": key, "model": model, "text": text, "usage": usage}
+            rec = {"key": key, "model": model, "text": text, "usage": usage, "provider": "nvidia" if model in _FALLBACK else "groq"}
             with _lock, _cache_file(model).open("a") as f:
                 f.write(json.dumps(rec) + "\n")
             cache[key] = rec
@@ -82,12 +85,14 @@ def chat(model, messages, max_tokens=512, temperature=0.0, reasoning_effort="low
         except urllib.error.HTTPError as e:
             if e.code == 429 or e.code >= 500:
                 wait = float(e.headers.get("retry-after", 0) or 0) or 5 * (attempt + 1)
-                if e.code == 429 and ("per day" in e.read().decode(errors="ignore").lower()):
+                if e.code == 429 and model not in _FALLBACK and ("per day" in e.read().decode(errors="ignore").lower()):
+                    _FALLBACK.add(model); continue
+                if e.code == 429 and model in _FALLBACK and attempt > 8:
                     raise RuntimeError(f"daily limit (requests or tokens per day) reached for {model}")
                 time.sleep(min(wait, 120))
                 continue
             raise
-    raise RuntimeError(f"Groq call failed after retries ({model})")
+    raise RuntimeError(f"LLM call failed after retries ({model})")
 
 
 if __name__ == "__main__":
