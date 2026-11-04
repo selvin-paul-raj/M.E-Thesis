@@ -1,0 +1,219 @@
+\begin{document}
+\maketitlecustom{Measuring and Mitigating Memory Drift in Long-Term LLM Agents: Render-from-Raw Memory with NLI-Triggered Refresh}
+
+\begin{abstractbox}
+\textbf{\textit{Abstract -}} \textbf{\textit{Long-term memory lets a large language model (LLM) agent remember a user across weeks of conversations. Many widely used memory systems keep the store small by asking an LLM to rewrite it after every session, so each version is derived from the previous one rather than from what the user said. We hypothesise that such rewrite-in-place memory loses information as cycles accumulate, much as errors propagate in a predictive video codec until a new reference frame is coded. Prior work reports degradation under repeated updates, but, to our knowledge, none measures question-answering accuracy on conversational memory against the number of rewrite cycles. We propose three contributions: (1) DriftBench, a protocol that applies $k = 0, 1, 2, 4, 8$ consolidation cycles to LoCoMo, Memora and LongMemEval memories at a matched token budget, with a content-controlled arm that separates rewrite damage from added data; (2) a testable information-theoretic prediction of the drift curve, compared against the alternative that drift settles to an equilibrium; and (3) Render-from-Raw memory, which keeps an immutable raw log and rebuilds a memory from it when a natural language inference (NLI) and fact-coverage check finds it contradicted or incomplete. A Tanglish (romanised Tamil--English) extension examines read-time normalisation. Experiments are designed for free-tier API models and a CPU. No results are reported yet.}}
+
+\textbf{\textit{Keywords ---}} \textit{LLM Agents, Long-Term Memory, Memory Drift, Consolidation, Event Sourcing, Provenance, Retrieval-Augmented Generation (RAG), BM25S, Natural Language Inference, Tanglish.}
+\end{abstractbox}
+
+\section{Introduction}
+
+An LLM agent that helps one person for months needs a memory outside its context window: the user's preferences, plans, people and past decisions. Systems such as MemGPT [@memgpt], Mem0 [@mem0] and A-MEM [@amem] provide this ``second brain'' by storing notes and retrieving the relevant ones at answer time, in the manner of Retrieval-Augmented Generation (RAG) [@rag].
+
+To keep the store small, these systems \textit{rewrite} it. After a session an LLM decides what to add, update, merge or delete, and the result replaces what was there. The next session's rewrite starts from that result, not from the original conversation. If each rewrite drops or distorts a little, the errors compound. Zhang et al. [@faulty] reported that LLM-consolidated memories first help and then degrade, sometimes below a no-memory baseline, while simply keeping the raw episodes stays competitive. Zerhoudi et al. [@cliff] reported a ``compaction cliff'': on 20 production agent configurations, a widely used compaction prompt kept 53\% of safety rules after one round and 10\% after five. Kwon [@reclaim] went further and argued that a lossy memory can be worse than an empty one.
+
+Video coding met the same problem decades ago. A P-frame is predicted from an earlier frame, so a prediction error propagates down the chain until the next intra-coded I-frame is rebuilt from the source picture [@h264]. Table 1 shows the analogy that motivates this work: rewrite-in-place memory is a chain of predictions, while a memory rebuilt from the raw log behaves like a periodic I-frame.
+
+\begin{table}[!htb]
+\centering
+\caption{VIDEO-CODING CONCEPTS AND THEIR MEMORY ANALOGUES}
+\footnotesize\renewcommand{\arraystretch}{1.18}
+\begin{tabularx}{\columnwidth}{|p{2.35cm}|X|}
+\hline
+\textbf{Video coding} & \textbf{Second-brain memory (this work)} \\ \hline
+Source frames & Immutable raw log of every turn \\ \hline
+P-frame chain & Rewrite-in-place: each summary built from the last \\ \hline
+I-frame refresh & Render-from-raw: rebuild a memory from its source \\ \hline
+Drift / error propagation & Facts lost or distorted over rewrite cycles \\ \hline
+Edit decision list (non-linear editing) & Corrections stored as operations, replayed on every render \\ \hline
+Colour grade / LUT & Versioned read-time normalisation (script, names, units) \\ \hline
+Container seek index & BM25S and time index for exact relink to raw \\ \hline
+\end{tabularx}
+\end{table}
+
+Raw logs are not new: several 2026 systems keep one [@dpm], [@uac], [@memfit], [@projectmem]. That raw evidence should not be overwritten is therefore already argued [@faulty]; we do not claim it. Colaco and Lahjouji [@rd] note that the repeated compaction agents actually perform is almost never measured, and Dongre et al. [@driftnomore] find that multi-turn drift settles into bounded equilibria rather than runaway decay. Whether memory drift under repeated rewriting decays or plateaus is open. What is missing is a \textit{measurement} of how much rewrite-in-place costs on conversational memory as cycles accumulate, with rewrite damage separated from the arrival of new data, and a cheap way to decide \textit{when} a rendered memory must be rebuilt from the raw text. This work makes three contributions:
+(1) DriftBench, a released harness with a fixed-content arm and a streaming arm that measures question-answering accuracy against the number of consolidation cycles at a matched token budget, on LoCoMo [@locomo], Memora [@memora] and long LongMemEval [@longmemeval] histories, designed so that a plateau is as reportable as a decay;
+(2) a testable prediction of the curve's shape, motivated by the strong data-processing inequality, with the per-cycle fact-survival rate estimated from data; and
+(3) Render-from-Raw memory with an NLI-triggered refresh: a staleness detector that catches both contradictions and omissions, scored against oracle staleness labels.
+A layer-aware router and a Tanglish read-time normalisation layer are designed (Section 3) but are extensions, not contributions; they are kept only if time allows.
+
+\section{Related Work}
+
+\subsection{Long-Term Memory for LLM Agents}
+MemGPT [@memgpt] pages memory between context and storage; Mem0 [@mem0] extracts facts and applies ADD, UPDATE and DELETE operations; A-MEM [@amem] links notes Zettelkasten-style and lets new notes rewrite old ones. TiMem [@timem] consolidates segments into session, day, week and profile levels, and LightMem [@lightmem] moves consolidation to an offline ``sleep-time'' pass. All of them store the output of an LLM rewrite as the memory itself.
+
+\subsection{Raw Logs and Event-Sourced Memory}
+Srinivasan's Decision Memory [@dpm] keeps an append-only event log and builds one task-conditioned projection at decision time, and shows that this beats summarisation memory as the budget tightens. User as Code [@uac] never discards a fact and periodically checkpoints its log into typed code; PROJECTMEM [@projectmem] regenerates a summary by a deterministic fold over the log after every write; MemFit [@memfit] stores turns verbatim and uses summaries only as an index. All-Mem [@allmem] performs non-destructive consolidation with Split, Merge and Update edits while preserving immutable evidence, and expands from active memories to archived evidence at query time, close to the relink path proposed here. TrajWiki [@trajwiki] records ADD, REVISE and DEPRECATE operations over fixed snapshots, close to an edit list. APEX-MEM [@apex] stores an append-only property graph and resolves conflicts at query time, and AnchorMem [@anchormem] keeps the original context immutable and criticises the retrieve-and-rewrite loop. Version control and rollback of memory appear in ChronoMem [@chronomem], Shepherd [@shepherd] and DeltaMem [@deltamem]. A production design, CortexDB [@cortexdb], computes every derived view as a function of the events and a derivation version. The architecture proposed here is therefore \textit{not} claimed as new.
+
+\subsection{Drift Under Repeated Rewriting}
+Zhang et al. [@faulty] report utility rising then falling as an LLM keeps consolidating agent trajectories on ARC-AGI, not on conversational question answering. The Compaction Cliff [@cliff] tracks safety-rule retention, not facts about a user, over five rounds, and Reclaim [@reclaim] shows compounding through memory loops. Dongre et al. [@driftnomore] model multi-turn context drift as a bounded stochastic process and observe stable, noise-limited equilibria; their setting is the model's outputs across turns, not a stored memory, but it is the competing hypothesis for H1. Lam et al. [@ssgm] propose periodic replay against drift as a governance mechanism without an evaluation. Colaco and Lahjouji [@rd] give a rate--distortion view of compaction with a lower bound and a benchmark proposal, and flag repeated compaction as unmeasured; this is the closest scoop risk. None of these plots question-answering accuracy against the number of cycles on conversational long-term memory, or compares rebuilding from raw with rewriting in place at the same budget. Song et al. [@realm] run retrieval-driven reconsolidation on LoCoMo and LongMemEval and find that it \textit{improves} accuracy, and a streaming LongMemEval-M study [@humanmem] finds a consolidation pipeline matching raw retrieval (70.1\% vs 71.2\%) at a 200K-token budget, so consolidation is not always harmful. Another counter-result matters: an IVA 2026 study [@iva] found that slot overwriting beat append-only memory on recall, so the benefit of raw logs is not automatic.
+
+\subsection{Retrieval for Memory: Raw versus Summary}
+Zep [@zep] already combines dense vectors, BM25 and a temporal knowledge graph. Mnemis [@mnemis] lets an LLM navigate a hierarchy without embeddings, and SelRoute [@selroute] and BudgetMem [@budgetmem] route queries by type or budget. The closest work to the router proposed here is JustMem [@justmem], which chooses per query between compact atomic memory and replaying the original conversation, and TierMem [@tiermem], which answers from summaries and escalates to an immutable raw tier when the summary is insufficient. Memora [@memora] targets consolidation and knowledge updates over weeks to months of conversation, with the FAMA metric that penalises use of obsolete memories; it is the benchmark most likely to stress rewriting. RENDER [@render] controls the reader-facing evidence in memory evaluation and is used here as an evaluation control. BM25S [@bm25s] makes exact lexical search over a growing raw log cheap on a CPU.
+
+\subsection{Provenance, Security and Deletion}
+Agent Zero Memory [@agentzero] attaches provenance to long-term memories. Xu et al. [@laundering] describe \textit{provenance laundering}, where an LLM rewrite turns an untrusted note into what looks like user history. MemTrust [@memtrust] proposes a zero-trust memory architecture and MemCut [@memcut] shows that deleted secrets leave traces in agent memory, which an append-only design must address. TOKI [@toki] resolves contradictions with a bitemporal operator algebra.
+
+\begin{table*}[!htb]
+\centering
+\caption{CLOSEST PRIOR WORK AND THE GAP RELATIVE TO THIS WORK}
+\footnotesize\renewcommand{\arraystretch}{1.18}
+\begin{tabularx}{\textwidth}{|p{3.4cm}|p{4.6cm}|p{4.2cm}|X|}
+\hline
+\textbf{Work} & \textbf{What it does} & \textbf{Overlap with this work} & \textbf{Gap relative to this work} \\ \hline
+Decision Memory [@dpm] & Append-only log, one projection at decision time & Raw log, read-time rendering & Enterprise decisions; no drift curve over cycles \\ \hline
+JustMem [@justmem] & Per-query choice: compact memory or replay original & Layer-aware routing & No refresh policy; no drift measurement \\ \hline
+TierMem [@tiermem] & Summary first, escalate to immutable raw tier & Relink to raw & Two tiers; refresh only on demand \\ \hline
+User as Code [@uac]; PROJECTMEM [@projectmem] & Log never discards; periodic or per-write rebuild & Render-from-raw & Rule-based fold, not LLM rendering; no QA drift curve \\ \hline
+Faulty memories [@faulty]; Compaction Cliff [@cliff] & Utility rises then falls (ARC-AGI); safety rules kept 53\% $\to$ 10\% in 5 rounds & Drift over cycles & Not conversational QA; no budget-matched raw baseline \\ \hline
+TrajWiki [@trajwiki] & ADD / REVISE / DEPRECATE over snapshots & Edit list & No read-time grade layer \\ \hline
+Zep [@zep] & Vector + BM25 + temporal KG & Hybrid retrieval & No raw-versus-rendered choice \\ \hline
+REALM [@realm] & Reconsolidation over rounds on LoCoMo, LongMemEval & Cycle protocol & Reconsolidation helps; no content-controlled drift curve \\ \hline
+All-Mem [@allmem] & Non-destructive edits; links to immutable evidence & Raw anchoring, relink & No drift measurement; no omission detector \\ \hline
+Drift No More? [@driftnomore] & Drift as bounded equilibrium & Shape of the curve & Output drift, not stored memory \\ \hline
+IVA 2026 [@iva] & Overwrite beats append-only on recall & Counter-evidence & Must be reproduced and explained \\ \hline
+\end{tabularx}
+\end{table*}
+
+\subsection{Research Gap}
+Raw logs, edit operations, read-time projection and raw-versus-summary routing each exist. What no surveyed work provides is (a) a controlled, budget-matched curve of question-answering accuracy against the number of rewrite cycles on conversational long-term memory that separates rewrite damage from new data and distinguishes decay from equilibrium; (b) a measured estimate of how fast facts survive each rewrite; (c) a refresh policy triggered by detected contradiction \textit{or omission} relative to the raw source, with the detector's own error rates reported; and (d) any test of read-time normalisation when the same personal fact arrives in Tamil script, romanised Tamil and English. This work targets (a)--(c) as its core and (d) as an extension, and and claims nothing about the architecture itself.
+
+\section{Methodology}
+
+\subsection{Existing versus Proposed System}
+Table 3 contrasts the rewrite-in-place design used by many widely used memory systems with the proposed Render-from-Raw design.
+
+\begin{table}[!htb]
+\centering
+\caption{EXISTING VERSUS PROPOSED MEMORY DESIGN}
+\footnotesize\renewcommand{\arraystretch}{1.18}
+\begin{tabularx}{\columnwidth}{|p{1.8cm}|X|X|}
+\hline
+\textbf{Aspect} & \textbf{Rewrite-in-place (Mem0-style)} & \textbf{Render-from-Raw (proposed)} \\ \hline
+Stored truth & Latest LLM rewrite & Immutable raw log \\ \hline
+Corrections & Overwrite the note & Edit list, replayed on render \\ \hline
+Normalisation & Fixed at write time & Versioned grade, applied at read time \\ \hline
+Refresh & Never, or every session & When the detector finds a contradiction or omission \\ \hline
+Retrieval & Dense over notes & Router: rendered layer or raw (BM25S) \\ \hline
+Provenance & Lost after merge & Render receipt: raw span ids + versions \\ \hline
+Deletion & Delete the note & Per-segment key shredding, then re-render \\ \hline
+\end{tabularx}
+\end{table}
+
+\subsection{Proposed System Architecture}
+In a predictive video codec, a P-frame is coded from an earlier decoded frame, so errors accumulate until an I-frame is rebuilt from the source; we apply the same remedy to memory. Two terms are used throughout. The \textit{grade layer} is a versioned normalisation policy (names, units, dates, script) applied when memory is read, by analogy with colour grading applied to footage without altering it. A \textit{render receipt} is the record returned with every answer naming the raw spans, edit-list version and grade version it was built from.
+Figure 1 shows the design. Every user or agent turn is appended to the raw log $L$ and never edited. A correction (``I moved to Chennai'') is appended to an edit list $E$ as an operation. A rendered memory $R$ is always produced from the source, $R = g_v(\mathrm{apply}(E, L))$, where $g_v$ is grade profile version $v$; it is never produced from a previous $R$.
+
+\begin{figure*}[!htb]
+\centering
+\begin{tikzpicture}[font=\footnotesize, node distance=4mm and 9mm,
+  b/.style={draw, rounded corners=2pt, align=center, minimum height=9mm, inner sep=3pt, text width=#1},
+  b/.default=2.8cm, ar/.style={-{Stealth[length=2mm]}, thick}]
+\node[b=2.0cm, fill=gray!12] (u) {User / agent\\turns};
+\node[b=3.2cm, fill=blue!10, right=of u] (log) {\textbf{Immutable raw log $L$}\\append-only, per-segment keys};
+\node[b=2.8cm, fill=orange!14, right=of log] (edit) {\textbf{Edit list $E$}\\add, revise, delete};
+\node[b=3.4cm, fill=green!12, right=of edit] (grade) {\textbf{Grade profile $g_v$}\\script, names, units; versioned};
+\node[b=6.2cm, fill=violet!10, below=9mm of edit] (render) {\textbf{Render:} $R{=}g_v(\mathrm{apply}(E,L))$\\rebuilt from source (I-frame), never from an old $R$};
+\node[b=3.4cm, fill=red!10, right=of render] (nli) {\textbf{Staleness detector}\\contradiction or missing fact vs raw; refresh if stale};
+\node[b=2.6cm, fill=blue!6, below left=9mm and -1.2cm of render] (vec) {Dense vectors\\(rendered gist)};
+\node[b=2.6cm, fill=blue!10, left=of vec] (bm) {BM25S\\(raw log, exact)};
+\node[b=2.6cm, fill=blue!6, right=of vec] (kg) {Knowledge graph\\(entities, time)};
+\node[b=2.6cm, fill=blue!6, right=of kg] (tree) {Reasoning tree\\(time / topic)};
+\node[b=11cm, fill=yellow!18, below=7mm of kg.south west, anchor=north] (rt) {\textbf{Layer-aware router}: answer from the rendered layer or relink to raw, per query $\rightarrow$ answer + render receipt (raw span ids, edit and grade versions)};
+\draw[ar] (u) -- node[below, font=\scriptsize]{append} (log);
+\draw[ar] (log.south) -- (render.north west);
+\draw[ar] (edit) -- (render);
+\draw[ar] (grade.south) -- (render.north east);
+\draw[ar, red!60!black] (nli) -- (render);
+\draw[ar, blue!60!black, dashed] (log.south west) to[bend right=25] (bm.north);
+\draw[ar] (render) -- (vec.north); \draw[ar] (render) -- (kg.north); \draw[ar] (render.south east) -- (tree.north);
+\foreach \n in {bm, vec, kg, tree} \draw[ar] (\n.south) -- (rt.north -| \n.south);
+\end{tikzpicture}
+\caption{Render-from-Raw memory. Solid arrows: rendering path; dashed: exact relink path from the raw log to BM25S.}
+\end{figure*}
+
+\subsection{Components}
+\textbf{Raw log.} Turns are stored verbatim in segments, each encrypted under its own key so that a deletion request can be honoured by destroying the key and re-rendering (crypto-shredding), a response to the leakage shown by MemCut [@memcut].
+
+\textbf{Edit list.} Corrections are operations with a timestamp and a pointer to the raw turn that caused them. Because every render replays $E$, a correction cannot be lost by a later summary, which is the failure mode a rewrite chain allows.
+
+\textbf{Grade layer.} $g_v$ is a deterministic or LLM-prompted normalisation policy (canonical names, units, dates and, in the Tanglish extension, script). It is versioned, so changing it re-renders memory without touching $L$, and an old answer can be replayed exactly with its render receipt.
+
+\textbf{Staleness detector and refresh.} Most drift is omission: a summary that silently drops a fact is not contradicted by the raw span. The detector therefore runs two checks. (i) \textit{Contradiction}: an NLI model compares each rendered memory with the raw span it cites. (ii) \textit{Coverage}: at write time each raw segment is split once into atomic facts, which are cached; a fact counts as \textit{missing} when no rendered memory entails it above a threshold $\tau$. Raw spans longer than the NLI input limit are split into overlapping 400-token windows and the maximum entailment score is kept. A memory with a contradiction, or a segment with missing facts, is marked stale and only those are rebuilt, so refresh cost follows drift rather than memory size. The detector is scored for precision and recall against oracle staleness labels derived from each benchmark's gold evidence turns. The closest prior work is AMA [@ama].
+
+\textbf{Layer-aware router (extension).} A rule-based router, later replaced by a small classifier, sends exact questions (names, numbers, dates, quoted text) to BM25S over the raw log, gist questions to dense retrieval over rendered memories, relational questions to the knowledge graph, and time or topic questions (``what did I plan in March?'') to a reasoning tree. When the top rendered memory has low confidence or an NLI flag, the router relinks to the raw span. The knowledge graph and the tree are kept in the main paper only if an ablation shows a gain of at least three points.
+
+\subsection{Drift Prediction}
+Let $H(X)$ denote the entropy of the source sessions and $I(X; M_k)$ the mutual information between them and the memory after $k$ consolidation cycles. In the \textit{fixed-content} arm, $M_k = f(M_{k-1})$ with $M_0 = X$. In the \textit{streaming} arm, $M_k = f(M_{k-1}, S_k)$, where $S_k$ is the session added at cycle $k$.
+
+\textbf{Proposition 1.} Assume (A1) for a fact from session $S_1$, later sessions $S_2, \dots, S_k$ are independent of $S_1$, so $S_1 \rightarrow M_1 \rightarrow \dots \rightarrow M_k$ is a Markov chain; and (A2) each consolidation step contracts information by a strong data-processing coefficient $\eta < 1$ [@sdpi]. Then
+\begin{equation}
+I(S_1; M_k) \le \eta^{\,k-1}\, I(S_1; M_1) \le \eta^{\,k-1} H(S_1).
+\label{eq:drift}
+\end{equation}
+Neither assumption is known to hold for LLM rewriters (A1 fails when a later session repeats an earlier fact), so Eq.~\eqref{eq:drift} is used as a prediction of the curve's shape, not as a guarantee. For a render-from-raw memory, $I(X; R_k)$ does not depend on $k$ by construction, so that comparison is not the claim. The claim is empirical: $\eta$ for an LLM rewriter is unknown and probably close to 1, so we estimate a per-cycle fact-survival rate $\hat\eta$ by fitting retention $\approx \hat\eta^{\,k}$ on the fixed-content arm, reports it per writer model, and tests whether $\hat\eta$ predicts the streaming curve. A curve that levels off at a non-zero asymptote supports the equilibrium view [@driftnomore] instead; either outcome is reported.
+
+\subsection{Tanglish Extension (Planned)}
+Personal memory for a Tamil-speaking user mixes scripts: the same fact may arrive as \ta{கட்டணம் செலுத்த கடைசி தேதி}, \textit{fees kattura last date} or ``fee payment deadline''. A rewrite chain may store all three as separate, conflicting notes. The grade layer can instead normalise script at read time using a Tanglish-to-Tamil transliterator from our earlier M.E. thesis work and IndicXlit [@aksharantar], and the raw log keeps the original form. Seed facts can be drawn from the IndicTalk corpus [@indictalk].
+
+\section{Experimental Design}
+
+\subsection{Data and Protocol}
+DriftBench has two arms. The \textit{fixed-content} arm builds memory from a fixed set of sessions and re-consolidates the same content $k \in \{0, 1, 2, 4, 8\}$ times; only rewriting changes, so any loss is pure rewrite damage, the headline claim. The \textit{streaming} arm presents the next block of sessions at each cycle, as a deployed agent would. LoCoMo [@locomo] conversations are short enough that full context may beat every memory, and many of its questions may need only recent sessions, so a flat curve there could mean the benchmark does not stress consolidation. The main results therefore use Memora [@memora], long LongMemEval [@longmemeval] histories and a synthetic stream that exceeds the reader's context window. Each question is tagged by the age of its gold evidence (sessions since it was said), and accuracy is reported per age band, so a flat average cannot hide decay on old facts. LoCoMo answer keys used in the pilot are spot-checked by hand. The reader and its evidence are held fixed with the RENDER controls [@render].
+
+\subsection{Systems Compared}
+(i) Rewrite-in-place in the style of Mem0 [@mem0]; (ii) full-context and raw-only BM25S baselines, which are flat in $k$ by construction; (iii) TierMem-style escalation [@tiermem] and JustMem-style replay [@justmem], reimplemented where code is unavailable; (iv) Render-from-Raw with a scheduled refresh; and (v) Render-from-Raw with detector-triggered refresh. All systems receive the same token budget per query and per cycle, and results are reported as accuracy against tokens, so a flat baseline wins only if it is also affordable.
+
+\subsection{Metrics and Hypotheses}
+Metrics are answer accuracy, fact retention, refresh and query tokens, CPU latency, and detector precision and recall. The judge is a stronger model (Llama 3.3 70B) than the memory writer, with exact match on short answers, validated against 100 hand-labelled answers. The memory writer is varied (8B and 70B) on a 100-question subset, so drift is not merely a weak rewriter. A pilot of 250 questions sets the sample size: if the minimum detectable paired difference exceeds 5 points, the set grows to about 500. Paired bootstrap and McNemar tests are used throughout.
+
+\textbf{H1.} In the fixed-content arm, rewrite-in-place accuracy on old-evidence questions falls by at least 5 points between $k = 1$ and $k = 8$, approximately log-linearly in $k$. \textbf{H1$'$ (competing).} It plateaus at a bounded equilibrium [@driftnomore]; the two are compared by model fit (exponential versus exponential-to-asymptote). \textbf{H2.} $\hat\eta$ fitted on the fixed arm predicts streaming-arm accuracy within 3 points at every $k$. \textbf{H3.} On the accuracy-per-token frontier, Render-from-Raw with detector-triggered refresh dominates rewrite-in-place and matches scheduled refresh (within 2 points) with at least 30\% fewer refresh tokens, and the detector reaches recall of at least 0.8 on oracle staleness labels. \textbf{H4 (extension).} The router beats always-rendered and always-raw retrieval. \textbf{H5 (extension).} Read-time script normalisation beats write-time normalisation on cross-script recall.
+
+\subsection{Environment}
+Llama 3.1 8B [@llama3] and Llama 3.3 70B on the Groq API at temperature 0; BM25S and the NLI model on a CPU. Long histories raise the token cost well above the earlier 6M estimate, so Groq's current free-tier limits must be checked before the pilot, and the number of histories is set to fit them.
+
+\section{Expected Outcomes and Threats to Validity}
+
+\textbf{Threat: limited architectural novelty.} The design resembles event sourcing combined with retrieval, as acknowledged in Section 2. The contribution is the measurement, the refresh trigger and the prediction, and the closest systems are run as baselines.
+
+\textbf{Threat: an unsurprising result.} The expected curve may appear unsurprising, and raw-only baselines are flat by construction. The fixed-content arm, the accuracy-per-token frontier, reporting where rewriting \textit{wins}, and explaining the IVA 2026 counter-result [@iva] are what make it informative.
+
+\textbf{Threat: storage cost.} Reported as tokens and bytes per user per month; BM25S keeps exact search cheap.
+
+\textbf{Threat: privacy.} Crypto-shredding and re-rendering are evaluated for leftover traces using MemCut's protocol [@memcut].
+
+\textbf{Threat: concurrent work.} The REALM, All-Mem, JustMem, Decision Memory and TierMem groups could publish a drift study first; a preprint will be posted as soon as H1 and H2 are measured.
+
+\textbf{Limitations.} Two model sizes from one family, LLM-judged answers and English-dominant benchmarks. All arXiv references were matched to the arXiv API by title and author, but the check is at abstract level; the full texts of [@dpm], [@justmem], [@tiermem], [@faulty] and [@rd], and the IVA result [@iva], REALM [@realm], All-Mem [@allmem] and Memora [@memora], must be read before submission.
+
+\section{Work Plan}
+
+Table 4 gives the plan.
+
+\begin{table}[H]
+\centering
+\caption{NINE-WEEK PLAN TO ACL ROLLING REVIEW}
+\footnotesize\renewcommand{\arraystretch}{1.18}
+\begin{tabularx}{\columnwidth}{|p{2.0cm}|X|}
+\hline
+\textbf{Dates (2026--27)} & \textbf{Work} \\ \hline
+4--7 Nov & Kill-switch pilot: 30 LoCoMo questions, fixed arm, $k = 0$--$8$, raw BM25S; check Groq limits \\ \hline
+4--9 Nov & Read [@realm], [@allmem], [@memora], [@faulty], [@cliff], [@rd] in full; revise gap; show guide the scope \\ \hline
+10--16 Nov & Harness on Memora and LongMemEval; evidence-age tags \\ \hline
+17--23 Nov & Main fixed-arm runs (H1 vs H1$'$); power check; fit $\hat\eta$ \\ \hline
+24--30 Nov & Streaming arm on long histories (H2); preprint if H1 holds \\ \hline
+1--7 Dec & Staleness detector, oracle labels, precision and recall \\ \hline
+8--14 Dec & Detector-triggered refresh (H3); 70B writer subset \\ \hline
+15--28 Dec & Paper writing; router or Tanglish only if time allows \\ \hline
+29 Dec--4 Jan & Guide review; ARR submission (4 Jan 2027 AoE) \\ \hline
+\end{tabularx}
+\end{table}
+
+\section{Conclusion}
+Rewriting a second-brain memory from its last rewrite is a drift problem familiar from video coding. This work isolates pure rewrite damage with a fixed-content arm, estimates how fast facts survive each rewrite, and tests whether a raw-anchored memory with a contradiction-and-omission detector beats rewriting in place on the accuracy-per-token frontier. The architecture is not new; the measurement, the survival-rate estimate and the detector are. The first milestone, the fixed-content arm, decides whether the rest is worth building.
+
+\section*{References}
+\footnotesize
+@@REFS@@
+\end{document}
