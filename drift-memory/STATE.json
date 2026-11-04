@@ -1,0 +1,14 @@
+{
+  "updated": "2026-11-04T10:55+05:30",
+  "current_step": "S2",
+  "steps_done": [
+    "S1"
+  ],
+  "blocked": [],
+  "models": {
+    "writer": "openai/gpt-oss-20b",
+    "judge": "openai/gpt-oss-120b",
+    "writer2": "qwen/qwen3.8-27b"
+  },
+  "notes": "Scaffold created 2026-11-04. Push needs a valid GitHub token (old PAT returns 401)."
+}
