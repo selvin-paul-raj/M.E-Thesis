@@ -1,0 +1,7 @@
+personas 9 questions 90 checks/arm 442
+k0 47.5
+k2 48.2
+stream 50.9
+stream-k0 +3.4 [-2.8,+9.9] p=0.31
+stream-k2 +2.7 [-3.6,+9.1] p=0.44
+k0-k2 -0.7 [-4.9,+3.4] p=0.79
