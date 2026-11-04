@@ -1,0 +1,301 @@
+conv,cond,qid,category,age,correct,mem_words,collapses
+conv-30,k0,Why did Gina decide to start her own clothing store?,1,13,0,467,0
+conv-30,k0,When did Gina interview for a design internship?,2,8,1,467,0
+conv-30,k0,What advice does Gina give to Jon about running a successful business?,4,12,0,467,0
+conv-30,k0,Do Jon and Gina start businesses out of what they love?,1,13,1,467,0
+conv-30,k0,When did Jon start to go to the gym?,2,13,0,467,0
+conv-30,k0,What is Jon offering to the dancers at his dance studio?,4,6,1,467,0
+conv-30,k0,What Jon thinks the ideal dance studio should look like?,1,17,0,467,0
+conv-30,k0,When did Jon host a dance competition?,2,11,0,467,0
+conv-30,k0,What does Gina's tattoo symbolize?,4,14,1,467,0
+conv-30,k0,Did Jon and Gina both participate in dance competitions?,1,5,0,467,0
+conv-30,stream,Why did Gina decide to start her own clothing store?,1,13,0,1501,0
+conv-30,stream,When did Gina interview for a design internship?,2,8,1,1501,0
+conv-30,stream,What advice does Gina give to Jon about running a successful business?,4,12,0,1501,0
+conv-30,stream,Do Jon and Gina start businesses out of what they love?,1,13,1,1501,0
+conv-30,stream,When did Jon start to go to the gym?,2,13,0,1501,0
+conv-30,stream,What is Jon offering to the dancers at his dance studio?,4,6,0,1501,0
+conv-30,stream,What Jon thinks the ideal dance studio should look like?,1,17,0,1501,0
+conv-30,stream,When did Jon host a dance competition?,2,11,1,1501,0
+conv-30,stream,What does Gina's tattoo symbolize?,4,14,0,1501,0
+conv-30,stream,Did Jon and Gina both participate in dance competitions?,1,5,1,1501,0
+conv-30,stream_guard,Why did Gina decide to start her own clothing store?,1,13,0,1501,0
+conv-30,stream_guard,When did Gina interview for a design internship?,2,8,1,1501,0
+conv-30,stream_guard,What advice does Gina give to Jon about running a successful business?,4,12,0,1501,0
+conv-30,stream_guard,Do Jon and Gina start businesses out of what they love?,1,13,1,1501,0
+conv-30,stream_guard,When did Jon start to go to the gym?,2,13,0,1501,0
+conv-30,stream_guard,What is Jon offering to the dancers at his dance studio?,4,6,0,1501,0
+conv-30,stream_guard,What Jon thinks the ideal dance studio should look like?,1,17,0,1501,0
+conv-30,stream_guard,When did Jon host a dance competition?,2,11,1,1501,0
+conv-30,stream_guard,What does Gina's tattoo symbolize?,4,14,0,1501,0
+conv-30,stream_guard,Did Jon and Gina both participate in dance competitions?,1,5,1,1501,0
+conv-26,k0,What events has Caroline participated in to help children?,1,10,0,952,0
+conv-26,k0,When did Melanie go to the pottery workshop?,2,11,0,952,0
+conv-26,k0,Would Caroline pursue writing as a career option?,3,12,0,952,0
+conv-26,k0,What creative project do Mel and her kids do together besides pottery?,4,11,0,952,0
+conv-26,k0,What activities has Melanie done with her family?,1,10,0,952,0
+conv-26,k0,When did Caroline go to the adoption meeting?,2,11,0,952,0
+conv-26,k0,Would Caroline be considered religious?,3,5,0,952,0
+conv-26,k0,What activity did Caroline used to do with her dad?,4,6,1,952,0
+conv-26,k0,What books has Melanie read?,1,12,0,952,0
+conv-26,k0,When did Melanie sign up for a pottery class?,2,14,1,952,0
+conv-26,stream,What events has Caroline participated in to help children?,1,10,0,164,4
+conv-26,stream,When did Melanie go to the pottery workshop?,2,11,0,164,4
+conv-26,stream,Would Caroline pursue writing as a career option?,3,12,0,164,4
+conv-26,stream,What creative project do Mel and her kids do together besides pottery?,4,11,0,164,4
+conv-26,stream,What activities has Melanie done with her family?,1,10,0,164,4
+conv-26,stream,When did Caroline go to the adoption meeting?,2,11,0,164,4
+conv-26,stream,Would Caroline be considered religious?,3,5,0,164,4
+conv-26,stream,What activity did Caroline used to do with her dad?,4,6,0,164,4
+conv-26,stream,What books has Melanie read?,1,12,0,164,4
+conv-26,stream,When did Melanie sign up for a pottery class?,2,14,0,164,4
+conv-26,stream_guard,What events has Caroline participated in to help children?,1,10,0,11707,9
+conv-26,stream_guard,When did Melanie go to the pottery workshop?,2,11,1,11707,9
+conv-26,stream_guard,Would Caroline pursue writing as a career option?,3,12,0,11707,9
+conv-26,stream_guard,What creative project do Mel and her kids do together besides pottery?,4,11,1,11707,9
+conv-26,stream_guard,What activities has Melanie done with her family?,1,10,0,11707,9
+conv-26,stream_guard,When did Caroline go to the adoption meeting?,2,11,0,11707,9
+conv-26,stream_guard,Would Caroline be considered religious?,3,5,0,11707,9
+conv-26,stream_guard,What activity did Caroline used to do with her dad?,4,6,0,11707,9
+conv-26,stream_guard,What books has Melanie read?,1,12,0,11707,9
+conv-26,stream_guard,When did Melanie sign up for a pottery class?,2,14,1,11707,9
+conv-43,k0,What kind of fiction stories does Tim write?,1,13,0,1719,0
+conv-43,k0,When did John start playing professionally?,2,8,0,1719,0
+conv-43,k0,What other exercises can help John with his basketball performance?,3,9,0,1719,0
+conv-43,k0,What kind of articles has Tim been writing about for the online magazine?,4,25,0,1719,0
+conv-43,k0,What sports does John like besides basketball?,1,26,1,1719,0
+conv-43,k0,Which country was Tim visiting in the second week of November?,2,11,0,1719,0
+conv-43,k0,Which popular music composer's tunes does Tim enjoy playing on the piano?,3,21,0,1719,0
+conv-43,k0,When did John meet back up with his teammates after his trip in August 2023?,4,22,0,1719,0
+conv-43,k0,Which US cities does John mention visiting to Tim?,1,20,0,1719,0
+conv-43,k0,When is Tim attending a book conference?,2,22,1,1719,0
+conv-43,stream,What kind of fiction stories does Tim write?,1,13,0,2372,0
+conv-43,stream,When did John start playing professionally?,2,8,1,2372,0
+conv-43,stream,What other exercises can help John with his basketball performance?,3,9,0,2372,0
+conv-43,stream,What kind of articles has Tim been writing about for the online magazine?,4,25,0,2372,0
+conv-43,stream,What sports does John like besides basketball?,1,26,0,2372,0
+conv-43,stream,Which country was Tim visiting in the second week of November?,2,11,0,2372,0
+conv-43,stream,Which popular music composer's tunes does Tim enjoy playing on the piano?,3,21,0,2372,0
+conv-43,stream,When did John meet back up with his teammates after his trip in August 2023?,4,22,1,2372,0
+conv-43,stream,Which US cities does John mention visiting to Tim?,1,20,0,2372,0
+conv-43,stream,When is Tim attending a book conference?,2,22,1,2372,0
+conv-43,stream_guard,What kind of fiction stories does Tim write?,1,13,0,2372,0
+conv-43,stream_guard,When did John start playing professionally?,2,8,1,2372,0
+conv-43,stream_guard,What other exercises can help John with his basketball performance?,3,9,0,2372,0
+conv-43,stream_guard,What kind of articles has Tim been writing about for the online magazine?,4,25,0,2372,0
+conv-43,stream_guard,What sports does John like besides basketball?,1,26,0,2372,0
+conv-43,stream_guard,Which country was Tim visiting in the second week of November?,2,11,0,2372,0
+conv-43,stream_guard,Which popular music composer's tunes does Tim enjoy playing on the piano?,3,21,0,2372,0
+conv-43,stream_guard,When did John meet back up with his teammates after his trip in August 2023?,4,22,1,2372,0
+conv-43,stream_guard,Which US cities does John mention visiting to Tim?,1,20,0,2372,0
+conv-43,stream_guard,When is Tim attending a book conference?,2,22,1,2372,0
+conv-42,k0,What places has Nate met new people?,1,6,0,1084,0
+conv-42,k0,When did Nate win an international tournament?,2,10,0,1084,0
+conv-42,k0,Is it likely that Nate has friends besides Joanna?,3,28,1,1084,0
+conv-42,k0,What game was the second tournament that Nate won based on?,4,19,1,1084,0
+conv-42,k0,What recipes has Nate made?,1,25,0,1084,0
+conv-42,k0,When did someone write Joanna a touching letter?,2,11,0,1084,0
+conv-42,k0,What nickname does Nate use for Joanna?,3,22,0,1084,0
+conv-42,k0,Which dairy-free dessert flavors does Nate enjoy?,4,26,0,1084,0
+conv-42,k0,How many screenplays has Joanna written?,1,17,0,1084,0
+conv-42,k0,Which outdoor spot did Joanna visit in May?,2,18,1,1084,0
+conv-42,stream,What places has Nate met new people?,1,6,0,795,1
+conv-42,stream,When did Nate win an international tournament?,2,10,0,795,1
+conv-42,stream,Is it likely that Nate has friends besides Joanna?,3,28,1,795,1
+conv-42,stream,What game was the second tournament that Nate won based on?,4,19,0,795,1
+conv-42,stream,What recipes has Nate made?,1,25,0,795,1
+conv-42,stream,When did someone write Joanna a touching letter?,2,11,0,795,1
+conv-42,stream,What nickname does Nate use for Joanna?,3,22,0,795,1
+conv-42,stream,Which dairy-free dessert flavors does Nate enjoy?,4,26,0,795,1
+conv-42,stream,How many screenplays has Joanna written?,1,17,0,795,1
+conv-42,stream,Which outdoor spot did Joanna visit in May?,2,18,0,795,1
+conv-42,stream_guard,What places has Nate met new people?,1,6,0,2146,2
+conv-42,stream_guard,When did Nate win an international tournament?,2,10,1,2146,2
+conv-42,stream_guard,Is it likely that Nate has friends besides Joanna?,3,28,1,2146,2
+conv-42,stream_guard,What game was the second tournament that Nate won based on?,4,19,0,2146,2
+conv-42,stream_guard,What recipes has Nate made?,1,25,0,2146,2
+conv-42,stream_guard,When did someone write Joanna a touching letter?,2,11,1,2146,2
+conv-42,stream_guard,What nickname does Nate use for Joanna?,3,22,0,2146,2
+conv-42,stream_guard,Which dairy-free dessert flavors does Nate enjoy?,4,26,0,2146,2
+conv-42,stream_guard,How many screenplays has Joanna written?,1,17,1,2146,2
+conv-42,stream_guard,Which outdoor spot did Joanna visit in May?,2,18,0,2146,2
+conv-41,k0,What types of yoga has Maria practiced?,1,13,0,1176,0
+conv-41,k0,When did Maria get in a car accident?,2,11,0,1176,0
+conv-41,k0,What might John's degree be in?,3,23,0,1176,0
+conv-41,k0,"What event is Maria getting ready for at the shelter on May 25, 2023?",4,16,1,1176,0
+conv-41,k0,What desserts has Maria made?,1,19,0,1176,0
+conv-41,k0,When did John get his degree?,2,23,0,1176,0
+conv-41,k0,Does John live close to a beach or the mountains?,3,10,0,1176,0
+conv-41,k0,Which activity has John done apart from yoga at the studio?,4,7,0,1176,0
+conv-41,k0,What events is Maria planning for the homeless shelter funraiser?,1,16,0,1176,0
+conv-41,k0,When did John have a party with veterans?,2,17,0,1176,0
+conv-41,stream,What types of yoga has Maria practiced?,1,13,0,2322,0
+conv-41,stream,When did Maria get in a car accident?,2,11,0,2322,0
+conv-41,stream,What might John's degree be in?,3,23,0,2322,0
+conv-41,stream,"What event is Maria getting ready for at the shelter on May 25, 2023?",4,16,0,2322,0
+conv-41,stream,What desserts has Maria made?,1,19,0,2322,0
+conv-41,stream,When did John get his degree?,2,23,0,2322,0
+conv-41,stream,Does John live close to a beach or the mountains?,3,10,0,2322,0
+conv-41,stream,Which activity has John done apart from yoga at the studio?,4,7,0,2322,0
+conv-41,stream,What events is Maria planning for the homeless shelter funraiser?,1,16,0,2322,0
+conv-41,stream,When did John have a party with veterans?,2,17,0,2322,0
+conv-41,stream_guard,What types of yoga has Maria practiced?,1,13,0,2322,0
+conv-41,stream_guard,When did Maria get in a car accident?,2,11,0,2322,0
+conv-41,stream_guard,What might John's degree be in?,3,23,0,2322,0
+conv-41,stream_guard,"What event is Maria getting ready for at the shelter on May 25, 2023?",4,16,0,2322,0
+conv-41,stream_guard,What desserts has Maria made?,1,19,0,2322,0
+conv-41,stream_guard,When did John get his degree?,2,23,0,2322,0
+conv-41,stream_guard,Does John live close to a beach or the mountains?,3,10,0,2322,0
+conv-41,stream_guard,Which activity has John done apart from yoga at the studio?,4,7,0,2322,0
+conv-41,stream_guard,What events is Maria planning for the homeless shelter funraiser?,1,16,0,2322,0
+conv-41,stream_guard,When did John have a party with veterans?,2,17,0,2322,0
+conv-48,k0,What gifts has Deborah received?,1,7,0,2098,0
+conv-48,k0,When did Deborah go to a community meetup?,2,6,0,2098,0
+conv-48,k0,Does Deborah live close to the beach or the mountains?,3,20,0,2098,0
+conv-48,k0,Does Deborah like cats?,4,8,1,2098,0
+conv-48,k0,Which games have Jolene and her partner played together?,1,10,0,2098,0
+conv-48,k0,When did Jolene buy a new aquarium for Seraphim?,2,16,0,2098,0
+conv-48,k0,Why did Jolene sometimes put off doing yoga?,3,27,0,2098,0
+conv-48,k0,Where did Deborah get her cats?,4,8,0,2098,0
+conv-48,k0,Which countries has Deborah traveled to?,1,7,0,2098,0
+conv-48,k0,When did Deborah go for her first morning jog in a nearby park?,2,23,0,2098,0
+conv-48,stream,What gifts has Deborah received?,1,7,0,2129,0
+conv-48,stream,When did Deborah go to a community meetup?,2,6,0,2129,0
+conv-48,stream,Does Deborah live close to the beach or the mountains?,3,20,1,2129,0
+conv-48,stream,Does Deborah like cats?,4,8,0,2129,0
+conv-48,stream,Which games have Jolene and her partner played together?,1,10,0,2129,0
+conv-48,stream,When did Jolene buy a new aquarium for Seraphim?,2,16,0,2129,0
+conv-48,stream,Why did Jolene sometimes put off doing yoga?,3,27,0,2129,0
+conv-48,stream,Where did Deborah get her cats?,4,8,0,2129,0
+conv-48,stream,Which countries has Deborah traveled to?,1,7,0,2129,0
+conv-48,stream,When did Deborah go for her first morning jog in a nearby park?,2,23,0,2129,0
+conv-48,stream_guard,What gifts has Deborah received?,1,7,0,2129,0
+conv-48,stream_guard,When did Deborah go to a community meetup?,2,6,0,2129,0
+conv-48,stream_guard,Does Deborah live close to the beach or the mountains?,3,20,1,2129,0
+conv-48,stream_guard,Does Deborah like cats?,4,8,0,2129,0
+conv-48,stream_guard,Which games have Jolene and her partner played together?,1,10,0,2129,0
+conv-48,stream_guard,When did Jolene buy a new aquarium for Seraphim?,2,16,0,2129,0
+conv-48,stream_guard,Why did Jolene sometimes put off doing yoga?,3,27,0,2129,0
+conv-48,stream_guard,Where did Deborah get her cats?,4,8,0,2129,0
+conv-48,stream_guard,Which countries has Deborah traveled to?,1,7,0,2129,0
+conv-48,stream_guard,When did Deborah go for her first morning jog in a nearby park?,2,23,0,2129,0
+conv-47,k0,What kind of tricks do James's pets know?,1,14,0,1346,0
+conv-47,k0,"Where was James at on July 12, 2022?",2,15,0,1346,0
+conv-47,k0,Who is Jill?,3,14,0,1346,0
+conv-47,k0,When did James plan to return from his trip to Toronto and Vancouver?,4,15,1,1346,0
+conv-47,k0,Which countries has James visited?,1,14,0,1346,0
+conv-47,k0,How many days did James plan to spend on his trip in Canada?,2,15,0,1346,0
+conv-47,k0,What is the game with different colored cards that was John talking about with J,3,23,0,1346,0
+conv-47,k0,What does John do to stay informed and constantly learn about game design?,4,6,0,1346,0
+conv-47,k0,Which books has John recommended to James?,1,17,0,1346,0
+conv-47,k0,"Which recreational activity was James pursuing on March 16, 2022?",2,30,1,1346,0
+conv-47,stream,What kind of tricks do James's pets know?,1,14,0,206,4
+conv-47,stream,"Where was James at on July 12, 2022?",2,15,0,206,4
+conv-47,stream,Who is Jill?,3,14,0,206,4
+conv-47,stream,When did James plan to return from his trip to Toronto and Vancouver?,4,15,0,206,4
+conv-47,stream,Which countries has James visited?,1,14,0,206,4
+conv-47,stream,How many days did James plan to spend on his trip in Canada?,2,15,0,206,4
+conv-47,stream,What is the game with different colored cards that was John talking about with J,3,23,0,206,4
+conv-47,stream,What does John do to stay informed and constantly learn about game design?,4,6,0,206,4
+conv-47,stream,Which books has John recommended to James?,1,17,0,206,4
+conv-47,stream,"Which recreational activity was James pursuing on March 16, 2022?",2,30,0,206,4
+conv-47,stream_guard,What kind of tricks do James's pets know?,1,14,0,18322,21
+conv-47,stream_guard,"Where was James at on July 12, 2022?",2,15,0,18322,21
+conv-47,stream_guard,Who is Jill?,3,14,0,18322,21
+conv-47,stream_guard,When did James plan to return from his trip to Toronto and Vancouver?,4,15,1,18322,21
+conv-47,stream_guard,Which countries has James visited?,1,14,0,18322,21
+conv-47,stream_guard,How many days did James plan to spend on his trip in Canada?,2,15,0,18322,21
+conv-47,stream_guard,What is the game with different colored cards that was John talking about with J,3,23,0,18322,21
+conv-47,stream_guard,What does John do to stay informed and constantly learn about game design?,4,6,1,18322,21
+conv-47,stream_guard,Which books has John recommended to James?,1,17,0,18322,21
+conv-47,stream_guard,"Which recreational activity was James pursuing on March 16, 2022?",2,30,0,18322,21
+conv-44,k0,What does Audrey view her pets as?,1,5,0,1140,0
+conv-44,k0,"How long has it been since Andrew adopted his first pet, as of November 2023?",2,16,0,1140,0
+conv-44,k0,What can Andrew potentially do to improve his stress and accomodate his living s,3,7,0,1140,0
+conv-44,k0,What did Audrey make to thank her neighbors?,4,5,0,1140,0
+conv-44,k0,How does Andrew feel about his current work?,1,10,0,1140,0
+conv-44,k0,Where did Andrew go during the first weekend of August 2023?,2,14,0,1140,0
+conv-44,k0,Which meat does Audrey prefer eating more than others?,3,18,1,1140,0
+conv-44,k0,How do Audrey's dogs react to snow?,4,5,0,1140,0
+conv-44,k0,What did Audrey get wtih having so many dogs?,1,5,0,1140,0
+conv-44,k0,When did Audrey see a hummingbird?,2,24,0,1140,0
+conv-44,stream,What does Audrey view her pets as?,1,5,0,1962,0
+conv-44,stream,"How long has it been since Andrew adopted his first pet, as of November 2023?",2,16,0,1962,0
+conv-44,stream,What can Andrew potentially do to improve his stress and accomodate his living s,3,7,0,1962,0
+conv-44,stream,What did Audrey make to thank her neighbors?,4,5,0,1962,0
+conv-44,stream,How does Andrew feel about his current work?,1,10,1,1962,0
+conv-44,stream,Where did Andrew go during the first weekend of August 2023?,2,14,0,1962,0
+conv-44,stream,Which meat does Audrey prefer eating more than others?,3,18,1,1962,0
+conv-44,stream,How do Audrey's dogs react to snow?,4,5,0,1962,0
+conv-44,stream,What did Audrey get wtih having so many dogs?,1,5,0,1962,0
+conv-44,stream,When did Audrey see a hummingbird?,2,24,0,1962,0
+conv-44,stream_guard,What does Audrey view her pets as?,1,5,0,1962,0
+conv-44,stream_guard,"How long has it been since Andrew adopted his first pet, as of November 2023?",2,16,0,1962,0
+conv-44,stream_guard,What can Andrew potentially do to improve his stress and accomodate his living s,3,7,0,1962,0
+conv-44,stream_guard,What did Audrey make to thank her neighbors?,4,5,0,1962,0
+conv-44,stream_guard,How does Andrew feel about his current work?,1,10,1,1962,0
+conv-44,stream_guard,Where did Andrew go during the first weekend of August 2023?,2,14,0,1962,0
+conv-44,stream_guard,Which meat does Audrey prefer eating more than others?,3,18,1,1962,0
+conv-44,stream_guard,How do Audrey's dogs react to snow?,4,5,0,1962,0
+conv-44,stream_guard,What did Audrey get wtih having so many dogs?,1,5,0,1962,0
+conv-44,stream_guard,When did Audrey see a hummingbird?,2,24,0,1962,0
+conv-50,k0,What was Dave doing in San Francisco?,1,13,1,1319,0
+conv-50,k0,"Which city was Calvin at on October 3, 2023?",2,9,0,1319,0
+conv-50,k0,Does Calvin love music tours?,3,12,1,1319,0
+conv-50,k0,What color glow did Calvin customize his guitar with?,4,14,0,1319,0
+conv-50,k0,How many times has Calvin had to deal with insurance paperwork?,1,21,1,1319,0
+conv-50,k0,When did Dave host a card-playing night with his friends?,2,15,0,1319,0
+conv-50,k0,Which country do Calvin and Dave want to meet in?,3,27,0,1319,0
+conv-50,k0,What is the toughest part of car restoration according to Dave?,4,5,0,1319,0
+conv-50,k0,Where did Dave return from with new knowledge of different techniques of car res,1,13,1,1319,0
+conv-50,k0,When did Dave take a trip to mountainous regions?,2,22,1,1319,0
+conv-50,stream,What was Dave doing in San Francisco?,1,13,1,1997,0
+conv-50,stream,"Which city was Calvin at on October 3, 2023?",2,9,1,1997,0
+conv-50,stream,Does Calvin love music tours?,3,12,1,1997,0
+conv-50,stream,What color glow did Calvin customize his guitar with?,4,14,0,1997,0
+conv-50,stream,How many times has Calvin had to deal with insurance paperwork?,1,21,1,1997,0
+conv-50,stream,When did Dave host a card-playing night with his friends?,2,15,0,1997,0
+conv-50,stream,Which country do Calvin and Dave want to meet in?,3,27,0,1997,0
+conv-50,stream,What is the toughest part of car restoration according to Dave?,4,5,0,1997,0
+conv-50,stream,Where did Dave return from with new knowledge of different techniques of car res,1,13,1,1997,0
+conv-50,stream,When did Dave take a trip to mountainous regions?,2,22,0,1997,0
+conv-50,stream_guard,What was Dave doing in San Francisco?,1,13,1,1997,0
+conv-50,stream_guard,"Which city was Calvin at on October 3, 2023?",2,9,1,1997,0
+conv-50,stream_guard,Does Calvin love music tours?,3,12,1,1997,0
+conv-50,stream_guard,What color glow did Calvin customize his guitar with?,4,14,0,1997,0
+conv-50,stream_guard,How many times has Calvin had to deal with insurance paperwork?,1,21,1,1997,0
+conv-50,stream_guard,When did Dave host a card-playing night with his friends?,2,15,0,1997,0
+conv-50,stream_guard,Which country do Calvin and Dave want to meet in?,3,27,0,1997,0
+conv-50,stream_guard,What is the toughest part of car restoration according to Dave?,4,5,0,1997,0
+conv-50,stream_guard,Where did Dave return from with new knowledge of different techniques of car res,1,13,1,1997,0
+conv-50,stream_guard,When did Dave take a trip to mountainous regions?,2,22,0,1997,0
+conv-49,k0,What motivates Evan to take care of his health?,1,20,0,868,0
+conv-49,k0,When did Evan go skiing in Banff?,2,17,0,868,0
+conv-49,k0,How might Evan and Sam's experiences with health and lifestyle changes influence,3,16,0,868,0
+conv-49,k0,What did Evan suggest Sam try as a calming hobby?,4,15,1,868,0
+conv-49,k0,Where has Evan been on roadtrips with his family?,1,23,0,868,0
+conv-49,k0,When did Evan and Sam decide to paint together?,2,15,1,868,0
+conv-49,k0,"What challenges does Sam face in his quest for a healthier lifestyle, and how do",3,11,1,868,0
+conv-49,k0,What is the motto of Evan's family?,4,6,1,868,0
+conv-49,k0,What health scares did Sam and Evan experience?,1,8,0,868,0
+conv-49,k0,Which classes did Evan join in mid-August 2023?,2,17,1,868,0
+conv-49,stream,What motivates Evan to take care of his health?,1,20,0,1878,0
+conv-49,stream,When did Evan go skiing in Banff?,2,17,0,1878,0
+conv-49,stream,How might Evan and Sam's experiences with health and lifestyle changes influence,3,16,0,1878,0
+conv-49,stream,What did Evan suggest Sam try as a calming hobby?,4,15,1,1878,0
+conv-49,stream,Where has Evan been on roadtrips with his family?,1,23,0,1878,0
+conv-49,stream,When did Evan and Sam decide to paint together?,2,15,0,1878,0
+conv-49,stream,"What challenges does Sam face in his quest for a healthier lifestyle, and how do",3,11,0,1878,0
+conv-49,stream,What is the motto of Evan's family?,4,6,0,1878,0
+conv-49,stream,What health scares did Sam and Evan experience?,1,8,0,1878,0
+conv-49,stream,Which classes did Evan join in mid-August 2023?,2,17,1,1878,0
+conv-49,stream_guard,What motivates Evan to take care of his health?,1,20,0,1878,0
+conv-49,stream_guard,When did Evan go skiing in Banff?,2,17,0,1878,0
+conv-49,stream_guard,How might Evan and Sam's experiences with health and lifestyle changes influence,3,16,0,1878,0
+conv-49,stream_guard,What did Evan suggest Sam try as a calming hobby?,4,15,1,1878,0
+conv-49,stream_guard,Where has Evan been on roadtrips with his family?,1,23,0,1878,0
+conv-49,stream_guard,When did Evan and Sam decide to paint together?,2,15,0,1878,0
+conv-49,stream_guard,"What challenges does Sam face in his quest for a healthier lifestyle, and how do",3,11,0,1878,0
+conv-49,stream_guard,What is the motto of Evan's family?,4,6,0,1878,0
+conv-49,stream_guard,What health scares did Sam and Evan experience?,1,8,0,1878,0
+conv-49,stream_guard,Which classes did Evan join in mid-August 2023?,2,17,1,1878,0

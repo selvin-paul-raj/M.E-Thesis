@@ -1,0 +1,11 @@
+A7 LoCoMo held-out, 10 convs, 100 questions (Nemotron writer/reader, gpt-oss-120b judge)
+k0 26.0
+stream 18.0
+stream_guard 26.0
+collapsed convs (26,42,47; n=30): {'k0': 23.3, 'stream': 3.3, 'stream_guard': 30.0}
+all stream_guard-stream +8.0 [+3.0,+14.0] p=0.000
+all stream_guard-k0 +0.0 [-10.0,+10.0] p=1.080
+all stream-k0 -8.0 [-17.0,+1.0] p=0.110
+collapsed stream_guard-stream +26.7 [+13.3,+43.3] p=0.000
+collapsed stream_guard-k0 +6.7 [-13.3,+26.7] p=0.626
+collapsed stream-k0 -20.0 [-36.7,-6.7] p=0.001

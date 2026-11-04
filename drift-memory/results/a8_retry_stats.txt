@@ -1,0 +1,21 @@
+A8 bounded guard (retry once, keep longer attempt, never append). Question-clustered bootstrap, 5000 resamples, seed 0.
+Memora 9 personas n_q=90 {'k0': 47.5, 'stream': 50.9, 'stream_guard': 56.8, 'stream_retry': 55.2}
+  stream_retry-stream +4.3 [-0.5,+9.9] p=0.092
+  stream_retry-k0 +7.7 [+0.0,+15.3] p=0.052
+  stream_retry-stream_guard -1.6 [-3.4,-0.3] p=0.011
+Memora collapsed personas n_q=30 {'k0': 49.0, 'stream': 41.9, 'stream_guard': 58.7, 'stream_retry': 54.2}
+  stream_retry-stream +12.3 [-1.3,+25.8] p=0.095
+  stream_retry-k0 +5.2 [-11.8,+20.2] p=0.587
+  stream_retry-stream_guard -4.5 [-9.1,-1.0] p=0.007
+LoCoMo 10 convs (held-out) n_q=100 {'k0': 26.0, 'stream': 18.0, 'stream_guard': 26.0, 'stream_retry': 24.0}
+  stream_retry-stream +6.0 [+2.0,+11.0] p=0.002
+  stream_retry-k0 -2.0 [-12.0,+8.0] p=0.772
+  stream_retry-stream_guard -2.0 [-7.0,+3.0] p=0.564
+LoCoMo collapsed convs n_q=30 {'k0': 23.3, 'stream': 3.3, 'stream_guard': 30.0, 'stream_retry': 23.3}
+  stream_retry-stream +20.0 [+6.7,+36.7] p=0.002
+  stream_retry-k0 +0.0 [-16.7,+20.0] p=1.000
+  stream_retry-stream_guard -6.7 [-23.3,+10.0] p=0.542
+Pooled 190 q n_q=190 {'k0': 43.5, 'stream': 44.8, 'stream_guard': 51.1, 'stream_retry': 49.4}
+  stream_retry-stream +4.6 [+0.6,+9.3] p=0.020
+  stream_retry-k0 +5.9 [-0.8,+12.2] p=0.086
+  stream_retry-stream_guard -1.7 [-3.3,-0.3] p=0.023
