@@ -1,0 +1,12 @@
+A6 collapse guard, 9 personas, 90 q
+k0 47.5
+k2 48.2
+stream 50.9
+stream_guard 56.8
+collapsed personas only (30 q): {'k0': 49.0, 'stream': 41.9, 'stream_guard': 58.7}
+all stream_guard-stream +5.9 [+1.0,+11.6] p=0.016
+all stream_guard-k0 +9.3 [+1.9,+16.5] p=0.014
+all stream_guard-k2 +8.6 [+1.0,+16.1] p=0.029
+collapsed stream_guard-stream +16.8 [+3.2,+29.7] p=0.017
+collapsed stream_guard-k0 +9.7 [-6.0,+24.0] p=0.252
+collapsed stream_guard-k2 +11.6 [-4.8,+26.4] p=0.173

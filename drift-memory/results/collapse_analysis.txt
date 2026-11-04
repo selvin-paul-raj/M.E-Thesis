@@ -1,0 +1,29 @@
+Collapse = one rewrite drops memory by >=50% (from >=300 words)
+stream_memories/conv-26: steps=19 final=120 max=456 collapses=[(3, 338, 149), (6, 426, 190), (9, 456, 123), (18, 380, 120)]
+stream_memories/conv-30: steps=19 final=1603 max=1707 collapses=[]
+stream_memories/conv-49: steps=25 final=2171 max=2228 collapses=[]
+memora_stream_memories/academic_researcher: steps=11 final=1218 max=1218 collapses=[]
+memora_stream_memories/software_engineer: steps=11 final=1497 max=1497 collapses=[]
+a5_stream_memories/academic_researcher: steps=6 final=1094 max=1094 collapses=[]
+a5_stream_memories/business_executive: steps=10 final=342 max=626 collapses=[(3, 626, 161)]
+a5_stream_memories/content_writer: steps=11 final=1507 max=1526 collapses=[]
+a5_stream_memories/creative_designer: steps=11 final=1541 max=1541 collapses=[]
+a5_stream_memories/financial_analyst: steps=11 final=1486 max=1491 collapses=[]
+a5_stream_memories/management_consultant: steps=11 final=89 max=588 collapses=[(5, 588, 114), (10, 376, 89)]
+a5_stream_memories/marketing_manager: steps=11 final=292 max=1479 collapses=[(8, 1479, 149)]
+a5_stream_memories/sales_manager: steps=11 final=1378 max=1378 collapses=[]
+a5_stream_memories/software_engineer: steps=11 final=1441 max=1441 collapses=[]
+a5_stream_memories/startup_founder: steps=11 final=1556 max=1556 collapses=[]
+TOTAL rewrites=174 collapses=8 rate=4.6%
+
+A5 persona: stream-k0 delta vs stream words
+business_executive: words=342 k0w=848 delta=-20.0
+content_writer: words=1507 k0w=929 delta=-19.0
+creative_designer: words=1541 k0w=1377 delta=+20.8
+financial_analyst: words=1486 k0w=877 delta=+34.0
+management_consultant: words=89 k0w=1177 delta=-9.1
+marketing_manager: words=292 k0w=753 delta=+5.5
+sales_manager: words=1378 k0w=1584 delta=-2.0
+software_engineer: words=1441 k0w=776 delta=+8.9
+startup_founder: words=1556 k0w=782 delta=+4.4
+pearson r(words,delta)=0.45
