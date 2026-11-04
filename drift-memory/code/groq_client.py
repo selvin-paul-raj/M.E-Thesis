@@ -54,6 +54,15 @@ def _throttle(model, est):
         time.sleep(wait)
 
 
+def _retry_secs(msg):
+    """Parse Groq's 'try again in 5m44.3s' into seconds (None if absent)."""
+    import re as _r
+    m = _r.search(r"try again in (?:(\d+)h)?(?:(\d+)m)?(?:([\d.]+)s)?", msg)
+    if not m or not any(m.groups()): return None
+    h, mi, se = (float(x) if x else 0.0 for x in m.groups())
+    return h * 3600 + mi * 60 + se
+
+
 def chat(model, messages, max_tokens=512, temperature=0.0, reasoning_effort="low"):
     """Return (text, usage dict). Cached; retries on 429/5xx."""
     payload = {"model": model, "messages": messages, "max_tokens": max_tokens,
@@ -71,7 +80,7 @@ def chat(model, messages, max_tokens=512, temperature=0.0, reasoning_effort="low
         req = urllib.request.Request(url, data=json.dumps(payload).encode(),
                                      headers={"Content-Type": "application/json", "User-Agent": "driftbench/0.1 (curl-compatible)"})
         try:
-            with urllib.request.urlopen(req, timeout=300) as r:
+            with urllib.request.urlopen(req, timeout=90 if model in _FALLBACK else 300) as r:
                 body = json.loads(r.read())
             text = body["choices"][0]["message"].get("content") or ""
             import re as _re; text = _re.sub(r"<think>.*?</think>", "", text, flags=_re.S).strip()
@@ -82,10 +91,33 @@ def chat(model, messages, max_tokens=512, temperature=0.0, reasoning_effort="low
                 f.write(json.dumps(rec) + "\n")
             cache[key] = rec
             return text, usage
+        except (ConnectionError, TimeoutError, urllib.error.URLError) as e:
+            if isinstance(e, urllib.error.HTTPError): raise_http = e
+            else:
+                time.sleep(min(10 * (attempt + 1), 60)); continue
+            e = raise_http
+            if e.code == 429 or e.code >= 500:
+                wait = float(e.headers.get("retry-after", 0) or 0) or 5 * (attempt + 1)
+                msg = e.read().decode(errors="ignore") if e.code == 429 else ""
+                if e.code == 429 and model not in _FALLBACK and ("per day" in msg.lower()):
+                    w = _retry_secs(msg)
+                    if w is not None and w <= 900:   # short TPD refill: wait on Groq instead of the fallback
+                        time.sleep(w + 5); continue
+                    if os.environ.get("NO_FALLBACK"):
+                        raise RuntimeError(f"daily limit (tokens per day) reached for {model}; retry in {w}s")
+                    _FALLBACK.add(model); continue
+                time.sleep(min(wait, 120)); continue
+            raise
         except urllib.error.HTTPError as e:
             if e.code == 429 or e.code >= 500:
                 wait = float(e.headers.get("retry-after", 0) or 0) or 5 * (attempt + 1)
-                if e.code == 429 and model not in _FALLBACK and ("per day" in e.read().decode(errors="ignore").lower()):
+                msg = e.read().decode(errors="ignore") if e.code == 429 else ""
+                if e.code == 429 and model not in _FALLBACK and ("per day" in msg.lower()):
+                    w = _retry_secs(msg)
+                    if w is not None and w <= 900:   # short TPD refill: wait on Groq instead of the fallback
+                        time.sleep(w + 5); continue
+                    if os.environ.get("NO_FALLBACK"):
+                        raise RuntimeError(f"daily limit (tokens per day) reached for {model}; retry in {w}s")
                     _FALLBACK.add(model); continue
                 if e.code == 429 and model in _FALLBACK and attempt > 8:
                     raise RuntimeError(f"daily limit (requests or tokens per day) reached for {model}")
