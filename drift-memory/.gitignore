@@ -2,3 +2,5 @@ results/cache/
 data/
 *.pyc
 __pycache__/
+pilot_memories/
+results/pilot_memories/

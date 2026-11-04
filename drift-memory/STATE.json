@@ -1,8 +1,12 @@
 {
-  "updated": "2026-11-04T10:55+05:30",
-  "current_step": "S2",
+  "updated": "2026-11-04 11:36 IST",
+  "current_step": "S5b",
   "steps_done": [
-    "S1"
+    "S1",
+    "S2",
+    "S3",
+    "S4",
+    "S5"
   ],
   "blocked": [],
   "models": {
@@ -10,5 +14,22 @@
     "judge": "openai/gpt-oss-120b",
     "writer2": "qwen/qwen3.8-27b"
   },
-  "notes": "Scaffold created 2026-11-04. Push needs a valid GitHub token (old PAT returns 401)."
+  "notes": "Pilot verdict FLAT on LoCoMo (one-shot loss at k=1, then fixed point). Next S5b: rerun on 30 Memora questions (arXiv 2604.20006), then decide reframe/drop with owner. Push via browser session github-selvin (PAT rejected).",
+  "pilot": {
+    "acc": {
+      "k0": 33.3,
+      "k1": 30.0,
+      "k2": 36.7,
+      "k4": 36.7,
+      "k8": 36.7,
+      "bm25": 33.3
+    },
+    "fact_survival": {
+      "k1": 79.2,
+      "k2": 80.8,
+      "k4": 80.0,
+      "k8": 80.0
+    },
+    "verdict": "flat"
+  }
 }
