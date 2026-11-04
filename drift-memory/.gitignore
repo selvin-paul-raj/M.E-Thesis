@@ -5,3 +5,5 @@ __pycache__/
 pilot_memories/
 results/pilot_memories/
 results/memora_memories/
+results/stream_memories/
+results/memora_stream_memories/
