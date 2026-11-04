@@ -39,6 +39,7 @@ def _load(model):
 
 
 def _throttle(model, est):
+    if model.startswith("nvidia/"): return [time.time(), 0]  # NVIDIA NIM: no per-minute token throttle
     while True:
         with _lock:
             w = _windows.setdefault(model, [])
@@ -69,6 +70,8 @@ def chat(model, messages, max_tokens=512, temperature=0.0, reasoning_effort="low
                "temperature": temperature}
     if model.startswith("openai/gpt-oss"):
         payload["reasoning_effort"] = reasoning_effort
+    if model.startswith("nvidia/nemotron"):
+        payload["chat_template_kwargs"] = {"enable_thinking": False}
     key = hashlib.sha256(json.dumps(payload, sort_keys=True).encode()).hexdigest()
     cache = _load(model)
     if key in cache:
@@ -76,7 +79,7 @@ def chat(model, messages, max_tokens=512, temperature=0.0, reasoning_effort="low
     est = sum(len(m["content"]) for m in messages) // 3 + max_tokens
     for attempt in range(10):
         slot = _throttle(model, est)
-        url = NV_URL if model in _FALLBACK else URL
+        url = NV_URL if (model in _FALLBACK or model.startswith("nvidia/")) else URL
         req = urllib.request.Request(url, data=json.dumps(payload).encode(),
                                      headers={"Content-Type": "application/json", "User-Agent": "driftbench/0.1 (curl-compatible)"})
         try:
@@ -84,9 +87,10 @@ def chat(model, messages, max_tokens=512, temperature=0.0, reasoning_effort="low
                 body = json.loads(r.read())
             text = body["choices"][0]["message"].get("content") or ""
             import re as _re; text = _re.sub(r"<think>.*?</think>", "", text, flags=_re.S).strip()
+            if not text.strip(): raise RuntimeError("empty completion from "+model)
             usage = body.get("usage", {})
             slot[1] = usage.get("total_tokens", est)
-            rec = {"key": key, "model": model, "text": text, "usage": usage, "provider": "nvidia" if model in _FALLBACK else "groq"}
+            rec = {"key": key, "model": model, "text": text, "usage": usage, "provider": "nvidia" if (model in _FALLBACK or model.startswith("nvidia/")) else "groq"}
             with _lock, _cache_file(model).open("a") as f:
                 f.write(json.dumps(rec) + "\n")
             cache[key] = rec
