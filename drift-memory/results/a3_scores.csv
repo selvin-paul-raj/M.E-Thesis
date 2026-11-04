@@ -1,0 +1,134 @@
+data,unit,cond,item,type,age,correct,mem_words,budget
+memora,software_engineer,stream_eq,activity_todos_163_eval_memory_presence_0,memory_presence,,1,1497,1204
+memora,software_engineer,stream_eq,activity_todos_163_eval_memory_presence_1,memory_presence,,0,1497,1204
+memora,software_engineer,stream_eq,activity_todos_163_eval_forgetting_0,forgetting_absence,,1,1497,1204
+memora,software_engineer,stream_eq,activity_todos_163_eval_forgetting_1,forgetting_absence,,1,1497,1204
+memora,software_engineer,stream_eq,activity_todos_163_eval_forgetting_2,forgetting_absence,,1,1497,1204
+memora,software_engineer,stream_eq,activity_todos_163_eval_forgetting_4,forgetting_absence,,1,1497,1204
+memora,software_engineer,stream_eq,activity_todos_163_eval_forgetting_5,forgetting_absence,,1,1497,1204
+memora,software_engineer,stream_eq,activity_todos_163_eval_forgetting_6,forgetting_absence,,1,1497,1204
+memora,software_engineer,stream_eq,activity_todos_163_eval_forgetting_7,forgetting_absence,,1,1497,1204
+memora,software_engineer,stream_eq,activity_todos_163_eval_forgetting_8,forgetting_absence,,1,1497,1204
+memora,software_engineer,stream_eq,activity_todos_163_eval_forgetting_9,forgetting_absence,,1,1497,1204
+memora,software_engineer,stream_eq,activity_todos_163_eval_forgetting_10,forgetting_absence,,1,1497,1204
+memora,software_engineer,stream_eq,activity_calendar_163_eval_memory_presence_0,memory_presence,,1,1497,1204
+memora,software_engineer,stream_eq,activity_calendar_163_eval_forgetting_0,forgetting_absence,,1,1497,1204
+memora,software_engineer,stream_eq,content_project_proposal_163_project_proposal_1_eval_memory_presence_0,memory_presence,,1,1497,1204
+memora,software_engineer,stream_eq,content_project_proposal_163_project_proposal_1_eval_memory_presence_1,memory_presence,,0,1497,1204
+memora,software_engineer,stream_eq,content_project_proposal_163_project_proposal_1_eval_memory_presence_2,memory_presence,,1,1497,1204
+memora,software_engineer,stream_eq,content_project_proposal_163_project_proposal_1_eval_memory_presence_3,memory_presence,,0,1497,1204
+memora,software_engineer,stream_eq,content_project_proposal_163_project_proposal_1_eval_memory_presence_4,memory_presence,,0,1497,1204
+memora,software_engineer,stream_eq,content_project_proposal_163_project_proposal_1_eval_memory_presence_5,memory_presence,,0,1497,1204
+memora,software_engineer,stream_eq,content_project_proposal_163_project_proposal_1_eval_memory_presence_6,memory_presence,,0,1497,1204
+memora,software_engineer,stream_eq,content_project_proposal_163_project_proposal_1_eval_memory_presence_7,memory_presence,,0,1497,1204
+memora,software_engineer,stream_eq,content_project_proposal_163_project_proposal_1_eval_memory_presence_8,memory_presence,,0,1497,1204
+memora,software_engineer,stream_eq,content_project_proposal_163_project_proposal_1_eval_forgetting_0,forgetting_absence,,1,1497,1204
+memora,software_engineer,stream_eq,content_project_proposal_163_project_proposal_1_eval_forgetting_1,forgetting_absence,,1,1497,1204
+memora,software_engineer,stream_eq,content_project_proposal_163_project_proposal_1_eval_forgetting_2,forgetting_absence,,1,1497,1204
+memora,software_engineer,stream_eq,content_email_writeup_163_email_writeup_1_eval_memory_presence_0,memory_presence,,1,1497,1204
+memora,software_engineer,stream_eq,content_email_writeup_163_email_writeup_1_eval_memory_presence_1,memory_presence,,0,1497,1204
+memora,software_engineer,stream_eq,content_email_writeup_163_email_writeup_1_eval_memory_presence_2,memory_presence,,0,1497,1204
+memora,software_engineer,stream_eq,content_email_writeup_163_email_writeup_1_eval_memory_presence_3,memory_presence,,0,1497,1204
+memora,software_engineer,stream_eq,content_email_writeup_163_email_writeup_1_eval_forgetting_1,forgetting_absence,,1,1497,1204
+memora,software_engineer,stream_eq,content_meeting_notes_163_meeting_notes_2_eval_memory_presence_0,memory_presence,,1,1497,1204
+memora,software_engineer,stream_eq,content_meeting_notes_163_meeting_notes_2_eval_memory_presence_1,memory_presence,,0,1497,1204
+memora,software_engineer,stream_eq,content_meeting_notes_163_meeting_notes_2_eval_memory_presence_2,memory_presence,,0,1497,1204
+memora,software_engineer,stream_eq,content_meeting_notes_163_meeting_notes_2_eval_memory_presence_3,memory_presence,,0,1497,1204
+memora,software_engineer,stream_eq,content_meeting_notes_163_meeting_notes_2_eval_forgetting_1,forgetting_absence,,0,1497,1204
+memora,software_engineer,stream_eq,activity_food_total_163_eval_memory_presence_total_0,memory_presence,,0,1497,1204
+memora,software_engineer,stream_eq,activity_steps_total_163_eval_memory_presence_total_0,memory_presence,,1,1497,1204
+memora,software_engineer,stream_eq,goal_food_expenses_coffee_163_0_eval_memory_presence_0,memory_presence,,1,1497,1204
+memora,software_engineer,stream_eq,goal_food_expenses_coffee_163_0_eval_memory_presence_progress_1,memory_presence,,0,1497,1204
+memora,software_engineer,stream_eq,goal_food_expenses_coffee_163_0_eval_memory_presence_status_2,memory_presence,,0,1497,1204
+memora,software_engineer,stream_eq,goal_step_tracker_daily_steps_163_0_eval_memory_presence_0,memory_presence,,1,1497,1204
+memora,software_engineer,stream_eq,goal_step_tracker_daily_steps_163_0_eval_memory_presence_progress_1,memory_presence,,0,1497,1204
+memora,software_engineer,stream_eq,goal_step_tracker_daily_steps_163_0_eval_memory_presence_status_2,memory_presence,,1,1497,1204
+memora,software_engineer,stream_eq,activity_food_coffee_163_eval_memory_presence_coffee_0,memory_presence,,0,1497,1204
+memora,academic_researcher,stream_eq,activity_todos_158_eval_memory_presence_0,memory_presence,,0,1218,964
+memora,academic_researcher,stream_eq,activity_todos_158_eval_memory_presence_1,memory_presence,,0,1218,964
+memora,academic_researcher,stream_eq,activity_todos_158_eval_memory_presence_2,memory_presence,,1,1218,964
+memora,academic_researcher,stream_eq,activity_todos_158_eval_memory_presence_3,memory_presence,,1,1218,964
+memora,academic_researcher,stream_eq,activity_todos_158_eval_memory_presence_4,memory_presence,,1,1218,964
+memora,academic_researcher,stream_eq,activity_todos_158_eval_forgetting_0,forgetting_absence,,1,1218,964
+memora,academic_researcher,stream_eq,activity_todos_158_eval_forgetting_1,forgetting_absence,,1,1218,964
+memora,academic_researcher,stream_eq,activity_todos_158_eval_forgetting_2,forgetting_absence,,1,1218,964
+memora,academic_researcher,stream_eq,activity_todos_158_eval_forgetting_3,forgetting_absence,,1,1218,964
+memora,academic_researcher,stream_eq,activity_todos_158_eval_forgetting_4,forgetting_absence,,1,1218,964
+memora,academic_researcher,stream_eq,activity_todos_158_eval_forgetting_5,forgetting_absence,,1,1218,964
+memora,academic_researcher,stream_eq,activity_todos_158_eval_forgetting_6,forgetting_absence,,1,1218,964
+memora,academic_researcher,stream_eq,activity_todos_158_eval_forgetting_7,forgetting_absence,,1,1218,964
+memora,academic_researcher,stream_eq,content_project_proposal_158_project_proposal_2_eval_memory_presence_0,memory_presence,,1,1218,964
+memora,academic_researcher,stream_eq,content_project_proposal_158_project_proposal_2_eval_memory_presence_1,memory_presence,,0,1218,964
+memora,academic_researcher,stream_eq,content_project_proposal_158_project_proposal_2_eval_memory_presence_2,memory_presence,,1,1218,964
+memora,academic_researcher,stream_eq,content_project_proposal_158_project_proposal_2_eval_memory_presence_3,memory_presence,,1,1218,964
+memora,academic_researcher,stream_eq,content_project_proposal_158_project_proposal_2_eval_memory_presence_4,memory_presence,,1,1218,964
+memora,academic_researcher,stream_eq,content_project_proposal_158_project_proposal_2_eval_memory_presence_5,memory_presence,,1,1218,964
+memora,academic_researcher,stream_eq,content_project_proposal_158_project_proposal_2_eval_memory_presence_6,memory_presence,,1,1218,964
+memora,academic_researcher,stream_eq,content_project_proposal_158_project_proposal_2_eval_memory_presence_7,memory_presence,,1,1218,964
+memora,academic_researcher,stream_eq,content_project_proposal_158_project_proposal_2_eval_memory_presence_8,memory_presence,,1,1218,964
+memora,academic_researcher,stream_eq,content_project_proposal_158_project_proposal_2_eval_memory_presence_9,memory_presence,,1,1218,964
+memora,academic_researcher,stream_eq,content_project_proposal_158_project_proposal_2_eval_forgetting_0,forgetting_absence,,1,1218,964
+memora,academic_researcher,stream_eq,content_project_proposal_158_project_proposal_2_eval_forgetting_1,forgetting_absence,,1,1218,964
+memora,academic_researcher,stream_eq,content_project_proposal_158_project_proposal_2_eval_forgetting_2,forgetting_absence,,1,1218,964
+memora,academic_researcher,stream_eq,content_project_proposal_158_project_proposal_2_eval_forgetting_3,forgetting_absence,,1,1218,964
+memora,academic_researcher,stream_eq,content_email_writeup_158_email_writeup_1_eval_memory_presence_0,memory_presence,,1,1218,964
+memora,academic_researcher,stream_eq,content_email_writeup_158_email_writeup_1_eval_memory_presence_1,memory_presence,,1,1218,964
+memora,academic_researcher,stream_eq,content_email_writeup_158_email_writeup_1_eval_memory_presence_2,memory_presence,,1,1218,964
+memora,academic_researcher,stream_eq,content_email_writeup_158_email_writeup_1_eval_memory_presence_3,memory_presence,,1,1218,964
+memora,academic_researcher,stream_eq,content_email_writeup_158_email_writeup_1_eval_forgetting_0,forgetting_absence,,1,1218,964
+memora,academic_researcher,stream_eq,content_meeting_notes_158_meeting_notes_2_eval_memory_presence_0,memory_presence,,1,1218,964
+memora,academic_researcher,stream_eq,content_meeting_notes_158_meeting_notes_2_eval_memory_presence_1,memory_presence,,1,1218,964
+memora,academic_researcher,stream_eq,content_meeting_notes_158_meeting_notes_2_eval_memory_presence_2,memory_presence,,1,1218,964
+memora,academic_researcher,stream_eq,content_meeting_notes_158_meeting_notes_2_eval_memory_presence_3,memory_presence,,0,1218,964
+memora,academic_researcher,stream_eq,content_meeting_notes_158_meeting_notes_2_eval_forgetting_0,forgetting_absence,,1,1218,964
+memora,academic_researcher,stream_eq,content_project_proposal_158_project_proposal_1_eval_memory_presence_0,memory_presence,,0,1218,964
+memora,academic_researcher,stream_eq,content_project_proposal_158_project_proposal_1_eval_memory_presence_1,memory_presence,,0,1218,964
+memora,academic_researcher,stream_eq,content_project_proposal_158_project_proposal_1_eval_memory_presence_2,memory_presence,,0,1218,964
+memora,academic_researcher,stream_eq,content_project_proposal_158_project_proposal_1_eval_memory_presence_3,memory_presence,,0,1218,964
+memora,academic_researcher,stream_eq,content_project_proposal_158_project_proposal_1_eval_memory_presence_4,memory_presence,,0,1218,964
+memora,academic_researcher,stream_eq,content_project_proposal_158_project_proposal_1_eval_memory_presence_5,memory_presence,,0,1218,964
+memora,academic_researcher,stream_eq,content_project_proposal_158_project_proposal_1_eval_memory_presence_6,memory_presence,,0,1218,964
+memora,academic_researcher,stream_eq,content_project_proposal_158_project_proposal_1_eval_memory_presence_7,memory_presence,,0,1218,964
+memora,academic_researcher,stream_eq,content_project_proposal_158_project_proposal_1_eval_memory_presence_8,memory_presence,,0,1218,964
+memora,academic_researcher,stream_eq,content_project_proposal_158_project_proposal_1_eval_memory_presence_9,memory_presence,,0,1218,964
+memora,academic_researcher,stream_eq,content_project_proposal_158_project_proposal_1_eval_forgetting_0,forgetting_absence,,1,1218,964
+memora,academic_researcher,stream_eq,content_project_proposal_158_project_proposal_1_eval_forgetting_1,forgetting_absence,,1,1218,964
+memora,academic_researcher,stream_eq,activity_food_total_158_eval_memory_presence_total_0,memory_presence,,0,1218,964
+memora,academic_researcher,stream_eq,activity_steps_total_158_eval_memory_presence_total_0,memory_presence,,1,1218,964
+memora,academic_researcher,stream_eq,goal_food_expenses_lunch_158_1_eval_memory_presence_0,memory_presence,,1,1218,964
+memora,academic_researcher,stream_eq,goal_food_expenses_lunch_158_1_eval_memory_presence_progress_1,memory_presence,,0,1218,964
+memora,academic_researcher,stream_eq,goal_food_expenses_lunch_158_1_eval_memory_presence_status_2,memory_presence,,0,1218,964
+memora,academic_researcher,stream_eq,goal_step_tracker_daily_steps_158_0_eval_memory_presence_0,memory_presence,,1,1218,964
+memora,academic_researcher,stream_eq,goal_step_tracker_daily_steps_158_0_eval_memory_presence_progress_1,memory_presence,,0,1218,964
+memora,academic_researcher,stream_eq,goal_step_tracker_daily_steps_158_0_eval_memory_presence_status_2,memory_presence,,1,1218,964
+memora,academic_researcher,stream_eq,activity_food_coffee_158_eval_memory_presence_coffee_0,memory_presence,,0,1218,964
+locomo,conv-26,stream_eq,What events has Caroline participated in to help children?,,10,0,120,666
+locomo,conv-26,stream_eq,When did Melanie go to the pottery workshop?,,11,0,120,666
+locomo,conv-26,stream_eq,Would Caroline pursue writing as a career option?,,12,0,120,666
+locomo,conv-26,stream_eq,What creative project do Mel and her kids do together besides pottery?,,11,0,120,666
+locomo,conv-26,stream_eq,What activities has Melanie done with her family?,,10,0,120,666
+locomo,conv-26,stream_eq,When did Caroline go to the adoption meeting?,,11,0,120,666
+locomo,conv-26,stream_eq,Would Caroline be considered religious?,,5,0,120,666
+locomo,conv-26,stream_eq,What activity did Caroline used to do with her dad?,,6,0,120,666
+locomo,conv-26,stream_eq,What books has Melanie read?,,12,0,120,666
+locomo,conv-26,stream_eq,When did Melanie sign up for a pottery class?,,14,0,120,666
+locomo,conv-30,stream_eq,Why did Gina decide to start her own clothing store?,,13,0,722,409
+locomo,conv-30,stream_eq,When did Gina interview for a design internship?,,8,1,722,409
+locomo,conv-30,stream_eq,What advice does Gina give to Jon about running a successful business?,,12,0,722,409
+locomo,conv-30,stream_eq,Do Jon and Gina start businesses out of what they love?,,13,1,722,409
+locomo,conv-30,stream_eq,When did Jon start to go to the gym?,,13,0,722,409
+locomo,conv-30,stream_eq,What is Jon offering to the dancers at his dance studio?,,6,0,722,409
+locomo,conv-30,stream_eq,What Jon thinks the ideal dance studio should look like?,,17,0,722,409
+locomo,conv-30,stream_eq,When did Jon host a dance competition?,,11,1,722,409
+locomo,conv-30,stream_eq,What does Gina's tattoo symbolize?,,14,0,722,409
+locomo,conv-30,stream_eq,Did Jon and Gina both participate in dance competitions?,,5,1,722,409
+locomo,conv-49,stream_eq,What motivates Evan to take care of his health?,,20,0,2158,930
+locomo,conv-49,stream_eq,When did Evan go skiing in Banff?,,17,0,2158,930
+locomo,conv-49,stream_eq,How might Evan and Sam's experiences with health and lifestyle changes influence their approach to stress and challenges?,,16,0,2158,930
+locomo,conv-49,stream_eq,What did Evan suggest Sam try as a calming hobby?,,15,1,2158,930
+locomo,conv-49,stream_eq,Where has Evan been on roadtrips with his family?,,23,1,2158,930
+locomo,conv-49,stream_eq,When did Evan and Sam decide to paint together?,,15,0,2158,930
+locomo,conv-49,stream_eq,"What challenges does Sam face in his quest for a healthier lifestyle, and how does he address them?",,11,0,2158,930
+locomo,conv-49,stream_eq,What is the motto of Evan's family?,,6,0,2158,930
+locomo,conv-49,stream_eq,What health scares did Sam and Evan experience?,,8,0,2158,930
+locomo,conv-49,stream_eq,Which classes did Evan join in mid-August 2023?,,17,1,2158,930

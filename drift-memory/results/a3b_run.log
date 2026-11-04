@@ -1,0 +1,10 @@
+software_engineer k0_W: 1229 -> 896 words, 3 condense passes, 271 truncated
+software_engineer k8_W: 1204 -> 893 words, 3 condense passes, 311 truncated
+software_engineer stream_W: 1497 -> 890 words, 3 condense passes, 396 truncated
+academic_researcher k0_W: 1340 -> 898 words, 3 condense passes, 54 truncated
+academic_researcher k8_W: 964 -> 894 words, 3 condense passes, 70 truncated
+academic_researcher stream_W: 1218 -> 877 words, 3 condense passes, 341 truncated
+k0_W acc 50.5 presence 29.6 forget 96.9
+k8_W acc 48.5 presence 29.6 forget 90.6
+stream_W acc 56.3 presence 36.6 forget 100.0
+EXIT 0

@@ -1,0 +1,3 @@
+memora stream_eq 62.1 103 {'software_engineer': (1497, 1204), 'academic_researcher': (1218, 964)}
+locomo stream_eq 23.3 30 {'conv-26': (120, 666), 'conv-30': (722, 409), 'conv-49': (2158, 930)}
+EXIT 0

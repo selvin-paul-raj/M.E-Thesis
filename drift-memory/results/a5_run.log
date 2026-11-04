@@ -1,0 +1,76 @@
+EXIT 124
+Traceback (most recent call last):
+  File "/workspace/work/thesis-repo/drift-memory/code/a5_scale.py", line 15, in <module>
+    qs = mp.questions(p); mems = mp.build(p); st = ms.stream(p); rows = []
+                                                   ^^^^^^^^^^^^
+  File "/workspace/work/thesis-repo/drift-memory/code/memora_stream.py", line 18, in stream
+    m, _ = chat(mp.WRITER, [{"role": "user", "content": UPDATE.format(cap=mp.CAP_WORDS, mem=st["mem"] or "(empty)", sess=sess)}], max_tokens=3000)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/work/thesis-repo/drift-memory/code/groq_client.py", line 74, in chat
+    with urllib.request.urlopen(req, timeout=300) as r:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/urllib/request.py", line 215, in urlopen
+    return opener.open(url, data, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/urllib/request.py", line 515, in open
+    response = self._open(req, data)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/urllib/request.py", line 532, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/urllib/request.py", line 492, in _call_chain
+    result = func(*args)
+             ^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/urllib/request.py", line 1405, in https_open
+    return self.do_open(http.client.HTTPSConnection, req,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/urllib/request.py", line 1361, in do_open
+    r = h.getresponse()
+        ^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/http/client.py", line 1478, in getresponse
+    response.begin()
+  File "/usr/local/lib/python3.12/http/client.py", line 343, in begin
+    version, status, reason = self._read_status()
+                              ^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/http/client.py", line 312, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+http.client.RemoteDisconnected: Remote end closed connection without response
+EXIT 1
+## run 2026-11-04 19:01 IST
+## relaunch 2026-11-04 19:12 IST (NO_FALLBACK; NVIDIA hung, Groq 20b TPD 196.7K/200K)
+Traceback (most recent call last):
+  File "/workspace/work/thesis-repo/drift-memory/code/groq_client.py", line 83, in chat
+    with urllib.request.urlopen(req, timeout=90 if model in _FALLBACK else 300) as r:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/urllib/request.py", line 215, in urlopen
+    return opener.open(url, data, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/urllib/request.py", line 521, in open
+    response = meth(req, response)
+               ^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/urllib/request.py", line 630, in http_response
+    response = self.parent.error(
+               ^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/urllib/request.py", line 559, in error
+    return self._call_chain(*args)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/urllib/request.py", line 492, in _call_chain
+    result = func(*args)
+             ^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/urllib/request.py", line 639, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 429: Too Many Requests
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/workspace/work/thesis-repo/drift-memory/code/a5_scale.py", line 15, in <module>
+    qs = mp.questions(p); mems = mp.build(p); st = ms.stream(p); rows = []
+                                                   ^^^^^^^^^^^^
+  File "/workspace/work/thesis-repo/drift-memory/code/memora_stream.py", line 18, in stream
+    m, _ = chat(mp.WRITER, [{"role": "user", "content": UPDATE.format(cap=mp.CAP_WORDS, mem=st["mem"] or "(empty)", sess=sess)}], max_tokens=3000)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/work/thesis-repo/drift-memory/code/groq_client.py", line 107, in chat
+    raise RuntimeError(f"daily limit (tokens per day) reached for {model}; retry in {w}s")
+RuntimeError: daily limit (tokens per day) reached for openai/gpt-oss-20b; retry in 993.168s
+EXIT 1
