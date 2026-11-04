@@ -63,7 +63,7 @@ def chat(model, messages, max_tokens=512, temperature=0.0, reasoning_effort="low
     if key in cache:
         return cache[key]["text"], cache[key]["usage"]
     est = sum(len(m["content"]) for m in messages) // 3 + max_tokens
-    for attempt in range(6):
+    for attempt in range(10):
         slot = _throttle(model, est)
         req = urllib.request.Request(URL, data=json.dumps(payload).encode(),
                                      headers={"Content-Type": "application/json", "User-Agent": "driftbench/0.1 (curl-compatible)"})
@@ -71,6 +71,7 @@ def chat(model, messages, max_tokens=512, temperature=0.0, reasoning_effort="low
             with urllib.request.urlopen(req, timeout=120) as r:
                 body = json.loads(r.read())
             text = body["choices"][0]["message"].get("content") or ""
+            import re as _re; text = _re.sub(r"<think>.*?</think>", "", text, flags=_re.S).strip()
             usage = body.get("usage", {})
             slot[1] = usage.get("total_tokens", est)
             rec = {"key": key, "model": model, "text": text, "usage": usage}
@@ -81,8 +82,8 @@ def chat(model, messages, max_tokens=512, temperature=0.0, reasoning_effort="low
         except urllib.error.HTTPError as e:
             if e.code == 429 or e.code >= 500:
                 wait = float(e.headers.get("retry-after", 0) or 0) or 5 * (attempt + 1)
-                if e.code == 429 and "requests per day" in e.read().decode(errors="ignore").lower():
-                    raise RuntimeError(f"daily request limit reached for {model}")
+                if e.code == 429 and ("per day" in e.read().decode(errors="ignore").lower()):
+                    raise RuntimeError(f"daily limit (requests or tokens per day) reached for {model}")
                 time.sleep(min(wait, 120))
                 continue
             raise
