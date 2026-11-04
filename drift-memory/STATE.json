@@ -1,20 +1,23 @@
 {
-  "updated": "2026-11-04 11:36 IST",
-  "current_step": "S5b",
+  "updated": "2026-11-04 13:40 IST",
+  "current_step": "WAIT_OWNER",
   "steps_done": [
     "S1",
     "S2",
     "S3",
     "S4",
-    "S5"
+    "S5",
+    "S5b"
   ],
-  "blocked": [],
+  "blocked": [
+    "Kill-switch tripped: flat on LoCoMo and Memora. Owner must choose A (reframe), B (pivot to stale-vs-forgotten), or C (drop); see notes/memora_verdict.md. Do not start S6+ until owner decides."
+  ],
   "models": {
     "writer": "openai/gpt-oss-20b",
     "judge": "openai/gpt-oss-120b",
     "writer2": "qwen/qwen3.8-27b"
   },
-  "notes": "Pilot verdict FLAT on LoCoMo (one-shot loss at k=1, then fixed point). Next S5b: rerun on 30 Memora questions (arXiv 2604.20006), then decide reframe/drop with owner. Push via browser session github-selvin (PAT rejected).",
+  "notes": "Both pilots flat: loss is one-shot, then a fixed point. Waiting on owner decision. Groq free tier: 200K tokens/day per model (gpt-oss-20b exhausted 2026-11-04). Push via browser session github-selvin.",
   "pilot": {
     "acc": {
       "k0": 33.3,
@@ -29,6 +32,27 @@
       "k2": 80.8,
       "k4": 80.0,
       "k8": 80.0
+    },
+    "verdict": "flat"
+  },
+  "memora": {
+    "acc": {
+      "k0": 58.3,
+      "k1": 52.4,
+      "k2": 49.5,
+      "k4": 49.5,
+      "k8": 49.5,
+      "bm25": 56.3
+    },
+    "presence": {
+      "k0": 40.8,
+      "k2": 31.0,
+      "bm25": 46.5
+    },
+    "forget": {
+      "k0": 96.9,
+      "k2": 90.6,
+      "bm25": 78.1
     },
     "verdict": "flat"
   }
