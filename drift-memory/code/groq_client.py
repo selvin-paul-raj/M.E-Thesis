@@ -70,6 +70,8 @@ def chat(model, messages, max_tokens=512, temperature=0.0, reasoning_effort="low
                "temperature": temperature}
     if model.startswith("openai/gpt-oss"):
         payload["reasoning_effort"] = reasoning_effort
+    if model.startswith("mistralai/mistral-large-4"):
+        payload["reasoning_effort"] = "low"; payload["max_tokens"] = max(max_tokens, 8000)
     if model.startswith("nvidia/nemotron"):
         payload["chat_template_kwargs"] = {"enable_thinking": False}
     key = hashlib.sha256(json.dumps(payload, sort_keys=True).encode()).hexdigest()
@@ -100,7 +102,7 @@ def chat(model, messages, max_tokens=512, temperature=0.0, reasoning_effort="low
             else:
                 time.sleep(min(10 * (attempt + 1), 60)); continue
             e = raise_http
-            if e.code == 429 or e.code >= 500:
+            if e.code in (429, 408, 410) or e.code >= 500:
                 wait = float(e.headers.get("retry-after", 0) or 0) or 5 * (attempt + 1)
                 msg = e.read().decode(errors="ignore") if e.code == 429 else ""
                 if e.code == 429 and model not in _FALLBACK and ("per day" in msg.lower()):
@@ -113,7 +115,7 @@ def chat(model, messages, max_tokens=512, temperature=0.0, reasoning_effort="low
                 time.sleep(min(wait, 120)); continue
             raise
         except urllib.error.HTTPError as e:
-            if e.code == 429 or e.code >= 500:
+            if e.code in (429, 408, 410) or e.code >= 500:
                 wait = float(e.headers.get("retry-after", 0) or 0) or 5 * (attempt + 1)
                 msg = e.read().decode(errors="ignore") if e.code == 429 else ""
                 if e.code == 429 and model not in _FALLBACK and ("per day" in msg.lower()):
