@@ -9,3 +9,15 @@ Needs Selvin: confirm TOST margin 5 and fact-loss 30; label audit_for_human.csv 
 - preserve-always: conv-26 STILL collapsed (2276->173 words) 10.0; conv-30 50.0 (stream 40); conv-41 0.0 (stream 0); business_executive 60.0 (stream 35.6, retry 31.1). 4 of 19 units done.
 - no-cap: marketing_manager still collapsed (524->157) at 38.2 (stream 40.0). Cap is not the sole cause. 1 of 19 units done.
 - run17.sh restarted (resumable); NVIDIA 30B endpoint failing intermittently.
+
+## 2026-11-05 17:45 IST
+- Paper v7: paper/DriftMemory_Collapse_v7.pdf (unit-level inference; guard not significant after Holm).
+- Running (runall.sh): A15 last LME instance, A17 controls, A19 Qwen writer, A20 Mistral second judge.
+- Preregistration margins locked (5-pt TOST, 30-pt fact loss); still to commit before confirmatory runs.
+- Human audit sheet: to be built from results/a20_preds.jsonl once A20 is done; the owner labels it himself.
+
+## 2026-11-05 ~18:00 IST — brief v2 (docs/AGENT_BRIEF_v2.md)
+- DONE P0: code/p0_reconcile.py → results/p0_reconcile.txt; AUDIT.md; CHANGELOG (TOST bug fixed in stats_cluster.py); paper v7.1 PDF.
+- RUNNING: A17 controls, A19 Qwen writer (P6), A20 Mistral judge (P5), A15 last LME instance.
+- BLOCKED / NEEDS SELVIN: P1 design and primary weighting must be fixed in PREREGISTRATION.md and committed before any P1 run.
+- 17:40 Owner decisions: A = question-weighted primary; B = seeds 1→2→3 in rounds, 4–5 as extension. Text fixes 1–5 applied (v7.2). Plan committed via the GitHub web UI; P1 launches after that.
