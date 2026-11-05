@@ -33,3 +33,8 @@ Base commit: 42cb684 (local). Brief: docs/AGENT_BRIEF.md.
 - Secondary (exploratory): per-unit collapse probability over seeds with Clopper-Pearson CIs. Whether T=0 collapse predicts T=0.7 collapse: compare the mean seed collapse rate of the 6 T=0-collapsed units against the other 13 with an exact permutation test over units, plus Fisher's test on "collapsed in at least 1 of 3 seeds". Leave-one-unit-out for C1 and C2, with conv-42 and marketing_manager named. Item-weighted sensitivity. Guard effect restricted to units with no T=0 collapse.
 - Power: with 19 units and per-unit difference SD s, the minimum detectable effect at 80% power, two-sided alpha=.05, is about 0.68*s. Report s once observed.
 - Failures: every endpoint error is logged (unit, arm, seed, step, error) to results/p1_errors.log and retried with backoff. A unit-seed still failing at analysis time is excluded from both arms and listed. Runs are resumable from the cache.
+
+## Timing disclosure (added 2026-11-05 18:30 IST)
+- This plan (P1 section) was committed as 81a87b2 at about 17:25 IST on 2026-11-05. P1 seed 1 was launched at about 17:27 IST, after the plan commit. The first seed-1 score row appeared at 17:48 IST.
+- The run script code/p1_seeds.py and the seed change in code/groq_client.py were written at 17:27 IST and were NOT committed before launch. They implement the committed plan without deviation and will be committed as-is.
+- Seed-1 endpoint failures before 18:23 IST are logged in results/p1_errors.log. The runner process was found dead at 18:23 IST (last activity 17:49 IST, most likely a sandbox restart) and was relaunched at 18:30 IST; runs resume from the cache.

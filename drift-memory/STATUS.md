@@ -21,3 +21,5 @@ Needs Selvin: confirm TOST margin 5 and fact-loss 30; label audit_for_human.csv 
 - RUNNING: A17 controls, A19 Qwen writer (P6), A20 Mistral judge (P5), A15 last LME instance.
 - BLOCKED / NEEDS SELVIN: P1 design and primary weighting must be fixed in PREREGISTRATION.md and committed before any P1 run.
 - 17:40 Owner decisions: A = question-weighted primary; B = seeds 1→2→3 in rounds, 4–5 as extension. Text fixes 1–5 applied (v7.2). Plan committed via the GitHub web UI; P1 launches after that.
+- 17:30 P1 launched (run_p1.sh, code/p1_seeds.py, seed added to groq_client.chat only when given). Keeper cron updated to cover P1, 3x daily, until 2026-11-10.
+- 18:30 Owner: no freeze; seeds 1–3 confirmatory, then extend to 5. ARR target: ACL 2027, January 2027 (exact date not yet on aclrollingreview.org/dates). P1 and the A17/A19/A20 runners relaunched after the sandbox restart. Timing disclosure added to PREREGISTRATION.md.
