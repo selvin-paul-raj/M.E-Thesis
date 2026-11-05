@@ -57,7 +57,7 @@ def test(name, us, a, b, fa=None, fb=None):
     perm = [abs(sum(s * x for s, x in zip(sg, diffs)) / n) >= abs(m) - 1e-9 for sg in itertools.product((1, -1), repeat=n)] if n <= 20 else []
     pp = sum(perm) / len(perm) if perm else float("nan")
     wins = sum(x > 0 for x in nz); st = binomtest(wins, len(nz)).pvalue if nz else 1.0
-    t_lo, t_hi = bs[1000], bs[8999]
+    t_lo, t_hi = bs[500], bs[9499]  # 90% CI (5th-95th pct); fixed 2026-11-05 P0, was 10th-90th (80% CI)
     ROWS.append({"contrast": name, "arm_a": a, "arm_b": b, "clusters": n, "acc_a": round(acc(pairs, 0), 1), "acc_b": round(acc(pairs, 1), 1),
                  "diff_pooled": round(obs, 1), "mean_cluster_diff": round(m, 1), "ci95_lo": round(lo, 1), "ci95_hi": round(hi, 1),
                  "perm_p": round(pp, 4), "wins": wins, "losses": len(nz) - wins, "ties": n - len(nz),
