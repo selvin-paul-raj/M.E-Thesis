@@ -1,0 +1,93 @@
+qid,type,cond,correct,mem_words,collapses,pred
+3fe836c9,multi-session,stream,0,813,2,unknown
+3fe836c9,multi-session,guard,0,1560,2,unknown
+3fe836c9,multi-session,raw,1,471,2,25000
+3fe836c9,multi-session,hybrid,1,2041,2,"$25,000"
+92a0aa75,multi-session,stream,0,402,2,unknown
+92a0aa75,multi-session,guard,0,278,2,unknown
+92a0aa75,multi-session,raw,0,689,2,unknown
+92a0aa75,multi-session,hybrid,0,977,2,unknown
+184da446,knowledge-update,stream,1,253,1,220
+184da446,knowledge-update,guard,0,263,1,unknown
+184da446,knowledge-update,raw,0,597,1,unknown
+184da446,knowledge-update,hybrid,0,870,1,unknown
+6c49646a,multi-session,stream,0,331,2,unknown
+6c49646a,multi-session,guard,0,1749,2,1770
+6c49646a,multi-session,raw,0,457,2,3000
+6c49646a,multi-session,hybrid,0,2216,2,1800
+4b24c848,knowledge-update,stream,0,72,2,unknown
+4b24c848,knowledge-update,guard,0,1698,2,unknown
+4b24c848,knowledge-update,raw,0,437,2,unknown
+4b24c848,knowledge-update,hybrid,1,2145,2,five
+618f13b2,knowledge-update,stream,0,545,1,unknown
+618f13b2,knowledge-update,guard,0,557,1,unknown
+618f13b2,knowledge-update,raw,1,591,1,six times
+618f13b2,knowledge-update,hybrid,0,1158,1,four times
+gpt4_af6db32f,temporal-reasoning,stream,0,304,2,unknown
+gpt4_af6db32f,temporal-reasoning,guard,0,353,2,unknown
+gpt4_af6db32f,temporal-reasoning,raw,0,421,2,20
+gpt4_af6db32f,temporal-reasoning,hybrid,0,784,2,20
+gpt4_cd90e484,temporal-reasoning,stream,0,107,2,unknown
+gpt4_cd90e484,temporal-reasoning,guard,0,230,2,unknown
+gpt4_cd90e484,temporal-reasoning,raw,0,665,2,three weeks
+gpt4_cd90e484,temporal-reasoning,hybrid,0,905,2,three weeks
+gpt4_61e13b3c,temporal-reasoning,stream,0,425,2,unknown
+gpt4_61e13b3c,temporal-reasoning,guard,0,1275,2,1
+gpt4_61e13b3c,temporal-reasoning,raw,0,525,2,5
+gpt4_61e13b3c,temporal-reasoning,hybrid,1,1810,2,3
+2ebe6c92,temporal-reasoning,stream,0,124,2,unknown
+2ebe6c92,temporal-reasoning,guard,0,1004,2,unknown
+2ebe6c92,temporal-reasoning,raw,0,476,2,unknown
+2ebe6c92,temporal-reasoning,hybrid,0,1490,2,unknown
+ba358f49,multi-session,stream,0,127,3,unknown
+ba358f49,multi-session,guard,0,384,3,unknown
+ba358f49,multi-session,raw,0,554,3,unknown
+ba358f49,multi-session,hybrid,0,948,3,unknown
+8a137a7f,single-session-user,stream,0,2011,3,unknown
+8a137a7f,single-session-user,guard,0,1721,3,unknown
+8a137a7f,single-session-user,raw,1,483,3,Philips LED
+8a137a7f,single-session-user,hybrid,1,2214,3,Philips LED bulb
+1e043500,single-session-user,stream,0,1593,1,unknown
+1e043500,single-session-user,guard,0,1662,1,unknown
+1e043500,single-session-user,raw,1,426,1,Summer Vibes
+1e043500,single-session-user,hybrid,1,2098,1,Summer Vibes
+1a8a66a6,multi-session,stream,0,27,1,unknown
+1a8a66a6,multi-session,guard,0,38,1,unknown
+1a8a66a6,multi-session,raw,0,483,1,unknown
+1a8a66a6,multi-session,hybrid,0,531,1,unknown
+88432d0a,multi-session,stream,0,1401,0,I counted 5 matches.
+88432d0a,multi-session,guard,0,1401,0,I counted 5 matches.
+88432d0a,multi-session,raw,0,446,0,unknown
+88432d0a,multi-session,hybrid,0,1857,0,I found 1 matching records.
+0f05491a,knowledge-update,stream,0,1905,1,300 stars within a 12-month period
+0f05491a,knowledge-update,guard,0,2426,1,unknown
+0f05491a,knowledge-update,raw,0,411,1,unknown
+0f05491a,knowledge-update,hybrid,1,2847,1,120
+dfde3500,knowledge-update,stream,0,929,1,unknown
+dfde3500,knowledge-update,guard,0,1264,1,unknown
+dfde3500,knowledge-update,raw,1,440,1,Wednesday
+dfde3500,knowledge-update,hybrid,1,1714,1,Wednesday
+4bc144e2,multi-session,stream,0,2043,0,$15
+4bc144e2,multi-session,guard,0,2043,0,$15
+4bc144e2,multi-session,raw,1,518,0,$15 and $50
+4bc144e2,multi-session,hybrid,1,2571,0,$65
+852ce960,knowledge-update,stream,1,991,1,"$400,000"
+852ce960,knowledge-update,guard,0,1650,1,unknown
+852ce960,knowledge-update,raw,0,427,1,"$350,000"
+852ce960,knowledge-update,hybrid,0,2087,1,"$350,000"
+gpt4_5dcc0aab,temporal-reasoning,stream,1,1605,2,white Adidas sneakers
+gpt4_5dcc0aab,temporal-reasoning,guard,0,741,2,unknown
+gpt4_5dcc0aab,temporal-reasoning,raw,0,509,2,Adidas sneakers
+gpt4_5dcc0aab,temporal-reasoning,hybrid,0,1260,2,Adidas sneakers
+7405e8b1,multi-session,stream,0,143,3,unknown
+7405e8b1,multi-session,guard,0,260,3,unknown
+7405e8b1,multi-session,raw,1,521,3,yes
+7405e8b1,multi-session,hybrid,1,791,3,yes
+19b5f2b3,single-session-user,stream,0,295,2,unknown
+19b5f2b3,single-session-user,guard,0,1497,2,unknown
+19b5f2b3,single-session-user,raw,1,421,2,two weeks
+19b5f2b3,single-session-user,hybrid,1,1928,2,two weeks
+5c40ec5b,knowledge-update,stream,1,121,3,2
+5c40ec5b,knowledge-update,guard,1,118,3,2
+5c40ec5b,knowledge-update,raw,1,533,3,2
+5c40ec5b,knowledge-update,hybrid,1,661,3,2

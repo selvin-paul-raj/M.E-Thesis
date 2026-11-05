@@ -1,0 +1,8 @@
+A18 replayed 19 streams, cache misses (stream truncated) 0; rewrites from >=300 words: 280
+line survival, collapsed rewrites: n=13 mean=11.6% median=9.7% min=0.0%
+line survival, other rewrites:     n=267 mean=96.2% median=100.0% min=0.0%
+fact-loss = survival<0.5: 19 rewrites; detector flags 13, precision 13/13, recall 13/19
+fact-loss = survival<0.7: 23 rewrites; detector flags 13, precision 13/13, recall 13/23
+missed fact-loss rewrites (survival<0.5, not flagged): memora/business_executive step6 450->247 surv 15%; locomo/conv-41 step4 408->287 surv 22%; locomo/conv-41 step6 300->258 surv 0%; locomo/conv-42 step19 335->173 surv 9%; locomo/conv-47 step10 861->512 surv 7%; locomo/conv-47 step13 723->538 surv 32%
+collapsed: memora/business_executive step3 626->161 surv 8%; memora/management_consultant step5 588->114 surv 22%; memora/management_consultant step10 376->89 surv 23%; memora/marketing_manager step8 1479->149 surv 18%; locomo/conv-26 step9 929->220 surv 8%; locomo/conv-26 step12 455->185 surv 12%; locomo/conv-26 step17 822->386 surv 0%; locomo/conv-26 step18 386->164 surv 5%; locomo/conv-42 step15 581->175 surv 10%; locomo/conv-47 step3 484->136 surv 7%; locomo/conv-47 step17 482->165 surv 18%; locomo/conv-47 step21 374->130 surv 12%; locomo/conv-47 step29 654->164 surv 8%
+tokens per rewrite (30B writer, cached usage, n=370): prompt mean 2302 (max 4426), completion mean 1645 (max 3000)

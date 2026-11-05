@@ -1,0 +1,401 @@
+dataset,unit,cond,qid,correct,mem_words
+memora,business_executive,ultra_stream,activity_todos_145,1,1530
+memora,business_executive,ultra_stream,activity_todos_145,1,1530
+memora,business_executive,ultra_stream,activity_todos_145,1,1530
+memora,business_executive,ultra_stream,activity_todos_145,1,1530
+memora,business_executive,ultra_stream,activity_todos_145,1,1530
+memora,business_executive,ultra_stream,activity_todos_145,1,1530
+memora,business_executive,ultra_stream,activity_todos_145,1,1530
+memora,business_executive,ultra_stream,activity_todos_145,1,1530
+memora,business_executive,ultra_stream,activity_todos_145,0,1530
+memora,business_executive,ultra_stream,activity_todos_145,1,1530
+memora,business_executive,ultra_stream,activity_calendar_145,0,1530
+memora,business_executive,ultra_stream,activity_calendar_145,1,1530
+memora,business_executive,ultra_stream,content_project_proposal_145_project_proposal_1,1,1530
+memora,business_executive,ultra_stream,content_project_proposal_145_project_proposal_1,0,1530
+memora,business_executive,ultra_stream,content_project_proposal_145_project_proposal_1,1,1530
+memora,business_executive,ultra_stream,content_project_proposal_145_project_proposal_1,1,1530
+memora,business_executive,ultra_stream,content_project_proposal_145_project_proposal_1,1,1530
+memora,business_executive,ultra_stream,content_project_proposal_145_project_proposal_1,1,1530
+memora,business_executive,ultra_stream,content_project_proposal_145_project_proposal_1,1,1530
+memora,business_executive,ultra_stream,content_project_proposal_145_project_proposal_1,1,1530
+memora,business_executive,ultra_stream,content_project_proposal_145_project_proposal_1,1,1530
+memora,business_executive,ultra_stream,content_project_proposal_145_project_proposal_1,1,1530
+memora,business_executive,ultra_stream,content_project_proposal_145_project_proposal_1,1,1530
+memora,business_executive,ultra_stream,content_project_proposal_145_project_proposal_1,1,1530
+memora,business_executive,ultra_stream,content_email_writeup_145_email_writeup_1,1,1530
+memora,business_executive,ultra_stream,content_email_writeup_145_email_writeup_1,1,1530
+memora,business_executive,ultra_stream,content_email_writeup_145_email_writeup_1,1,1530
+memora,business_executive,ultra_stream,content_email_writeup_145_email_writeup_1,1,1530
+memora,business_executive,ultra_stream,content_email_writeup_145_email_writeup_1,1,1530
+memora,business_executive,ultra_stream,content_email_writeup_145_email_writeup_1,1,1530
+memora,business_executive,ultra_stream,content_email_writeup_145_email_writeup_2,1,1530
+memora,business_executive,ultra_stream,content_email_writeup_145_email_writeup_2,1,1530
+memora,business_executive,ultra_stream,content_email_writeup_145_email_writeup_2,1,1530
+memora,business_executive,ultra_stream,content_email_writeup_145_email_writeup_2,1,1530
+memora,business_executive,ultra_stream,content_email_writeup_145_email_writeup_2,1,1530
+memora,business_executive,ultra_stream,content_email_writeup_145_email_writeup_2,1,1530
+memora,business_executive,ultra_stream,activity_food_total_145,0,1530
+memora,business_executive,ultra_stream,activity_steps_total_145,0,1530
+memora,business_executive,ultra_stream,goal_food_expenses_grocery_145_0,1,1530
+memora,business_executive,ultra_stream,goal_food_expenses_grocery_145_0,1,1530
+memora,business_executive,ultra_stream,goal_food_expenses_grocery_145_0,1,1530
+memora,business_executive,ultra_stream,goal_step_tracker_daily_steps_145_0,1,1530
+memora,business_executive,ultra_stream,goal_step_tracker_daily_steps_145_0,0,1530
+memora,business_executive,ultra_stream,goal_step_tracker_daily_steps_145_0,1,1530
+memora,business_executive,ultra_stream,activity_food_coffee_145,0,1530
+memora,business_executive,ultra_guard,activity_todos_145,1,1530
+memora,business_executive,ultra_guard,activity_todos_145,1,1530
+memora,business_executive,ultra_guard,activity_todos_145,1,1530
+memora,business_executive,ultra_guard,activity_todos_145,1,1530
+memora,business_executive,ultra_guard,activity_todos_145,1,1530
+memora,business_executive,ultra_guard,activity_todos_145,1,1530
+memora,business_executive,ultra_guard,activity_todos_145,1,1530
+memora,business_executive,ultra_guard,activity_todos_145,1,1530
+memora,business_executive,ultra_guard,activity_todos_145,0,1530
+memora,business_executive,ultra_guard,activity_todos_145,1,1530
+memora,business_executive,ultra_guard,activity_calendar_145,0,1530
+memora,business_executive,ultra_guard,activity_calendar_145,1,1530
+memora,business_executive,ultra_guard,content_project_proposal_145_project_proposal_1,1,1530
+memora,business_executive,ultra_guard,content_project_proposal_145_project_proposal_1,0,1530
+memora,business_executive,ultra_guard,content_project_proposal_145_project_proposal_1,1,1530
+memora,business_executive,ultra_guard,content_project_proposal_145_project_proposal_1,1,1530
+memora,business_executive,ultra_guard,content_project_proposal_145_project_proposal_1,1,1530
+memora,business_executive,ultra_guard,content_project_proposal_145_project_proposal_1,1,1530
+memora,business_executive,ultra_guard,content_project_proposal_145_project_proposal_1,1,1530
+memora,business_executive,ultra_guard,content_project_proposal_145_project_proposal_1,1,1530
+memora,business_executive,ultra_guard,content_project_proposal_145_project_proposal_1,1,1530
+memora,business_executive,ultra_guard,content_project_proposal_145_project_proposal_1,1,1530
+memora,business_executive,ultra_guard,content_project_proposal_145_project_proposal_1,1,1530
+memora,business_executive,ultra_guard,content_project_proposal_145_project_proposal_1,1,1530
+memora,business_executive,ultra_guard,content_email_writeup_145_email_writeup_1,1,1530
+memora,business_executive,ultra_guard,content_email_writeup_145_email_writeup_1,1,1530
+memora,business_executive,ultra_guard,content_email_writeup_145_email_writeup_1,1,1530
+memora,business_executive,ultra_guard,content_email_writeup_145_email_writeup_1,1,1530
+memora,business_executive,ultra_guard,content_email_writeup_145_email_writeup_1,1,1530
+memora,business_executive,ultra_guard,content_email_writeup_145_email_writeup_1,1,1530
+memora,business_executive,ultra_guard,content_email_writeup_145_email_writeup_2,1,1530
+memora,business_executive,ultra_guard,content_email_writeup_145_email_writeup_2,1,1530
+memora,business_executive,ultra_guard,content_email_writeup_145_email_writeup_2,1,1530
+memora,business_executive,ultra_guard,content_email_writeup_145_email_writeup_2,1,1530
+memora,business_executive,ultra_guard,content_email_writeup_145_email_writeup_2,1,1530
+memora,business_executive,ultra_guard,content_email_writeup_145_email_writeup_2,1,1530
+memora,business_executive,ultra_guard,activity_food_total_145,0,1530
+memora,business_executive,ultra_guard,activity_steps_total_145,0,1530
+memora,business_executive,ultra_guard,goal_food_expenses_grocery_145_0,1,1530
+memora,business_executive,ultra_guard,goal_food_expenses_grocery_145_0,1,1530
+memora,business_executive,ultra_guard,goal_food_expenses_grocery_145_0,1,1530
+memora,business_executive,ultra_guard,goal_step_tracker_daily_steps_145_0,1,1530
+memora,business_executive,ultra_guard,goal_step_tracker_daily_steps_145_0,0,1530
+memora,business_executive,ultra_guard,goal_step_tracker_daily_steps_145_0,1,1530
+memora,business_executive,ultra_guard,activity_food_coffee_145,0,1530
+memora,management_consultant,ultra_stream,activity_todos_157,1,1704
+memora,management_consultant,ultra_stream,activity_todos_157,1,1704
+memora,management_consultant,ultra_stream,activity_todos_157,1,1704
+memora,management_consultant,ultra_stream,activity_todos_157,1,1704
+memora,management_consultant,ultra_stream,activity_todos_157,1,1704
+memora,management_consultant,ultra_stream,activity_todos_157,1,1704
+memora,management_consultant,ultra_stream,activity_todos_157,1,1704
+memora,management_consultant,ultra_stream,activity_todos_157,1,1704
+memora,management_consultant,ultra_stream,activity_todos_157,1,1704
+memora,management_consultant,ultra_stream,activity_todos_157,1,1704
+memora,management_consultant,ultra_stream,activity_todos_157,1,1704
+memora,management_consultant,ultra_stream,activity_todos_157,1,1704
+memora,management_consultant,ultra_stream,content_project_proposal_157_project_proposal_2,1,1704
+memora,management_consultant,ultra_stream,content_project_proposal_157_project_proposal_2,0,1704
+memora,management_consultant,ultra_stream,content_project_proposal_157_project_proposal_2,1,1704
+memora,management_consultant,ultra_stream,content_project_proposal_157_project_proposal_2,1,1704
+memora,management_consultant,ultra_stream,content_project_proposal_157_project_proposal_2,1,1704
+memora,management_consultant,ultra_stream,content_project_proposal_157_project_proposal_2,1,1704
+memora,management_consultant,ultra_stream,content_project_proposal_157_project_proposal_2,1,1704
+memora,management_consultant,ultra_stream,content_project_proposal_157_project_proposal_2,1,1704
+memora,management_consultant,ultra_stream,content_project_proposal_157_project_proposal_2,1,1704
+memora,management_consultant,ultra_stream,content_project_proposal_157_project_proposal_2,1,1704
+memora,management_consultant,ultra_stream,content_project_proposal_157_project_proposal_2,1,1704
+memora,management_consultant,ultra_stream,content_project_proposal_157_project_proposal_2,1,1704
+memora,management_consultant,ultra_stream,content_project_proposal_157_project_proposal_2,1,1704
+memora,management_consultant,ultra_stream,content_project_proposal_157_project_proposal_2,1,1704
+memora,management_consultant,ultra_stream,content_meeting_notes_157_meeting_notes_1,1,1704
+memora,management_consultant,ultra_stream,content_meeting_notes_157_meeting_notes_1,1,1704
+memora,management_consultant,ultra_stream,content_meeting_notes_157_meeting_notes_1,1,1704
+memora,management_consultant,ultra_stream,content_meeting_notes_157_meeting_notes_1,1,1704
+memora,management_consultant,ultra_stream,content_meeting_notes_157_meeting_notes_1,1,1704
+memora,management_consultant,ultra_stream,content_meeting_notes_157_meeting_notes_1,1,1704
+memora,management_consultant,ultra_stream,content_meeting_notes_157_meeting_notes_1,1,1704
+memora,management_consultant,ultra_stream,content_meeting_notes_157_meeting_notes_1,1,1704
+memora,management_consultant,ultra_stream,content_email_writeup_157_email_writeup_1,1,1704
+memora,management_consultant,ultra_stream,content_email_writeup_157_email_writeup_1,1,1704
+memora,management_consultant,ultra_stream,content_email_writeup_157_email_writeup_1,1,1704
+memora,management_consultant,ultra_stream,content_email_writeup_157_email_writeup_1,1,1704
+memora,management_consultant,ultra_stream,content_email_writeup_157_email_writeup_1,1,1704
+memora,management_consultant,ultra_stream,content_email_writeup_157_email_writeup_1,1,1704
+memora,management_consultant,ultra_stream,content_email_writeup_157_email_writeup_2,1,1704
+memora,management_consultant,ultra_stream,content_email_writeup_157_email_writeup_2,1,1704
+memora,management_consultant,ultra_stream,content_email_writeup_157_email_writeup_2,1,1704
+memora,management_consultant,ultra_stream,content_email_writeup_157_email_writeup_2,1,1704
+memora,management_consultant,ultra_stream,content_email_writeup_157_email_writeup_2,1,1704
+memora,management_consultant,ultra_stream,content_email_writeup_157_email_writeup_2,1,1704
+memora,management_consultant,ultra_stream,activity_food_total_157,0,1704
+memora,management_consultant,ultra_stream,activity_steps_total_157,0,1704
+memora,management_consultant,ultra_stream,goal_food_expenses_breakfast_157_0,1,1704
+memora,management_consultant,ultra_stream,goal_food_expenses_breakfast_157_0,0,1704
+memora,management_consultant,ultra_stream,goal_food_expenses_breakfast_157_0,0,1704
+memora,management_consultant,ultra_stream,goal_step_tracker_daily_steps_157_0,1,1704
+memora,management_consultant,ultra_stream,goal_step_tracker_daily_steps_157_0,0,1704
+memora,management_consultant,ultra_stream,goal_step_tracker_daily_steps_157_0,0,1704
+memora,management_consultant,ultra_stream,activity_food_coffee_157,0,1704
+memora,management_consultant,ultra_guard,activity_todos_157,1,1704
+memora,management_consultant,ultra_guard,activity_todos_157,1,1704
+memora,management_consultant,ultra_guard,activity_todos_157,1,1704
+memora,management_consultant,ultra_guard,activity_todos_157,1,1704
+memora,management_consultant,ultra_guard,activity_todos_157,1,1704
+memora,management_consultant,ultra_guard,activity_todos_157,1,1704
+memora,management_consultant,ultra_guard,activity_todos_157,1,1704
+memora,management_consultant,ultra_guard,activity_todos_157,1,1704
+memora,management_consultant,ultra_guard,activity_todos_157,1,1704
+memora,management_consultant,ultra_guard,activity_todos_157,1,1704
+memora,management_consultant,ultra_guard,activity_todos_157,1,1704
+memora,management_consultant,ultra_guard,activity_todos_157,1,1704
+memora,management_consultant,ultra_guard,content_project_proposal_157_project_proposal_2,1,1704
+memora,management_consultant,ultra_guard,content_project_proposal_157_project_proposal_2,0,1704
+memora,management_consultant,ultra_guard,content_project_proposal_157_project_proposal_2,1,1704
+memora,management_consultant,ultra_guard,content_project_proposal_157_project_proposal_2,1,1704
+memora,management_consultant,ultra_guard,content_project_proposal_157_project_proposal_2,1,1704
+memora,management_consultant,ultra_guard,content_project_proposal_157_project_proposal_2,1,1704
+memora,management_consultant,ultra_guard,content_project_proposal_157_project_proposal_2,1,1704
+memora,management_consultant,ultra_guard,content_project_proposal_157_project_proposal_2,1,1704
+memora,management_consultant,ultra_guard,content_project_proposal_157_project_proposal_2,1,1704
+memora,management_consultant,ultra_guard,content_project_proposal_157_project_proposal_2,1,1704
+memora,management_consultant,ultra_guard,content_project_proposal_157_project_proposal_2,1,1704
+memora,management_consultant,ultra_guard,content_project_proposal_157_project_proposal_2,1,1704
+memora,management_consultant,ultra_guard,content_project_proposal_157_project_proposal_2,1,1704
+memora,management_consultant,ultra_guard,content_project_proposal_157_project_proposal_2,1,1704
+memora,management_consultant,ultra_guard,content_meeting_notes_157_meeting_notes_1,1,1704
+memora,management_consultant,ultra_guard,content_meeting_notes_157_meeting_notes_1,1,1704
+memora,management_consultant,ultra_guard,content_meeting_notes_157_meeting_notes_1,1,1704
+memora,management_consultant,ultra_guard,content_meeting_notes_157_meeting_notes_1,1,1704
+memora,management_consultant,ultra_guard,content_meeting_notes_157_meeting_notes_1,1,1704
+memora,management_consultant,ultra_guard,content_meeting_notes_157_meeting_notes_1,1,1704
+memora,management_consultant,ultra_guard,content_meeting_notes_157_meeting_notes_1,1,1704
+memora,management_consultant,ultra_guard,content_meeting_notes_157_meeting_notes_1,1,1704
+memora,management_consultant,ultra_guard,content_email_writeup_157_email_writeup_1,1,1704
+memora,management_consultant,ultra_guard,content_email_writeup_157_email_writeup_1,1,1704
+memora,management_consultant,ultra_guard,content_email_writeup_157_email_writeup_1,1,1704
+memora,management_consultant,ultra_guard,content_email_writeup_157_email_writeup_1,1,1704
+memora,management_consultant,ultra_guard,content_email_writeup_157_email_writeup_1,1,1704
+memora,management_consultant,ultra_guard,content_email_writeup_157_email_writeup_1,1,1704
+memora,management_consultant,ultra_guard,content_email_writeup_157_email_writeup_2,1,1704
+memora,management_consultant,ultra_guard,content_email_writeup_157_email_writeup_2,1,1704
+memora,management_consultant,ultra_guard,content_email_writeup_157_email_writeup_2,1,1704
+memora,management_consultant,ultra_guard,content_email_writeup_157_email_writeup_2,1,1704
+memora,management_consultant,ultra_guard,content_email_writeup_157_email_writeup_2,1,1704
+memora,management_consultant,ultra_guard,content_email_writeup_157_email_writeup_2,1,1704
+memora,management_consultant,ultra_guard,activity_food_total_157,0,1704
+memora,management_consultant,ultra_guard,activity_steps_total_157,0,1704
+memora,management_consultant,ultra_guard,goal_food_expenses_breakfast_157_0,1,1704
+memora,management_consultant,ultra_guard,goal_food_expenses_breakfast_157_0,0,1704
+memora,management_consultant,ultra_guard,goal_food_expenses_breakfast_157_0,0,1704
+memora,management_consultant,ultra_guard,goal_step_tracker_daily_steps_157_0,1,1704
+memora,management_consultant,ultra_guard,goal_step_tracker_daily_steps_157_0,0,1704
+memora,management_consultant,ultra_guard,goal_step_tracker_daily_steps_157_0,0,1704
+memora,management_consultant,ultra_guard,activity_food_coffee_157,0,1704
+locomo,conv-26,ultra_stream,What events has Caroline participated in to help children?,0,2179
+locomo,conv-26,ultra_stream,When did Melanie go to the pottery workshop?,0,2179
+locomo,conv-26,ultra_stream,Would Caroline pursue writing as a career option?,0,2179
+locomo,conv-26,ultra_stream,What creative project do Mel and her kids do together besides pottery?,1,2179
+locomo,conv-26,ultra_stream,What activities has Melanie done with her family?,0,2179
+locomo,conv-26,ultra_stream,When did Caroline go to the adoption meeting?,1,2179
+locomo,conv-26,ultra_stream,Would Caroline be considered religious?,0,2179
+locomo,conv-26,ultra_stream,What activity did Caroline used to do with her dad?,1,2179
+locomo,conv-26,ultra_stream,What books has Melanie read?,0,2179
+locomo,conv-26,ultra_stream,When did Melanie sign up for a pottery class?,1,2179
+locomo,conv-26,ultra_guard,What events has Caroline participated in to help children?,0,2179
+locomo,conv-26,ultra_guard,When did Melanie go to the pottery workshop?,0,2179
+locomo,conv-26,ultra_guard,Would Caroline pursue writing as a career option?,0,2179
+locomo,conv-26,ultra_guard,What creative project do Mel and her kids do together besides pottery?,1,2179
+locomo,conv-26,ultra_guard,What activities has Melanie done with her family?,0,2179
+locomo,conv-26,ultra_guard,When did Caroline go to the adoption meeting?,1,2179
+locomo,conv-26,ultra_guard,Would Caroline be considered religious?,0,2179
+locomo,conv-26,ultra_guard,What activity did Caroline used to do with her dad?,1,2179
+locomo,conv-26,ultra_guard,What books has Melanie read?,0,2179
+locomo,conv-26,ultra_guard,When did Melanie sign up for a pottery class?,1,2179
+locomo,conv-44,ultra_stream,What does Audrey view her pets as?,1,2282
+locomo,conv-44,ultra_stream,"How long has it been since Andrew adopted his first pet, as of November 2023?",0,2282
+locomo,conv-44,ultra_stream,What can Andrew potentially do to improve his stress and accomodate his living s,0,2282
+locomo,conv-44,ultra_stream,What did Audrey make to thank her neighbors?,0,2282
+locomo,conv-44,ultra_stream,How does Andrew feel about his current work?,0,2282
+locomo,conv-44,ultra_stream,Where did Andrew go during the first weekend of August 2023?,0,2282
+locomo,conv-44,ultra_stream,Which meat does Audrey prefer eating more than others?,1,2282
+locomo,conv-44,ultra_stream,How do Audrey's dogs react to snow?,0,2282
+locomo,conv-44,ultra_stream,What did Audrey get wtih having so many dogs?,0,2282
+locomo,conv-44,ultra_stream,When did Audrey see a hummingbird?,1,2282
+locomo,conv-44,ultra_guard,What does Audrey view her pets as?,1,2282
+locomo,conv-44,ultra_guard,"How long has it been since Andrew adopted his first pet, as of November 2023?",0,2282
+locomo,conv-44,ultra_guard,What can Andrew potentially do to improve his stress and accomodate his living s,0,2282
+locomo,conv-44,ultra_guard,What did Audrey make to thank her neighbors?,0,2282
+locomo,conv-44,ultra_guard,How does Andrew feel about his current work?,0,2282
+locomo,conv-44,ultra_guard,Where did Andrew go during the first weekend of August 2023?,0,2282
+locomo,conv-44,ultra_guard,Which meat does Audrey prefer eating more than others?,1,2282
+locomo,conv-44,ultra_guard,How do Audrey's dogs react to snow?,0,2282
+locomo,conv-44,ultra_guard,What did Audrey get wtih having so many dogs?,0,2282
+locomo,conv-44,ultra_guard,When did Audrey see a hummingbird?,1,2282
+locomo,conv-30,ultra_stream,Why did Gina decide to start her own clothing store?,0,1740
+locomo,conv-30,ultra_stream,When did Gina interview for a design internship?,1,1740
+locomo,conv-30,ultra_stream,What advice does Gina give to Jon about running a successful business?,0,1740
+locomo,conv-30,ultra_stream,Do Jon and Gina start businesses out of what they love?,1,1740
+locomo,conv-30,ultra_stream,When did Jon start to go to the gym?,1,1740
+locomo,conv-30,ultra_stream,What is Jon offering to the dancers at his dance studio?,1,1740
+locomo,conv-30,ultra_stream,What Jon thinks the ideal dance studio should look like?,0,1740
+locomo,conv-30,ultra_stream,When did Jon host a dance competition?,1,1740
+locomo,conv-30,ultra_stream,What does Gina's tattoo symbolize?,1,1740
+locomo,conv-30,ultra_stream,Did Jon and Gina both participate in dance competitions?,1,1740
+locomo,conv-30,ultra_guard,Why did Gina decide to start her own clothing store?,0,1740
+locomo,conv-30,ultra_guard,When did Gina interview for a design internship?,1,1740
+locomo,conv-30,ultra_guard,What advice does Gina give to Jon about running a successful business?,0,1740
+locomo,conv-30,ultra_guard,Do Jon and Gina start businesses out of what they love?,1,1740
+locomo,conv-30,ultra_guard,When did Jon start to go to the gym?,1,1740
+locomo,conv-30,ultra_guard,What is Jon offering to the dancers at his dance studio?,1,1740
+locomo,conv-30,ultra_guard,What Jon thinks the ideal dance studio should look like?,0,1740
+locomo,conv-30,ultra_guard,When did Jon host a dance competition?,1,1740
+locomo,conv-30,ultra_guard,What does Gina's tattoo symbolize?,1,1740
+locomo,conv-30,ultra_guard,Did Jon and Gina both participate in dance competitions?,1,1740
+locomo,conv-47,ultra_stream,What kind of tricks do James's pets know?,0,2220
+locomo,conv-47,ultra_stream,"Where was James at on July 12, 2022?",0,2220
+locomo,conv-47,ultra_stream,Who is Jill?,0,2220
+locomo,conv-47,ultra_stream,When did James plan to return from his trip to Toronto and Vancouver?,0,2220
+locomo,conv-47,ultra_stream,Which countries has James visited?,0,2220
+locomo,conv-47,ultra_stream,How many days did James plan to spend on his trip in Canada?,0,2220
+locomo,conv-47,ultra_stream,What is the game with different colored cards that was John talking about with J,0,2220
+locomo,conv-47,ultra_stream,What does John do to stay informed and constantly learn about game design?,0,2220
+locomo,conv-47,ultra_stream,Which books has John recommended to James?,0,2220
+locomo,conv-47,ultra_stream,"Which recreational activity was James pursuing on March 16, 2022?",1,2220
+locomo,conv-47,ultra_guard,What kind of tricks do James's pets know?,0,2220
+locomo,conv-47,ultra_guard,"Where was James at on July 12, 2022?",0,2220
+locomo,conv-47,ultra_guard,Who is Jill?,0,2220
+locomo,conv-47,ultra_guard,When did James plan to return from his trip to Toronto and Vancouver?,0,2220
+locomo,conv-47,ultra_guard,Which countries has James visited?,0,2220
+locomo,conv-47,ultra_guard,How many days did James plan to spend on his trip in Canada?,0,2220
+locomo,conv-47,ultra_guard,What is the game with different colored cards that was John talking about with J,0,2220
+locomo,conv-47,ultra_guard,What does John do to stay informed and constantly learn about game design?,0,2220
+locomo,conv-47,ultra_guard,Which books has John recommended to James?,0,2220
+locomo,conv-47,ultra_guard,"Which recreational activity was James pursuing on March 16, 2022?",1,2220
+locomo,conv-41,ultra_stream,What types of yoga has Maria practiced?,0,2298
+locomo,conv-41,ultra_stream,When did Maria get in a car accident?,0,2298
+locomo,conv-41,ultra_stream,What might John's degree be in?,0,2298
+locomo,conv-41,ultra_stream,"What event is Maria getting ready for at the shelter on May 25, 2023?",0,2298
+locomo,conv-41,ultra_stream,What desserts has Maria made?,0,2298
+locomo,conv-41,ultra_stream,When did John get his degree?,0,2298
+locomo,conv-41,ultra_stream,Does John live close to a beach or the mountains?,0,2298
+locomo,conv-41,ultra_stream,Which activity has John done apart from yoga at the studio?,0,2298
+locomo,conv-41,ultra_stream,What events is Maria planning for the homeless shelter funraiser?,0,2298
+locomo,conv-41,ultra_stream,When did John have a party with veterans?,0,2298
+locomo,conv-41,ultra_guard,What types of yoga has Maria practiced?,0,2298
+locomo,conv-41,ultra_guard,When did Maria get in a car accident?,0,2298
+locomo,conv-41,ultra_guard,What might John's degree be in?,0,2298
+locomo,conv-41,ultra_guard,"What event is Maria getting ready for at the shelter on May 25, 2023?",0,2298
+locomo,conv-41,ultra_guard,What desserts has Maria made?,0,2298
+locomo,conv-41,ultra_guard,When did John get his degree?,0,2298
+locomo,conv-41,ultra_guard,Does John live close to a beach or the mountains?,0,2298
+locomo,conv-41,ultra_guard,Which activity has John done apart from yoga at the studio?,0,2298
+locomo,conv-41,ultra_guard,What events is Maria planning for the homeless shelter funraiser?,0,2298
+locomo,conv-41,ultra_guard,When did John have a party with veterans?,0,2298
+locomo,conv-48,ultra_stream,What gifts has Deborah received?,0,2224
+locomo,conv-48,ultra_stream,When did Deborah go to a community meetup?,1,2224
+locomo,conv-48,ultra_stream,Does Deborah live close to the beach or the mountains?,1,2224
+locomo,conv-48,ultra_stream,Does Deborah like cats?,1,2224
+locomo,conv-48,ultra_stream,Which games have Jolene and her partner played together?,0,2224
+locomo,conv-48,ultra_stream,When did Jolene buy a new aquarium for Seraphim?,1,2224
+locomo,conv-48,ultra_stream,Why did Jolene sometimes put off doing yoga?,0,2224
+locomo,conv-48,ultra_stream,Where did Deborah get her cats?,1,2224
+locomo,conv-48,ultra_stream,Which countries has Deborah traveled to?,0,2224
+locomo,conv-48,ultra_stream,When did Deborah go for her first morning jog in a nearby park?,1,2224
+locomo,conv-48,ultra_guard,What gifts has Deborah received?,0,2224
+locomo,conv-48,ultra_guard,When did Deborah go to a community meetup?,1,2224
+locomo,conv-48,ultra_guard,Does Deborah live close to the beach or the mountains?,1,2224
+locomo,conv-48,ultra_guard,Does Deborah like cats?,1,2224
+locomo,conv-48,ultra_guard,Which games have Jolene and her partner played together?,0,2224
+locomo,conv-48,ultra_guard,When did Jolene buy a new aquarium for Seraphim?,1,2224
+locomo,conv-48,ultra_guard,Why did Jolene sometimes put off doing yoga?,0,2224
+locomo,conv-48,ultra_guard,Where did Deborah get her cats?,1,2224
+locomo,conv-48,ultra_guard,Which countries has Deborah traveled to?,0,2224
+locomo,conv-48,ultra_guard,When did Deborah go for her first morning jog in a nearby park?,1,2224
+locomo,conv-49,ultra_stream,What motivates Evan to take care of his health?,0,1934
+locomo,conv-49,ultra_stream,When did Evan go skiing in Banff?,1,1934
+locomo,conv-49,ultra_stream,How might Evan and Sam's experiences with health and lifestyle changes influence,0,1934
+locomo,conv-49,ultra_stream,What did Evan suggest Sam try as a calming hobby?,1,1934
+locomo,conv-49,ultra_stream,Where has Evan been on roadtrips with his family?,1,1934
+locomo,conv-49,ultra_stream,When did Evan and Sam decide to paint together?,1,1934
+locomo,conv-49,ultra_stream,"What challenges does Sam face in his quest for a healthier lifestyle, and how do",0,1934
+locomo,conv-49,ultra_stream,What is the motto of Evan's family?,1,1934
+locomo,conv-49,ultra_stream,What health scares did Sam and Evan experience?,0,1934
+locomo,conv-49,ultra_stream,Which classes did Evan join in mid-August 2023?,1,1934
+locomo,conv-49,ultra_guard,What motivates Evan to take care of his health?,0,1934
+locomo,conv-49,ultra_guard,When did Evan go skiing in Banff?,1,1934
+locomo,conv-49,ultra_guard,How might Evan and Sam's experiences with health and lifestyle changes influence,0,1934
+locomo,conv-49,ultra_guard,What did Evan suggest Sam try as a calming hobby?,1,1934
+locomo,conv-49,ultra_guard,Where has Evan been on roadtrips with his family?,1,1934
+locomo,conv-49,ultra_guard,When did Evan and Sam decide to paint together?,1,1934
+locomo,conv-49,ultra_guard,"What challenges does Sam face in his quest for a healthier lifestyle, and how do",0,1934
+locomo,conv-49,ultra_guard,What is the motto of Evan's family?,1,1934
+locomo,conv-49,ultra_guard,What health scares did Sam and Evan experience?,0,1934
+locomo,conv-49,ultra_guard,Which classes did Evan join in mid-August 2023?,1,1934
+locomo,conv-42,ultra_stream,What places has Nate met new people?,0,2141
+locomo,conv-42,ultra_stream,When did Nate win an international tournament?,1,2141
+locomo,conv-42,ultra_stream,Is it likely that Nate has friends besides Joanna?,1,2141
+locomo,conv-42,ultra_stream,What game was the second tournament that Nate won based on?,1,2141
+locomo,conv-42,ultra_stream,What recipes has Nate made?,0,2141
+locomo,conv-42,ultra_stream,When did someone write Joanna a touching letter?,0,2141
+locomo,conv-42,ultra_stream,What nickname does Nate use for Joanna?,0,2141
+locomo,conv-42,ultra_stream,Which dairy-free dessert flavors does Nate enjoy?,0,2141
+locomo,conv-42,ultra_stream,How many screenplays has Joanna written?,1,2141
+locomo,conv-42,ultra_stream,Which outdoor spot did Joanna visit in May?,0,2141
+locomo,conv-42,ultra_guard,What places has Nate met new people?,0,2141
+locomo,conv-42,ultra_guard,When did Nate win an international tournament?,1,2141
+locomo,conv-42,ultra_guard,Is it likely that Nate has friends besides Joanna?,1,2141
+locomo,conv-42,ultra_guard,What game was the second tournament that Nate won based on?,1,2141
+locomo,conv-42,ultra_guard,What recipes has Nate made?,0,2141
+locomo,conv-42,ultra_guard,When did someone write Joanna a touching letter?,0,2141
+locomo,conv-42,ultra_guard,What nickname does Nate use for Joanna?,0,2141
+locomo,conv-42,ultra_guard,Which dairy-free dessert flavors does Nate enjoy?,0,2141
+locomo,conv-42,ultra_guard,How many screenplays has Joanna written?,1,2141
+locomo,conv-42,ultra_guard,Which outdoor spot did Joanna visit in May?,0,2141
+locomo,conv-50,ultra_stream,What was Dave doing in San Francisco?,1,2259
+locomo,conv-50,ultra_stream,"Which city was Calvin at on October 3, 2023?",1,2259
+locomo,conv-50,ultra_stream,Does Calvin love music tours?,1,2259
+locomo,conv-50,ultra_stream,What color glow did Calvin customize his guitar with?,1,2259
+locomo,conv-50,ultra_stream,How many times has Calvin had to deal with insurance paperwork?,1,2259
+locomo,conv-50,ultra_stream,When did Dave host a card-playing night with his friends?,1,2259
+locomo,conv-50,ultra_stream,Which country do Calvin and Dave want to meet in?,0,2259
+locomo,conv-50,ultra_stream,What is the toughest part of car restoration according to Dave?,0,2259
+locomo,conv-50,ultra_stream,Where did Dave return from with new knowledge of different techniques of car res,1,2259
+locomo,conv-50,ultra_stream,When did Dave take a trip to mountainous regions?,1,2259
+locomo,conv-50,ultra_guard,What was Dave doing in San Francisco?,1,2259
+locomo,conv-50,ultra_guard,"Which city was Calvin at on October 3, 2023?",1,2259
+locomo,conv-50,ultra_guard,Does Calvin love music tours?,1,2259
+locomo,conv-50,ultra_guard,What color glow did Calvin customize his guitar with?,1,2259
+locomo,conv-50,ultra_guard,How many times has Calvin had to deal with insurance paperwork?,1,2259
+locomo,conv-50,ultra_guard,When did Dave host a card-playing night with his friends?,1,2259
+locomo,conv-50,ultra_guard,Which country do Calvin and Dave want to meet in?,0,2259
+locomo,conv-50,ultra_guard,What is the toughest part of car restoration according to Dave?,0,2259
+locomo,conv-50,ultra_guard,Where did Dave return from with new knowledge of different techniques of car res,1,2259
+locomo,conv-50,ultra_guard,When did Dave take a trip to mountainous regions?,1,2259
+locomo,conv-43,ultra_stream,What kind of fiction stories does Tim write?,0,2216
+locomo,conv-43,ultra_stream,When did John start playing professionally?,0,2216
+locomo,conv-43,ultra_stream,What other exercises can help John with his basketball performance?,0,2216
+locomo,conv-43,ultra_stream,What kind of articles has Tim been writing about for the online magazine?,0,2216
+locomo,conv-43,ultra_stream,What sports does John like besides basketball?,0,2216
+locomo,conv-43,ultra_stream,Which country was Tim visiting in the second week of November?,0,2216
+locomo,conv-43,ultra_stream,Which popular music composer's tunes does Tim enjoy playing on the piano?,0,2216
+locomo,conv-43,ultra_stream,When did John meet back up with his teammates after his trip in August 2023?,0,2216
+locomo,conv-43,ultra_stream,Which US cities does John mention visiting to Tim?,0,2216
+locomo,conv-43,ultra_stream,When is Tim attending a book conference?,0,2216
+locomo,conv-43,ultra_guard,What kind of fiction stories does Tim write?,0,2216
+locomo,conv-43,ultra_guard,When did John start playing professionally?,0,2216
+locomo,conv-43,ultra_guard,What other exercises can help John with his basketball performance?,0,2216
+locomo,conv-43,ultra_guard,What kind of articles has Tim been writing about for the online magazine?,0,2216
+locomo,conv-43,ultra_guard,What sports does John like besides basketball?,0,2216
+locomo,conv-43,ultra_guard,Which country was Tim visiting in the second week of November?,0,2216
+locomo,conv-43,ultra_guard,Which popular music composer's tunes does Tim enjoy playing on the piano?,0,2216
+locomo,conv-43,ultra_guard,When did John meet back up with his teammates after his trip in August 2023?,0,2216
+locomo,conv-43,ultra_guard,Which US cities does John mention visiting to Tim?,0,2216
+locomo,conv-43,ultra_guard,When is Tim attending a book conference?,0,2216

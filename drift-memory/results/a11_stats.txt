@@ -1,0 +1,12 @@
+instances 23 Counter({'multi-session': 8, 'knowledge-update': 7, 'temporal-reasoning': 5, 'single-session-user': 3})
+stream 17.4
+guard 4.3
+raw 39.1
+hybrid 47.8
+guard-stream: n=23 -13.0 [-26.1,+0.0] p=0.077
+hybrid-raw: n=23 +8.7 [-8.7,+26.1] p=0.444
+hybrid-stream: n=23 +30.4 [+0.0,+56.5] p=0.054
+raw-stream: n=23 +21.7 [-4.3,+47.8] p=0.162
+plain: rewrites 224 collapses 39 (17.4%) streams hit 21/23 recovered-length 11/39
+guard: triggers 48 (21.4% of rewrites) retry kept>=50%: 28
+final stream words median 402

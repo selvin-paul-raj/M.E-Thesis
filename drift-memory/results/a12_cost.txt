@@ -1,0 +1,12 @@
+LoCoMo       a7_locomo_scores.csv                          k0             mean_words=    1217 max_words=  2098
+LoCoMo       a7_locomo_scores.csv                          stream         mean_words=    1533 max_words=  2372
+LoCoMo       a7_locomo_scores.csv                          stream_guard   mean_words=    4634 max_words= 18322
+Memora       a5_scores_nemotron-3.5-lightning-30b-a3b.csv  k0             mean_words=    1011 max_words=  1584
+Memora       a5_scores_nemotron-3.5-lightning-30b-a3b.csv  k2             mean_words=     847 max_words=  1287
+Memora       a5_scores_nemotron-3.5-lightning-30b-a3b.csv  stream         mean_words=    1070 max_words=  1556
+Memora       a6_guard_scores.csv                           stream_guard   mean_words=    1494 max_words=  2252
+Both         a8_retry_scores.csv                           stream_retry   mean_words=    1291 max_words=  2318
+LongMemEval  a11_lme_scores.csv                            stream         mean_words=     720 max_words=  2043
+LongMemEval  a11_lme_scores.csv                            guard          mean_words=    1051 max_words=  2426
+LongMemEval  a11_lme_scores.csv                            raw            mean_words=     500 max_words=   689
+LongMemEval  a11_lme_scores.csv                            hybrid         mean_words=    1561 max_words=  2847

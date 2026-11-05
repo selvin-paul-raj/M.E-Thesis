@@ -1,0 +1,20 @@
+contrast,arm_a,arm_b,clusters,acc_a,acc_b,diff_pooled,mean_cluster_diff,ci95_lo,ci95_hi,perm_p,wins,losses,ties,tost_equiv_5pt,ci90_lo,ci90_hi,family,holm_p
+Memora 9 retry-stream,stream,stream_retry,9,50.9,55.2,4.3,3.7,-0.9,12.1,0.5,2,1,6,False,0.0,8.8,exploratory,
+Memora 9 guard_append-stream,stream,stream_guard,9,50.9,56.8,5.9,5.5,0.0,13.5,0.25,3,0,6,False,1.2,10.6,exploratory,
+Memora 9 stream-k0,k0,stream,9,47.5,50.9,3.4,2.6,-7.4,14.6,0.6758,5,4,0,False,-3.9,10.6,exploratory,
+Memora 9 retry-k0,k0,stream_retry,9,47.5,55.2,7.7,6.3,-5.8,21.1,0.3984,5,4,0,False,-1.1,16.3,exploratory,
+Memora 9 k2-k0,k0,k2,9,47.5,48.2,0.7,0.3,-4.4,5.8,0.9141,4,4,1,True,-2.8,4.1,exploratory,
+LoCoMo 10 retry-stream,stream,stream_retry,10,18.0,24.0,6.0,6.0,0.0,13.0,0.25,3,0,7,False,2.0,10.0,confirmatory,0.25
+LoCoMo 10 guard_append-stream,stream,stream_guard,10,18.0,26.0,8.0,8.0,0.0,17.0,0.25,3,0,7,False,3.0,13.0,exploratory,
+LoCoMo 10 stream-k0,k0,stream,10,26.0,18.0,-8.0,-8.0,-16.0,0.0,0.1562,2,5,3,False,-13.0,-3.0,exploratory,
+LoCoMo 10 retry-k0,k0,stream_retry,10,26.0,24.0,-2.0,-2.0,-10.0,4.0,0.8438,3,3,4,False,-7.0,3.0,exploratory,
+Pooled 19 retry-stream,stream,stream_retry,19,44.8,49.4,4.6,4.9,0.0,11.0,0.0625,5,1,13,False,1.0,8.6,confirmatory,0.125
+Pooled 19 guard_append-stream,stream,stream_guard,19,44.8,51.1,6.3,6.8,1.6,12.7,0.0312,6,0,13,False,2.6,10.1,exploratory,
+Pooled 19 stream-k0,k0,stream,19,43.5,44.8,1.3,-3.0,-8.1,10.3,0.432,7,9,3,False,-5.1,7.1,exploratory,
+Pooled 19 retry-k0,k0,stream_retry,19,43.5,49.4,5.9,2.0,-5.4,16.3,0.6282,8,7,4,False,-1.8,12.7,exploratory,
+Collapsed 6 retry-stream,stream,stream_retry,6,35.7,49.2,13.5,15.6,1.2,28.6,0.0625,5,1,0,False,4.1,23.5,exploratory,
+Collapsed 6 guard_append-stream,stream,stream_guard,6,35.7,54.1,18.4,21.5,10.0,30.0,0.0312,6,0,0,False,11.9,26.1,exploratory,
+Collapsed 6 stream-k0,k0,stream,6,44.9,35.7,-9.2,-13.9,-20.0,0.0,0.0625,1,5,0,False,-17.1,-2.6,exploratory,
+Collapsed 6 retry-k0,k0,stream_retry,6,44.9,49.2,4.3,1.7,-17.7,27.3,0.875,2,3,1,False,-12.6,20.0,exploratory,
+Collapsed 6 escalate-stream,stream,escalate,6,35.7,56.2,20.5,18.1,3.3,33.3,0.0625,5,0,1,False,8.8,30.8,exploratory,
+Collapsed 6 escalate-retry,stream_retry,escalate,6,49.2,56.2,7.0,2.5,-8.0,27.7,1.0,1,2,3,False,-5.7,20.6,exploratory,

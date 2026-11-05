@@ -1,0 +1,68 @@
+Nemotron streams: 19 rewrites: 351
+
+## Threshold sensitivity (collapse = shrink to <= frac of old, old >= floor words)
+frac floor events rate% streams_hit
+0.3 200 7 2.0 5
+0.3 300 7 2.0 5
+0.3 500 5 1.4 5
+0.4 200 10 2.8 6
+0.4 300 10 2.8 6
+0.4 500 6 1.7 6
+0.5 200 13 3.7 6
+0.5 300 13 3.7 6
+0.5 500 7 2.0 6
+0.6 200 17 4.8 6
+0.6 300 16 4.6 6
+0.6 500 8 2.3 6
+0.7 200 19 5.4 6
+0.7 300 17 4.8 6
+0.7 500 9 2.6 6
+
+rewrites from >=300 words: 280 ratio<=0.5: 13 0.5-0.7: 4 0.7-0.9: 7 >0.9: 256
+
+## Recovery of length after each collapse (default 0.5/300)
+memora/business_executive step 3: 626->161, regained >= 626 words never | final 342
+memora/management_consultant step 5: 588->114, regained >= 588 words never | final 89
+memora/management_consultant step 10: 376->89, regained >= 376 words never | final 89
+memora/marketing_manager step 8: 1479->149, regained >= 1479 words never | final 292
+locomo/conv-26 step 9: 929->220, regained >= 929 words never | final 164
+locomo/conv-26 step 12: 455->185, regained >= 455 words after 2 sessions | final 164
+locomo/conv-26 step 17: 822->386, regained >= 822 words never | final 164
+locomo/conv-26 step 18: 386->164, regained >= 386 words never | final 164
+locomo/conv-42 step 15: 581->175, regained >= 581 words after 12 sessions | final 795
+locomo/conv-47 step 3: 484->136, regained >= 484 words after 4 sessions | final 206
+locomo/conv-47 step 17: 482->165, regained >= 482 words after 10 sessions | final 206
+locomo/conv-47 step 21: 374->130, regained >= 374 words after 5 sessions | final 206
+locomo/conv-47 step 29: 654->164, regained >= 654 words never | final 206
+regained pre-collapse length: 5/13
+
+## Guard cost
+guard-append rewrites 351 triggers 40 {'fallback_append': 30, 'retry_ok': 10} extra calls 11.4%
+guard-bounded triggers 16 recovered (kept >= 0.5*old): 12
+
+## Per-unit accuracy (%)
+memora business_executive k0 55.6 stream 35.6 g-app 46.7 g-bnd 31.1 collapses 1 final_words 342
+memora content_writer k0 57.1 stream 38.1 g-app 38.1 g-bnd 38.1 collapses 0 final_words 1507
+memora creative_designer k0 49.1 stream 69.8 g-app 69.8 g-bnd 69.8 collapses 0 final_words 1541
+memora financial_analyst k0 24.5 stream 58.5 g-app 58.5 g-bnd 58.5 collapses 0 final_words 1486
+memora management_consultant k0 58.2 stream 49.1 g-app 56.4 g-bnd 56.4 collapses 2 final_words 89
+memora marketing_manager k0 34.5 stream 40.0 g-app 70.9 g-bnd 70.9 collapses 1 final_words 292
+memora sales_manager k0 65.3 stream 63.3 g-app 63.3 g-bnd 63.3 collapses 0 final_words 1378
+memora software_engineer k0 42.2 stream 51.1 g-app 51.1 g-bnd 51.1 collapses 0 final_words 1441
+memora startup_founder k0 44.4 stream 48.9 g-app 48.9 g-bnd 48.9 collapses 0 final_words 1556
+locomo conv-26 k0 20.0 stream 0.0 g-app 30.0 g-bnd 10.0 collapses 4 final_words 164
+locomo conv-30 k0 40.0 stream 40.0 g-app 40.0 g-bnd 40.0 collapses 0 final_words 1501
+locomo conv-41 k0 10.0 stream 0.0 g-app 0.0 g-bnd 0.0 collapses 0 final_words 2322
+locomo conv-42 k0 30.0 stream 10.0 g-app 40.0 g-bnd 40.0 collapses 1 final_words 795
+locomo conv-43 k0 20.0 stream 30.0 g-app 30.0 g-bnd 30.0 collapses 0 final_words 2372
+locomo conv-44 k0 10.0 stream 20.0 g-app 20.0 g-bnd 20.0 collapses 0 final_words 1962
+locomo conv-47 k0 20.0 stream 0.0 g-app 20.0 g-bnd 20.0 collapses 4 final_words 206
+locomo conv-48 k0 10.0 stream 10.0 g-app 10.0 g-bnd 10.0 collapses 0 final_words 2129
+locomo conv-49 k0 50.0 stream 20.0 g-app 20.0 g-bnd 20.0 collapses 0 final_words 1878
+locomo conv-50 k0 50.0 stream 50.0 g-app 50.0 g-bnd 50.0 collapses 0 final_words 1997
+
+## LoCoMo by category (correct/n)
+cat 1 {'k0': '5/31', 'stream': '6/31', 'stream_guard': '7/31'}
+cat 2 {'k0': '8/30', 'stream': '6/30', 'stream_guard': '10/30'}
+cat 3 {'k0': '4/18', 'stream': '4/18', 'stream_guard': '4/18'}
+cat 4 {'k0': '9/21', 'stream': '2/21', 'stream_guard': '5/21'}

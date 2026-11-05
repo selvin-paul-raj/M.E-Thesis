@@ -1,0 +1,51 @@
+A16 unit-level inference. Resampling unit = conversation (LoCoMo) or persona (Memora).
+Memora 9 retry-stream: units=9 stream=50.9 stream_retry=55.2 diff=+4.3 unit-bootstrap[-0.9,+12.1] mean-unit-diff=+3.7 perm_p=0.500 wins=2/3 (ties 6) sign_p=1.000
+Memora 9 guard_append-stream: units=9 stream=50.9 stream_guard=56.8 diff=+5.9 unit-bootstrap[+0.0,+13.5] mean-unit-diff=+5.5 perm_p=0.250 wins=3/3 (ties 6) sign_p=0.250
+Memora 9 stream-k0: units=9 k0=47.5 stream=50.9 diff=+3.4 unit-bootstrap[-7.4,+14.6] mean-unit-diff=+2.6 perm_p=0.676 wins=5/9 (ties 0) sign_p=1.000
+Memora 9 retry-k0: units=9 k0=47.5 stream_retry=55.2 diff=+7.7 unit-bootstrap[-5.8,+21.1] mean-unit-diff=+6.3 perm_p=0.398 wins=5/9 (ties 0) sign_p=1.000
+Memora 9 k2-k0: units=9 k0=47.5 k2=48.2 diff=+0.7 unit-bootstrap[-4.4,+5.8] mean-unit-diff=+0.3 perm_p=0.914 wins=4/8 (ties 1) sign_p=1.000
+LoCoMo 10 retry-stream: units=10 stream=18.0 stream_retry=24.0 diff=+6.0 unit-bootstrap[+0.0,+13.0] mean-unit-diff=+6.0 perm_p=0.250 wins=3/3 (ties 7) sign_p=0.250
+LoCoMo 10 guard_append-stream: units=10 stream=18.0 stream_guard=26.0 diff=+8.0 unit-bootstrap[+0.0,+17.0] mean-unit-diff=+8.0 perm_p=0.250 wins=3/3 (ties 7) sign_p=0.250
+LoCoMo 10 stream-k0: units=10 k0=26.0 stream=18.0 diff=-8.0 unit-bootstrap[-16.0,+0.0] mean-unit-diff=-8.0 perm_p=0.156 wins=2/7 (ties 3) sign_p=0.453
+LoCoMo 10 retry-k0: units=10 k0=26.0 stream_retry=24.0 diff=-2.0 unit-bootstrap[-10.0,+4.0] mean-unit-diff=-2.0 perm_p=0.844 wins=3/6 (ties 4) sign_p=1.000
+Pooled 19 retry-stream: units=19 stream=44.8 stream_retry=49.4 diff=+4.6 unit-bootstrap[+0.0,+11.0] mean-unit-diff=+4.9 perm_p=0.062 wins=5/6 (ties 13) sign_p=0.219
+Pooled 19 guard_append-stream: units=19 stream=44.8 stream_guard=51.1 diff=+6.3 unit-bootstrap[+1.6,+12.7] mean-unit-diff=+6.8 perm_p=0.031 wins=6/6 (ties 13) sign_p=0.031
+Pooled 19 stream-k0: units=19 k0=43.5 stream=44.8 diff=+1.3 unit-bootstrap[-8.1,+10.3] mean-unit-diff=-3.0 perm_p=0.432 wins=7/16 (ties 3) sign_p=0.804
+Pooled 19 retry-k0: units=19 k0=43.5 stream_retry=49.4 diff=+5.9 unit-bootstrap[-5.4,+16.3] mean-unit-diff=+2.0 perm_p=0.628 wins=8/15 (ties 4) sign_p=1.000
+Collapsed 6 retry-stream: units=6 stream=35.7 stream_retry=49.2 diff=+13.5 unit-bootstrap[+1.2,+28.6] mean-unit-diff=+15.6 perm_p=0.062 wins=5/6 (ties 0) sign_p=0.219
+Collapsed 6 guard_append-stream: units=6 stream=35.7 stream_guard=54.1 diff=+18.4 unit-bootstrap[+10.0,+30.0] mean-unit-diff=+21.5 perm_p=0.031 wins=6/6 (ties 0) sign_p=0.031
+Collapsed 6 stream-k0: units=6 k0=44.9 stream=35.7 diff=-9.2 unit-bootstrap[-20.0,+0.0] mean-unit-diff=-13.9 perm_p=0.062 wins=1/6 (ties 0) sign_p=0.219
+Collapsed 6 retry-k0: units=6 k0=44.9 stream_retry=49.2 diff=+4.3 unit-bootstrap[-17.7,+27.3] mean-unit-diff=+1.7 perm_p=0.875 wins=2/5 (ties 1) sign_p=1.000
+Collapsed 6 escalate-stream: units=6 stream=35.7 escalate=56.2 diff=+20.5 unit-bootstrap[+3.3,+33.3] mean-unit-diff=+18.1 perm_p=0.062 wins=5/5 (ties 1) sign_p=0.062
+Collapsed 6 escalate-retry: units=6 stream_retry=49.2 escalate=56.2 diff=+7.0 unit-bootstrap[-8.0,+27.7] mean-unit-diff=+2.5 perm_p=1.000 wins=1/3 (ties 3) sign_p=1.000
+
+Per collapsed unit (acc %): unit k0 stream retry append escalate
+locomo conv-26 20.0 0.0 10.0 30.0 10.0
+locomo conv-42 30.0 10.0 40.0 40.0 20.0
+locomo conv-47 20.0 0.0 20.0 20.0 20.0
+memora business_executive 55.6 35.6 31.1 46.7 73.3
+memora management_consultant 58.2 49.1 56.4 56.4 49.1
+memora marketing_manager 34.5 40.0 70.9 70.9 70.9
+Holm (confirmatory): {'Pooled 19 retry-stream': 0.125, 'LoCoMo 10 retry-stream': 0.25}
+TOST 5pt equivalence established: ['Memora 9 k2-k0']
+
+## Stream-level collapse rates (rho=0.5, floor 300), Clopper-Pearson 95%
+30B/memora: streams hit 3/9 [7,70]%  events 4/89 rewrites
+30B/locomo: streams hit 3/10 [7,65]%  events 9/262 rewrites
+30B/lme: streams hit 21/23 [72,99]%  events 39/201 rewrites
+30B/: streams hit 27/42 [48,78]%  events 52/552 rewrites
+550B/: streams hit 0/12 [0,26]%  events 0/281 rewrites
+
+## Collapse vs the 1,200-word cap: rewrites by pre-rewrite length (old), rho=0.5
+writer bin rewrites collapses rate%
+30B 300-600 147 16 10.9
+30B 600-900 72 11 15.3
+30B 900-1200 41 5 12.2
+30B 1200-1500 53 11 20.8
+30B 1500-inf 142 9 6.3
+30B pre-collapse old length: min 365 median 891 max 2200 share >=1000: 23/52
+550B 300-600 30 0 0.0
+550B 600-900 27 0 0.0
+550B 900-1200 31 0 0.0
+550B 1200-1500 27 0 0.0
+550B 1500-inf 143 0 0.0

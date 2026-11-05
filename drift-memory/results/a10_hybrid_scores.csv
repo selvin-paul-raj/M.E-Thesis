@@ -1,0 +1,1085 @@
+dataset,unit,cond,qid,correct
+locomo,conv-30,raw,Why did Gina decide to start her own clothing store?,0
+locomo,conv-30,raw,When did Gina interview for a design internship?,1
+locomo,conv-30,raw,What advice does Gina give to Jon about running a successful business?,0
+locomo,conv-30,raw,Do Jon and Gina start businesses out of what they love?,1
+locomo,conv-30,raw,When did Jon start to go to the gym?,1
+locomo,conv-30,raw,What is Jon offering to the dancers at his dance studio?,1
+locomo,conv-30,raw,What Jon thinks the ideal dance studio should look like?,0
+locomo,conv-30,raw,When did Jon host a dance competition?,0
+locomo,conv-30,raw,What does Gina's tattoo symbolize?,0
+locomo,conv-30,raw,Did Jon and Gina both participate in dance competitions?,1
+locomo,conv-30,hybrid,Why did Gina decide to start her own clothing store?,0
+locomo,conv-30,hybrid,When did Gina interview for a design internship?,1
+locomo,conv-30,hybrid,What advice does Gina give to Jon about running a successful business?,0
+locomo,conv-30,hybrid,Do Jon and Gina start businesses out of what they love?,1
+locomo,conv-30,hybrid,When did Jon start to go to the gym?,1
+locomo,conv-30,hybrid,What is Jon offering to the dancers at his dance studio?,1
+locomo,conv-30,hybrid,What Jon thinks the ideal dance studio should look like?,0
+locomo,conv-30,hybrid,When did Jon host a dance competition?,1
+locomo,conv-30,hybrid,What does Gina's tattoo symbolize?,0
+locomo,conv-30,hybrid,Did Jon and Gina both participate in dance competitions?,1
+locomo,conv-48,raw,What gifts has Deborah received?,0
+locomo,conv-48,raw,When did Deborah go to a community meetup?,0
+locomo,conv-48,raw,Does Deborah live close to the beach or the mountains?,0
+locomo,conv-48,raw,Does Deborah like cats?,1
+locomo,conv-48,raw,Which games have Jolene and her partner played together?,0
+locomo,conv-48,raw,When did Jolene buy a new aquarium for Seraphim?,1
+locomo,conv-48,raw,Why did Jolene sometimes put off doing yoga?,0
+locomo,conv-48,raw,Where did Deborah get her cats?,0
+locomo,conv-48,raw,Which countries has Deborah traveled to?,0
+locomo,conv-48,raw,When did Deborah go for her first morning jog in a nearby park?,0
+locomo,conv-48,hybrid,What gifts has Deborah received?,0
+locomo,conv-48,hybrid,When did Deborah go to a community meetup?,0
+locomo,conv-48,hybrid,Does Deborah live close to the beach or the mountains?,1
+locomo,conv-48,hybrid,Does Deborah like cats?,1
+locomo,conv-48,hybrid,Which games have Jolene and her partner played together?,0
+locomo,conv-48,hybrid,When did Jolene buy a new aquarium for Seraphim?,0
+locomo,conv-48,hybrid,Why did Jolene sometimes put off doing yoga?,0
+locomo,conv-48,hybrid,Where did Deborah get her cats?,0
+locomo,conv-48,hybrid,Which countries has Deborah traveled to?,0
+locomo,conv-48,hybrid,When did Deborah go for her first morning jog in a nearby park?,0
+locomo,conv-43,raw,What kind of fiction stories does Tim write?,0
+locomo,conv-43,raw,When did John start playing professionally?,0
+locomo,conv-43,raw,What other exercises can help John with his basketball performance?,0
+locomo,conv-43,raw,What kind of articles has Tim been writing about for the online magazine?,0
+locomo,conv-43,raw,What sports does John like besides basketball?,0
+locomo,conv-43,raw,Which country was Tim visiting in the second week of November?,1
+locomo,conv-43,raw,Which popular music composer's tunes does Tim enjoy playing on the piano?,0
+locomo,conv-43,raw,When did John meet back up with his teammates after his trip in August 2023?,1
+locomo,conv-43,raw,Which US cities does John mention visiting to Tim?,0
+locomo,conv-43,raw,When is Tim attending a book conference?,0
+locomo,conv-43,hybrid,What kind of fiction stories does Tim write?,0
+locomo,conv-43,hybrid,When did John start playing professionally?,0
+locomo,conv-43,hybrid,What other exercises can help John with his basketball performance?,0
+locomo,conv-43,hybrid,What kind of articles has Tim been writing about for the online magazine?,0
+locomo,conv-43,hybrid,What sports does John like besides basketball?,1
+locomo,conv-43,hybrid,Which country was Tim visiting in the second week of November?,1
+locomo,conv-43,hybrid,Which popular music composer's tunes does Tim enjoy playing on the piano?,1
+locomo,conv-43,hybrid,When did John meet back up with his teammates after his trip in August 2023?,1
+locomo,conv-43,hybrid,Which US cities does John mention visiting to Tim?,1
+locomo,conv-43,hybrid,When is Tim attending a book conference?,1
+locomo,conv-44,raw,What does Audrey view her pets as?,1
+locomo,conv-44,raw,"How long has it been since Andrew adopted his first pet, as of November 2023?",0
+locomo,conv-44,raw,What can Andrew potentially do to improve his stress and accomodate his living s,0
+locomo,conv-44,raw,What did Audrey make to thank her neighbors?,1
+locomo,conv-44,raw,How does Andrew feel about his current work?,0
+locomo,conv-44,raw,Where did Andrew go during the first weekend of August 2023?,0
+locomo,conv-44,raw,Which meat does Audrey prefer eating more than others?,0
+locomo,conv-44,raw,How do Audrey's dogs react to snow?,1
+locomo,conv-44,raw,What did Audrey get wtih having so many dogs?,0
+locomo,conv-44,raw,When did Audrey see a hummingbird?,1
+locomo,conv-44,hybrid,What does Audrey view her pets as?,1
+locomo,conv-44,hybrid,"How long has it been since Andrew adopted his first pet, as of November 2023?",0
+locomo,conv-44,hybrid,What can Andrew potentially do to improve his stress and accomodate his living s,0
+locomo,conv-44,hybrid,What did Audrey make to thank her neighbors?,1
+locomo,conv-44,hybrid,How does Andrew feel about his current work?,1
+locomo,conv-44,hybrid,Where did Andrew go during the first weekend of August 2023?,0
+locomo,conv-44,hybrid,Which meat does Audrey prefer eating more than others?,1
+locomo,conv-44,hybrid,How do Audrey's dogs react to snow?,0
+locomo,conv-44,hybrid,What did Audrey get wtih having so many dogs?,0
+locomo,conv-44,hybrid,When did Audrey see a hummingbird?,0
+locomo,conv-47,raw,What kind of tricks do James's pets know?,0
+locomo,conv-47,raw,"Where was James at on July 12, 2022?",0
+locomo,conv-47,raw,Who is Jill?,1
+locomo,conv-47,raw,When did James plan to return from his trip to Toronto and Vancouver?,1
+locomo,conv-47,raw,Which countries has James visited?,0
+locomo,conv-47,raw,How many days did James plan to spend on his trip in Canada?,0
+locomo,conv-47,raw,What is the game with different colored cards that was John talking about with J,0
+locomo,conv-47,raw,What does John do to stay informed and constantly learn about game design?,1
+locomo,conv-47,raw,Which books has John recommended to James?,0
+locomo,conv-47,raw,"Which recreational activity was James pursuing on March 16, 2022?",0
+locomo,conv-47,hybrid,What kind of tricks do James's pets know?,0
+locomo,conv-47,hybrid,"Where was James at on July 12, 2022?",1
+locomo,conv-47,hybrid,Who is Jill?,0
+locomo,conv-47,hybrid,When did James plan to return from his trip to Toronto and Vancouver?,1
+locomo,conv-47,hybrid,Which countries has James visited?,0
+locomo,conv-47,hybrid,How many days did James plan to spend on his trip in Canada?,0
+locomo,conv-47,hybrid,What is the game with different colored cards that was John talking about with J,0
+locomo,conv-47,hybrid,What does John do to stay informed and constantly learn about game design?,1
+locomo,conv-47,hybrid,Which books has John recommended to James?,0
+locomo,conv-47,hybrid,"Which recreational activity was James pursuing on March 16, 2022?",0
+locomo,conv-49,raw,What motivates Evan to take care of his health?,0
+locomo,conv-49,raw,When did Evan go skiing in Banff?,0
+locomo,conv-49,raw,How might Evan and Sam's experiences with health and lifestyle changes influence,0
+locomo,conv-49,raw,What did Evan suggest Sam try as a calming hobby?,1
+locomo,conv-49,raw,Where has Evan been on roadtrips with his family?,0
+locomo,conv-49,raw,When did Evan and Sam decide to paint together?,0
+locomo,conv-49,raw,"What challenges does Sam face in his quest for a healthier lifestyle, and how do",0
+locomo,conv-49,raw,What is the motto of Evan's family?,1
+locomo,conv-49,raw,What health scares did Sam and Evan experience?,0
+locomo,conv-49,raw,Which classes did Evan join in mid-August 2023?,1
+locomo,conv-49,hybrid,What motivates Evan to take care of his health?,0
+locomo,conv-49,hybrid,When did Evan go skiing in Banff?,0
+locomo,conv-49,hybrid,How might Evan and Sam's experiences with health and lifestyle changes influence,1
+locomo,conv-49,hybrid,What did Evan suggest Sam try as a calming hobby?,1
+locomo,conv-49,hybrid,Where has Evan been on roadtrips with his family?,0
+locomo,conv-49,hybrid,When did Evan and Sam decide to paint together?,0
+locomo,conv-49,hybrid,"What challenges does Sam face in his quest for a healthier lifestyle, and how do",0
+locomo,conv-49,hybrid,What is the motto of Evan's family?,1
+locomo,conv-49,hybrid,What health scares did Sam and Evan experience?,0
+locomo,conv-49,hybrid,Which classes did Evan join in mid-August 2023?,1
+memora,business_executive,raw,activity_todos_145,0
+memora,business_executive,raw,activity_todos_145,0
+memora,business_executive,raw,activity_todos_145,1
+memora,business_executive,raw,activity_todos_145,0
+memora,business_executive,raw,activity_todos_145,1
+memora,business_executive,raw,activity_todos_145,1
+memora,business_executive,raw,activity_todos_145,1
+memora,business_executive,raw,activity_todos_145,1
+memora,business_executive,raw,activity_todos_145,1
+memora,business_executive,raw,activity_todos_145,1
+memora,business_executive,raw,activity_calendar_145,0
+memora,business_executive,raw,activity_calendar_145,0
+memora,business_executive,raw,content_project_proposal_145_project_proposal_1,1
+memora,business_executive,raw,content_project_proposal_145_project_proposal_1,1
+memora,business_executive,raw,content_project_proposal_145_project_proposal_1,0
+memora,business_executive,raw,content_project_proposal_145_project_proposal_1,0
+memora,business_executive,raw,content_project_proposal_145_project_proposal_1,0
+memora,business_executive,raw,content_project_proposal_145_project_proposal_1,0
+memora,business_executive,raw,content_project_proposal_145_project_proposal_1,1
+memora,business_executive,raw,content_project_proposal_145_project_proposal_1,0
+memora,business_executive,raw,content_project_proposal_145_project_proposal_1,1
+memora,business_executive,raw,content_project_proposal_145_project_proposal_1,1
+memora,business_executive,raw,content_project_proposal_145_project_proposal_1,1
+memora,business_executive,raw,content_project_proposal_145_project_proposal_1,1
+memora,business_executive,raw,content_email_writeup_145_email_writeup_1,1
+memora,business_executive,raw,content_email_writeup_145_email_writeup_1,0
+memora,business_executive,raw,content_email_writeup_145_email_writeup_1,0
+memora,business_executive,raw,content_email_writeup_145_email_writeup_1,1
+memora,business_executive,raw,content_email_writeup_145_email_writeup_1,1
+memora,business_executive,raw,content_email_writeup_145_email_writeup_1,1
+memora,business_executive,raw,content_email_writeup_145_email_writeup_2,1
+memora,business_executive,raw,content_email_writeup_145_email_writeup_2,0
+memora,business_executive,raw,content_email_writeup_145_email_writeup_2,1
+memora,business_executive,raw,content_email_writeup_145_email_writeup_2,0
+memora,business_executive,raw,content_email_writeup_145_email_writeup_2,1
+memora,business_executive,raw,content_email_writeup_145_email_writeup_2,1
+memora,business_executive,raw,activity_food_total_145,0
+memora,business_executive,raw,activity_steps_total_145,0
+memora,business_executive,raw,goal_food_expenses_grocery_145_0,1
+memora,business_executive,raw,goal_food_expenses_grocery_145_0,0
+memora,business_executive,raw,goal_food_expenses_grocery_145_0,0
+memora,business_executive,raw,goal_step_tracker_daily_steps_145_0,0
+memora,business_executive,raw,goal_step_tracker_daily_steps_145_0,0
+memora,business_executive,raw,goal_step_tracker_daily_steps_145_0,0
+memora,business_executive,raw,activity_food_coffee_145,0
+memora,business_executive,hybrid,activity_todos_145,1
+memora,business_executive,hybrid,activity_todos_145,0
+memora,business_executive,hybrid,activity_todos_145,1
+memora,business_executive,hybrid,activity_todos_145,1
+memora,business_executive,hybrid,activity_todos_145,1
+memora,business_executive,hybrid,activity_todos_145,1
+memora,business_executive,hybrid,activity_todos_145,1
+memora,business_executive,hybrid,activity_todos_145,1
+memora,business_executive,hybrid,activity_todos_145,1
+memora,business_executive,hybrid,activity_todos_145,1
+memora,business_executive,hybrid,activity_calendar_145,0
+memora,business_executive,hybrid,activity_calendar_145,0
+memora,business_executive,hybrid,content_project_proposal_145_project_proposal_1,1
+memora,business_executive,hybrid,content_project_proposal_145_project_proposal_1,0
+memora,business_executive,hybrid,content_project_proposal_145_project_proposal_1,0
+memora,business_executive,hybrid,content_project_proposal_145_project_proposal_1,0
+memora,business_executive,hybrid,content_project_proposal_145_project_proposal_1,0
+memora,business_executive,hybrid,content_project_proposal_145_project_proposal_1,0
+memora,business_executive,hybrid,content_project_proposal_145_project_proposal_1,0
+memora,business_executive,hybrid,content_project_proposal_145_project_proposal_1,0
+memora,business_executive,hybrid,content_project_proposal_145_project_proposal_1,1
+memora,business_executive,hybrid,content_project_proposal_145_project_proposal_1,1
+memora,business_executive,hybrid,content_project_proposal_145_project_proposal_1,1
+memora,business_executive,hybrid,content_project_proposal_145_project_proposal_1,1
+memora,business_executive,hybrid,content_email_writeup_145_email_writeup_1,1
+memora,business_executive,hybrid,content_email_writeup_145_email_writeup_1,0
+memora,business_executive,hybrid,content_email_writeup_145_email_writeup_1,0
+memora,business_executive,hybrid,content_email_writeup_145_email_writeup_1,1
+memora,business_executive,hybrid,content_email_writeup_145_email_writeup_1,1
+memora,business_executive,hybrid,content_email_writeup_145_email_writeup_1,1
+memora,business_executive,hybrid,content_email_writeup_145_email_writeup_2,1
+memora,business_executive,hybrid,content_email_writeup_145_email_writeup_2,0
+memora,business_executive,hybrid,content_email_writeup_145_email_writeup_2,1
+memora,business_executive,hybrid,content_email_writeup_145_email_writeup_2,0
+memora,business_executive,hybrid,content_email_writeup_145_email_writeup_2,1
+memora,business_executive,hybrid,content_email_writeup_145_email_writeup_2,1
+memora,business_executive,hybrid,activity_food_total_145,0
+memora,business_executive,hybrid,activity_steps_total_145,0
+memora,business_executive,hybrid,goal_food_expenses_grocery_145_0,1
+memora,business_executive,hybrid,goal_food_expenses_grocery_145_0,0
+memora,business_executive,hybrid,goal_food_expenses_grocery_145_0,0
+memora,business_executive,hybrid,goal_step_tracker_daily_steps_145_0,1
+memora,business_executive,hybrid,goal_step_tracker_daily_steps_145_0,0
+memora,business_executive,hybrid,goal_step_tracker_daily_steps_145_0,0
+memora,business_executive,hybrid,activity_food_coffee_145,0
+locomo,conv-50,raw,What was Dave doing in San Francisco?,1
+locomo,conv-50,raw,"Which city was Calvin at on October 3, 2023?",0
+locomo,conv-50,raw,Does Calvin love music tours?,0
+locomo,conv-50,raw,What color glow did Calvin customize his guitar with?,1
+locomo,conv-50,raw,How many times has Calvin had to deal with insurance paperwork?,1
+locomo,conv-50,raw,When did Dave host a card-playing night with his friends?,0
+locomo,conv-50,raw,Which country do Calvin and Dave want to meet in?,1
+locomo,conv-50,raw,What is the toughest part of car restoration according to Dave?,0
+locomo,conv-50,raw,Where did Dave return from with new knowledge of different techniques of car res,1
+locomo,conv-50,raw,When did Dave take a trip to mountainous regions?,0
+locomo,conv-50,hybrid,What was Dave doing in San Francisco?,1
+locomo,conv-50,hybrid,"Which city was Calvin at on October 3, 2023?",0
+locomo,conv-50,hybrid,Does Calvin love music tours?,1
+locomo,conv-50,hybrid,What color glow did Calvin customize his guitar with?,1
+locomo,conv-50,hybrid,How many times has Calvin had to deal with insurance paperwork?,1
+locomo,conv-50,hybrid,When did Dave host a card-playing night with his friends?,0
+locomo,conv-50,hybrid,Which country do Calvin and Dave want to meet in?,0
+locomo,conv-50,hybrid,What is the toughest part of car restoration according to Dave?,0
+locomo,conv-50,hybrid,Where did Dave return from with new knowledge of different techniques of car res,1
+locomo,conv-50,hybrid,When did Dave take a trip to mountainous regions?,0
+memora,sales_manager,raw,content_meeting_notes_163_meeting_notes_1,1
+memora,sales_manager,raw,content_meeting_notes_163_meeting_notes_1,0
+memora,sales_manager,raw,content_meeting_notes_163_meeting_notes_1,1
+memora,sales_manager,raw,content_meeting_notes_163_meeting_notes_1,0
+memora,sales_manager,raw,content_meeting_notes_163_meeting_notes_1,1
+memora,sales_manager,raw,content_meeting_notes_163_meeting_notes_1,0
+memora,sales_manager,raw,content_meeting_notes_163_meeting_notes_1,1
+memora,sales_manager,raw,content_meeting_notes_163_meeting_notes_1,0
+memora,sales_manager,raw,content_project_proposal_163_project_proposal_1,1
+memora,sales_manager,raw,content_project_proposal_163_project_proposal_1,1
+memora,sales_manager,raw,content_project_proposal_163_project_proposal_1,1
+memora,sales_manager,raw,content_project_proposal_163_project_proposal_1,0
+memora,sales_manager,raw,content_project_proposal_163_project_proposal_1,1
+memora,sales_manager,raw,content_project_proposal_163_project_proposal_1,0
+memora,sales_manager,raw,content_project_proposal_163_project_proposal_1,1
+memora,sales_manager,raw,content_project_proposal_163_project_proposal_1,0
+memora,sales_manager,raw,content_project_proposal_163_project_proposal_1,1
+memora,sales_manager,raw,content_project_proposal_163_project_proposal_1,1
+memora,sales_manager,raw,content_project_proposal_163_project_proposal_1,1
+memora,sales_manager,raw,content_project_proposal_163_project_proposal_2,1
+memora,sales_manager,raw,content_project_proposal_163_project_proposal_2,0
+memora,sales_manager,raw,content_project_proposal_163_project_proposal_2,0
+memora,sales_manager,raw,content_project_proposal_163_project_proposal_2,0
+memora,sales_manager,raw,content_project_proposal_163_project_proposal_2,0
+memora,sales_manager,raw,content_project_proposal_163_project_proposal_2,0
+memora,sales_manager,raw,content_project_proposal_163_project_proposal_2,0
+memora,sales_manager,raw,content_project_proposal_163_project_proposal_2,0
+memora,sales_manager,raw,content_project_proposal_163_project_proposal_2,0
+memora,sales_manager,raw,content_project_proposal_163_project_proposal_2,0
+memora,sales_manager,raw,content_email_writeup_163_email_writeup_1,1
+memora,sales_manager,raw,content_email_writeup_163_email_writeup_1,0
+memora,sales_manager,raw,content_email_writeup_163_email_writeup_1,0
+memora,sales_manager,raw,content_email_writeup_163_email_writeup_1,0
+memora,sales_manager,raw,content_email_writeup_163_email_writeup_1,1
+memora,sales_manager,raw,content_email_writeup_163_email_writeup_1,1
+memora,sales_manager,raw,content_meeting_notes_163_meeting_notes_2,1
+memora,sales_manager,raw,content_meeting_notes_163_meeting_notes_2,0
+memora,sales_manager,raw,content_meeting_notes_163_meeting_notes_2,0
+memora,sales_manager,raw,content_meeting_notes_163_meeting_notes_2,1
+memora,sales_manager,raw,content_meeting_notes_163_meeting_notes_2,1
+memora,sales_manager,raw,activity_food_total_163,0
+memora,sales_manager,raw,activity_steps_total_163,0
+memora,sales_manager,raw,goal_food_expenses_coffee_163_0,1
+memora,sales_manager,raw,goal_food_expenses_coffee_163_0,0
+memora,sales_manager,raw,goal_food_expenses_coffee_163_0,0
+memora,sales_manager,raw,goal_step_tracker_daily_steps_163_0,1
+memora,sales_manager,raw,goal_step_tracker_daily_steps_163_0,0
+memora,sales_manager,raw,goal_step_tracker_daily_steps_163_0,1
+memora,sales_manager,raw,activity_food_coffee_163,0
+memora,sales_manager,hybrid,content_meeting_notes_163_meeting_notes_1,0
+memora,sales_manager,hybrid,content_meeting_notes_163_meeting_notes_1,0
+memora,sales_manager,hybrid,content_meeting_notes_163_meeting_notes_1,0
+memora,sales_manager,hybrid,content_meeting_notes_163_meeting_notes_1,0
+memora,sales_manager,hybrid,content_meeting_notes_163_meeting_notes_1,1
+memora,sales_manager,hybrid,content_meeting_notes_163_meeting_notes_1,1
+memora,sales_manager,hybrid,content_meeting_notes_163_meeting_notes_1,1
+memora,sales_manager,hybrid,content_meeting_notes_163_meeting_notes_1,1
+memora,sales_manager,hybrid,content_project_proposal_163_project_proposal_1,0
+memora,sales_manager,hybrid,content_project_proposal_163_project_proposal_1,0
+memora,sales_manager,hybrid,content_project_proposal_163_project_proposal_1,0
+memora,sales_manager,hybrid,content_project_proposal_163_project_proposal_1,0
+memora,sales_manager,hybrid,content_project_proposal_163_project_proposal_1,0
+memora,sales_manager,hybrid,content_project_proposal_163_project_proposal_1,0
+memora,sales_manager,hybrid,content_project_proposal_163_project_proposal_1,0
+memora,sales_manager,hybrid,content_project_proposal_163_project_proposal_1,0
+memora,sales_manager,hybrid,content_project_proposal_163_project_proposal_1,0
+memora,sales_manager,hybrid,content_project_proposal_163_project_proposal_1,0
+memora,sales_manager,hybrid,content_project_proposal_163_project_proposal_1,1
+memora,sales_manager,hybrid,content_project_proposal_163_project_proposal_2,0
+memora,sales_manager,hybrid,content_project_proposal_163_project_proposal_2,0
+memora,sales_manager,hybrid,content_project_proposal_163_project_proposal_2,0
+memora,sales_manager,hybrid,content_project_proposal_163_project_proposal_2,0
+memora,sales_manager,hybrid,content_project_proposal_163_project_proposal_2,0
+memora,sales_manager,hybrid,content_project_proposal_163_project_proposal_2,0
+memora,sales_manager,hybrid,content_project_proposal_163_project_proposal_2,0
+memora,sales_manager,hybrid,content_project_proposal_163_project_proposal_2,0
+memora,sales_manager,hybrid,content_project_proposal_163_project_proposal_2,0
+memora,sales_manager,hybrid,content_project_proposal_163_project_proposal_2,0
+memora,sales_manager,hybrid,content_email_writeup_163_email_writeup_1,1
+memora,sales_manager,hybrid,content_email_writeup_163_email_writeup_1,0
+memora,sales_manager,hybrid,content_email_writeup_163_email_writeup_1,0
+memora,sales_manager,hybrid,content_email_writeup_163_email_writeup_1,0
+memora,sales_manager,hybrid,content_email_writeup_163_email_writeup_1,1
+memora,sales_manager,hybrid,content_email_writeup_163_email_writeup_1,1
+memora,sales_manager,hybrid,content_meeting_notes_163_meeting_notes_2,0
+memora,sales_manager,hybrid,content_meeting_notes_163_meeting_notes_2,0
+memora,sales_manager,hybrid,content_meeting_notes_163_meeting_notes_2,0
+memora,sales_manager,hybrid,content_meeting_notes_163_meeting_notes_2,0
+memora,sales_manager,hybrid,content_meeting_notes_163_meeting_notes_2,1
+memora,sales_manager,hybrid,activity_food_total_163,0
+memora,sales_manager,hybrid,activity_steps_total_163,0
+memora,sales_manager,hybrid,goal_food_expenses_coffee_163_0,1
+memora,sales_manager,hybrid,goal_food_expenses_coffee_163_0,0
+memora,sales_manager,hybrid,goal_food_expenses_coffee_163_0,0
+memora,sales_manager,hybrid,goal_step_tracker_daily_steps_163_0,1
+memora,sales_manager,hybrid,goal_step_tracker_daily_steps_163_0,0
+memora,sales_manager,hybrid,goal_step_tracker_daily_steps_163_0,0
+memora,sales_manager,hybrid,activity_food_coffee_163,0
+locomo,conv-26,raw,What events has Caroline participated in to help children?,0
+locomo,conv-26,raw,When did Melanie go to the pottery workshop?,1
+locomo,conv-26,raw,Would Caroline pursue writing as a career option?,0
+locomo,conv-26,raw,What creative project do Mel and her kids do together besides pottery?,0
+locomo,conv-26,raw,What activities has Melanie done with her family?,0
+locomo,conv-26,raw,When did Caroline go to the adoption meeting?,0
+locomo,conv-26,raw,Would Caroline be considered religious?,0
+locomo,conv-26,raw,What activity did Caroline used to do with her dad?,1
+locomo,conv-26,raw,What books has Melanie read?,0
+locomo,conv-26,raw,When did Melanie sign up for a pottery class?,0
+locomo,conv-26,hybrid,What events has Caroline participated in to help children?,0
+locomo,conv-26,hybrid,When did Melanie go to the pottery workshop?,0
+locomo,conv-26,hybrid,Would Caroline pursue writing as a career option?,0
+locomo,conv-26,hybrid,What creative project do Mel and her kids do together besides pottery?,0
+locomo,conv-26,hybrid,What activities has Melanie done with her family?,0
+locomo,conv-26,hybrid,When did Caroline go to the adoption meeting?,0
+locomo,conv-26,hybrid,Would Caroline be considered religious?,0
+locomo,conv-26,hybrid,What activity did Caroline used to do with her dad?,1
+locomo,conv-26,hybrid,What books has Melanie read?,0
+locomo,conv-26,hybrid,When did Melanie sign up for a pottery class?,0
+memora,financial_analyst,raw,activity_todos_156,0
+memora,financial_analyst,raw,activity_todos_156,0
+memora,financial_analyst,raw,activity_todos_156,0
+memora,financial_analyst,raw,activity_todos_156,0
+memora,financial_analyst,raw,activity_todos_156,0
+memora,financial_analyst,raw,activity_todos_156,0
+memora,financial_analyst,raw,activity_todos_156,0
+memora,financial_analyst,raw,activity_todos_156,0
+memora,financial_analyst,raw,activity_todos_156,0
+memora,financial_analyst,raw,activity_todos_156,1
+memora,financial_analyst,raw,activity_todos_156,1
+memora,financial_analyst,raw,activity_todos_156,1
+memora,financial_analyst,raw,activity_todos_156,1
+memora,financial_analyst,raw,content_project_proposal_156_project_proposal_1,1
+memora,financial_analyst,raw,content_project_proposal_156_project_proposal_1,0
+memora,financial_analyst,raw,content_project_proposal_156_project_proposal_1,0
+memora,financial_analyst,raw,content_project_proposal_156_project_proposal_1,0
+memora,financial_analyst,raw,content_project_proposal_156_project_proposal_1,1
+memora,financial_analyst,raw,content_project_proposal_156_project_proposal_1,0
+memora,financial_analyst,raw,content_project_proposal_156_project_proposal_1,1
+memora,financial_analyst,raw,content_project_proposal_156_project_proposal_1,1
+memora,financial_analyst,raw,content_project_proposal_156_project_proposal_1,0
+memora,financial_analyst,raw,content_project_proposal_156_project_proposal_1,0
+memora,financial_analyst,raw,content_project_proposal_156_project_proposal_2,1
+memora,financial_analyst,raw,content_project_proposal_156_project_proposal_2,0
+memora,financial_analyst,raw,content_project_proposal_156_project_proposal_2,0
+memora,financial_analyst,raw,content_project_proposal_156_project_proposal_2,0
+memora,financial_analyst,raw,content_project_proposal_156_project_proposal_2,1
+memora,financial_analyst,raw,content_project_proposal_156_project_proposal_2,0
+memora,financial_analyst,raw,content_project_proposal_156_project_proposal_2,1
+memora,financial_analyst,raw,content_project_proposal_156_project_proposal_2,1
+memora,financial_analyst,raw,content_project_proposal_156_project_proposal_2,1
+memora,financial_analyst,raw,content_project_proposal_156_project_proposal_2,1
+memora,financial_analyst,raw,content_project_proposal_156_project_proposal_2,0
+memora,financial_analyst,raw,content_email_writeup_156_email_writeup_1,1
+memora,financial_analyst,raw,content_email_writeup_156_email_writeup_1,0
+memora,financial_analyst,raw,content_email_writeup_156_email_writeup_1,0
+memora,financial_analyst,raw,content_email_writeup_156_email_writeup_1,1
+memora,financial_analyst,raw,content_email_writeup_156_email_writeup_1,1
+memora,financial_analyst,raw,content_email_writeup_156_email_writeup_1,1
+memora,financial_analyst,raw,content_meeting_notes_156_meeting_notes_2,1
+memora,financial_analyst,raw,content_meeting_notes_156_meeting_notes_2,0
+memora,financial_analyst,raw,content_meeting_notes_156_meeting_notes_2,0
+memora,financial_analyst,raw,content_meeting_notes_156_meeting_notes_2,1
+memora,financial_analyst,raw,activity_food_total_156,0
+memora,financial_analyst,raw,activity_steps_total_156,0
+memora,financial_analyst,raw,goal_food_expenses_lunch_156_0,1
+memora,financial_analyst,raw,goal_food_expenses_lunch_156_0,0
+memora,financial_analyst,raw,goal_food_expenses_lunch_156_0,0
+memora,financial_analyst,raw,goal_step_tracker_daily_steps_156_0,1
+memora,financial_analyst,raw,goal_step_tracker_daily_steps_156_0,0
+memora,financial_analyst,raw,goal_step_tracker_daily_steps_156_0,1
+memora,financial_analyst,raw,activity_food_coffee_156,0
+memora,financial_analyst,hybrid,activity_todos_156,0
+memora,financial_analyst,hybrid,activity_todos_156,0
+memora,financial_analyst,hybrid,activity_todos_156,0
+memora,financial_analyst,hybrid,activity_todos_156,0
+memora,financial_analyst,hybrid,activity_todos_156,1
+memora,financial_analyst,hybrid,activity_todos_156,0
+memora,financial_analyst,hybrid,activity_todos_156,0
+memora,financial_analyst,hybrid,activity_todos_156,0
+memora,financial_analyst,hybrid,activity_todos_156,0
+memora,financial_analyst,hybrid,activity_todos_156,0
+memora,financial_analyst,hybrid,activity_todos_156,1
+memora,financial_analyst,hybrid,activity_todos_156,1
+memora,financial_analyst,hybrid,activity_todos_156,1
+memora,financial_analyst,hybrid,content_project_proposal_156_project_proposal_1,1
+memora,financial_analyst,hybrid,content_project_proposal_156_project_proposal_1,0
+memora,financial_analyst,hybrid,content_project_proposal_156_project_proposal_1,0
+memora,financial_analyst,hybrid,content_project_proposal_156_project_proposal_1,0
+memora,financial_analyst,hybrid,content_project_proposal_156_project_proposal_1,0
+memora,financial_analyst,hybrid,content_project_proposal_156_project_proposal_1,0
+memora,financial_analyst,hybrid,content_project_proposal_156_project_proposal_1,0
+memora,financial_analyst,hybrid,content_project_proposal_156_project_proposal_1,0
+memora,financial_analyst,hybrid,content_project_proposal_156_project_proposal_1,0
+memora,financial_analyst,hybrid,content_project_proposal_156_project_proposal_1,1
+memora,financial_analyst,hybrid,content_project_proposal_156_project_proposal_2,1
+memora,financial_analyst,hybrid,content_project_proposal_156_project_proposal_2,0
+memora,financial_analyst,hybrid,content_project_proposal_156_project_proposal_2,1
+memora,financial_analyst,hybrid,content_project_proposal_156_project_proposal_2,1
+memora,financial_analyst,hybrid,content_project_proposal_156_project_proposal_2,1
+memora,financial_analyst,hybrid,content_project_proposal_156_project_proposal_2,1
+memora,financial_analyst,hybrid,content_project_proposal_156_project_proposal_2,1
+memora,financial_analyst,hybrid,content_project_proposal_156_project_proposal_2,1
+memora,financial_analyst,hybrid,content_project_proposal_156_project_proposal_2,1
+memora,financial_analyst,hybrid,content_project_proposal_156_project_proposal_2,1
+memora,financial_analyst,hybrid,content_project_proposal_156_project_proposal_2,1
+memora,financial_analyst,hybrid,content_email_writeup_156_email_writeup_1,1
+memora,financial_analyst,hybrid,content_email_writeup_156_email_writeup_1,0
+memora,financial_analyst,hybrid,content_email_writeup_156_email_writeup_1,0
+memora,financial_analyst,hybrid,content_email_writeup_156_email_writeup_1,1
+memora,financial_analyst,hybrid,content_email_writeup_156_email_writeup_1,1
+memora,financial_analyst,hybrid,content_email_writeup_156_email_writeup_1,1
+memora,financial_analyst,hybrid,content_meeting_notes_156_meeting_notes_2,1
+memora,financial_analyst,hybrid,content_meeting_notes_156_meeting_notes_2,1
+memora,financial_analyst,hybrid,content_meeting_notes_156_meeting_notes_2,1
+memora,financial_analyst,hybrid,content_meeting_notes_156_meeting_notes_2,1
+memora,financial_analyst,hybrid,activity_food_total_156,0
+memora,financial_analyst,hybrid,activity_steps_total_156,0
+memora,financial_analyst,hybrid,goal_food_expenses_lunch_156_0,1
+memora,financial_analyst,hybrid,goal_food_expenses_lunch_156_0,0
+memora,financial_analyst,hybrid,goal_food_expenses_lunch_156_0,0
+memora,financial_analyst,hybrid,goal_step_tracker_daily_steps_156_0,1
+memora,financial_analyst,hybrid,goal_step_tracker_daily_steps_156_0,0
+memora,financial_analyst,hybrid,goal_step_tracker_daily_steps_156_0,1
+memora,financial_analyst,hybrid,activity_food_coffee_156,0
+locomo,conv-41,raw,What types of yoga has Maria practiced?,0
+locomo,conv-41,raw,When did Maria get in a car accident?,0
+locomo,conv-41,raw,What might John's degree be in?,0
+locomo,conv-41,raw,"What event is Maria getting ready for at the shelter on May 25, 2023?",1
+locomo,conv-41,raw,What desserts has Maria made?,0
+locomo,conv-41,raw,When did John get his degree?,0
+locomo,conv-41,raw,Does John live close to a beach or the mountains?,0
+locomo,conv-41,raw,Which activity has John done apart from yoga at the studio?,1
+locomo,conv-41,raw,What events is Maria planning for the homeless shelter funraiser?,0
+locomo,conv-41,raw,When did John have a party with veterans?,0
+locomo,conv-41,hybrid,What types of yoga has Maria practiced?,0
+locomo,conv-41,hybrid,When did Maria get in a car accident?,0
+locomo,conv-41,hybrid,What might John's degree be in?,0
+locomo,conv-41,hybrid,"What event is Maria getting ready for at the shelter on May 25, 2023?",1
+locomo,conv-41,hybrid,What desserts has Maria made?,0
+locomo,conv-41,hybrid,When did John get his degree?,0
+locomo,conv-41,hybrid,Does John live close to a beach or the mountains?,1
+locomo,conv-41,hybrid,Which activity has John done apart from yoga at the studio?,1
+locomo,conv-41,hybrid,What events is Maria planning for the homeless shelter funraiser?,0
+locomo,conv-41,hybrid,When did John have a party with veterans?,0
+locomo,conv-42,raw,What places has Nate met new people?,1
+locomo,conv-42,raw,When did Nate win an international tournament?,0
+locomo,conv-42,raw,Is it likely that Nate has friends besides Joanna?,1
+locomo,conv-42,raw,What game was the second tournament that Nate won based on?,0
+locomo,conv-42,raw,What recipes has Nate made?,0
+locomo,conv-42,raw,When did someone write Joanna a touching letter?,0
+locomo,conv-42,raw,What nickname does Nate use for Joanna?,0
+locomo,conv-42,raw,Which dairy-free dessert flavors does Nate enjoy?,1
+locomo,conv-42,raw,How many screenplays has Joanna written?,0
+locomo,conv-42,raw,Which outdoor spot did Joanna visit in May?,0
+locomo,conv-42,hybrid,What places has Nate met new people?,0
+locomo,conv-42,hybrid,When did Nate win an international tournament?,1
+locomo,conv-42,hybrid,Is it likely that Nate has friends besides Joanna?,1
+locomo,conv-42,hybrid,What game was the second tournament that Nate won based on?,0
+locomo,conv-42,hybrid,What recipes has Nate made?,0
+locomo,conv-42,hybrid,When did someone write Joanna a touching letter?,1
+locomo,conv-42,hybrid,What nickname does Nate use for Joanna?,0
+locomo,conv-42,hybrid,Which dairy-free dessert flavors does Nate enjoy?,1
+locomo,conv-42,hybrid,How many screenplays has Joanna written?,1
+locomo,conv-42,hybrid,Which outdoor spot did Joanna visit in May?,0
+memora,content_writer,raw,activity_todos_151,0
+memora,content_writer,raw,activity_todos_151,0
+memora,content_writer,raw,activity_todos_151,0
+memora,content_writer,raw,activity_todos_151,0
+memora,content_writer,raw,activity_todos_151,1
+memora,content_writer,raw,activity_todos_151,1
+memora,content_writer,raw,activity_todos_151,1
+memora,content_writer,raw,activity_todos_151,1
+memora,content_writer,raw,activity_todos_151,1
+memora,content_writer,raw,activity_todos_151,0
+memora,content_writer,raw,activity_todos_151,1
+memora,content_writer,raw,content_email_writeup_151_email_writeup_1,0
+memora,content_writer,raw,content_email_writeup_151_email_writeup_1,0
+memora,content_writer,raw,content_email_writeup_151_email_writeup_1,0
+memora,content_writer,raw,content_email_writeup_151_email_writeup_1,0
+memora,content_writer,raw,content_email_writeup_151_email_writeup_1,1
+memora,content_writer,raw,content_email_writeup_151_email_writeup_1,1
+memora,content_writer,raw,content_meeting_notes_151_meeting_notes_1,1
+memora,content_writer,raw,content_meeting_notes_151_meeting_notes_1,0
+memora,content_writer,raw,content_meeting_notes_151_meeting_notes_1,1
+memora,content_writer,raw,content_meeting_notes_151_meeting_notes_1,1
+memora,content_writer,raw,content_meeting_notes_151_meeting_notes_1,0
+memora,content_writer,raw,content_meeting_notes_151_meeting_notes_1,1
+memora,content_writer,raw,content_meeting_notes_151_meeting_notes_1,1
+memora,content_writer,raw,content_meeting_notes_151_meeting_notes_1,0
+memora,content_writer,raw,activity_calendar_151,0
+memora,content_writer,raw,activity_calendar_151,0
+memora,content_writer,raw,content_email_writeup_151_email_writeup_2,1
+memora,content_writer,raw,content_email_writeup_151_email_writeup_2,0
+memora,content_writer,raw,content_email_writeup_151_email_writeup_2,1
+memora,content_writer,raw,content_email_writeup_151_email_writeup_2,0
+memora,content_writer,raw,content_email_writeup_151_email_writeup_2,1
+memora,content_writer,raw,content_email_writeup_151_email_writeup_2,1
+memora,content_writer,raw,activity_food_total_151,0
+memora,content_writer,raw,activity_steps_total_151,0
+memora,content_writer,raw,goal_food_expenses_coffee_151_0,1
+memora,content_writer,raw,goal_food_expenses_coffee_151_0,0
+memora,content_writer,raw,goal_food_expenses_coffee_151_0,1
+memora,content_writer,raw,goal_step_tracker_daily_steps_151_0,1
+memora,content_writer,raw,goal_step_tracker_daily_steps_151_0,0
+memora,content_writer,raw,goal_step_tracker_daily_steps_151_0,0
+memora,content_writer,raw,activity_food_coffee_151,0
+memora,content_writer,hybrid,activity_todos_151,0
+memora,content_writer,hybrid,activity_todos_151,1
+memora,content_writer,hybrid,activity_todos_151,0
+memora,content_writer,hybrid,activity_todos_151,0
+memora,content_writer,hybrid,activity_todos_151,1
+memora,content_writer,hybrid,activity_todos_151,1
+memora,content_writer,hybrid,activity_todos_151,1
+memora,content_writer,hybrid,activity_todos_151,1
+memora,content_writer,hybrid,activity_todos_151,1
+memora,content_writer,hybrid,activity_todos_151,1
+memora,content_writer,hybrid,activity_todos_151,1
+memora,content_writer,hybrid,content_email_writeup_151_email_writeup_1,1
+memora,content_writer,hybrid,content_email_writeup_151_email_writeup_1,0
+memora,content_writer,hybrid,content_email_writeup_151_email_writeup_1,0
+memora,content_writer,hybrid,content_email_writeup_151_email_writeup_1,1
+memora,content_writer,hybrid,content_email_writeup_151_email_writeup_1,1
+memora,content_writer,hybrid,content_email_writeup_151_email_writeup_1,1
+memora,content_writer,hybrid,content_meeting_notes_151_meeting_notes_1,1
+memora,content_writer,hybrid,content_meeting_notes_151_meeting_notes_1,0
+memora,content_writer,hybrid,content_meeting_notes_151_meeting_notes_1,0
+memora,content_writer,hybrid,content_meeting_notes_151_meeting_notes_1,0
+memora,content_writer,hybrid,content_meeting_notes_151_meeting_notes_1,1
+memora,content_writer,hybrid,content_meeting_notes_151_meeting_notes_1,1
+memora,content_writer,hybrid,content_meeting_notes_151_meeting_notes_1,1
+memora,content_writer,hybrid,content_meeting_notes_151_meeting_notes_1,1
+memora,content_writer,hybrid,activity_calendar_151,0
+memora,content_writer,hybrid,activity_calendar_151,1
+memora,content_writer,hybrid,content_email_writeup_151_email_writeup_2,1
+memora,content_writer,hybrid,content_email_writeup_151_email_writeup_2,1
+memora,content_writer,hybrid,content_email_writeup_151_email_writeup_2,1
+memora,content_writer,hybrid,content_email_writeup_151_email_writeup_2,1
+memora,content_writer,hybrid,content_email_writeup_151_email_writeup_2,1
+memora,content_writer,hybrid,content_email_writeup_151_email_writeup_2,0
+memora,content_writer,hybrid,activity_food_total_151,0
+memora,content_writer,hybrid,activity_steps_total_151,0
+memora,content_writer,hybrid,goal_food_expenses_coffee_151_0,1
+memora,content_writer,hybrid,goal_food_expenses_coffee_151_0,0
+memora,content_writer,hybrid,goal_food_expenses_coffee_151_0,0
+memora,content_writer,hybrid,goal_step_tracker_daily_steps_151_0,1
+memora,content_writer,hybrid,goal_step_tracker_daily_steps_151_0,0
+memora,content_writer,hybrid,goal_step_tracker_daily_steps_151_0,0
+memora,content_writer,hybrid,activity_food_coffee_151,0
+memora,software_engineer,raw,activity_todos_163,0
+memora,software_engineer,raw,activity_todos_163,0
+memora,software_engineer,raw,activity_todos_163,1
+memora,software_engineer,raw,activity_todos_163,1
+memora,software_engineer,raw,activity_todos_163,1
+memora,software_engineer,raw,activity_todos_163,1
+memora,software_engineer,raw,activity_todos_163,0
+memora,software_engineer,raw,activity_todos_163,1
+memora,software_engineer,raw,activity_todos_163,1
+memora,software_engineer,raw,activity_todos_163,1
+memora,software_engineer,raw,activity_todos_163,1
+memora,software_engineer,raw,activity_todos_163,1
+memora,software_engineer,raw,activity_calendar_163,0
+memora,software_engineer,raw,activity_calendar_163,0
+memora,software_engineer,raw,content_project_proposal_163_project_proposal_1,1
+memora,software_engineer,raw,content_project_proposal_163_project_proposal_1,1
+memora,software_engineer,raw,content_project_proposal_163_project_proposal_1,1
+memora,software_engineer,raw,content_project_proposal_163_project_proposal_1,0
+memora,software_engineer,raw,content_project_proposal_163_project_proposal_1,1
+memora,software_engineer,raw,content_project_proposal_163_project_proposal_1,0
+memora,software_engineer,raw,content_project_proposal_163_project_proposal_1,1
+memora,software_engineer,raw,content_project_proposal_163_project_proposal_1,0
+memora,software_engineer,raw,content_project_proposal_163_project_proposal_1,0
+memora,software_engineer,raw,content_project_proposal_163_project_proposal_1,1
+memora,software_engineer,raw,content_project_proposal_163_project_proposal_1,1
+memora,software_engineer,raw,content_project_proposal_163_project_proposal_1,1
+memora,software_engineer,raw,content_email_writeup_163_email_writeup_1,1
+memora,software_engineer,raw,content_email_writeup_163_email_writeup_1,0
+memora,software_engineer,raw,content_email_writeup_163_email_writeup_1,1
+memora,software_engineer,raw,content_email_writeup_163_email_writeup_1,1
+memora,software_engineer,raw,content_email_writeup_163_email_writeup_1,1
+memora,software_engineer,raw,content_meeting_notes_163_meeting_notes_2,1
+memora,software_engineer,raw,content_meeting_notes_163_meeting_notes_2,0
+memora,software_engineer,raw,content_meeting_notes_163_meeting_notes_2,0
+memora,software_engineer,raw,content_meeting_notes_163_meeting_notes_2,0
+memora,software_engineer,raw,content_meeting_notes_163_meeting_notes_2,1
+memora,software_engineer,raw,activity_food_total_163,0
+memora,software_engineer,raw,activity_steps_total_163,0
+memora,software_engineer,raw,goal_food_expenses_coffee_163_0,1
+memora,software_engineer,raw,goal_food_expenses_coffee_163_0,0
+memora,software_engineer,raw,goal_food_expenses_coffee_163_0,0
+memora,software_engineer,raw,goal_step_tracker_daily_steps_163_0,0
+memora,software_engineer,raw,goal_step_tracker_daily_steps_163_0,0
+memora,software_engineer,raw,goal_step_tracker_daily_steps_163_0,0
+memora,software_engineer,raw,activity_food_coffee_163,0
+memora,software_engineer,hybrid,activity_todos_163,0
+memora,software_engineer,hybrid,activity_todos_163,0
+memora,software_engineer,hybrid,activity_todos_163,1
+memora,software_engineer,hybrid,activity_todos_163,1
+memora,software_engineer,hybrid,activity_todos_163,1
+memora,software_engineer,hybrid,activity_todos_163,1
+memora,software_engineer,hybrid,activity_todos_163,1
+memora,software_engineer,hybrid,activity_todos_163,1
+memora,software_engineer,hybrid,activity_todos_163,1
+memora,software_engineer,hybrid,activity_todos_163,0
+memora,software_engineer,hybrid,activity_todos_163,1
+memora,software_engineer,hybrid,activity_todos_163,0
+memora,software_engineer,hybrid,activity_calendar_163,1
+memora,software_engineer,hybrid,activity_calendar_163,1
+memora,software_engineer,hybrid,content_project_proposal_163_project_proposal_1,1
+memora,software_engineer,hybrid,content_project_proposal_163_project_proposal_1,0
+memora,software_engineer,hybrid,content_project_proposal_163_project_proposal_1,0
+memora,software_engineer,hybrid,content_project_proposal_163_project_proposal_1,0
+memora,software_engineer,hybrid,content_project_proposal_163_project_proposal_1,0
+memora,software_engineer,hybrid,content_project_proposal_163_project_proposal_1,0
+memora,software_engineer,hybrid,content_project_proposal_163_project_proposal_1,0
+memora,software_engineer,hybrid,content_project_proposal_163_project_proposal_1,0
+memora,software_engineer,hybrid,content_project_proposal_163_project_proposal_1,0
+memora,software_engineer,hybrid,content_project_proposal_163_project_proposal_1,1
+memora,software_engineer,hybrid,content_project_proposal_163_project_proposal_1,1
+memora,software_engineer,hybrid,content_project_proposal_163_project_proposal_1,1
+memora,software_engineer,hybrid,content_email_writeup_163_email_writeup_1,1
+memora,software_engineer,hybrid,content_email_writeup_163_email_writeup_1,0
+memora,software_engineer,hybrid,content_email_writeup_163_email_writeup_1,1
+memora,software_engineer,hybrid,content_email_writeup_163_email_writeup_1,1
+memora,software_engineer,hybrid,content_email_writeup_163_email_writeup_1,1
+memora,software_engineer,hybrid,content_meeting_notes_163_meeting_notes_2,1
+memora,software_engineer,hybrid,content_meeting_notes_163_meeting_notes_2,1
+memora,software_engineer,hybrid,content_meeting_notes_163_meeting_notes_2,0
+memora,software_engineer,hybrid,content_meeting_notes_163_meeting_notes_2,1
+memora,software_engineer,hybrid,content_meeting_notes_163_meeting_notes_2,1
+memora,software_engineer,hybrid,activity_food_total_163,0
+memora,software_engineer,hybrid,activity_steps_total_163,0
+memora,software_engineer,hybrid,goal_food_expenses_coffee_163_0,1
+memora,software_engineer,hybrid,goal_food_expenses_coffee_163_0,0
+memora,software_engineer,hybrid,goal_food_expenses_coffee_163_0,0
+memora,software_engineer,hybrid,goal_step_tracker_daily_steps_163_0,1
+memora,software_engineer,hybrid,goal_step_tracker_daily_steps_163_0,0
+memora,software_engineer,hybrid,goal_step_tracker_daily_steps_163_0,0
+memora,software_engineer,hybrid,activity_food_coffee_163,0
+memora,startup_founder,raw,content_project_proposal_155_project_proposal_1,1
+memora,startup_founder,raw,content_project_proposal_155_project_proposal_1,1
+memora,startup_founder,raw,content_project_proposal_155_project_proposal_1,1
+memora,startup_founder,raw,content_project_proposal_155_project_proposal_1,1
+memora,startup_founder,raw,content_project_proposal_155_project_proposal_1,1
+memora,startup_founder,raw,content_project_proposal_155_project_proposal_1,0
+memora,startup_founder,raw,content_project_proposal_155_project_proposal_1,0
+memora,startup_founder,raw,content_project_proposal_155_project_proposal_1,0
+memora,startup_founder,raw,content_project_proposal_155_project_proposal_1,1
+memora,startup_founder,raw,content_project_proposal_155_project_proposal_1,0
+memora,startup_founder,raw,content_project_proposal_155_project_proposal_1,1
+memora,startup_founder,raw,content_project_proposal_155_project_proposal_1,1
+memora,startup_founder,raw,content_project_proposal_155_project_proposal_1,0
+memora,startup_founder,raw,content_meeting_notes_155_meeting_notes_1,1
+memora,startup_founder,raw,content_meeting_notes_155_meeting_notes_1,1
+memora,startup_founder,raw,content_meeting_notes_155_meeting_notes_1,1
+memora,startup_founder,raw,content_meeting_notes_155_meeting_notes_1,0
+memora,startup_founder,raw,content_meeting_notes_155_meeting_notes_1,1
+memora,startup_founder,raw,content_meeting_notes_155_meeting_notes_1,1
+memora,startup_founder,raw,content_meeting_notes_155_meeting_notes_1,1
+memora,startup_founder,raw,content_meeting_notes_155_meeting_notes_1,1
+memora,startup_founder,raw,content_meeting_notes_155_meeting_notes_2,1
+memora,startup_founder,raw,content_meeting_notes_155_meeting_notes_2,1
+memora,startup_founder,raw,content_meeting_notes_155_meeting_notes_2,0
+memora,startup_founder,raw,content_meeting_notes_155_meeting_notes_2,1
+memora,startup_founder,raw,content_meeting_notes_155_meeting_notes_2,1
+memora,startup_founder,raw,content_meeting_notes_155_meeting_notes_2,0
+memora,startup_founder,raw,content_meeting_notes_155_meeting_notes_2,1
+memora,startup_founder,raw,activity_calendar_155,0
+memora,startup_founder,raw,activity_calendar_155,0
+memora,startup_founder,raw,content_email_writeup_155_email_writeup_2,1
+memora,startup_founder,raw,content_email_writeup_155_email_writeup_2,1
+memora,startup_founder,raw,content_email_writeup_155_email_writeup_2,1
+memora,startup_founder,raw,content_email_writeup_155_email_writeup_2,1
+memora,startup_founder,raw,content_email_writeup_155_email_writeup_2,1
+memora,startup_founder,raw,content_email_writeup_155_email_writeup_2,1
+memora,startup_founder,raw,activity_food_total_155,0
+memora,startup_founder,raw,activity_steps_total_155,0
+memora,startup_founder,raw,goal_food_expenses_coffee_155_0,1
+memora,startup_founder,raw,goal_food_expenses_coffee_155_0,0
+memora,startup_founder,raw,goal_food_expenses_coffee_155_0,0
+memora,startup_founder,raw,goal_step_tracker_daily_steps_155_0,1
+memora,startup_founder,raw,goal_step_tracker_daily_steps_155_0,0
+memora,startup_founder,raw,goal_step_tracker_daily_steps_155_0,1
+memora,startup_founder,raw,activity_food_coffee_155,0
+memora,startup_founder,hybrid,content_project_proposal_155_project_proposal_1,1
+memora,startup_founder,hybrid,content_project_proposal_155_project_proposal_1,0
+memora,startup_founder,hybrid,content_project_proposal_155_project_proposal_1,0
+memora,startup_founder,hybrid,content_project_proposal_155_project_proposal_1,0
+memora,startup_founder,hybrid,content_project_proposal_155_project_proposal_1,0
+memora,startup_founder,hybrid,content_project_proposal_155_project_proposal_1,0
+memora,startup_founder,hybrid,content_project_proposal_155_project_proposal_1,0
+memora,startup_founder,hybrid,content_project_proposal_155_project_proposal_1,0
+memora,startup_founder,hybrid,content_project_proposal_155_project_proposal_1,0
+memora,startup_founder,hybrid,content_project_proposal_155_project_proposal_1,0
+memora,startup_founder,hybrid,content_project_proposal_155_project_proposal_1,1
+memora,startup_founder,hybrid,content_project_proposal_155_project_proposal_1,1
+memora,startup_founder,hybrid,content_project_proposal_155_project_proposal_1,1
+memora,startup_founder,hybrid,content_meeting_notes_155_meeting_notes_1,1
+memora,startup_founder,hybrid,content_meeting_notes_155_meeting_notes_1,0
+memora,startup_founder,hybrid,content_meeting_notes_155_meeting_notes_1,0
+memora,startup_founder,hybrid,content_meeting_notes_155_meeting_notes_1,0
+memora,startup_founder,hybrid,content_meeting_notes_155_meeting_notes_1,1
+memora,startup_founder,hybrid,content_meeting_notes_155_meeting_notes_1,1
+memora,startup_founder,hybrid,content_meeting_notes_155_meeting_notes_1,1
+memora,startup_founder,hybrid,content_meeting_notes_155_meeting_notes_1,1
+memora,startup_founder,hybrid,content_meeting_notes_155_meeting_notes_2,1
+memora,startup_founder,hybrid,content_meeting_notes_155_meeting_notes_2,0
+memora,startup_founder,hybrid,content_meeting_notes_155_meeting_notes_2,0
+memora,startup_founder,hybrid,content_meeting_notes_155_meeting_notes_2,0
+memora,startup_founder,hybrid,content_meeting_notes_155_meeting_notes_2,1
+memora,startup_founder,hybrid,content_meeting_notes_155_meeting_notes_2,1
+memora,startup_founder,hybrid,content_meeting_notes_155_meeting_notes_2,1
+memora,startup_founder,hybrid,activity_calendar_155,0
+memora,startup_founder,hybrid,activity_calendar_155,1
+memora,startup_founder,hybrid,content_email_writeup_155_email_writeup_2,1
+memora,startup_founder,hybrid,content_email_writeup_155_email_writeup_2,0
+memora,startup_founder,hybrid,content_email_writeup_155_email_writeup_2,0
+memora,startup_founder,hybrid,content_email_writeup_155_email_writeup_2,1
+memora,startup_founder,hybrid,content_email_writeup_155_email_writeup_2,1
+memora,startup_founder,hybrid,content_email_writeup_155_email_writeup_2,1
+memora,startup_founder,hybrid,activity_food_total_155,0
+memora,startup_founder,hybrid,activity_steps_total_155,0
+memora,startup_founder,hybrid,goal_food_expenses_coffee_155_0,1
+memora,startup_founder,hybrid,goal_food_expenses_coffee_155_0,0
+memora,startup_founder,hybrid,goal_food_expenses_coffee_155_0,1
+memora,startup_founder,hybrid,goal_step_tracker_daily_steps_155_0,1
+memora,startup_founder,hybrid,goal_step_tracker_daily_steps_155_0,0
+memora,startup_founder,hybrid,goal_step_tracker_daily_steps_155_0,0
+memora,startup_founder,hybrid,activity_food_coffee_155,0
+memora,creative_designer,raw,activity_todos_147,0
+memora,creative_designer,raw,activity_todos_147,0
+memora,creative_designer,raw,activity_todos_147,0
+memora,creative_designer,raw,activity_todos_147,0
+memora,creative_designer,raw,activity_todos_147,1
+memora,creative_designer,raw,activity_todos_147,1
+memora,creative_designer,raw,activity_todos_147,1
+memora,creative_designer,raw,activity_todos_147,0
+memora,creative_designer,raw,activity_todos_147,1
+memora,creative_designer,raw,activity_todos_147,1
+memora,creative_designer,raw,activity_todos_147,1
+memora,creative_designer,raw,activity_todos_147,1
+memora,creative_designer,raw,content_project_proposal_147_project_proposal_1,1
+memora,creative_designer,raw,content_project_proposal_147_project_proposal_1,1
+memora,creative_designer,raw,content_project_proposal_147_project_proposal_1,1
+memora,creative_designer,raw,content_project_proposal_147_project_proposal_1,0
+memora,creative_designer,raw,content_project_proposal_147_project_proposal_1,0
+memora,creative_designer,raw,content_project_proposal_147_project_proposal_1,0
+memora,creative_designer,raw,content_project_proposal_147_project_proposal_1,1
+memora,creative_designer,raw,content_project_proposal_147_project_proposal_1,0
+memora,creative_designer,raw,content_project_proposal_147_project_proposal_1,0
+memora,creative_designer,raw,content_project_proposal_147_project_proposal_1,0
+memora,creative_designer,raw,content_project_proposal_147_project_proposal_1,1
+memora,creative_designer,raw,content_project_proposal_147_project_proposal_1,1
+memora,creative_designer,raw,content_project_proposal_147_project_proposal_1,1
+memora,creative_designer,raw,content_project_proposal_147_project_proposal_1,1
+memora,creative_designer,raw,content_email_writeup_147_email_writeup_1,1
+memora,creative_designer,raw,content_email_writeup_147_email_writeup_1,0
+memora,creative_designer,raw,content_email_writeup_147_email_writeup_1,1
+memora,creative_designer,raw,content_email_writeup_147_email_writeup_1,0
+memora,creative_designer,raw,content_email_writeup_147_email_writeup_1,1
+memora,creative_designer,raw,content_email_writeup_147_email_writeup_1,1
+memora,creative_designer,raw,content_meeting_notes_147_meeting_notes_1,1
+memora,creative_designer,raw,content_meeting_notes_147_meeting_notes_1,1
+memora,creative_designer,raw,content_meeting_notes_147_meeting_notes_1,0
+memora,creative_designer,raw,content_meeting_notes_147_meeting_notes_1,1
+memora,creative_designer,raw,content_meeting_notes_147_meeting_notes_1,1
+memora,creative_designer,raw,content_meeting_notes_147_meeting_notes_1,1
+memora,creative_designer,raw,content_email_writeup_147_email_writeup_2,1
+memora,creative_designer,raw,content_email_writeup_147_email_writeup_2,0
+memora,creative_designer,raw,content_email_writeup_147_email_writeup_2,1
+memora,creative_designer,raw,content_email_writeup_147_email_writeup_2,0
+memora,creative_designer,raw,content_email_writeup_147_email_writeup_2,1
+memora,creative_designer,raw,content_email_writeup_147_email_writeup_2,1
+memora,creative_designer,raw,activity_food_total_147,0
+memora,creative_designer,raw,activity_steps_total_147,0
+memora,creative_designer,raw,goal_food_expenses_coffee_147_0,1
+memora,creative_designer,raw,goal_food_expenses_coffee_147_0,0
+memora,creative_designer,raw,goal_food_expenses_coffee_147_0,1
+memora,creative_designer,raw,goal_step_tracker_daily_steps_147_0,1
+memora,creative_designer,raw,goal_step_tracker_daily_steps_147_0,0
+memora,creative_designer,raw,goal_step_tracker_daily_steps_147_0,0
+memora,creative_designer,raw,activity_food_coffee_147,0
+memora,creative_designer,hybrid,activity_todos_147,0
+memora,creative_designer,hybrid,activity_todos_147,0
+memora,creative_designer,hybrid,activity_todos_147,0
+memora,creative_designer,hybrid,activity_todos_147,0
+memora,creative_designer,hybrid,activity_todos_147,0
+memora,creative_designer,hybrid,activity_todos_147,1
+memora,creative_designer,hybrid,activity_todos_147,0
+memora,creative_designer,hybrid,activity_todos_147,1
+memora,creative_designer,hybrid,activity_todos_147,1
+memora,creative_designer,hybrid,activity_todos_147,1
+memora,creative_designer,hybrid,activity_todos_147,1
+memora,creative_designer,hybrid,activity_todos_147,1
+memora,creative_designer,hybrid,content_project_proposal_147_project_proposal_1,1
+memora,creative_designer,hybrid,content_project_proposal_147_project_proposal_1,1
+memora,creative_designer,hybrid,content_project_proposal_147_project_proposal_1,0
+memora,creative_designer,hybrid,content_project_proposal_147_project_proposal_1,1
+memora,creative_designer,hybrid,content_project_proposal_147_project_proposal_1,0
+memora,creative_designer,hybrid,content_project_proposal_147_project_proposal_1,1
+memora,creative_designer,hybrid,content_project_proposal_147_project_proposal_1,1
+memora,creative_designer,hybrid,content_project_proposal_147_project_proposal_1,1
+memora,creative_designer,hybrid,content_project_proposal_147_project_proposal_1,1
+memora,creative_designer,hybrid,content_project_proposal_147_project_proposal_1,1
+memora,creative_designer,hybrid,content_project_proposal_147_project_proposal_1,1
+memora,creative_designer,hybrid,content_project_proposal_147_project_proposal_1,1
+memora,creative_designer,hybrid,content_project_proposal_147_project_proposal_1,0
+memora,creative_designer,hybrid,content_project_proposal_147_project_proposal_1,1
+memora,creative_designer,hybrid,content_email_writeup_147_email_writeup_1,1
+memora,creative_designer,hybrid,content_email_writeup_147_email_writeup_1,1
+memora,creative_designer,hybrid,content_email_writeup_147_email_writeup_1,1
+memora,creative_designer,hybrid,content_email_writeup_147_email_writeup_1,1
+memora,creative_designer,hybrid,content_email_writeup_147_email_writeup_1,0
+memora,creative_designer,hybrid,content_email_writeup_147_email_writeup_1,1
+memora,creative_designer,hybrid,content_meeting_notes_147_meeting_notes_1,1
+memora,creative_designer,hybrid,content_meeting_notes_147_meeting_notes_1,0
+memora,creative_designer,hybrid,content_meeting_notes_147_meeting_notes_1,0
+memora,creative_designer,hybrid,content_meeting_notes_147_meeting_notes_1,0
+memora,creative_designer,hybrid,content_meeting_notes_147_meeting_notes_1,1
+memora,creative_designer,hybrid,content_meeting_notes_147_meeting_notes_1,1
+memora,creative_designer,hybrid,content_email_writeup_147_email_writeup_2,1
+memora,creative_designer,hybrid,content_email_writeup_147_email_writeup_2,0
+memora,creative_designer,hybrid,content_email_writeup_147_email_writeup_2,1
+memora,creative_designer,hybrid,content_email_writeup_147_email_writeup_2,1
+memora,creative_designer,hybrid,content_email_writeup_147_email_writeup_2,1
+memora,creative_designer,hybrid,content_email_writeup_147_email_writeup_2,0
+memora,creative_designer,hybrid,activity_food_total_147,0
+memora,creative_designer,hybrid,activity_steps_total_147,0
+memora,creative_designer,hybrid,goal_food_expenses_coffee_147_0,1
+memora,creative_designer,hybrid,goal_food_expenses_coffee_147_0,0
+memora,creative_designer,hybrid,goal_food_expenses_coffee_147_0,0
+memora,creative_designer,hybrid,goal_step_tracker_daily_steps_147_0,1
+memora,creative_designer,hybrid,goal_step_tracker_daily_steps_147_0,0
+memora,creative_designer,hybrid,goal_step_tracker_daily_steps_147_0,0
+memora,creative_designer,hybrid,activity_food_coffee_147,0
+memora,management_consultant,raw,activity_todos_157,0
+memora,management_consultant,raw,activity_todos_157,1
+memora,management_consultant,raw,activity_todos_157,1
+memora,management_consultant,raw,activity_todos_157,1
+memora,management_consultant,raw,activity_todos_157,1
+memora,management_consultant,raw,activity_todos_157,1
+memora,management_consultant,raw,activity_todos_157,1
+memora,management_consultant,raw,activity_todos_157,1
+memora,management_consultant,raw,activity_todos_157,1
+memora,management_consultant,raw,activity_todos_157,1
+memora,management_consultant,raw,activity_todos_157,1
+memora,management_consultant,raw,activity_todos_157,1
+memora,management_consultant,raw,content_project_proposal_157_project_proposal_2,1
+memora,management_consultant,raw,content_project_proposal_157_project_proposal_2,0
+memora,management_consultant,raw,content_project_proposal_157_project_proposal_2,0
+memora,management_consultant,raw,content_project_proposal_157_project_proposal_2,0
+memora,management_consultant,raw,content_project_proposal_157_project_proposal_2,0
+memora,management_consultant,raw,content_project_proposal_157_project_proposal_2,0
+memora,management_consultant,raw,content_project_proposal_157_project_proposal_2,0
+memora,management_consultant,raw,content_project_proposal_157_project_proposal_2,0
+memora,management_consultant,raw,content_project_proposal_157_project_proposal_2,0
+memora,management_consultant,raw,content_project_proposal_157_project_proposal_2,0
+memora,management_consultant,raw,content_project_proposal_157_project_proposal_2,1
+memora,management_consultant,raw,content_project_proposal_157_project_proposal_2,1
+memora,management_consultant,raw,content_project_proposal_157_project_proposal_2,1
+memora,management_consultant,raw,content_project_proposal_157_project_proposal_2,1
+memora,management_consultant,raw,content_meeting_notes_157_meeting_notes_1,1
+memora,management_consultant,raw,content_meeting_notes_157_meeting_notes_1,1
+memora,management_consultant,raw,content_meeting_notes_157_meeting_notes_1,0
+memora,management_consultant,raw,content_meeting_notes_157_meeting_notes_1,0
+memora,management_consultant,raw,content_meeting_notes_157_meeting_notes_1,0
+memora,management_consultant,raw,content_meeting_notes_157_meeting_notes_1,1
+memora,management_consultant,raw,content_meeting_notes_157_meeting_notes_1,1
+memora,management_consultant,raw,content_meeting_notes_157_meeting_notes_1,1
+memora,management_consultant,raw,content_email_writeup_157_email_writeup_1,1
+memora,management_consultant,raw,content_email_writeup_157_email_writeup_1,0
+memora,management_consultant,raw,content_email_writeup_157_email_writeup_1,0
+memora,management_consultant,raw,content_email_writeup_157_email_writeup_1,1
+memora,management_consultant,raw,content_email_writeup_157_email_writeup_1,1
+memora,management_consultant,raw,content_email_writeup_157_email_writeup_1,1
+memora,management_consultant,raw,content_email_writeup_157_email_writeup_2,1
+memora,management_consultant,raw,content_email_writeup_157_email_writeup_2,0
+memora,management_consultant,raw,content_email_writeup_157_email_writeup_2,1
+memora,management_consultant,raw,content_email_writeup_157_email_writeup_2,1
+memora,management_consultant,raw,content_email_writeup_157_email_writeup_2,1
+memora,management_consultant,raw,content_email_writeup_157_email_writeup_2,1
+memora,management_consultant,raw,activity_food_total_157,0
+memora,management_consultant,raw,activity_steps_total_157,0
+memora,management_consultant,raw,goal_food_expenses_breakfast_157_0,1
+memora,management_consultant,raw,goal_food_expenses_breakfast_157_0,0
+memora,management_consultant,raw,goal_food_expenses_breakfast_157_0,1
+memora,management_consultant,raw,goal_step_tracker_daily_steps_157_0,0
+memora,management_consultant,raw,goal_step_tracker_daily_steps_157_0,0
+memora,management_consultant,raw,goal_step_tracker_daily_steps_157_0,0
+memora,management_consultant,raw,activity_food_coffee_157,0
+memora,management_consultant,hybrid,activity_todos_157,0
+memora,management_consultant,hybrid,activity_todos_157,1
+memora,management_consultant,hybrid,activity_todos_157,1
+memora,management_consultant,hybrid,activity_todos_157,1
+memora,management_consultant,hybrid,activity_todos_157,1
+memora,management_consultant,hybrid,activity_todos_157,1
+memora,management_consultant,hybrid,activity_todos_157,1
+memora,management_consultant,hybrid,activity_todos_157,1
+memora,management_consultant,hybrid,activity_todos_157,1
+memora,management_consultant,hybrid,activity_todos_157,1
+memora,management_consultant,hybrid,activity_todos_157,1
+memora,management_consultant,hybrid,activity_todos_157,1
+memora,management_consultant,hybrid,content_project_proposal_157_project_proposal_2,1
+memora,management_consultant,hybrid,content_project_proposal_157_project_proposal_2,0
+memora,management_consultant,hybrid,content_project_proposal_157_project_proposal_2,1
+memora,management_consultant,hybrid,content_project_proposal_157_project_proposal_2,1
+memora,management_consultant,hybrid,content_project_proposal_157_project_proposal_2,1
+memora,management_consultant,hybrid,content_project_proposal_157_project_proposal_2,1
+memora,management_consultant,hybrid,content_project_proposal_157_project_proposal_2,0
+memora,management_consultant,hybrid,content_project_proposal_157_project_proposal_2,0
+memora,management_consultant,hybrid,content_project_proposal_157_project_proposal_2,1
+memora,management_consultant,hybrid,content_project_proposal_157_project_proposal_2,1
+memora,management_consultant,hybrid,content_project_proposal_157_project_proposal_2,0
+memora,management_consultant,hybrid,content_project_proposal_157_project_proposal_2,1
+memora,management_consultant,hybrid,content_project_proposal_157_project_proposal_2,0
+memora,management_consultant,hybrid,content_project_proposal_157_project_proposal_2,1
+memora,management_consultant,hybrid,content_meeting_notes_157_meeting_notes_1,1
+memora,management_consultant,hybrid,content_meeting_notes_157_meeting_notes_1,1
+memora,management_consultant,hybrid,content_meeting_notes_157_meeting_notes_1,1
+memora,management_consultant,hybrid,content_meeting_notes_157_meeting_notes_1,0
+memora,management_consultant,hybrid,content_meeting_notes_157_meeting_notes_1,0
+memora,management_consultant,hybrid,content_meeting_notes_157_meeting_notes_1,1
+memora,management_consultant,hybrid,content_meeting_notes_157_meeting_notes_1,1
+memora,management_consultant,hybrid,content_meeting_notes_157_meeting_notes_1,0
+memora,management_consultant,hybrid,content_email_writeup_157_email_writeup_1,1
+memora,management_consultant,hybrid,content_email_writeup_157_email_writeup_1,1
+memora,management_consultant,hybrid,content_email_writeup_157_email_writeup_1,0
+memora,management_consultant,hybrid,content_email_writeup_157_email_writeup_1,1
+memora,management_consultant,hybrid,content_email_writeup_157_email_writeup_1,1
+memora,management_consultant,hybrid,content_email_writeup_157_email_writeup_1,1
+memora,management_consultant,hybrid,content_email_writeup_157_email_writeup_2,1
+memora,management_consultant,hybrid,content_email_writeup_157_email_writeup_2,0
+memora,management_consultant,hybrid,content_email_writeup_157_email_writeup_2,1
+memora,management_consultant,hybrid,content_email_writeup_157_email_writeup_2,1
+memora,management_consultant,hybrid,content_email_writeup_157_email_writeup_2,0
+memora,management_consultant,hybrid,content_email_writeup_157_email_writeup_2,1
+memora,management_consultant,hybrid,activity_food_total_157,0
+memora,management_consultant,hybrid,activity_steps_total_157,0
+memora,management_consultant,hybrid,goal_food_expenses_breakfast_157_0,1
+memora,management_consultant,hybrid,goal_food_expenses_breakfast_157_0,0
+memora,management_consultant,hybrid,goal_food_expenses_breakfast_157_0,1
+memora,management_consultant,hybrid,goal_step_tracker_daily_steps_157_0,0
+memora,management_consultant,hybrid,goal_step_tracker_daily_steps_157_0,0
+memora,management_consultant,hybrid,goal_step_tracker_daily_steps_157_0,0
+memora,management_consultant,hybrid,activity_food_coffee_157,0
+memora,marketing_manager,raw,activity_todos_156,0
+memora,marketing_manager,raw,activity_todos_156,1
+memora,marketing_manager,raw,activity_todos_156,1
+memora,marketing_manager,raw,activity_todos_156,1
+memora,marketing_manager,raw,activity_todos_156,1
+memora,marketing_manager,raw,activity_todos_156,1
+memora,marketing_manager,raw,activity_todos_156,1
+memora,marketing_manager,raw,activity_todos_156,1
+memora,marketing_manager,raw,activity_todos_156,1
+memora,marketing_manager,raw,activity_todos_156,1
+memora,marketing_manager,raw,activity_todos_156,1
+memora,marketing_manager,raw,content_project_proposal_156_project_proposal_1,1
+memora,marketing_manager,raw,content_project_proposal_156_project_proposal_1,0
+memora,marketing_manager,raw,content_project_proposal_156_project_proposal_1,1
+memora,marketing_manager,raw,content_project_proposal_156_project_proposal_1,0
+memora,marketing_manager,raw,content_project_proposal_156_project_proposal_1,1
+memora,marketing_manager,raw,content_project_proposal_156_project_proposal_1,0
+memora,marketing_manager,raw,content_project_proposal_156_project_proposal_1,1
+memora,marketing_manager,raw,content_project_proposal_156_project_proposal_1,0
+memora,marketing_manager,raw,content_project_proposal_156_project_proposal_1,0
+memora,marketing_manager,raw,content_project_proposal_156_project_proposal_1,0
+memora,marketing_manager,raw,content_project_proposal_156_project_proposal_1,1
+memora,marketing_manager,raw,content_project_proposal_156_project_proposal_2,1
+memora,marketing_manager,raw,content_project_proposal_156_project_proposal_2,1
+memora,marketing_manager,raw,content_project_proposal_156_project_proposal_2,1
+memora,marketing_manager,raw,content_project_proposal_156_project_proposal_2,1
+memora,marketing_manager,raw,content_project_proposal_156_project_proposal_2,1
+memora,marketing_manager,raw,content_project_proposal_156_project_proposal_2,0
+memora,marketing_manager,raw,content_project_proposal_156_project_proposal_2,0
+memora,marketing_manager,raw,content_project_proposal_156_project_proposal_2,1
+memora,marketing_manager,raw,content_project_proposal_156_project_proposal_2,1
+memora,marketing_manager,raw,content_project_proposal_156_project_proposal_2,1
+memora,marketing_manager,raw,content_project_proposal_156_project_proposal_2,1
+memora,marketing_manager,raw,content_project_proposal_156_project_proposal_2,1
+memora,marketing_manager,raw,content_meeting_notes_156_meeting_notes_1,1
+memora,marketing_manager,raw,content_meeting_notes_156_meeting_notes_1,0
+memora,marketing_manager,raw,content_meeting_notes_156_meeting_notes_1,0
+memora,marketing_manager,raw,content_meeting_notes_156_meeting_notes_1,0
+memora,marketing_manager,raw,content_meeting_notes_156_meeting_notes_1,1
+memora,marketing_manager,raw,content_meeting_notes_156_meeting_notes_2,1
+memora,marketing_manager,raw,content_meeting_notes_156_meeting_notes_2,1
+memora,marketing_manager,raw,content_meeting_notes_156_meeting_notes_2,1
+memora,marketing_manager,raw,content_meeting_notes_156_meeting_notes_2,1
+memora,marketing_manager,raw,content_meeting_notes_156_meeting_notes_2,1
+memora,marketing_manager,raw,content_meeting_notes_156_meeting_notes_2,1
+memora,marketing_manager,raw,content_meeting_notes_156_meeting_notes_2,1
+memora,marketing_manager,raw,activity_food_total_156,0
+memora,marketing_manager,raw,activity_steps_total_156,0
+memora,marketing_manager,raw,goal_food_expenses_coffee_156_0,1
+memora,marketing_manager,raw,goal_food_expenses_coffee_156_0,0
+memora,marketing_manager,raw,goal_food_expenses_coffee_156_0,1
+memora,marketing_manager,raw,goal_step_tracker_daily_steps_156_0,0
+memora,marketing_manager,raw,goal_step_tracker_daily_steps_156_0,0
+memora,marketing_manager,raw,goal_step_tracker_daily_steps_156_0,0
+memora,marketing_manager,raw,activity_food_coffee_156,0
+memora,marketing_manager,hybrid,activity_todos_156,0
+memora,marketing_manager,hybrid,activity_todos_156,1
+memora,marketing_manager,hybrid,activity_todos_156,1
+memora,marketing_manager,hybrid,activity_todos_156,1
+memora,marketing_manager,hybrid,activity_todos_156,1
+memora,marketing_manager,hybrid,activity_todos_156,1
+memora,marketing_manager,hybrid,activity_todos_156,1
+memora,marketing_manager,hybrid,activity_todos_156,1
+memora,marketing_manager,hybrid,activity_todos_156,1
+memora,marketing_manager,hybrid,activity_todos_156,1
+memora,marketing_manager,hybrid,activity_todos_156,1
+memora,marketing_manager,hybrid,content_project_proposal_156_project_proposal_1,1
+memora,marketing_manager,hybrid,content_project_proposal_156_project_proposal_1,0
+memora,marketing_manager,hybrid,content_project_proposal_156_project_proposal_1,0
+memora,marketing_manager,hybrid,content_project_proposal_156_project_proposal_1,0
+memora,marketing_manager,hybrid,content_project_proposal_156_project_proposal_1,0
+memora,marketing_manager,hybrid,content_project_proposal_156_project_proposal_1,0
+memora,marketing_manager,hybrid,content_project_proposal_156_project_proposal_1,0
+memora,marketing_manager,hybrid,content_project_proposal_156_project_proposal_1,0
+memora,marketing_manager,hybrid,content_project_proposal_156_project_proposal_1,0
+memora,marketing_manager,hybrid,content_project_proposal_156_project_proposal_1,0
+memora,marketing_manager,hybrid,content_project_proposal_156_project_proposal_1,1
+memora,marketing_manager,hybrid,content_project_proposal_156_project_proposal_2,1
+memora,marketing_manager,hybrid,content_project_proposal_156_project_proposal_2,0
+memora,marketing_manager,hybrid,content_project_proposal_156_project_proposal_2,0
+memora,marketing_manager,hybrid,content_project_proposal_156_project_proposal_2,0
+memora,marketing_manager,hybrid,content_project_proposal_156_project_proposal_2,0
+memora,marketing_manager,hybrid,content_project_proposal_156_project_proposal_2,0
+memora,marketing_manager,hybrid,content_project_proposal_156_project_proposal_2,0
+memora,marketing_manager,hybrid,content_project_proposal_156_project_proposal_2,0
+memora,marketing_manager,hybrid,content_project_proposal_156_project_proposal_2,0
+memora,marketing_manager,hybrid,content_project_proposal_156_project_proposal_2,0
+memora,marketing_manager,hybrid,content_project_proposal_156_project_proposal_2,1
+memora,marketing_manager,hybrid,content_project_proposal_156_project_proposal_2,1
+memora,marketing_manager,hybrid,content_meeting_notes_156_meeting_notes_1,1
+memora,marketing_manager,hybrid,content_meeting_notes_156_meeting_notes_1,0
+memora,marketing_manager,hybrid,content_meeting_notes_156_meeting_notes_1,0
+memora,marketing_manager,hybrid,content_meeting_notes_156_meeting_notes_1,0
+memora,marketing_manager,hybrid,content_meeting_notes_156_meeting_notes_1,1
+memora,marketing_manager,hybrid,content_meeting_notes_156_meeting_notes_2,1
+memora,marketing_manager,hybrid,content_meeting_notes_156_meeting_notes_2,1
+memora,marketing_manager,hybrid,content_meeting_notes_156_meeting_notes_2,1
+memora,marketing_manager,hybrid,content_meeting_notes_156_meeting_notes_2,1
+memora,marketing_manager,hybrid,content_meeting_notes_156_meeting_notes_2,1
+memora,marketing_manager,hybrid,content_meeting_notes_156_meeting_notes_2,1
+memora,marketing_manager,hybrid,content_meeting_notes_156_meeting_notes_2,1
+memora,marketing_manager,hybrid,activity_food_total_156,0
+memora,marketing_manager,hybrid,activity_steps_total_156,0
+memora,marketing_manager,hybrid,goal_food_expenses_coffee_156_0,1
+memora,marketing_manager,hybrid,goal_food_expenses_coffee_156_0,0
+memora,marketing_manager,hybrid,goal_food_expenses_coffee_156_0,0
+memora,marketing_manager,hybrid,goal_step_tracker_daily_steps_156_0,1
+memora,marketing_manager,hybrid,goal_step_tracker_daily_steps_156_0,0
+memora,marketing_manager,hybrid,goal_step_tracker_daily_steps_156_0,0
+memora,marketing_manager,hybrid,activity_food_coffee_156,0

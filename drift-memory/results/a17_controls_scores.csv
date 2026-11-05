@@ -1,0 +1,258 @@
+dataset,unit,cond,qid,correct,mem_words
+locomo,conv-26,preserve,What events has Caroline participated in to help children?,0,1414
+locomo,conv-26,preserve,When did Melanie go to the pottery workshop?,0,1414
+locomo,conv-26,preserve,Would Caroline pursue writing as a career option?,0,1414
+locomo,conv-26,preserve,What creative project do Mel and her kids do together besides pottery?,0,1414
+locomo,conv-26,preserve,What activities has Melanie done with her family?,0,1414
+locomo,conv-26,preserve,When did Caroline go to the adoption meeting?,0,1414
+locomo,conv-26,preserve,Would Caroline be considered religious?,0,1414
+locomo,conv-26,preserve,What activity did Caroline used to do with her dad?,1,1414
+locomo,conv-26,preserve,What books has Melanie read?,0,1414
+locomo,conv-26,preserve,When did Melanie sign up for a pottery class?,0,1414
+memora,marketing_manager,nocap,activity_todos_156,1,289
+memora,marketing_manager,nocap,activity_todos_156,1,289
+memora,marketing_manager,nocap,activity_todos_156,1,289
+memora,marketing_manager,nocap,activity_todos_156,1,289
+memora,marketing_manager,nocap,activity_todos_156,1,289
+memora,marketing_manager,nocap,activity_todos_156,1,289
+memora,marketing_manager,nocap,activity_todos_156,1,289
+memora,marketing_manager,nocap,activity_todos_156,1,289
+memora,marketing_manager,nocap,activity_todos_156,1,289
+memora,marketing_manager,nocap,activity_todos_156,1,289
+memora,marketing_manager,nocap,activity_todos_156,1,289
+memora,marketing_manager,nocap,content_project_proposal_156_project_proposal_1,1,289
+memora,marketing_manager,nocap,content_project_proposal_156_project_proposal_1,0,289
+memora,marketing_manager,nocap,content_project_proposal_156_project_proposal_1,0,289
+memora,marketing_manager,nocap,content_project_proposal_156_project_proposal_1,0,289
+memora,marketing_manager,nocap,content_project_proposal_156_project_proposal_1,0,289
+memora,marketing_manager,nocap,content_project_proposal_156_project_proposal_1,0,289
+memora,marketing_manager,nocap,content_project_proposal_156_project_proposal_1,0,289
+memora,marketing_manager,nocap,content_project_proposal_156_project_proposal_1,0,289
+memora,marketing_manager,nocap,content_project_proposal_156_project_proposal_1,0,289
+memora,marketing_manager,nocap,content_project_proposal_156_project_proposal_1,0,289
+memora,marketing_manager,nocap,content_project_proposal_156_project_proposal_1,1,289
+memora,marketing_manager,nocap,content_project_proposal_156_project_proposal_2,1,289
+memora,marketing_manager,nocap,content_project_proposal_156_project_proposal_2,0,289
+memora,marketing_manager,nocap,content_project_proposal_156_project_proposal_2,0,289
+memora,marketing_manager,nocap,content_project_proposal_156_project_proposal_2,0,289
+memora,marketing_manager,nocap,content_project_proposal_156_project_proposal_2,0,289
+memora,marketing_manager,nocap,content_project_proposal_156_project_proposal_2,0,289
+memora,marketing_manager,nocap,content_project_proposal_156_project_proposal_2,0,289
+memora,marketing_manager,nocap,content_project_proposal_156_project_proposal_2,0,289
+memora,marketing_manager,nocap,content_project_proposal_156_project_proposal_2,0,289
+memora,marketing_manager,nocap,content_project_proposal_156_project_proposal_2,0,289
+memora,marketing_manager,nocap,content_project_proposal_156_project_proposal_2,1,289
+memora,marketing_manager,nocap,content_project_proposal_156_project_proposal_2,1,289
+memora,marketing_manager,nocap,content_meeting_notes_156_meeting_notes_1,1,289
+memora,marketing_manager,nocap,content_meeting_notes_156_meeting_notes_1,0,289
+memora,marketing_manager,nocap,content_meeting_notes_156_meeting_notes_1,0,289
+memora,marketing_manager,nocap,content_meeting_notes_156_meeting_notes_1,0,289
+memora,marketing_manager,nocap,content_meeting_notes_156_meeting_notes_1,1,289
+memora,marketing_manager,nocap,content_meeting_notes_156_meeting_notes_2,1,289
+memora,marketing_manager,nocap,content_meeting_notes_156_meeting_notes_2,0,289
+memora,marketing_manager,nocap,content_meeting_notes_156_meeting_notes_2,0,289
+memora,marketing_manager,nocap,content_meeting_notes_156_meeting_notes_2,0,289
+memora,marketing_manager,nocap,content_meeting_notes_156_meeting_notes_2,1,289
+memora,marketing_manager,nocap,content_meeting_notes_156_meeting_notes_2,0,289
+memora,marketing_manager,nocap,content_meeting_notes_156_meeting_notes_2,1,289
+memora,marketing_manager,nocap,activity_food_total_156,0,289
+memora,marketing_manager,nocap,activity_steps_total_156,0,289
+memora,marketing_manager,nocap,goal_food_expenses_coffee_156_0,0,289
+memora,marketing_manager,nocap,goal_food_expenses_coffee_156_0,0,289
+memora,marketing_manager,nocap,goal_food_expenses_coffee_156_0,0,289
+memora,marketing_manager,nocap,goal_step_tracker_daily_steps_156_0,0,289
+memora,marketing_manager,nocap,goal_step_tracker_daily_steps_156_0,0,289
+memora,marketing_manager,nocap,goal_step_tracker_daily_steps_156_0,0,289
+memora,marketing_manager,nocap,activity_food_coffee_156,0,289
+locomo,conv-30,preserve,Why did Gina decide to start her own clothing store?,0,2298
+locomo,conv-30,preserve,When did Gina interview for a design internship?,0,2298
+locomo,conv-30,preserve,What advice does Gina give to Jon about running a successful business?,0,2298
+locomo,conv-30,preserve,Do Jon and Gina start businesses out of what they love?,1,2298
+locomo,conv-30,preserve,When did Jon start to go to the gym?,1,2298
+locomo,conv-30,preserve,What is Jon offering to the dancers at his dance studio?,0,2298
+locomo,conv-30,preserve,What Jon thinks the ideal dance studio should look like?,0,2298
+locomo,conv-30,preserve,When did Jon host a dance competition?,1,2298
+locomo,conv-30,preserve,What does Gina's tattoo symbolize?,1,2298
+locomo,conv-30,preserve,Did Jon and Gina both participate in dance competitions?,1,2298
+locomo,conv-26,floor,What events has Caroline participated in to help children?,0,2316
+locomo,conv-26,floor,When did Melanie go to the pottery workshop?,0,2316
+locomo,conv-26,floor,Would Caroline pursue writing as a career option?,0,2316
+locomo,conv-26,floor,What creative project do Mel and her kids do together besides pottery?,0,2316
+locomo,conv-26,floor,What activities has Melanie done with her family?,0,2316
+locomo,conv-26,floor,When did Caroline go to the adoption meeting?,0,2316
+locomo,conv-26,floor,Would Caroline be considered religious?,0,2316
+locomo,conv-26,floor,What activity did Caroline used to do with her dad?,0,2316
+locomo,conv-26,floor,What books has Melanie read?,0,2316
+locomo,conv-26,floor,When did Melanie sign up for a pottery class?,0,2316
+locomo,conv-42,floor,What places has Nate met new people?,0,606
+locomo,conv-42,floor,When did Nate win an international tournament?,0,606
+locomo,conv-42,floor,Is it likely that Nate has friends besides Joanna?,1,606
+locomo,conv-42,floor,What game was the second tournament that Nate won based on?,0,606
+locomo,conv-42,floor,What recipes has Nate made?,0,606
+locomo,conv-42,floor,When did someone write Joanna a touching letter?,0,606
+locomo,conv-42,floor,What nickname does Nate use for Joanna?,0,606
+locomo,conv-42,floor,Which dairy-free dessert flavors does Nate enjoy?,0,606
+locomo,conv-42,floor,How many screenplays has Joanna written?,0,606
+locomo,conv-42,floor,Which outdoor spot did Joanna visit in May?,0,606
+memora,business_executive,preserve,activity_todos_145,0,1489
+memora,business_executive,preserve,activity_todos_145,0,1489
+memora,business_executive,preserve,activity_todos_145,1,1489
+memora,business_executive,preserve,activity_todos_145,1,1489
+memora,business_executive,preserve,activity_todos_145,0,1489
+memora,business_executive,preserve,activity_todos_145,0,1489
+memora,business_executive,preserve,activity_todos_145,1,1489
+memora,business_executive,preserve,activity_todos_145,0,1489
+memora,business_executive,preserve,activity_todos_145,1,1489
+memora,business_executive,preserve,activity_todos_145,1,1489
+memora,business_executive,preserve,activity_calendar_145,1,1489
+memora,business_executive,preserve,activity_calendar_145,1,1489
+memora,business_executive,preserve,content_project_proposal_145_project_proposal_1,1,1489
+memora,business_executive,preserve,content_project_proposal_145_project_proposal_1,0,1489
+memora,business_executive,preserve,content_project_proposal_145_project_proposal_1,1,1489
+memora,business_executive,preserve,content_project_proposal_145_project_proposal_1,1,1489
+memora,business_executive,preserve,content_project_proposal_145_project_proposal_1,1,1489
+memora,business_executive,preserve,content_project_proposal_145_project_proposal_1,1,1489
+memora,business_executive,preserve,content_project_proposal_145_project_proposal_1,0,1489
+memora,business_executive,preserve,content_project_proposal_145_project_proposal_1,1,1489
+memora,business_executive,preserve,content_project_proposal_145_project_proposal_1,1,1489
+memora,business_executive,preserve,content_project_proposal_145_project_proposal_1,1,1489
+memora,business_executive,preserve,content_project_proposal_145_project_proposal_1,1,1489
+memora,business_executive,preserve,content_project_proposal_145_project_proposal_1,1,1489
+memora,business_executive,preserve,content_email_writeup_145_email_writeup_1,1,1489
+memora,business_executive,preserve,content_email_writeup_145_email_writeup_1,0,1489
+memora,business_executive,preserve,content_email_writeup_145_email_writeup_1,1,1489
+memora,business_executive,preserve,content_email_writeup_145_email_writeup_1,0,1489
+memora,business_executive,preserve,content_email_writeup_145_email_writeup_1,1,1489
+memora,business_executive,preserve,content_email_writeup_145_email_writeup_1,0,1489
+memora,business_executive,preserve,content_email_writeup_145_email_writeup_2,1,1489
+memora,business_executive,preserve,content_email_writeup_145_email_writeup_2,0,1489
+memora,business_executive,preserve,content_email_writeup_145_email_writeup_2,0,1489
+memora,business_executive,preserve,content_email_writeup_145_email_writeup_2,0,1489
+memora,business_executive,preserve,content_email_writeup_145_email_writeup_2,1,1489
+memora,business_executive,preserve,content_email_writeup_145_email_writeup_2,1,1489
+memora,business_executive,preserve,activity_food_total_145,0,1489
+memora,business_executive,preserve,activity_steps_total_145,0,1489
+memora,business_executive,preserve,goal_food_expenses_grocery_145_0,1,1489
+memora,business_executive,preserve,goal_food_expenses_grocery_145_0,1,1489
+memora,business_executive,preserve,goal_food_expenses_grocery_145_0,1,1489
+memora,business_executive,preserve,goal_step_tracker_daily_steps_145_0,1,1489
+memora,business_executive,preserve,goal_step_tracker_daily_steps_145_0,0,1489
+memora,business_executive,preserve,goal_step_tracker_daily_steps_145_0,0,1489
+memora,business_executive,preserve,activity_food_coffee_145,0,1489
+locomo,conv-41,preserve,What types of yoga has Maria practiced?,0,2374
+locomo,conv-41,preserve,When did Maria get in a car accident?,0,2374
+locomo,conv-41,preserve,What might John's degree be in?,0,2374
+locomo,conv-41,preserve,"What event is Maria getting ready for at the shelter on May 25, 2023?",0,2374
+locomo,conv-41,preserve,What desserts has Maria made?,0,2374
+locomo,conv-41,preserve,When did John get his degree?,0,2374
+locomo,conv-41,preserve,Does John live close to a beach or the mountains?,0,2374
+locomo,conv-41,preserve,Which activity has John done apart from yoga at the studio?,0,2374
+locomo,conv-41,preserve,What events is Maria planning for the homeless shelter funraiser?,0,2374
+locomo,conv-41,preserve,When did John have a party with veterans?,0,2374
+locomo,conv-47,floor,What kind of tricks do James's pets know?,0,1028
+locomo,conv-47,floor,"Where was James at on July 12, 2022?",0,1028
+locomo,conv-47,floor,Who is Jill?,0,1028
+locomo,conv-47,floor,When did James plan to return from his trip to Toronto and Vancouver?,1,1028
+locomo,conv-47,floor,Which countries has James visited?,0,1028
+locomo,conv-47,floor,How many days did James plan to spend on his trip in Canada?,0,1028
+locomo,conv-47,floor,What is the game with different colored cards that was John talking about with J,0,1028
+locomo,conv-47,floor,What does John do to stay informed and constantly learn about game design?,0,1028
+locomo,conv-47,floor,Which books has John recommended to James?,0,1028
+locomo,conv-47,floor,"Which recreational activity was James pursuing on March 16, 2022?",0,1028
+locomo,conv-42,preserve,What places has Nate met new people?,0,2223
+locomo,conv-42,preserve,When did Nate win an international tournament?,1,2223
+locomo,conv-42,preserve,Is it likely that Nate has friends besides Joanna?,1,2223
+locomo,conv-42,preserve,What game was the second tournament that Nate won based on?,1,2223
+locomo,conv-42,preserve,What recipes has Nate made?,0,2223
+locomo,conv-42,preserve,When did someone write Joanna a touching letter?,0,2223
+locomo,conv-42,preserve,What nickname does Nate use for Joanna?,0,2223
+locomo,conv-42,preserve,Which dairy-free dessert flavors does Nate enjoy?,1,2223
+locomo,conv-42,preserve,How many screenplays has Joanna written?,1,2223
+locomo,conv-42,preserve,Which outdoor spot did Joanna visit in May?,0,2223
+memora,business_executive,floor,activity_todos_145,0,767
+memora,business_executive,floor,activity_todos_145,0,767
+memora,business_executive,floor,activity_todos_145,1,767
+memora,business_executive,floor,activity_todos_145,1,767
+memora,business_executive,floor,activity_todos_145,1,767
+memora,business_executive,floor,activity_todos_145,1,767
+memora,business_executive,floor,activity_todos_145,1,767
+memora,business_executive,floor,activity_todos_145,1,767
+memora,business_executive,floor,activity_todos_145,1,767
+memora,business_executive,floor,activity_todos_145,1,767
+memora,business_executive,floor,activity_calendar_145,0,767
+memora,business_executive,floor,activity_calendar_145,0,767
+memora,business_executive,floor,content_project_proposal_145_project_proposal_1,1,767
+memora,business_executive,floor,content_project_proposal_145_project_proposal_1,0,767
+memora,business_executive,floor,content_project_proposal_145_project_proposal_1,0,767
+memora,business_executive,floor,content_project_proposal_145_project_proposal_1,0,767
+memora,business_executive,floor,content_project_proposal_145_project_proposal_1,0,767
+memora,business_executive,floor,content_project_proposal_145_project_proposal_1,0,767
+memora,business_executive,floor,content_project_proposal_145_project_proposal_1,0,767
+memora,business_executive,floor,content_project_proposal_145_project_proposal_1,0,767
+memora,business_executive,floor,content_project_proposal_145_project_proposal_1,0,767
+memora,business_executive,floor,content_project_proposal_145_project_proposal_1,1,767
+memora,business_executive,floor,content_project_proposal_145_project_proposal_1,1,767
+memora,business_executive,floor,content_project_proposal_145_project_proposal_1,1,767
+memora,business_executive,floor,content_email_writeup_145_email_writeup_1,1,767
+memora,business_executive,floor,content_email_writeup_145_email_writeup_1,0,767
+memora,business_executive,floor,content_email_writeup_145_email_writeup_1,0,767
+memora,business_executive,floor,content_email_writeup_145_email_writeup_1,0,767
+memora,business_executive,floor,content_email_writeup_145_email_writeup_1,1,767
+memora,business_executive,floor,content_email_writeup_145_email_writeup_1,1,767
+memora,business_executive,floor,content_email_writeup_145_email_writeup_2,1,767
+memora,business_executive,floor,content_email_writeup_145_email_writeup_2,1,767
+memora,business_executive,floor,content_email_writeup_145_email_writeup_2,1,767
+memora,business_executive,floor,content_email_writeup_145_email_writeup_2,1,767
+memora,business_executive,floor,content_email_writeup_145_email_writeup_2,1,767
+memora,business_executive,floor,content_email_writeup_145_email_writeup_2,1,767
+memora,business_executive,floor,activity_food_total_145,0,767
+memora,business_executive,floor,activity_steps_total_145,0,767
+memora,business_executive,floor,goal_food_expenses_grocery_145_0,0,767
+memora,business_executive,floor,goal_food_expenses_grocery_145_0,0,767
+memora,business_executive,floor,goal_food_expenses_grocery_145_0,0,767
+memora,business_executive,floor,goal_step_tracker_daily_steps_145_0,0,767
+memora,business_executive,floor,goal_step_tracker_daily_steps_145_0,0,767
+memora,business_executive,floor,goal_step_tracker_daily_steps_145_0,0,767
+memora,business_executive,floor,activity_food_coffee_145,0,767
+memora,content_writer,preserve,activity_todos_151,0,1521
+memora,content_writer,preserve,activity_todos_151,0,1521
+memora,content_writer,preserve,activity_todos_151,0,1521
+memora,content_writer,preserve,activity_todos_151,0,1521
+memora,content_writer,preserve,activity_todos_151,1,1521
+memora,content_writer,preserve,activity_todos_151,1,1521
+memora,content_writer,preserve,activity_todos_151,1,1521
+memora,content_writer,preserve,activity_todos_151,1,1521
+memora,content_writer,preserve,activity_todos_151,1,1521
+memora,content_writer,preserve,activity_todos_151,1,1521
+memora,content_writer,preserve,activity_todos_151,1,1521
+memora,content_writer,preserve,content_email_writeup_151_email_writeup_1,1,1521
+memora,content_writer,preserve,content_email_writeup_151_email_writeup_1,0,1521
+memora,content_writer,preserve,content_email_writeup_151_email_writeup_1,0,1521
+memora,content_writer,preserve,content_email_writeup_151_email_writeup_1,0,1521
+memora,content_writer,preserve,content_email_writeup_151_email_writeup_1,1,1521
+memora,content_writer,preserve,content_email_writeup_151_email_writeup_1,1,1521
+memora,content_writer,preserve,content_meeting_notes_151_meeting_notes_1,1,1521
+memora,content_writer,preserve,content_meeting_notes_151_meeting_notes_1,0,1521
+memora,content_writer,preserve,content_meeting_notes_151_meeting_notes_1,0,1521
+memora,content_writer,preserve,content_meeting_notes_151_meeting_notes_1,0,1521
+memora,content_writer,preserve,content_meeting_notes_151_meeting_notes_1,1,1521
+memora,content_writer,preserve,content_meeting_notes_151_meeting_notes_1,1,1521
+memora,content_writer,preserve,content_meeting_notes_151_meeting_notes_1,1,1521
+memora,content_writer,preserve,content_meeting_notes_151_meeting_notes_1,1,1521
+memora,content_writer,preserve,activity_calendar_151,0,1521
+memora,content_writer,preserve,activity_calendar_151,1,1521
+memora,content_writer,preserve,content_email_writeup_151_email_writeup_2,1,1521
+memora,content_writer,preserve,content_email_writeup_151_email_writeup_2,0,1521
+memora,content_writer,preserve,content_email_writeup_151_email_writeup_2,1,1521
+memora,content_writer,preserve,content_email_writeup_151_email_writeup_2,1,1521
+memora,content_writer,preserve,content_email_writeup_151_email_writeup_2,1,1521
+memora,content_writer,preserve,content_email_writeup_151_email_writeup_2,1,1521
+memora,content_writer,preserve,activity_food_total_151,0,1521
+memora,content_writer,preserve,activity_steps_total_151,0,1521
+memora,content_writer,preserve,goal_food_expenses_coffee_151_0,1,1521
+memora,content_writer,preserve,goal_food_expenses_coffee_151_0,0,1521
+memora,content_writer,preserve,goal_food_expenses_coffee_151_0,0,1521
+memora,content_writer,preserve,goal_step_tracker_daily_steps_151_0,1,1521
+memora,content_writer,preserve,goal_step_tracker_daily_steps_151_0,0,1521
+memora,content_writer,preserve,goal_step_tracker_daily_steps_151_0,0,1521
+memora,content_writer,preserve,activity_food_coffee_151,0,1521

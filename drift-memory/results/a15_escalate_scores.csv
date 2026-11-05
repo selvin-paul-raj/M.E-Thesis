@@ -1,0 +1,186 @@
+dataset,unit,cond,qid,correct,mem_words
+locomo,conv-26,escalate,What events has Caroline participated in to help children?,0,788
+locomo,conv-26,escalate,When did Melanie go to the pottery workshop?,0,788
+locomo,conv-26,escalate,Would Caroline pursue writing as a career option?,0,788
+locomo,conv-26,escalate,What creative project do Mel and her kids do together besides pottery?,0,788
+locomo,conv-26,escalate,What activities has Melanie done with her family?,0,788
+locomo,conv-26,escalate,When did Caroline go to the adoption meeting?,0,788
+locomo,conv-26,escalate,Would Caroline be considered religious?,0,788
+locomo,conv-26,escalate,What activity did Caroline used to do with her dad?,0,788
+locomo,conv-26,escalate,What books has Melanie read?,0,788
+locomo,conv-26,escalate,When did Melanie sign up for a pottery class?,1,788
+memora,business_executive,escalate,activity_todos_145,1,1437
+memora,business_executive,escalate,activity_todos_145,1,1437
+memora,business_executive,escalate,activity_todos_145,1,1437
+memora,business_executive,escalate,activity_todos_145,1,1437
+memora,business_executive,escalate,activity_todos_145,1,1437
+memora,business_executive,escalate,activity_todos_145,1,1437
+memora,business_executive,escalate,activity_todos_145,1,1437
+memora,business_executive,escalate,activity_todos_145,0,1437
+memora,business_executive,escalate,activity_todos_145,0,1437
+memora,business_executive,escalate,activity_todos_145,1,1437
+memora,business_executive,escalate,activity_calendar_145,1,1437
+memora,business_executive,escalate,activity_calendar_145,1,1437
+memora,business_executive,escalate,content_project_proposal_145_project_proposal_1,1,1437
+memora,business_executive,escalate,content_project_proposal_145_project_proposal_1,0,1437
+memora,business_executive,escalate,content_project_proposal_145_project_proposal_1,1,1437
+memora,business_executive,escalate,content_project_proposal_145_project_proposal_1,0,1437
+memora,business_executive,escalate,content_project_proposal_145_project_proposal_1,0,1437
+memora,business_executive,escalate,content_project_proposal_145_project_proposal_1,0,1437
+memora,business_executive,escalate,content_project_proposal_145_project_proposal_1,0,1437
+memora,business_executive,escalate,content_project_proposal_145_project_proposal_1,1,1437
+memora,business_executive,escalate,content_project_proposal_145_project_proposal_1,1,1437
+memora,business_executive,escalate,content_project_proposal_145_project_proposal_1,1,1437
+memora,business_executive,escalate,content_project_proposal_145_project_proposal_1,1,1437
+memora,business_executive,escalate,content_project_proposal_145_project_proposal_1,1,1437
+memora,business_executive,escalate,content_email_writeup_145_email_writeup_1,1,1437
+memora,business_executive,escalate,content_email_writeup_145_email_writeup_1,0,1437
+memora,business_executive,escalate,content_email_writeup_145_email_writeup_1,1,1437
+memora,business_executive,escalate,content_email_writeup_145_email_writeup_1,1,1437
+memora,business_executive,escalate,content_email_writeup_145_email_writeup_1,1,1437
+memora,business_executive,escalate,content_email_writeup_145_email_writeup_1,1,1437
+memora,business_executive,escalate,content_email_writeup_145_email_writeup_2,1,1437
+memora,business_executive,escalate,content_email_writeup_145_email_writeup_2,1,1437
+memora,business_executive,escalate,content_email_writeup_145_email_writeup_2,1,1437
+memora,business_executive,escalate,content_email_writeup_145_email_writeup_2,1,1437
+memora,business_executive,escalate,content_email_writeup_145_email_writeup_2,1,1437
+memora,business_executive,escalate,content_email_writeup_145_email_writeup_2,1,1437
+memora,business_executive,escalate,activity_food_total_145,0,1437
+memora,business_executive,escalate,activity_steps_total_145,0,1437
+memora,business_executive,escalate,goal_food_expenses_grocery_145_0,1,1437
+memora,business_executive,escalate,goal_food_expenses_grocery_145_0,1,1437
+memora,business_executive,escalate,goal_food_expenses_grocery_145_0,1,1437
+memora,business_executive,escalate,goal_step_tracker_daily_steps_145_0,1,1437
+memora,business_executive,escalate,goal_step_tracker_daily_steps_145_0,0,1437
+memora,business_executive,escalate,goal_step_tracker_daily_steps_145_0,1,1437
+memora,business_executive,escalate,activity_food_coffee_145,0,1437
+memora,management_consultant,escalate,activity_todos_157,0,941
+memora,management_consultant,escalate,activity_todos_157,1,941
+memora,management_consultant,escalate,activity_todos_157,1,941
+memora,management_consultant,escalate,activity_todos_157,1,941
+memora,management_consultant,escalate,activity_todos_157,1,941
+memora,management_consultant,escalate,activity_todos_157,1,941
+memora,management_consultant,escalate,activity_todos_157,1,941
+memora,management_consultant,escalate,activity_todos_157,1,941
+memora,management_consultant,escalate,activity_todos_157,1,941
+memora,management_consultant,escalate,activity_todos_157,1,941
+memora,management_consultant,escalate,activity_todos_157,1,941
+memora,management_consultant,escalate,activity_todos_157,1,941
+memora,management_consultant,escalate,content_project_proposal_157_project_proposal_2,1,941
+memora,management_consultant,escalate,content_project_proposal_157_project_proposal_2,0,941
+memora,management_consultant,escalate,content_project_proposal_157_project_proposal_2,0,941
+memora,management_consultant,escalate,content_project_proposal_157_project_proposal_2,0,941
+memora,management_consultant,escalate,content_project_proposal_157_project_proposal_2,0,941
+memora,management_consultant,escalate,content_project_proposal_157_project_proposal_2,0,941
+memora,management_consultant,escalate,content_project_proposal_157_project_proposal_2,0,941
+memora,management_consultant,escalate,content_project_proposal_157_project_proposal_2,0,941
+memora,management_consultant,escalate,content_project_proposal_157_project_proposal_2,0,941
+memora,management_consultant,escalate,content_project_proposal_157_project_proposal_2,0,941
+memora,management_consultant,escalate,content_project_proposal_157_project_proposal_2,1,941
+memora,management_consultant,escalate,content_project_proposal_157_project_proposal_2,1,941
+memora,management_consultant,escalate,content_project_proposal_157_project_proposal_2,1,941
+memora,management_consultant,escalate,content_project_proposal_157_project_proposal_2,1,941
+memora,management_consultant,escalate,content_meeting_notes_157_meeting_notes_1,1,941
+memora,management_consultant,escalate,content_meeting_notes_157_meeting_notes_1,0,941
+memora,management_consultant,escalate,content_meeting_notes_157_meeting_notes_1,0,941
+memora,management_consultant,escalate,content_meeting_notes_157_meeting_notes_1,0,941
+memora,management_consultant,escalate,content_meeting_notes_157_meeting_notes_1,1,941
+memora,management_consultant,escalate,content_meeting_notes_157_meeting_notes_1,1,941
+memora,management_consultant,escalate,content_meeting_notes_157_meeting_notes_1,1,941
+memora,management_consultant,escalate,content_meeting_notes_157_meeting_notes_1,1,941
+memora,management_consultant,escalate,content_email_writeup_157_email_writeup_1,1,941
+memora,management_consultant,escalate,content_email_writeup_157_email_writeup_1,0,941
+memora,management_consultant,escalate,content_email_writeup_157_email_writeup_1,0,941
+memora,management_consultant,escalate,content_email_writeup_157_email_writeup_1,0,941
+memora,management_consultant,escalate,content_email_writeup_157_email_writeup_1,1,941
+memora,management_consultant,escalate,content_email_writeup_157_email_writeup_1,1,941
+memora,management_consultant,escalate,content_email_writeup_157_email_writeup_2,1,941
+memora,management_consultant,escalate,content_email_writeup_157_email_writeup_2,0,941
+memora,management_consultant,escalate,content_email_writeup_157_email_writeup_2,0,941
+memora,management_consultant,escalate,content_email_writeup_157_email_writeup_2,0,941
+memora,management_consultant,escalate,content_email_writeup_157_email_writeup_2,1,941
+memora,management_consultant,escalate,content_email_writeup_157_email_writeup_2,1,941
+memora,management_consultant,escalate,activity_food_total_157,0,941
+memora,management_consultant,escalate,activity_steps_total_157,0,941
+memora,management_consultant,escalate,goal_food_expenses_breakfast_157_0,0,941
+memora,management_consultant,escalate,goal_food_expenses_breakfast_157_0,0,941
+memora,management_consultant,escalate,goal_food_expenses_breakfast_157_0,0,941
+memora,management_consultant,escalate,goal_step_tracker_daily_steps_157_0,0,941
+memora,management_consultant,escalate,goal_step_tracker_daily_steps_157_0,0,941
+memora,management_consultant,escalate,goal_step_tracker_daily_steps_157_0,0,941
+memora,management_consultant,escalate,activity_food_coffee_157,0,941
+memora,marketing_manager,escalate,activity_todos_156,0,1499
+memora,marketing_manager,escalate,activity_todos_156,1,1499
+memora,marketing_manager,escalate,activity_todos_156,1,1499
+memora,marketing_manager,escalate,activity_todos_156,1,1499
+memora,marketing_manager,escalate,activity_todos_156,1,1499
+memora,marketing_manager,escalate,activity_todos_156,1,1499
+memora,marketing_manager,escalate,activity_todos_156,1,1499
+memora,marketing_manager,escalate,activity_todos_156,1,1499
+memora,marketing_manager,escalate,activity_todos_156,1,1499
+memora,marketing_manager,escalate,activity_todos_156,1,1499
+memora,marketing_manager,escalate,activity_todos_156,1,1499
+memora,marketing_manager,escalate,content_project_proposal_156_project_proposal_1,1,1499
+memora,marketing_manager,escalate,content_project_proposal_156_project_proposal_1,0,1499
+memora,marketing_manager,escalate,content_project_proposal_156_project_proposal_1,1,1499
+memora,marketing_manager,escalate,content_project_proposal_156_project_proposal_1,1,1499
+memora,marketing_manager,escalate,content_project_proposal_156_project_proposal_1,1,1499
+memora,marketing_manager,escalate,content_project_proposal_156_project_proposal_1,1,1499
+memora,marketing_manager,escalate,content_project_proposal_156_project_proposal_1,1,1499
+memora,marketing_manager,escalate,content_project_proposal_156_project_proposal_1,1,1499
+memora,marketing_manager,escalate,content_project_proposal_156_project_proposal_1,1,1499
+memora,marketing_manager,escalate,content_project_proposal_156_project_proposal_1,1,1499
+memora,marketing_manager,escalate,content_project_proposal_156_project_proposal_1,1,1499
+memora,marketing_manager,escalate,content_project_proposal_156_project_proposal_2,1,1499
+memora,marketing_manager,escalate,content_project_proposal_156_project_proposal_2,0,1499
+memora,marketing_manager,escalate,content_project_proposal_156_project_proposal_2,1,1499
+memora,marketing_manager,escalate,content_project_proposal_156_project_proposal_2,1,1499
+memora,marketing_manager,escalate,content_project_proposal_156_project_proposal_2,1,1499
+memora,marketing_manager,escalate,content_project_proposal_156_project_proposal_2,1,1499
+memora,marketing_manager,escalate,content_project_proposal_156_project_proposal_2,1,1499
+memora,marketing_manager,escalate,content_project_proposal_156_project_proposal_2,1,1499
+memora,marketing_manager,escalate,content_project_proposal_156_project_proposal_2,1,1499
+memora,marketing_manager,escalate,content_project_proposal_156_project_proposal_2,1,1499
+memora,marketing_manager,escalate,content_project_proposal_156_project_proposal_2,1,1499
+memora,marketing_manager,escalate,content_project_proposal_156_project_proposal_2,1,1499
+memora,marketing_manager,escalate,content_meeting_notes_156_meeting_notes_1,0,1499
+memora,marketing_manager,escalate,content_meeting_notes_156_meeting_notes_1,0,1499
+memora,marketing_manager,escalate,content_meeting_notes_156_meeting_notes_1,0,1499
+memora,marketing_manager,escalate,content_meeting_notes_156_meeting_notes_1,0,1499
+memora,marketing_manager,escalate,content_meeting_notes_156_meeting_notes_1,1,1499
+memora,marketing_manager,escalate,content_meeting_notes_156_meeting_notes_2,1,1499
+memora,marketing_manager,escalate,content_meeting_notes_156_meeting_notes_2,1,1499
+memora,marketing_manager,escalate,content_meeting_notes_156_meeting_notes_2,1,1499
+memora,marketing_manager,escalate,content_meeting_notes_156_meeting_notes_2,1,1499
+memora,marketing_manager,escalate,content_meeting_notes_156_meeting_notes_2,1,1499
+memora,marketing_manager,escalate,content_meeting_notes_156_meeting_notes_2,1,1499
+memora,marketing_manager,escalate,content_meeting_notes_156_meeting_notes_2,1,1499
+memora,marketing_manager,escalate,activity_food_total_156,0,1499
+memora,marketing_manager,escalate,activity_steps_total_156,0,1499
+memora,marketing_manager,escalate,goal_food_expenses_coffee_156_0,0,1499
+memora,marketing_manager,escalate,goal_food_expenses_coffee_156_0,0,1499
+memora,marketing_manager,escalate,goal_food_expenses_coffee_156_0,0,1499
+memora,marketing_manager,escalate,goal_step_tracker_daily_steps_156_0,0,1499
+memora,marketing_manager,escalate,goal_step_tracker_daily_steps_156_0,0,1499
+memora,marketing_manager,escalate,goal_step_tracker_daily_steps_156_0,0,1499
+memora,marketing_manager,escalate,activity_food_coffee_156,0,1499
+locomo,conv-42,escalate,What places has Nate met new people?,0,1567
+locomo,conv-42,escalate,When did Nate win an international tournament?,0,1567
+locomo,conv-42,escalate,Is it likely that Nate has friends besides Joanna?,1,1567
+locomo,conv-42,escalate,What game was the second tournament that Nate won based on?,0,1567
+locomo,conv-42,escalate,What recipes has Nate made?,0,1567
+locomo,conv-42,escalate,When did someone write Joanna a touching letter?,1,1567
+locomo,conv-42,escalate,What nickname does Nate use for Joanna?,0,1567
+locomo,conv-42,escalate,Which dairy-free dessert flavors does Nate enjoy?,0,1567
+locomo,conv-42,escalate,How many screenplays has Joanna written?,0,1567
+locomo,conv-42,escalate,Which outdoor spot did Joanna visit in May?,0,1567
+locomo,conv-47,escalate,What kind of tricks do James's pets know?,0,2136
+locomo,conv-47,escalate,"Where was James at on July 12, 2022?",0,2136
+locomo,conv-47,escalate,Who is Jill?,0,2136
+locomo,conv-47,escalate,When did James plan to return from his trip to Toronto and Vancouver?,1,2136
+locomo,conv-47,escalate,Which countries has James visited?,0,2136
+locomo,conv-47,escalate,How many days did James plan to spend on his trip in Canada?,0,2136
+locomo,conv-47,escalate,What is the game with different colored cards that was John talking about with J,0,2136
+locomo,conv-47,escalate,What does John do to stay informed and constantly learn about game design?,0,2136
+locomo,conv-47,escalate,Which books has John recommended to James?,0,2136
+locomo,conv-47,escalate,"Which recreational activity was James pursuing on March 16, 2022?",1,2136
