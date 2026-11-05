@@ -64,10 +64,12 @@ def _retry_secs(msg):
     return h * 3600 + mi * 60 + se
 
 
-def chat(model, messages, max_tokens=512, temperature=0.0, reasoning_effort="low"):
+def chat(model, messages, max_tokens=512, temperature=0.0, reasoning_effort="low", seed=None):
     """Return (text, usage dict). Cached; retries on 429/5xx."""
     payload = {"model": model, "messages": messages, "max_tokens": max_tokens,
                "temperature": temperature}
+    if seed is not None:   # P1: only set when given, so earlier cache keys are unchanged
+        payload["seed"] = seed; payload["top_p"] = 1.0
     if model.startswith("openai/gpt-oss"):
         payload["reasoning_effort"] = reasoning_effort
     if model.startswith("mistralai/mistral-large-4"):
