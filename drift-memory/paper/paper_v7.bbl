@@ -1,0 +1,94 @@
+\begin{thebibliography}{13}
+\providecommand{\natexlab}[1]{#1}
+
+\bibitem[{Chhikara et~al.(2025)Chhikara, Khant, Aryan, Singh, and
+  Yadav}]{chhikara2025mem0}
+Prateek Chhikara, Dev Khant, Saket Aryan, Taranjeet Singh, and Deshraj Yadav.
+  2025.
+\newblock Mem0: Building production-ready {AI} agents with scalable long-term
+  memory.
+\newblock \emph{arXiv preprint arXiv:2504.19413}.
+
+\bibitem[{Colaco and Lahjouji(2026)}]{colaco2026rd}
+Ashwin~Gerard Colaco and Nada Lahjouji. 2026.
+\newblock What to keep, what to forget: A rate--distortion view of memory
+  compaction in {LLMs} and agents.
+\newblock \emph{arXiv preprint arXiv:2607.08032}.
+
+\bibitem[{Dongre et~al.(2025)Dongre, Rossi, Lai, Yoon, Hakkani-T{\"u}r, and
+  Bui}]{dongre2025drift}
+Vardhan Dongre, Ryan~A. Rossi, Viet~Dac Lai, David~Seunghyun Yoon, Dilek
+  Hakkani-T{\"u}r, and Trung Bui. 2025.
+\newblock Drift no more? context equilibria in multi-turn {LLM} interactions.
+\newblock \emph{arXiv preprint arXiv:2510.07777}.
+
+\bibitem[{Efron and Tibshirani(1994)}]{efron1994bootstrap}
+Bradley Efron and Robert~J. Tibshirani. 1994.
+\newblock \emph{An Introduction to the Bootstrap}.
+\newblock Chapman and Hall/CRC.
+
+\bibitem[{Maharana et~al.(2024)Maharana, Lee, Tulyakov, Bansal, Barbieri, and
+  Fang}]{maharana2024locomo}
+Adyasha Maharana, Dong-Ho Lee, Sergey Tulyakov, Mohit Bansal, Francesco
+  Barbieri, and Yuwei Fang. 2024.
+\newblock Evaluating very long-term conversational memory of {LLM} agents.
+\newblock \emph{arXiv preprint arXiv:2402.17753}.
+
+\bibitem[{Packer et~al.(2023)Packer, Wooders, Lin, Fang, Patil, Stoica, and
+  Gonzalez}]{packer2023memgpt}
+Charles Packer, Sarah Wooders, Kevin Lin, Vivian Fang, Shishir~G. Patil, Ion
+  Stoica, and Joseph~E. Gonzalez. 2023.
+\newblock Memgpt: Towards {LLMs} as operating systems.
+\newblock \emph{arXiv preprint arXiv:2310.08560}.
+
+\bibitem[{Rasmussen et~al.(2025)Rasmussen, Paliychuk, Beauvais, Ryan, and
+  Chalef}]{rasmussen2025zep}
+Preston Rasmussen, Pavlo Paliychuk, Travis Beauvais, Jack Ryan, and Daniel
+  Chalef. 2025.
+\newblock Zep: A temporal knowledge graph architecture for agent memory.
+\newblock \emph{arXiv preprint arXiv:2501.13956}.
+
+\bibitem[{Song et~al.(2026)Song, Wang, Ma, Fu, Lin, Liu, Wang, Deng, Yu, and
+  Zhang}]{song2026realm}
+Yuanyi Song, Yukai Wang, Xinbei Ma, Zhihui Fu, Jianghao Lin, Weiwen Liu, Jun
+  Wang, Huarong Deng, Yong Yu, and Weinan Zhang. 2026.
+\newblock Retrieval-driven memory reconsolidation for long-term {LLM} agents.
+\newblock \emph{arXiv preprint arXiv:2609.16053}.
+
+\bibitem[{Uddin et~al.(2026)Uddin, Shubham, Blanco, Baral, and
+  Wang}]{uddin2026memora}
+Md~Nayem Uddin, Kumar Shubham, Eduardo Blanco, Chitta Baral, and Gengyu Wang.
+  2026.
+\newblock From recall to forgetting: Benchmarking long-term memory for
+  personalized agents.
+\newblock In \emph{Findings of the Association for Computational Linguistics:
+  ACL 2026}.
+\newblock ArXiv:2604.20006.
+
+\bibitem[{Wu et~al.(2024)Wu, Wang, Yu, Zhang, Chang, and
+  Yu}]{wu2024longmemeval}
+Di~Wu, Hongwei Wang, Wenhao Yu, Yuwei Zhang, Kai-Wei Chang, and Dong Yu. 2024.
+\newblock Longmemeval: Benchmarking chat assistants on long-term interactive
+  memory.
+\newblock \emph{arXiv preprint arXiv:2410.10813}.
+
+\bibitem[{Xu et~al.(2025)Xu, Liang, Mei, Gao, Tan, and Zhang}]{xu2025amem}
+Wujiang Xu, Zujie Liang, Kai Mei, Hang Gao, Juntao Tan, and Yongfeng Zhang.
+  2025.
+\newblock A-mem: Agentic memory for {LLM} agents.
+\newblock \emph{arXiv preprint arXiv:2502.12110}.
+
+\bibitem[{Zerhoudi et~al.(2026)Zerhoudi, Mitrovic, and
+  Granitzer}]{zerhoudi2026cliff}
+Saber Zerhoudi, Jelena Mitrovic, and Michael Granitzer. 2026.
+\newblock The compaction cliff in long-running {AI} agent memory.
+\newblock \emph{arXiv preprint arXiv:2608.22752}.
+
+\bibitem[{Zhang et~al.(2026)Zhang, Lin, Wu, Sun, Li, Li, and
+  Peng}]{zhang2026faulty}
+Dylan Zhang, Yanshan Lin, Zhengkun Wu, Yihang Sun, Bingxuan Li, Dianqi Li, and
+  Hao Peng. 2026.
+\newblock Useful memories become faulty when continuously updated by {LLMs}.
+\newblock \emph{arXiv preprint arXiv:2605.12978}.
+
+\end{thebibliography}
